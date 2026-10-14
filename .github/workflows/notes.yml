@@ -1,0 +1,34 @@
+name: Post daily notes
+
+# When the scheduled Claude run pushes data/daily/<date>.notes.md, post the notes as a
+# comment on that day's digest issue so they reach the repo owner by email.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/daily/*.notes.md"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Comment on the digest issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for f in $(git diff --name-only HEAD~1 HEAD -- 'data/daily/*.notes.md'); do
+            d=$(basename "$f" .notes.md)
+            n=$(gh issue list --label daily --state all --search "Daily digest $d in:title" --json number,title \
+                  --jq ".[] | select(.title == \"Daily digest $d\") | .number" | head -1)
+            if [ -z "$n" ]; then echo "No digest issue for $d"; continue; fi
+            { echo "## What matters today"; echo; cat "$f"; } > "$RUNNER_TEMP/notes.md"
+            gh issue comment "$n" --body-file "$RUNNER_TEMP/notes.md"
+          done
