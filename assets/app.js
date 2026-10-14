@@ -9,6 +9,7 @@
   const main = $("#main");
   const EXTRA_CARD_SOURCES = ["lectures"];
   const LEVELS = ["core", "advanced", "expert"];
+  const KINDS = ["concept", "why", "compare", "formula", "example", "code", "interview"];
   const RUBRIC = ["Led with the answer in the first sentence", "Gave one concrete example or number",
     "Named a trade off or a caveat", "Stopped on time without a recap", "No filler openers (so, um, basically)"];
 
@@ -71,6 +72,15 @@
     const lists = await Promise.all(ids.map(moduleCards));
     return lists.flat().sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
   }
+  // Curriculum order: modules in data/modules.json order, cards in id order inside each module.
+  async function curriculum() {
+    const mods = await modules();
+    const order = Object.fromEntries(mods.map((m, i) => [m.id, i]).concat([["lectures", mods.length]]));
+    const path = state.path && state.path.length ? new Set(state.path) : null;
+    return (await allCards()).filter((c) => !path || path.has(c.module))
+      .sort((a, b) => (order[a.module] - order[b.module]) || (a.id < b.id ? -1 : 1));
+  }
+
   async function moduleTitles() {
     const t = { lectures: "Lecture notes" };
     (await modules()).forEach((m) => { t[m.id] = m.title; });
@@ -159,7 +169,7 @@
     cleanups.forEach((fn) => { try { fn(); } catch (e) { /* ignore */ } });
     cleanups = [];
     if (window.speechSynthesis) speechSynthesis.cancel();
-    const hash = location.hash.slice(1) || "/today";
+    const hash = location.hash.slice(1) || "/cards";
     const [path, query] = hash.split("?");
     const parts = path.split("/").filter(Boolean).map(decodeURIComponent);
     const params = new URLSearchParams(query || "");
@@ -216,10 +226,11 @@
         <div class="stat"><b>${due}</b><span>cards due</span></div>
         <div class="stat"><b>${streak()}</b><span>day streak</span></div>
       </div>
+      <div class="row" style="margin-bottom:8px"><a class="btn primary" href="#/cards/learn">Continue learning</a><a class="btn" href="#/drill/today">Today's spoken drill</a></div>
       ${notes ? `<section class="panel prose" id="notes"><h2 style="margin-top:0">What matters today</h2>${md(notes)}</section>` : ""}
       <h2>Today's spoken drill</h2>
       ${picks.length ? `<ol>${picks.map((p) => `<li>${esc(p.q)} <span class="muted small">(${esc(titles[p.module] || p.module)}, ${esc(p.level)})</span></li>`).join("")}</ol>
-        <div class="row"><a class="btn primary" href="#/drill/today">Start the drill</a><a class="btn" href="#/cards/due">Review ${plural(due, "due card")}</a><a class="btn" href="#/cards/today">Flip today's 5 as cards</a></div>`
+        <div class="row"><a class="btn primary" href="#/drill/today">Start the drill</a><a class="btn" href="#/cards/learn">Review ${plural(due, "due card")}</a><a class="btn" href="#/cards/today">Flip today's 5 as cards</a></div>`
         : `<p class="empty">Cards appear here once the first modules are published.</p>`}
       <h2>New roles</h2>
       ${jobs.length ? jobTable(jobs.slice(0, 30)) + `<p class="small muted">${jobs.length > 30 ? `${jobs.length - 30} more new today. ` : ""}<a href="#/jobs">All ${c.jobs_open ?? ""} open roles with filters</a></p>` : `<p class="empty">No new matching roles since the last run. <a href="#/jobs">Browse all open roles</a>.</p>`}
@@ -340,10 +351,11 @@
     const kind = parts[0] || "";
     const t = today();
     let deck, title;
-    if (kind === "due") {
-      const due = cards.filter((c) => isDue(c.id, t)).sort((a, b) => (cardState(a.id).due < cardState(b.id).due ? -1 : 1));
-      deck = due.concat(shuffle(cards.filter((c) => isNew(c.id))).slice(0, 15));
-      title = "Due and new";
+    if (kind === "due" || kind === "learn") {
+      const cur = await curriculum();
+      const due = cur.filter((c) => isDue(c.id, t)).sort((a, b) => (cardState(a.id).due < cardState(b.id).due ? -1 : 1));
+      deck = due.concat(cur.filter((c) => isNew(c.id)).slice(0, state.newPerDay || 20));
+      title = "Continue learning";
     } else if (kind === "today") {
       const idx = await getJSON("data/daily/index.json", true).catch(() => null);
       deck = drillPick(cards, (idx && idx.latest) || t); title = "Today's five";
@@ -358,7 +370,8 @@
     } else {
       const mods = (params.get("m") || "").split(",").filter(Boolean);
       const lv = (params.get("l") || LEVELS.join(",")).split(",");
-      deck = cards.filter((c) => (!mods.length || mods.includes(c.module)) && lv.includes(c.level));
+      const kd = (params.get("k") || "").split(",").filter(Boolean);
+      deck = cards.filter((c) => (!mods.length || mods.includes(c.module)) && lv.includes(c.level) && (!kd.length || kd.includes(c.kind || "concept")));
       if (params.get("o") === "shuffle") deck = shuffle(deck);
       title = "Custom deck";
     }
@@ -377,25 +390,59 @@
 
   async function deckPicker() {
     const [cards, mods] = await Promise.all([allCards(), modules()]);
-    const due = cards.filter((c) => isDue(c.id)).length;
-    const by = (id) => cards.filter((c) => c.module === id).length;
-    main.innerHTML = `<h1>Cards</h1>
-      <p class="lede">Every card has a plain answer, a deep answer, a spoken version to say out loud, the points you must mention, follow ups and traps. Rate yourself honestly; the schedule brings back what you miss.</p>
-      <div class="row"><a class="btn primary" href="#/cards/due">Due and new (${due} due)</a><a class="btn" href="#/cards/today">Today's five</a><a class="btn" href="#/cards/weak">Weakest 20</a></div>
-      <h2>Build a deck</h2>
+    const cur = await curriculum();
+    const due = cur.filter((c) => isDue(c.id)).length;
+    const fresh = cur.filter((c) => isNew(c.id)).length;
+    const perDay = state.newPerDay || 20;
+    const seen = cards.filter((c) => cardState(c.id)).length;
+    const learned = cards.filter((c) => isLearned(c.id)).length;
+    const ready = mods.filter((m) => m.ready).concat(cards.some((c) => c.module === "lectures") ? [{ id: "lectures", title: "Lecture notes", ready: true }] : []);
+    const inPath = (id) => !state.path || !state.path.length || state.path.includes(id);
+    const by = (id) => cards.filter((c) => c.module === id);
+    if (!cards.length) {
+      main.innerHTML = `<h1>Learn</h1><div class="notice">The first flashcard modules are being written right now. They appear here as soon as each one passes its checks.</div>
+        <p>Meanwhile: <a href="#/today">today's jobs and papers</a>, <a href="#/lectures">the lectures</a>.</p>`;
+      return;
+    }
+    main.innerHTML = `<h1>Learn</h1>
+      <p class="lede">Learn everything from the cards. Each module's cards run in order, from the first idea to the interview questions that combine them. Every card teaches: a plain answer, a deep answer, a version to say out loud, the points to mention, follow ups and traps. Rate each card honestly and the schedule brings it back just before you would forget it.</p>
+      <div class="stats">
+        <div class="stat"><b>${due}</b><span>reviews due</span></div>
+        <div class="stat"><b>${Math.min(perDay, fresh)}</b><span>new cards today</span></div>
+        <div class="stat"><b>${learned} / ${cards.length}</b><span>learned</span></div>
+        <div class="stat"><b>${streak()}</b><span>day streak</span></div>
+      </div>
+      <div class="row"><a class="btn primary" href="#/cards/learn">Continue learning (${due + Math.min(perDay, fresh)} cards)</a>
+        <label class="check">New cards per day <select id="perday">${[10, 20, 30, 50, 100].map((n) => `<option ${n === perDay ? "selected" : ""}>${n}</option>`).join("")}</select></label>
+        <a class="btn" href="#/cards/weak">Weakest 20</a><a class="btn" href="#/drill/today">Today's spoken drill</a></div>
+      <h2>Modules</h2>
+      <p class="small muted">Ticked modules are in your learning path, in this order. Or learn one module on its own.</p>
+      <div class="grid">${ready.map((m) => {
+        const cs = by(m.id), l = cs.filter((c) => isLearned(c.id)).length, s = cs.filter((c) => cardState(c.id)).length;
+        return `<div class="panel tile"><div class="row"><h3 style="flex:1">${esc(m.title)}</h3><label class="check" title="Include in my learning path"><input type="checkbox" data-path="${m.id}" ${inPath(m.id) ? "checked" : ""}> path</label></div>
+          <div class="meter" title="${l} of ${cs.length} learned"><span style="width:${cs.length ? Math.round((100 * l) / cs.length) : 0}%"></span></div>
+          <div class="small muted">${cs.length} cards, ${s} seen, ${l} learned</div>
+          <div class="row"><a class="btn small primary" href="#/cards/m/${m.id}">Learn in order</a>${m.id !== "lectures" ? `<a class="btn small" href="#/module/${m.id}?d=plain">Read</a>` : ""}<a class="btn small" href="#/drill/m/${m.id}">Drill</a></div></div>`;
+      }).join("")}</div>
+      <h2>Custom deck</h2>
       <form id="deck" class="panel">
-        <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:6px">
-          ${mods.concat([{ id: "lectures", title: "Lecture notes" }]).filter((m) => by(m.id)).map((m) => `<label class="check"><input type="checkbox" name="m" value="${m.id}"> ${esc(m.title)} <span class="muted small">(${by(m.id)})</span></label>`).join("")}
-        </div>
-        <div class="row" style="margin-top:14px">${LEVELS.map((l) => `<label class="check"><input type="checkbox" name="l" value="${l}" checked> ${l}</label>`).join("")}
+        <div class="row">${KINDS.map((k) => `<label class="check"><input type="checkbox" name="k" value="${k}"> ${k}</label>`).join("")}</div>
+        <div class="row" style="margin-top:10px">${LEVELS.map((l) => `<label class="check"><input type="checkbox" name="l" value="${l}" checked> ${l}</label>`).join("")}
           <label class="check"><input type="checkbox" name="o" value="shuffle" checked> shuffle</label>
           <span class="spacer"></span><button class="btn primary" type="submit">Start</button></div>
-        <p class="hint">Leave every module unticked to use all of them.</p>
+        <p class="hint">Uses the modules ticked above. Leave every kind unticked to include all kinds. ${seen} of ${cards.length} cards seen so far.</p>
       </form>`;
+    $("#perday").addEventListener("change", (e) => { state.newPerDay = +e.target.value; save(); route(); });
+    $$("[data-path]", main).forEach((cb) => cb.addEventListener("change", () => {
+      state.path = $$("[data-path]", main).filter((x) => x.checked).map((x) => x.dataset.path);
+      if (state.path.length === ready.length) state.path = null;
+      save(); route();
+    }));
     $("#deck").addEventListener("submit", (e) => {
       e.preventDefault();
       const f = new FormData(e.target);
-      const q = new URLSearchParams({ m: f.getAll("m").join(","), l: f.getAll("l").join(","), o: f.get("o") || "" });
+      const m = state.path && state.path.length ? state.path : [];
+      const q = new URLSearchParams({ m: m.join(","), l: f.getAll("l").join(","), k: f.getAll("k").join(","), o: f.get("o") || "" });
       location.hash = `#/cards/custom?${q}`;
     });
   }
@@ -428,7 +475,7 @@
       main.innerHTML = `<div class="study">
         <div class="progress-line"><span>${esc(title)}</span><div class="meter"><span style="width:${Math.round((100 * done) / total)}%"></span></div><span>${done} / ${total}</span></div>
         <div class="card">
-          <div class="meta"><span class="badge">${esc(titles[c.module] || c.module)}</span><span class="badge">${esc(c.topic)}</span><span class="badge ${c.level === "expert" ? "warn" : c.level === "advanced" ? "accent" : ""}">${esc(c.level)}</span>${!st ? '<span class="badge good">new</span>' : ""}</div>
+          <div class="meta"><span class="badge">${esc(titles[c.module] || c.module)}</span><span class="badge">${esc(c.topic)}</span><span class="badge ${c.level === "expert" ? "warn" : c.level === "advanced" ? "accent" : ""}">${esc(c.level)}</span>${c.kind ? `<span class="badge">${esc(c.kind)}</span>` : ""}${!st ? '<span class="badge good">new</span>' : ""}</div>
           <p class="q">${esc(c.q)}</p>
           <div id="reveal"></div>
           <div class="actions" id="acts">
@@ -656,7 +703,7 @@
         const mine = state.drills.slice(-items.length);
         const avg = mine.length ? (mine.reduce((a, d) => a + d.score, 0) / mine.length).toFixed(1) : "n/a";
         main.innerHTML = `<div class="study"><h1>Drill done</h1><p class="lede">${plural(items.length, "question")} answered out loud. Average clarity ${avg} out of 5.</p>
-          <div class="row"><a class="btn primary" href="#/cards/due">Review due cards</a><a class="btn" href="#/drill">Another drill</a><a class="btn" href="#/progress">Progress</a></div></div>`;
+          <div class="row"><a class="btn primary" href="#/cards/learn">Continue learning</a><a class="btn" href="#/drill">Another drill</a><a class="btn" href="#/progress">Progress</a></div></div>`;
         return;
       }
       const c = items[i];
