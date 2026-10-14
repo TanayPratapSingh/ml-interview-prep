@@ -1,0 +1,2032 @@
+[
+ {
+  "key": "cme295",
+  "playlist_id": "PLoROMvodv4rOCXd21gf0CF4xr35yINeOy",
+  "title": "Stanford CME295: Transformers and Large Language Models I Autumn 2025",
+  "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rOCXd21gf0CF4xr35yINeOy",
+  "videos": [
+   {
+    "n": 1,
+    "id": "Ub3GoFaUcds",
+    "title": "Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 1 - Transformer",
+    "duration": "1:41:59",
+    "published": "2025-10-17T15:08:51-07:00",
+    "url": "https://www.youtube.com/watch?v=Ub3GoFaUcds",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "Introduction"
+     },
+     {
+      "t": "00:03:54",
+      "s": 234,
+      "title": "Class logistics"
+     },
+     {
+      "t": "00:09:40",
+      "s": 580,
+      "title": "NLP overview"
+     },
+     {
+      "t": "00:22:57",
+      "s": 1377,
+      "title": "Tokenization"
+     },
+     {
+      "t": "00:30:28",
+      "s": 1828,
+      "title": "Word representation"
+     },
+     {
+      "t": "00:53:23",
+      "s": 3203,
+      "title": "Recurrent neural networks"
+     },
+     {
+      "t": "01:06:47",
+      "s": 4007,
+      "title": "Self-attention mechanism"
+     },
+     {
+      "t": "01:13:53",
+      "s": 4433,
+      "title": "Transformer architecture"
+     },
+     {
+      "t": "01:29:53",
+      "s": 5393,
+      "title": "Detailed example"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "id": "yT84Y5zCnaA",
+    "title": "Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 2 - Transformer-Based Models & Tricks",
+    "duration": "1:47:20",
+    "published": "2025-10-17T15:08:58-07:00",
+    "url": "https://www.youtube.com/watch?v=yT84Y5zCnaA",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "Introduction"
+     },
+     {
+      "t": "00:01:30",
+      "s": 90,
+      "title": "Recap of Transformers"
+     },
+     {
+      "t": "00:10:37",
+      "s": 637,
+      "title": "Overview of position embeddings"
+     },
+     {
+      "t": "00:15:36",
+      "s": 936,
+      "title": "Sinusoidal embeddings"
+     },
+     {
+      "t": "00:25:56",
+      "s": 1556,
+      "title": "T5 bias, ALiBi"
+     },
+     {
+      "t": "00:31:02",
+      "s": 1862,
+      "title": "RoPE"
+     },
+     {
+      "t": "00:43:42",
+      "s": 2622,
+      "title": "Layer normalization"
+     },
+     {
+      "t": "00:50:39",
+      "s": 3039,
+      "title": "Sparse attention"
+     },
+     {
+      "t": "00:55:38",
+      "s": 3338,
+      "title": "Sharing attention heads"
+     },
+     {
+      "t": "01:02:42",
+      "s": 3762,
+      "title": "Transformer-based models"
+     },
+     {
+      "t": "01:11:38",
+      "s": 4298,
+      "title": "BERT deep dive"
+     },
+     {
+      "t": "01:33:24",
+      "s": 5604,
+      "title": "BERT finetuning"
+     },
+     {
+      "t": "01:43:30",
+      "s": 6210,
+      "title": "Extensions of BERT"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "id": "Q5baLehv5So",
+    "title": "Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 3 - Tranformers & Large Language Models",
+    "duration": "1:48:45",
+    "published": "2025-10-17T15:08:39-07:00",
+    "url": "https://www.youtube.com/watch?v=Q5baLehv5So",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "Introduction"
+     },
+     {
+      "t": "00:01:02",
+      "s": 62,
+      "title": "Recap of Transformers-based models"
+     },
+     {
+      "t": "00:03:43",
+      "s": 223,
+      "title": "LLM definition"
+     },
+     {
+      "t": "00:07:37",
+      "s": 457,
+      "title": "Mixture of Experts"
+     },
+     {
+      "t": "00:12:43",
+      "s": 763,
+      "title": "Dense & Sparse MoE"
+     },
+     {
+      "t": "00:15:47",
+      "s": 947,
+      "title": "MoE in LLMs"
+     },
+     {
+      "t": "00:36:35",
+      "s": 2195,
+      "title": "Response generation"
+     },
+     {
+      "t": "00:38:34",
+      "s": 2314,
+      "title": "Greedy decoding & beam search"
+     },
+     {
+      "t": "00:46:36",
+      "s": 2796,
+      "title": "Sampling-based methods"
+     },
+     {
+      "t": "00:52:24",
+      "s": 3144,
+      "title": "Impact of temperature on predictions"
+     },
+     {
+      "t": "01:04:53",
+      "s": 3893,
+      "title": "Guided decoding"
+     },
+     {
+      "t": "01:07:07",
+      "s": 4027,
+      "title": "Prompting strategies"
+     },
+     {
+      "t": "01:14:09",
+      "s": 4449,
+      "title": "In-context learning"
+     },
+     {
+      "t": "01:18:35",
+      "s": 4715,
+      "title": "Chain-of-thought, self-consistency"
+     },
+     {
+      "t": "01:25:00",
+      "s": 5100,
+      "title": "Inference optimizations with KV cache"
+     },
+     {
+      "t": "01:33:09",
+      "s": 5589,
+      "title": "PagedAttention, MLA"
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "id": "VlA_jt_3Qc4",
+    "title": "Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 4 - LLM Training",
+    "duration": "1:47:27",
+    "published": "2025-10-21T16:56:15-07:00",
+    "url": "https://www.youtube.com/watch?v=VlA_jt_3Qc4",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "Introduction"
+     },
+     {
+      "t": "00:07:19",
+      "s": 439,
+      "title": "Pretraining"
+     },
+     {
+      "t": "00:13:26",
+      "s": 806,
+      "title": "FLOPs, FLOPS"
+     },
+     {
+      "t": "00:16:34",
+      "s": 994,
+      "title": "Scaling laws, Chinchilla law"
+     },
+     {
+      "t": "00:24:49",
+      "s": 1489,
+      "title": "Training optimizations overview"
+     },
+     {
+      "t": "00:31:09",
+      "s": 1869,
+      "title": "Data parallelism with ZeRO"
+     },
+     {
+      "t": "00:35:51",
+      "s": 2151,
+      "title": "Model parallelism"
+     },
+     {
+      "t": "00:38:26",
+      "s": 2306,
+      "title": "Flash Attention"
+     },
+     {
+      "t": "00:52:37",
+      "s": 3157,
+      "title": "Quantization"
+     },
+     {
+      "t": "00:56:00",
+      "s": 3360,
+      "title": "Mixed precision training"
+     },
+     {
+      "t": "01:02:31",
+      "s": 3751,
+      "title": "Supervised finetuning"
+     },
+     {
+      "t": "01:09:21",
+      "s": 4161,
+      "title": "Instruction tuning"
+     },
+     {
+      "t": "01:37:53",
+      "s": 5873,
+      "title": "Parameter-efficient finetuning with LoRA"
+     },
+     {
+      "t": "01:45:16",
+      "s": 6316,
+      "title": "QLoRA"
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "id": "PmW_TMQ3l0I",
+    "title": "Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 5 - LLM tuning",
+    "duration": "1:47:42",
+    "published": "2025-11-14T10:59:36-08:00",
+    "url": "https://www.youtube.com/watch?v=PmW_TMQ3l0I",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "Introduction"
+     },
+     {
+      "t": "00:04:50",
+      "s": 290,
+      "title": "Preference tuning"
+     },
+     {
+      "t": "00:11:31",
+      "s": 691,
+      "title": "Data collection"
+     },
+     {
+      "t": "00:17:43",
+      "s": 1063,
+      "title": "RLHF overview"
+     },
+     {
+      "t": "00:28:24",
+      "s": 1704,
+      "title": "Reward model"
+     },
+     {
+      "t": "00:29:46",
+      "s": 1786,
+      "title": "Bradley-Terry formulation"
+     },
+     {
+      "t": "00:46:02",
+      "s": 2762,
+      "title": "Reinforcement learning"
+     },
+     {
+      "t": "00:53:54",
+      "s": 3234,
+      "title": "PPO"
+     },
+     {
+      "t": "00:57:56",
+      "s": 3476,
+      "title": "Advantage, value function"
+     },
+     {
+      "t": "01:03:39",
+      "s": 3819,
+      "title": "PPO variants: Clip, KL-penalty"
+     },
+     {
+      "t": "01:16:20",
+      "s": 4580,
+      "title": "Challenges"
+     },
+     {
+      "t": "01:19:58",
+      "s": 4798,
+      "title": "On-policy vs off-policy"
+     },
+     {
+      "t": "01:22:43",
+      "s": 4963,
+      "title": "Best-of-N"
+     },
+     {
+      "t": "01:29:47",
+      "s": 5387,
+      "title": "DPO"
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "id": "k5Fh-UgTuCo",
+    "title": "Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 6 - LLM Reasoning",
+    "duration": "1:47:10",
+    "published": "2025-11-14T11:24:51-08:00",
+    "url": "https://www.youtube.com/watch?v=k5Fh-UgTuCo",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "Introduction"
+     },
+     {
+      "t": "00:12:43",
+      "s": 763,
+      "title": "Reasoning models"
+     },
+     {
+      "t": "00:27:49",
+      "s": 1669,
+      "title": "Benchmarks"
+     },
+     {
+      "t": "00:32:04",
+      "s": 1924,
+      "title": "Pass@k metric"
+     },
+     {
+      "t": "00:48:07",
+      "s": 2887,
+      "title": "Scaling with RL"
+     },
+     {
+      "t": "00:57:44",
+      "s": 3464,
+      "title": "GRPO"
+     },
+     {
+      "t": "01:06:03",
+      "s": 3963,
+      "title": "Comparison between GRPO and PPO"
+     },
+     {
+      "t": "01:16:14",
+      "s": 4574,
+      "title": "Length bias"
+     },
+     {
+      "t": "01:25:00",
+      "s": 5100,
+      "title": "DAPO, Dr. GRPO"
+     },
+     {
+      "t": "01:29:38",
+      "s": 5378,
+      "title": "DeepSeek R1 recipe"
+     }
+    ]
+   },
+   {
+    "n": 7,
+    "id": "h-7S6HNq0Vg",
+    "title": "Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 7 - Agentic LLMs",
+    "duration": "1:49:23",
+    "published": "2025-11-17T17:31:12-08:00",
+    "url": "https://www.youtube.com/watch?v=h-7S6HNq0Vg",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "Introduction"
+     },
+     {
+      "t": "00:06:38",
+      "s": 398,
+      "title": "RAG overview"
+     },
+     {
+      "t": "00:27:39",
+      "s": 1659,
+      "title": "Similarity search with SBERT and bi-encoders"
+     },
+     {
+      "t": "00:34:25",
+      "s": 2065,
+      "title": "Heuristic search with BM25"
+     },
+     {
+      "t": "00:37:54",
+      "s": 2274,
+      "title": "HyDE and contextual retrieval"
+     },
+     {
+      "t": "00:41:00",
+      "s": 2460,
+      "title": "Prompt caching"
+     },
+     {
+      "t": "00:45:24",
+      "s": 2724,
+      "title": "Re-ranking with cross-encoders"
+     },
+     {
+      "t": "00:47:49",
+      "s": 2869,
+      "title": "Retrieval evaluation with NDCG, MRR"
+     },
+     {
+      "t": "00:59:28",
+      "s": 3568,
+      "title": "Tool calling"
+     },
+     {
+      "t": "01:26:22",
+      "s": 5182,
+      "title": "Tool selection"
+     },
+     {
+      "t": "01:29:17",
+      "s": 5357,
+      "title": "Model Context Protocol (MCP)"
+     },
+     {
+      "t": "01:31:56",
+      "s": 5516,
+      "title": "Agents with ReAct"
+     },
+     {
+      "t": "01:42:16",
+      "s": 6136,
+      "title": "Safety and closing thoughts"
+     }
+    ]
+   },
+   {
+    "n": 8,
+    "id": "8fNP4N46RRo",
+    "title": "Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 8 - LLM Evaluation",
+    "duration": "1:49:25",
+    "published": "2025-12-02T09:01:18-08:00",
+    "url": "https://www.youtube.com/watch?v=8fNP4N46RRo",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "Introduction"
+     },
+     {
+      "t": "00:07:08",
+      "s": 428,
+      "title": "Inter-rater agreement metrics"
+     },
+     {
+      "t": "00:18:24",
+      "s": 1104,
+      "title": "Rule-based metrics"
+     },
+     {
+      "t": "00:21:00",
+      "s": 1260,
+      "title": "METEOR, BLEU ROUGE"
+     },
+     {
+      "t": "00:28:00",
+      "s": 1680,
+      "title": "LLM-as-a-judge"
+     },
+     {
+      "t": "00:33:44",
+      "s": 2024,
+      "title": "Structured outputs"
+     },
+     {
+      "t": "00:36:48",
+      "s": 2208,
+      "title": "Variants"
+     },
+     {
+      "t": "00:38:47",
+      "s": 2327,
+      "title": "Position, verbosity, self-enhancement bias"
+     },
+     {
+      "t": "00:47:22",
+      "s": 2842,
+      "title": "Best practices"
+     },
+     {
+      "t": "00:54:06",
+      "s": 3246,
+      "title": "Factuality"
+     },
+     {
+      "t": "01:00:15",
+      "s": 3615,
+      "title": "Agent evaluation"
+     },
+     {
+      "t": "01:23:50",
+      "s": 5030,
+      "title": "Benchmarks"
+     },
+     {
+      "t": "01:25:12",
+      "s": 5112,
+      "title": "Knowledge with MMLU"
+     },
+     {
+      "t": "01:29:34",
+      "s": 5374,
+      "title": "Reasoning AIME, PIQA"
+     },
+     {
+      "t": "01:33:57",
+      "s": 5637,
+      "title": "Coding with SWE-bench"
+     },
+     {
+      "t": "01:36:15",
+      "s": 5775,
+      "title": "Safety with HarmBench"
+     },
+     {
+      "t": "01:40:51",
+      "s": 6051,
+      "title": "Agents with Tau-Bench"
+     }
+    ]
+   },
+   {
+    "n": 9,
+    "id": "Q86qzJ1K1Ss",
+    "title": "Stanford CME295 Transformers & LLMs | Autumn 2025 | Lecture 9 - Recap & Current Trends",
+    "duration": "1:51:31",
+    "published": "2025-12-09T12:43:54-08:00",
+    "url": "https://www.youtube.com/watch?v=Q86qzJ1K1Ss",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "Introduction"
+     },
+     {
+      "t": "00:01:12",
+      "s": 72,
+      "title": "Transformer"
+     },
+     {
+      "t": "00:06:35",
+      "s": 395,
+      "title": "Transformer-based models & tricks"
+     },
+     {
+      "t": "00:11:17",
+      "s": 677,
+      "title": "Large Language Models"
+     },
+     {
+      "t": "00:15:05",
+      "s": 905,
+      "title": "LLM training"
+     },
+     {
+      "t": "00:24:09",
+      "s": 1449,
+      "title": "LLM tuning"
+     },
+     {
+      "t": "00:29:41",
+      "s": 1781,
+      "title": "LLM reasoning"
+     },
+     {
+      "t": "00:38:37",
+      "s": 2317,
+      "title": "Agentic LLMs (RAG, tool calling)"
+     },
+     {
+      "t": "00:44:09",
+      "s": 2649,
+      "title": "LLM evaluation"
+     },
+     {
+      "t": "00:48:57",
+      "s": 2937,
+      "title": "Vision Transformer"
+     },
+     {
+      "t": "01:04:02",
+      "s": 3842,
+      "title": "Diffusion-based LLMs"
+     },
+     {
+      "t": "01:23:38",
+      "s": 5018,
+      "title": "Closing thoughts"
+     },
+     {
+      "t": "01:50:16",
+      "s": 6616,
+      "title": "Thank you!"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "key": "cs329a",
+  "playlist_id": "PLangBM27OtEA",
+  "title": "CS329A Self-Improving AI Agents",
+  "url": "https://www.youtube.com/playlist?list=PLangBM27OtEA",
+  "videos": [
+   {
+    "n": 1,
+    "id": "6YnLB0XbTnI",
+    "title": "Stanford CS329A Self-Improving AI Agents | Part 1 | Course Overview",
+    "duration": "1:09:42",
+    "published": "2026-08-03T08:50:29-07:00",
+    "url": "https://www.youtube.com/watch?v=6YnLB0XbTnI",
+    "chapters": []
+   },
+   {
+    "n": 2,
+    "id": "-Ggc37xLj_Y",
+    "title": "Stanford CS329A Self-Improving AI Agents | Part 2 | Test-Time Compute Scaling",
+    "duration": "1:03:21",
+    "published": "2026-08-03T08:50:21-07:00",
+    "url": "https://www.youtube.com/watch?v=-Ggc37xLj_Y",
+    "chapters": []
+   },
+   {
+    "n": 3,
+    "id": "p7TdPUcPoik",
+    "title": "Stanford CS329A Self-Improving AI Agents | Part 3 | Robust Verification",
+    "duration": "1:12:59",
+    "published": "2026-08-03T08:50:20-07:00",
+    "url": "https://www.youtube.com/watch?v=p7TdPUcPoik",
+    "chapters": []
+   },
+   {
+    "n": 4,
+    "id": "Lxh9RF5S-K0",
+    "title": "Stanford CS329A Self-Improving AI Agents | Part 4 | Learning from Feedback with Tools/Code",
+    "duration": "1:11:13",
+    "published": "2026-08-03T08:50:37-07:00",
+    "url": "https://www.youtube.com/watch?v=Lxh9RF5S-K0",
+    "chapters": []
+   },
+   {
+    "n": 5,
+    "id": "Ml_fp9XkB8Y",
+    "title": "Stanford CS329A Self-Improving AI Agents | Part 5 | Planning and Multi-Step Reasoning",
+    "duration": "1:14:56",
+    "published": "2026-08-03T08:50:13-07:00",
+    "url": "https://www.youtube.com/watch?v=Ml_fp9XkB8Y",
+    "chapters": []
+   },
+   {
+    "n": 6,
+    "id": "yVnmHSAy3ck",
+    "title": "Stanford CS329A Self-Improving AI Agents | Part 6 | Train Time Scaling/Scaling RL",
+    "duration": "1:12:39",
+    "published": "2026-08-03T08:50:19-07:00",
+    "url": "https://www.youtube.com/watch?v=yVnmHSAy3ck",
+    "chapters": []
+   },
+   {
+    "n": 7,
+    "id": "Uni9dqyuuDM",
+    "title": "Stanford CS329A Self-Improving AI Agents | Part 7 | Self-Improvement and Deep Research Agents",
+    "duration": "1:12:27",
+    "published": "2026-08-03T08:50:16-07:00",
+    "url": "https://www.youtube.com/watch?v=Uni9dqyuuDM",
+    "chapters": []
+   },
+   {
+    "n": 8,
+    "id": "8JAqLnTaZu4",
+    "title": "Stanford CS329A Self-Improving AI Agents | Part 8 | Agentic Evaluations and Long Horizon Tasks",
+    "duration": "1:15:18",
+    "published": "2026-08-02T20:10:48-07:00",
+    "url": "https://www.youtube.com/watch?v=8JAqLnTaZu4",
+    "chapters": []
+   },
+   {
+    "n": 9,
+    "id": "AyO6wyu4DEg",
+    "title": "Stanford CS329A Self-Improving AI Agents | Part 9 | Future Research Areas",
+    "duration": "1:07:42",
+    "published": "2026-08-03T08:50:07-07:00",
+    "url": "https://www.youtube.com/watch?v=AyO6wyu4DEg",
+    "chapters": []
+   }
+  ]
+ },
+ {
+  "key": "cs229",
+  "playlist_id": "PLaqpC4kq8Gpw",
+  "title": "Stanford CS229 Machine Learning | Spring 2026",
+  "url": "https://www.youtube.com/playlist?list=PLaqpC4kq8Gpw",
+  "videos": [
+   {
+    "n": 1,
+    "id": "DATnpGoGhM8",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 1: Introduction",
+    "duration": "36:59",
+    "published": "2026-07-29T16:31:41-07:00",
+    "url": "https://www.youtube.com/watch?v=DATnpGoGhM8",
+    "chapters": []
+   },
+   {
+    "n": 2,
+    "id": "cmNIMjPYdgM",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 2: Supervised Learning Setup",
+    "duration": "1:18:10",
+    "published": "2026-07-29T16:44:12-07:00",
+    "url": "https://www.youtube.com/watch?v=cmNIMjPYdgM",
+    "chapters": []
+   },
+   {
+    "n": 3,
+    "id": "uJF_gL3jhxI",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 3: Weighted Least Squares",
+    "duration": "1:02:14",
+    "published": "2026-07-29T16:51:04-07:00",
+    "url": "https://www.youtube.com/watch?v=uJF_gL3jhxI",
+    "chapters": []
+   },
+   {
+    "n": 4,
+    "id": "8gVi4Rk21Eg",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 4: Exponential Family, GLMs Classification",
+    "duration": "1:14:12",
+    "published": "2026-07-29T16:56:43-07:00",
+    "url": "https://www.youtube.com/watch?v=8gVi4Rk21Eg",
+    "chapters": []
+   },
+   {
+    "n": 5,
+    "id": "zRdE8A4UZes",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 5: Gaussian Discriminant Analysis",
+    "duration": "1:21:38",
+    "published": "2026-07-30T16:32:08-07:00",
+    "url": "https://www.youtube.com/watch?v=zRdE8A4UZes",
+    "chapters": []
+   },
+   {
+    "n": 6,
+    "id": "llnEgyyuYkQ",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 6: Dataset Split, ML Advice",
+    "duration": "1:18:27",
+    "published": "2026-07-30T16:39:26-07:00",
+    "url": "https://www.youtube.com/watch?v=llnEgyyuYkQ",
+    "chapters": []
+   },
+   {
+    "n": 7,
+    "id": "fRM41w9jzQo",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 7: Neural Networks 1 (Architecture)",
+    "duration": "1:20:28",
+    "published": "2026-07-30T16:43:45-07:00",
+    "url": "https://www.youtube.com/watch?v=fRM41w9jzQo",
+    "chapters": []
+   },
+   {
+    "n": 8,
+    "id": "ne2ngVAoMG8",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 8: Neural Networks 2 (Backprop)",
+    "duration": "1:02:13",
+    "published": "2026-07-30T16:51:36-07:00",
+    "url": "https://www.youtube.com/watch?v=ne2ngVAoMG8",
+    "chapters": []
+   },
+   {
+    "n": 9,
+    "id": "bSmIGBCoffA",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 9: K-Means and GMM (non-EM)",
+    "duration": "1:16:30",
+    "published": "2026-07-30T17:02:46-07:00",
+    "url": "https://www.youtube.com/watch?v=bSmIGBCoffA",
+    "chapters": []
+   },
+   {
+    "n": 10,
+    "id": "sUS-eTa0l6s",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 10: GMM (EM), PCA",
+    "duration": "1:20:06",
+    "published": "2026-07-30T17:06:06-07:00",
+    "url": "https://www.youtube.com/watch?v=sUS-eTa0l6s",
+    "chapters": []
+   },
+   {
+    "n": 11,
+    "id": "dqUMCzWjZSI",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 11: Diffusion Models",
+    "duration": "1:22:31",
+    "published": "2026-07-31T13:44:04-07:00",
+    "url": "https://www.youtube.com/watch?v=dqUMCzWjZSI",
+    "chapters": []
+   },
+   {
+    "n": 12,
+    "id": "_kREM2UAiJ8",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 12: Representation Learning",
+    "duration": "1:15:57",
+    "published": "2026-07-31T13:47:27-07:00",
+    "url": "https://www.youtube.com/watch?v=_kREM2UAiJ8",
+    "chapters": []
+   },
+   {
+    "n": 13,
+    "id": "lNTajqxxOn4",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 13: LLMs, Next-Word Prediction Loss",
+    "duration": "1:00:42",
+    "published": "2026-07-31T15:19:10-07:00",
+    "url": "https://www.youtube.com/watch?v=lNTajqxxOn4",
+    "chapters": []
+   },
+   {
+    "n": 14,
+    "id": "pwQ0l4hFCVI",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 14: Transformers, In-Context Learning",
+    "duration": "1:17:32",
+    "published": "2026-07-31T15:22:19-07:00",
+    "url": "https://www.youtube.com/watch?v=pwQ0l4hFCVI",
+    "chapters": []
+   },
+   {
+    "n": 15,
+    "id": "hHC-SF3utxg",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 16: Basic Concept in RL, Policy Gradient",
+    "duration": "1:13:19",
+    "published": "2026-07-31T15:26:34-07:00",
+    "url": "https://www.youtube.com/watch?v=hHC-SF3utxg",
+    "chapters": []
+   },
+   {
+    "n": 16,
+    "id": "xveNBYVTrqw",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 18: GMM (EM), PCA",
+    "duration": "1:16:25",
+    "published": "2026-07-31T15:30:12-07:00",
+    "url": "https://www.youtube.com/watch?v=xveNBYVTrqw",
+    "chapters": []
+   },
+   {
+    "n": 17,
+    "id": "J7CossjMvEg",
+    "title": "Stanford CS229 Machine Learning | Spring 2026 | Lecture 20: GMM (EM), PCA",
+    "duration": "1:18:56",
+    "published": "2026-07-31T15:32:55-07:00",
+    "url": "https://www.youtube.com/watch?v=J7CossjMvEg",
+    "chapters": []
+   }
+  ]
+ },
+ {
+  "key": "zero-to-hero",
+  "playlist_id": "PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+  "title": "Neural Networks: Zero to Hero",
+  "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+  "videos": [
+   {
+    "n": 1,
+    "id": "VMj-3S1tku0",
+    "title": "The spelled-out intro to neural networks and backpropagation: building micrograd",
+    "duration": "2:25:52",
+    "published": "2022-08-16T15:44:26-07:00",
+    "url": "https://www.youtube.com/watch?v=VMj-3S1tku0",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "intro"
+     },
+     {
+      "t": "00:00:25",
+      "s": 25,
+      "title": "micrograd overview"
+     },
+     {
+      "t": "00:08:08",
+      "s": 488,
+      "title": "derivative of a simple function with one input"
+     },
+     {
+      "t": "00:14:12",
+      "s": 852,
+      "title": "derivative of a function with multiple inputs"
+     },
+     {
+      "t": "00:19:09",
+      "s": 1149,
+      "title": "starting the core Value object of micrograd and its visualization"
+     },
+     {
+      "t": "00:32:10",
+      "s": 1930,
+      "title": "manual backpropagation example #1: simple expression"
+     },
+     {
+      "t": "00:51:10",
+      "s": 3070,
+      "title": "preview of a single optimization step"
+     },
+     {
+      "t": "00:52:52",
+      "s": 3172,
+      "title": "manual backpropagation example #2: a neuron"
+     },
+     {
+      "t": "01:09:02",
+      "s": 4142,
+      "title": "implementing the backward function for each operation"
+     },
+     {
+      "t": "01:17:32",
+      "s": 4652,
+      "title": "implementing the backward function for a whole expression graph"
+     },
+     {
+      "t": "01:22:28",
+      "s": 4948,
+      "title": "fixing a backprop bug when one node is used multiple times"
+     },
+     {
+      "t": "01:27:05",
+      "s": 5225,
+      "title": "breaking up a tanh, exercising with more operations"
+     },
+     {
+      "t": "01:39:31",
+      "s": 5971,
+      "title": "doing the same thing but in PyTorch: comparison"
+     },
+     {
+      "t": "01:43:55",
+      "s": 6235,
+      "title": "building out a neural net library (multi-layer perceptron) in micrograd"
+     },
+     {
+      "t": "01:51:04",
+      "s": 6664,
+      "title": "creating a tiny dataset, writing the loss function"
+     },
+     {
+      "t": "01:57:56",
+      "s": 7076,
+      "title": "collecting all of the parameters of the neural net"
+     },
+     {
+      "t": "02:01:12",
+      "s": 7272,
+      "title": "doing gradient descent optimization manually, training the network"
+     },
+     {
+      "t": "02:14:03",
+      "s": 8043,
+      "title": "summary of what we learned, how to go towards modern neural nets"
+     },
+     {
+      "t": "02:16:46",
+      "s": 8206,
+      "title": "walkthrough of the full code of micrograd on github"
+     },
+     {
+      "t": "02:21:10",
+      "s": 8470,
+      "title": "real stuff: diving into PyTorch, finding their backward pass for tanh"
+     },
+     {
+      "t": "02:24:39",
+      "s": 8679,
+      "title": "conclusion"
+     },
+     {
+      "t": "02:25:20",
+      "s": 8720,
+      "title": "outtakes :)"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "id": "PaCmpygFfXo",
+    "title": "The spelled-out intro to language modeling: building makemore",
+    "duration": "1:57:45",
+    "published": "2022-09-07T12:14:47-07:00",
+    "url": "https://www.youtube.com/watch?v=PaCmpygFfXo",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "intro"
+     },
+     {
+      "t": "00:03:03",
+      "s": 183,
+      "title": "reading and exploring the dataset"
+     },
+     {
+      "t": "00:06:24",
+      "s": 384,
+      "title": "exploring the bigrams in the dataset"
+     },
+     {
+      "t": "00:09:24",
+      "s": 564,
+      "title": "counting bigrams in a python dictionary"
+     },
+     {
+      "t": "00:12:45",
+      "s": 765,
+      "title": "counting bigrams in a 2D torch tensor (\"training the model\")"
+     },
+     {
+      "t": "00:18:19",
+      "s": 1099,
+      "title": "visualizing the bigram tensor"
+     },
+     {
+      "t": "00:20:54",
+      "s": 1254,
+      "title": "deleting spurious (S) and (E) tokens in favor of a single . token"
+     },
+     {
+      "t": "00:24:02",
+      "s": 1442,
+      "title": "sampling from the model"
+     },
+     {
+      "t": "00:36:17",
+      "s": 2177,
+      "title": "efficiency! vectorized normalization of the rows, tensor broadcasting"
+     },
+     {
+      "t": "00:50:14",
+      "s": 3014,
+      "title": "loss function (the negative log likelihood of the data under our model)"
+     },
+     {
+      "t": "01:00:50",
+      "s": 3650,
+      "title": "model smoothing with fake counts"
+     },
+     {
+      "t": "01:02:57",
+      "s": 3777,
+      "title": "PART 2: the neural network approach: intro"
+     },
+     {
+      "t": "01:05:26",
+      "s": 3926,
+      "title": "creating the bigram dataset for the neural net"
+     },
+     {
+      "t": "01:10:01",
+      "s": 4201,
+      "title": "feeding integers into neural nets? one-hot encodings"
+     },
+     {
+      "t": "01:13:53",
+      "s": 4433,
+      "title": "the \"neural net\": one linear layer of neurons implemented with matrix multiplication"
+     },
+     {
+      "t": "01:18:46",
+      "s": 4726,
+      "title": "transforming neural net outputs into probabilities: the softmax"
+     },
+     {
+      "t": "01:26:17",
+      "s": 5177,
+      "title": "summary, preview to next steps, reference to micrograd"
+     },
+     {
+      "t": "01:35:49",
+      "s": 5749,
+      "title": "vectorized loss"
+     },
+     {
+      "t": "01:38:36",
+      "s": 5916,
+      "title": "backward and update, in PyTorch"
+     },
+     {
+      "t": "01:42:55",
+      "s": 6175,
+      "title": "putting everything together"
+     },
+     {
+      "t": "01:47:49",
+      "s": 6469,
+      "title": "note 1: one-hot encoding really just selects a row of the next Linear layer's weight matrix"
+     },
+     {
+      "t": "01:50:18",
+      "s": 6618,
+      "title": "note 2: model smoothing as regularization loss"
+     },
+     {
+      "t": "01:54:31",
+      "s": 6871,
+      "title": "sampling from the neural net"
+     },
+     {
+      "t": "01:56:16",
+      "s": 6976,
+      "title": "conclusion"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "id": "TCH_1BHY58I",
+    "title": "Building makemore Part 2: MLP",
+    "duration": "1:15:40",
+    "published": "2022-09-12T07:43:06-07:00",
+    "url": "https://www.youtube.com/watch?v=TCH_1BHY58I",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "intro"
+     },
+     {
+      "t": "00:01:48",
+      "s": 108,
+      "title": "Bengio et al. 2003 (MLP language model) paper walkthrough"
+     },
+     {
+      "t": "00:09:03",
+      "s": 543,
+      "title": "(re-)building our training dataset"
+     },
+     {
+      "t": "00:12:19",
+      "s": 739,
+      "title": "implementing the embedding lookup table"
+     },
+     {
+      "t": "00:18:35",
+      "s": 1115,
+      "title": "implementing the hidden layer + internals of torch.Tensor: storage, views"
+     },
+     {
+      "t": "00:29:15",
+      "s": 1755,
+      "title": "implementing the output layer"
+     },
+     {
+      "t": "00:29:53",
+      "s": 1793,
+      "title": "implementing the negative log likelihood loss"
+     },
+     {
+      "t": "00:32:17",
+      "s": 1937,
+      "title": "summary of the full network"
+     },
+     {
+      "t": "00:32:49",
+      "s": 1969,
+      "title": "introducing F.cross_entropy and why"
+     },
+     {
+      "t": "00:37:56",
+      "s": 2276,
+      "title": "implementing the training loop, overfitting one batch"
+     },
+     {
+      "t": "00:41:25",
+      "s": 2485,
+      "title": "training on the full dataset, minibatches"
+     },
+     {
+      "t": "00:45:40",
+      "s": 2740,
+      "title": "finding a good initial learning rate"
+     },
+     {
+      "t": "00:53:20",
+      "s": 3200,
+      "title": "splitting up the dataset into train/val/test splits and why"
+     },
+     {
+      "t": "01:00:49",
+      "s": 3649,
+      "title": "experiment: larger hidden layer"
+     },
+     {
+      "t": "01:05:27",
+      "s": 3927,
+      "title": "visualizing the character embeddings"
+     },
+     {
+      "t": "01:07:16",
+      "s": 4036,
+      "title": "experiment: larger embedding size"
+     },
+     {
+      "t": "01:11:46",
+      "s": 4306,
+      "title": "summary of our final code, conclusion"
+     },
+     {
+      "t": "01:13:24",
+      "s": 4404,
+      "title": "sampling from the model"
+     },
+     {
+      "t": "01:14:55",
+      "s": 4495,
+      "title": "google collab (new!!) notebook advertisement"
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "id": "P6sfmUTpUmc",
+    "title": "Building makemore Part 3: Activations & Gradients, BatchNorm",
+    "duration": "1:55:58",
+    "published": "2022-10-04T09:41:03-07:00",
+    "url": "https://www.youtube.com/watch?v=P6sfmUTpUmc",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "intro"
+     },
+     {
+      "t": "00:01:22",
+      "s": 82,
+      "title": "starter code"
+     },
+     {
+      "t": "00:04:19",
+      "s": 259,
+      "title": "fixing the initial loss"
+     },
+     {
+      "t": "00:12:59",
+      "s": 779,
+      "title": "fixing the saturated tanh"
+     },
+     {
+      "t": "00:27:53",
+      "s": 1673,
+      "title": "calculating the init scale: “Kaiming init”"
+     },
+     {
+      "t": "00:40:40",
+      "s": 2440,
+      "title": "batch normalization"
+     },
+     {
+      "t": "01:03:07",
+      "s": 3787,
+      "title": "batch normalization: summary"
+     },
+     {
+      "t": "01:04:50",
+      "s": 3890,
+      "title": "real example: resnet50 walkthrough"
+     },
+     {
+      "t": "01:14:10",
+      "s": 4450,
+      "title": "summary of the lecture"
+     },
+     {
+      "t": "01:18:35",
+      "s": 4715,
+      "title": "just kidding: part2: PyTorch-ifying the code"
+     },
+     {
+      "t": "01:26:51",
+      "s": 5211,
+      "title": "viz #1: forward pass activations statistics"
+     },
+     {
+      "t": "01:30:54",
+      "s": 5454,
+      "title": "viz #2: backward pass gradient statistics"
+     },
+     {
+      "t": "01:32:07",
+      "s": 5527,
+      "title": "the fully linear case of no non-linearities"
+     },
+     {
+      "t": "01:36:15",
+      "s": 5775,
+      "title": "viz #3: parameter activation and gradient statistics"
+     },
+     {
+      "t": "01:39:55",
+      "s": 5995,
+      "title": "viz #4: update:data ratio over time"
+     },
+     {
+      "t": "01:46:04",
+      "s": 6364,
+      "title": "bringing back batchnorm, looking at the visualizations"
+     },
+     {
+      "t": "01:51:34",
+      "s": 6694,
+      "title": "summary of the lecture for real this time"
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "id": "q8SA3rM6ckI",
+    "title": "Building makemore Part 4: Becoming a Backprop Ninja",
+    "duration": "1:55:24",
+    "published": "2022-10-11T10:56:19-07:00",
+    "url": "https://www.youtube.com/watch?v=q8SA3rM6ckI",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "intro: why you should care & fun history"
+     },
+     {
+      "t": "00:07:26",
+      "s": 446,
+      "title": "starter code"
+     },
+     {
+      "t": "00:13:01",
+      "s": 781,
+      "title": "exercise 1: backproping the atomic compute graph"
+     },
+     {
+      "t": "01:05:17",
+      "s": 3917,
+      "title": "brief digression: bessel’s correction in batchnorm"
+     },
+     {
+      "t": "01:26:31",
+      "s": 5191,
+      "title": "exercise 2: cross entropy loss backward pass"
+     },
+     {
+      "t": "01:36:37",
+      "s": 5797,
+      "title": "exercise 3: batch norm layer backward pass"
+     },
+     {
+      "t": "01:50:02",
+      "s": 6602,
+      "title": "exercise 4: putting it all together"
+     },
+     {
+      "t": "01:54:24",
+      "s": 6864,
+      "title": "outro"
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "id": "t3YJ5hKiMQ0",
+    "title": "Building makemore Part 5: Building a WaveNet",
+    "duration": "56:22",
+    "published": "2022-11-20T16:32:48-08:00",
+    "url": "https://www.youtube.com/watch?v=t3YJ5hKiMQ0",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "intro"
+     },
+     {
+      "t": "00:01:40",
+      "s": 100,
+      "title": "starter code walkthrough"
+     },
+     {
+      "t": "00:06:56",
+      "s": 416,
+      "title": "let’s fix the learning rate plot"
+     },
+     {
+      "t": "00:09:16",
+      "s": 556,
+      "title": "pytorchifying our code: layers, containers, torch.nn, fun bugs"
+     },
+     {
+      "t": "00:17:11",
+      "s": 1031,
+      "title": "overview: WaveNet"
+     },
+     {
+      "t": "00:19:33",
+      "s": 1173,
+      "title": "dataset bump the context size to 8"
+     },
+     {
+      "t": "00:19:55",
+      "s": 1195,
+      "title": "re-running baseline code on block_size 8"
+     },
+     {
+      "t": "00:21:36",
+      "s": 1296,
+      "title": "implementing WaveNet"
+     },
+     {
+      "t": "00:37:41",
+      "s": 2261,
+      "title": "training the WaveNet: first pass"
+     },
+     {
+      "t": "00:38:50",
+      "s": 2330,
+      "title": "fixing batchnorm1d bug"
+     },
+     {
+      "t": "00:45:21",
+      "s": 2721,
+      "title": "re-training WaveNet with bug fix"
+     },
+     {
+      "t": "00:46:07",
+      "s": 2767,
+      "title": "scaling up our WaveNet"
+     },
+     {
+      "t": "00:46:58",
+      "s": 2818,
+      "title": "experimental harness"
+     },
+     {
+      "t": "00:47:44",
+      "s": 2864,
+      "title": "WaveNet but with “dilated causal convolutions”"
+     },
+     {
+      "t": "00:51:34",
+      "s": 3094,
+      "title": "torch.nn"
+     },
+     {
+      "t": "00:52:28",
+      "s": 3148,
+      "title": "the development process of building deep neural nets"
+     },
+     {
+      "t": "00:54:17",
+      "s": 3257,
+      "title": "going forward"
+     },
+     {
+      "t": "00:55:26",
+      "s": 3326,
+      "title": "improve on my loss! how far can we improve a WaveNet on this data?"
+     }
+    ]
+   },
+   {
+    "n": 7,
+    "id": "kCc8FmEb1nY",
+    "title": "Let's build GPT: from scratch, in code, spelled out.",
+    "duration": "1:56:20",
+    "published": "2023-01-17T08:33:27-08:00",
+    "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "intro: ChatGPT, Transformers, nanoGPT, Shakespeare"
+     },
+     {
+      "t": "00:07:52",
+      "s": 472,
+      "title": "reading and exploring the data"
+     },
+     {
+      "t": "00:09:28",
+      "s": 568,
+      "title": "tokenization, train/val split"
+     },
+     {
+      "t": "00:14:27",
+      "s": 867,
+      "title": "data loader: batches of chunks of data"
+     },
+     {
+      "t": "00:22:11",
+      "s": 1331,
+      "title": "simplest baseline: bigram language model, loss, generation"
+     },
+     {
+      "t": "00:34:53",
+      "s": 2093,
+      "title": "training the bigram model"
+     },
+     {
+      "t": "00:38:00",
+      "s": 2280,
+      "title": "port our code to a script"
+     },
+     {
+      "t": "00:42:13",
+      "s": 2533,
+      "title": "version 1: averaging past context with for loops, the weakest form of aggregation"
+     },
+     {
+      "t": "00:47:11",
+      "s": 2831,
+      "title": "the trick in self-attention: matrix multiply as weighted aggregation"
+     },
+     {
+      "t": "00:51:54",
+      "s": 3114,
+      "title": "version 2: using matrix multiply"
+     },
+     {
+      "t": "00:54:42",
+      "s": 3282,
+      "title": "version 3: adding softmax"
+     },
+     {
+      "t": "00:58:26",
+      "s": 3506,
+      "title": "minor code cleanup"
+     },
+     {
+      "t": "01:00:18",
+      "s": 3618,
+      "title": "positional encoding"
+     },
+     {
+      "t": "01:02:00",
+      "s": 3720,
+      "title": "THE CRUX OF THE VIDEO: version 4: self-attention"
+     },
+     {
+      "t": "01:11:38",
+      "s": 4298,
+      "title": "note 1: attention as communication"
+     },
+     {
+      "t": "01:12:46",
+      "s": 4366,
+      "title": "note 2: attention has no notion of space, operates over sets"
+     },
+     {
+      "t": "01:13:40",
+      "s": 4420,
+      "title": "note 3: there is no communication across batch dimension"
+     },
+     {
+      "t": "01:14:14",
+      "s": 4454,
+      "title": "note 4: encoder blocks vs. decoder blocks"
+     },
+     {
+      "t": "01:15:39",
+      "s": 4539,
+      "title": "note 5: attention vs. self-attention vs. cross-attention"
+     },
+     {
+      "t": "01:16:56",
+      "s": 4616,
+      "title": "note 6: \"scaled\" self-attention. why divide by sqrt(head_size)"
+     },
+     {
+      "t": "01:19:11",
+      "s": 4751,
+      "title": "inserting a single self-attention block to our network"
+     },
+     {
+      "t": "01:21:59",
+      "s": 4919,
+      "title": "multi-headed self-attention"
+     },
+     {
+      "t": "01:24:25",
+      "s": 5065,
+      "title": "feedforward layers of transformer block"
+     },
+     {
+      "t": "01:26:48",
+      "s": 5208,
+      "title": "residual connections"
+     },
+     {
+      "t": "01:32:51",
+      "s": 5571,
+      "title": "layernorm (and its relationship to our previous batchnorm)"
+     },
+     {
+      "t": "01:37:49",
+      "s": 5869,
+      "title": "scaling up the model! creating a few variables. adding dropout"
+     },
+     {
+      "t": "01:42:39",
+      "s": 6159,
+      "title": "encoder vs. decoder vs. both (?) Transformers"
+     },
+     {
+      "t": "01:46:22",
+      "s": 6382,
+      "title": "super quick walkthrough of nanoGPT, batched multi-headed self-attention"
+     },
+     {
+      "t": "01:48:53",
+      "s": 6533,
+      "title": "back to ChatGPT, GPT-3, pretraining vs. finetuning, RLHF"
+     },
+     {
+      "t": "01:54:32",
+      "s": 6872,
+      "title": "conclusions"
+     },
+     {
+      "t": "00:57:00",
+      "s": 3420,
+      "title": "Oops \"tokens from the _future_ cannot communicate\", not \"past\". Sorry! :)"
+     },
+     {
+      "t": "01:20:05",
+      "s": 4805,
+      "title": "Oops I should be using the head_size for the normalization, not C"
+     }
+    ]
+   },
+   {
+    "n": 8,
+    "id": "bZQun8Y4L2A",
+    "title": "State of GPT | BRK216HFS",
+    "duration": "42:40",
+    "published": "2023-05-25T00:07:44-07:00",
+    "url": "https://www.youtube.com/watch?v=bZQun8Y4L2A",
+    "chapters": []
+   },
+   {
+    "n": 9,
+    "id": "zduSFxRajkE",
+    "title": "Let's build the GPT Tokenizer",
+    "duration": "2:13:35",
+    "published": "2024-02-20T09:11:35-08:00",
+    "url": "https://www.youtube.com/watch?v=zduSFxRajkE",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "intro: Tokenization, GPT-2 paper, tokenization-related issues"
+     },
+     {
+      "t": "00:05:50",
+      "s": 350,
+      "title": "tokenization by example in a Web UI (tiktokenizer)"
+     },
+     {
+      "t": "00:14:56",
+      "s": 896,
+      "title": "strings in Python, Unicode code points"
+     },
+     {
+      "t": "00:18:15",
+      "s": 1095,
+      "title": "Unicode byte encodings, ASCII, UTF-8, UTF-16, UTF-32"
+     },
+     {
+      "t": "00:22:47",
+      "s": 1367,
+      "title": "daydreaming: deleting tokenization"
+     },
+     {
+      "t": "00:23:50",
+      "s": 1430,
+      "title": "Byte Pair Encoding (BPE) algorithm walkthrough"
+     },
+     {
+      "t": "00:27:02",
+      "s": 1622,
+      "title": "starting the implementation"
+     },
+     {
+      "t": "00:28:35",
+      "s": 1715,
+      "title": "counting consecutive pairs, finding most common pair"
+     },
+     {
+      "t": "00:30:36",
+      "s": 1836,
+      "title": "merging the most common pair"
+     },
+     {
+      "t": "00:34:58",
+      "s": 2098,
+      "title": "training the tokenizer: adding the while loop, compression ratio"
+     },
+     {
+      "t": "00:39:20",
+      "s": 2360,
+      "title": "tokenizer/LLM diagram: it is a completely separate stage"
+     },
+     {
+      "t": "00:42:47",
+      "s": 2567,
+      "title": "decoding tokens to strings"
+     },
+     {
+      "t": "00:48:21",
+      "s": 2901,
+      "title": "encoding strings to tokens"
+     },
+     {
+      "t": "00:57:36",
+      "s": 3456,
+      "title": "regex patterns to force splits across categories"
+     },
+     {
+      "t": "01:11:38",
+      "s": 4298,
+      "title": "tiktoken library intro, differences between GPT-2/GPT-4 regex"
+     },
+     {
+      "t": "01:14:59",
+      "s": 4499,
+      "title": "GPT-2 encoder.py released by OpenAI walkthrough"
+     },
+     {
+      "t": "01:18:26",
+      "s": 4706,
+      "title": "special tokens, tiktoken handling of, GPT-2/GPT-4 differences"
+     },
+     {
+      "t": "01:25:28",
+      "s": 5128,
+      "title": "minbpe exercise time! write your own GPT-4 tokenizer"
+     },
+     {
+      "t": "01:28:42",
+      "s": 5322,
+      "title": "sentencepiece library intro, used to train Llama 2 vocabulary"
+     },
+     {
+      "t": "01:43:27",
+      "s": 6207,
+      "title": "how to set vocabulary set? revisiting gpt.py transformer"
+     },
+     {
+      "t": "01:48:11",
+      "s": 6491,
+      "title": "training new tokens, example of prompt compression"
+     },
+     {
+      "t": "01:49:58",
+      "s": 6598,
+      "title": "multimodal [image, video, audio] tokenization with vector quantization"
+     },
+     {
+      "t": "01:51:41",
+      "s": 6701,
+      "title": "revisiting and explaining the quirks of LLM tokenization"
+     },
+     {
+      "t": "02:10:20",
+      "s": 7820,
+      "title": "final recommendations"
+     },
+     {
+      "t": "02:12:50",
+      "s": 7970,
+      "title": "??? :)"
+     }
+    ]
+   },
+   {
+    "n": 10,
+    "id": "l8pRSuU81PU",
+    "title": "Let's reproduce GPT-2 (124M)",
+    "duration": "4:01:26",
+    "published": "2024-06-09T16:31:35-07:00",
+    "url": "https://www.youtube.com/watch?v=l8pRSuU81PU",
+    "chapters": [
+     {
+      "t": "00:00:00",
+      "s": 0,
+      "title": "intro: Let’s reproduce GPT-2 (124M)"
+     },
+     {
+      "t": "00:03:39",
+      "s": 219,
+      "title": "exploring the GPT-2 (124M) OpenAI checkpoint"
+     },
+     {
+      "t": "00:13:47",
+      "s": 827,
+      "title": "SECTION 1: implementing the GPT-2 nn.Module"
+     },
+     {
+      "t": "00:28:08",
+      "s": 1688,
+      "title": "loading the huggingface/GPT-2 parameters"
+     },
+     {
+      "t": "00:31:00",
+      "s": 1860,
+      "title": "implementing the forward pass to get logits"
+     },
+     {
+      "t": "00:33:31",
+      "s": 2011,
+      "title": "sampling init, prefix tokens, tokenization"
+     },
+     {
+      "t": "00:37:02",
+      "s": 2222,
+      "title": "sampling loop"
+     },
+     {
+      "t": "00:41:47",
+      "s": 2507,
+      "title": "sample, auto-detect the device"
+     },
+     {
+      "t": "00:45:50",
+      "s": 2750,
+      "title": "let’s train: data batches (B,T) → logits (B,T,C)"
+     },
+     {
+      "t": "00:52:53",
+      "s": 3173,
+      "title": "cross entropy loss"
+     },
+     {
+      "t": "00:56:42",
+      "s": 3402,
+      "title": "optimization loop: overfit a single batch"
+     },
+     {
+      "t": "01:02:00",
+      "s": 3720,
+      "title": "data loader lite"
+     },
+     {
+      "t": "01:06:14",
+      "s": 3974,
+      "title": "parameter sharing wte and lm_head"
+     },
+     {
+      "t": "01:13:47",
+      "s": 4427,
+      "title": "model initialization: std 0.02, residual init"
+     },
+     {
+      "t": "01:22:18",
+      "s": 4938,
+      "title": "SECTION 2: Let’s make it fast. GPUs, mixed precision, 1000ms"
+     },
+     {
+      "t": "01:28:14",
+      "s": 5294,
+      "title": "Tensor Cores, timing the code, TF32 precision, 333ms"
+     },
+     {
+      "t": "01:39:38",
+      "s": 5978,
+      "title": "float16, gradient scalers, bfloat16, 300ms"
+     },
+     {
+      "t": "01:48:15",
+      "s": 6495,
+      "title": "torch.compile, Python overhead, kernel fusion, 130ms"
+     },
+     {
+      "t": "02:00:18",
+      "s": 7218,
+      "title": "flash attention, 96ms"
+     },
+     {
+      "t": "02:06:54",
+      "s": 7614,
+      "title": "nice/ugly numbers. vocab size 50257 → 50304, 93ms"
+     },
+     {
+      "t": "02:14:55",
+      "s": 8095,
+      "title": "SECTION 3: hyperpamaters, AdamW, gradient clipping"
+     },
+     {
+      "t": "02:21:06",
+      "s": 8466,
+      "title": "learning rate scheduler: warmup + cosine decay"
+     },
+     {
+      "t": "02:26:21",
+      "s": 8781,
+      "title": "batch size schedule, weight decay, FusedAdamW, 90ms"
+     },
+     {
+      "t": "02:34:09",
+      "s": 9249,
+      "title": "gradient accumulation"
+     },
+     {
+      "t": "02:46:52",
+      "s": 10012,
+      "title": "distributed data parallel (DDP)"
+     },
+     {
+      "t": "03:10:21",
+      "s": 11421,
+      "title": "datasets used in GPT-2, GPT-3, FineWeb (EDU)"
+     },
+     {
+      "t": "03:23:10",
+      "s": 12190,
+      "title": "validation data split, validation loss, sampling revive"
+     },
+     {
+      "t": "03:28:23",
+      "s": 12503,
+      "title": "evaluation: HellaSwag, starting the run"
+     },
+     {
+      "t": "03:43:05",
+      "s": 13385,
+      "title": "SECTION 4: results in the morning! GPT-2, GPT-3 repro"
+     },
+     {
+      "t": "03:56:21",
+      "s": 14181,
+      "title": "shoutout to llm.c, equivalent but faster code in raw C/CUDA"
+     },
+     {
+      "t": "03:59:39",
+      "s": 14379,
+      "title": "summary, phew, build-nanogpt github repo"
+     }
+    ]
+   }
+  ]
+ }
+]
