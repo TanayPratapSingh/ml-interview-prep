@@ -1,0 +1,233 @@
+{
+ "feeds": [
+  {
+   "name": "Lilian Weng",
+   "url": "https://lilianweng.github.io/index.xml",
+   "topic": "llm"
+  },
+  {
+   "name": "Sebastian Raschka",
+   "url": "https://magazine.sebastianraschka.com/feed",
+   "topic": "llm"
+  },
+  {
+   "name": "Chip Huyen",
+   "url": "https://huyenchip.com/feed.xml",
+   "topic": "systems"
+  },
+  {
+   "name": "Eugene Yan",
+   "url": "https://eugeneyan.com/rss/",
+   "topic": "systems"
+  },
+  {
+   "name": "Hamel Husain",
+   "url": "https://hamel.dev/index.xml",
+   "topic": "evals"
+  },
+  {
+   "name": "Simon Willison",
+   "url": "https://simonwillison.net/atom/entries/",
+   "topic": "llm"
+  },
+  {
+   "name": "Interconnects (Nathan Lambert)",
+   "url": "https://www.interconnects.ai/feed",
+   "topic": "post-training"
+  },
+  {
+   "name": "Andrej Karpathy",
+   "url": "https://karpathy.bearblog.dev/feed/",
+   "topic": "llm"
+  },
+  {
+   "name": "Latent Space",
+   "url": "https://www.latent.space/feed",
+   "topic": "ai-eng"
+  },
+  {
+   "name": "Import AI",
+   "url": "https://importai.substack.com/feed",
+   "topic": "research"
+  },
+  {
+   "name": "Hugging Face blog",
+   "url": "https://huggingface.co/blog/feed.xml",
+   "topic": "llm"
+  },
+  {
+   "name": "Google Research",
+   "url": "https://research.google/blog/rss/",
+   "topic": "research"
+  },
+  {
+   "name": "Google DeepMind",
+   "url": "https://deepmind.google/blog/rss.xml",
+   "topic": "research"
+  },
+  {
+   "name": "OpenAI",
+   "url": "https://openai.com/news/rss.xml",
+   "topic": "research"
+  },
+  {
+   "name": "BAIR",
+   "url": "https://bair.berkeley.edu/blog/feed.xml",
+   "topic": "research"
+  },
+  {
+   "name": "Netflix TechBlog",
+   "url": "https://netflixtechblog.com/feed",
+   "topic": "systems"
+  },
+  {
+   "name": "Airbnb Engineering",
+   "url": "https://medium.com/feed/airbnb-engineering",
+   "topic": "systems"
+  },
+  {
+   "name": "Pinterest Engineering",
+   "url": "https://medium.com/feed/pinterest-engineering",
+   "topic": "systems"
+  },
+  {
+   "name": "Spotify Engineering",
+   "url": "https://engineering.atspotify.com/feed/",
+   "topic": "systems"
+  },
+  {
+   "name": "Meta Engineering",
+   "url": "https://engineering.fb.com/feed/",
+   "topic": "systems"
+  },
+  {
+   "name": "Towards Data Science",
+   "url": "https://towardsdatascience.com/feed/",
+   "topic": "data-science"
+  },
+  {
+   "name": "KDnuggets",
+   "url": "https://www.kdnuggets.com/feed",
+   "topic": "data-science"
+  },
+  {
+   "name": "Lenny's Newsletter",
+   "url": "https://www.lennysnewsletter.com/feed",
+   "topic": "product"
+  },
+  {
+   "name": "Benn Stancil",
+   "url": "https://benn.substack.com/feed",
+   "topic": "analytics"
+  }
+ ],
+ "youtube_playlists": [
+  {
+   "key": "cme295",
+   "name": "Stanford CME295 Transformers and LLMs",
+   "playlist_id": "PLoROMvodv4rOCXd21gf0CF4xr35yINeOy"
+  },
+  {
+   "key": "cs329a",
+   "name": "Stanford CS329A Self Improving AI Agents",
+   "playlist_id": "PLangBM27OtEA"
+  },
+  {
+   "key": "cs229",
+   "name": "Stanford CS229 Machine Learning, Spring 2026",
+   "playlist_id": "PLaqpC4kq8Gpw"
+  },
+  {
+   "key": "zero-to-hero",
+   "name": "Karpathy, Neural Networks: Zero to Hero",
+   "playlist_id": "PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ"
+  }
+ ],
+ "youtube_channels": [
+  {
+   "name": "Stanford Online",
+   "channel_id": "UCBa5G_ESCn8Yd4vw5U-gIcg",
+   "keywords": [
+    "CS",
+    "CME",
+    "Machine Learning",
+    "LLM",
+    "Transformer",
+    "AI",
+    "Agents",
+    "Data"
+   ]
+  },
+  {
+   "name": "Andrej Karpathy",
+   "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
+   "keywords": []
+  }
+ ],
+ "reddit": [
+  "MachineLearning",
+  "datascience",
+  "cscareerquestions",
+  "LocalLLaMA"
+ ],
+ "hn": {
+  "min_points": 80,
+  "keywords": [
+   "AI",
+   "LLM",
+   "GPT",
+   "Claude",
+   "Gemini",
+   "model",
+   "neural",
+   "machine learning",
+   "ML",
+   "transformer",
+   "agent",
+   "RAG",
+   "embedding",
+   "inference",
+   "GPU",
+   "data",
+   "dataset",
+   "eval",
+   "benchmark",
+   "PyTorch",
+   "statistic",
+   "SQL",
+   "DuckDB",
+   "Postgres",
+   "analytics",
+   "A/B",
+   "interview",
+   "hiring",
+   "layoff",
+   "OPT",
+   "H-1B",
+   "visa",
+   "recruit",
+   "job market"
+  ]
+ },
+ "interview_keywords": [
+  "interview",
+  "new grad",
+  "job market",
+  "job search",
+  "hiring freeze",
+  "leetcode",
+  "take home",
+  "take-home",
+  "onsite",
+  "phone screen",
+  "offer letter",
+  "laid off",
+  "layoffs",
+  "H-1B",
+  "OPT",
+  "visa"
+ ],
+ "hf_papers": {
+  "top_n": 10
+ }
+}

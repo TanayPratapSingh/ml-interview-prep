@@ -1,0 +1,638 @@
+[
+ {
+  "name": "Abridge",
+  "ats": "ashby",
+  "slug": "abridge",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Airbnb",
+  "ats": "greenhouse",
+  "slug": "airbnb",
+  "group": "larger"
+ },
+ {
+  "name": "Airbyte",
+  "ats": "ashby",
+  "slug": "airbyte",
+  "group": "ai-startup"
+ },
+ {
+  "name": "AIUC",
+  "ats": "ashby",
+  "slug": "aiuc",
+  "group": "application-log"
+ },
+ {
+  "name": "Amplitude",
+  "ats": "ashby",
+  "slug": "amplitude",
+  "group": "larger"
+ },
+ {
+  "name": "Ando",
+  "ats": "ashby",
+  "slug": "ando",
+  "group": "application-log"
+ },
+ {
+  "name": "Anthropic",
+  "ats": "greenhouse",
+  "slug": "anthropic",
+  "group": "larger"
+ },
+ {
+  "name": "Anyscale",
+  "ats": "ashby",
+  "slug": "anyscale",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Applied Intuition",
+  "ats": "ashby",
+  "slug": "applied",
+  "group": "application-log"
+ },
+ {
+  "name": "Arizent",
+  "ats": "ashby",
+  "slug": "arizent",
+  "group": "application-log"
+ },
+ {
+  "name": "Asana",
+  "ats": "greenhouse",
+  "slug": "asana",
+  "group": "larger"
+ },
+ {
+  "name": "AssemblyAI",
+  "ats": "greenhouse",
+  "slug": "assemblyai",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Auctor",
+  "ats": "ashby",
+  "slug": "auctor",
+  "group": "application-log"
+ },
+ {
+  "name": "Baseten",
+  "ats": "ashby",
+  "slug": "baseten",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Braintrust",
+  "ats": "ashby",
+  "slug": "braintrust",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Brex",
+  "ats": "greenhouse",
+  "slug": "brex",
+  "group": "larger"
+ },
+ {
+  "name": "Browserbase",
+  "ats": "ashby",
+  "slug": "browserbase",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Cartesia",
+  "ats": "ashby",
+  "slug": "cartesia",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Character",
+  "ats": "ashby",
+  "slug": "character",
+  "group": "ai-startup"
+ },
+ {
+  "name": "ClickHouse",
+  "ats": "ashby",
+  "slug": "clickhouse",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Cognition",
+  "ats": "ashby",
+  "slug": "cognition",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Cohere",
+  "ats": "ashby",
+  "slug": "cohere",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Composio",
+  "ats": "ashby",
+  "slug": "composio",
+  "group": "application-log"
+ },
+ {
+  "name": "Confido",
+  "ats": "ashby",
+  "slug": "confido",
+  "group": "application-log"
+ },
+ {
+  "name": "Databricks",
+  "ats": "greenhouse",
+  "slug": "databricks",
+  "group": "larger"
+ },
+ {
+  "name": "Datadog",
+  "ats": "greenhouse",
+  "slug": "datadog",
+  "group": "larger"
+ },
+ {
+  "name": "Decagon",
+  "ats": "ashby",
+  "slug": "decagon",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Deepgram",
+  "ats": "ashby",
+  "slug": "deepgram",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Discord",
+  "ats": "greenhouse",
+  "slug": "discord",
+  "group": "larger"
+ },
+ {
+  "name": "Distyl",
+  "ats": "ashby",
+  "slug": "distyl",
+  "group": "application-log"
+ },
+ {
+  "name": "Dropbox",
+  "ats": "greenhouse",
+  "slug": "dropbox",
+  "group": "larger"
+ },
+ {
+  "name": "Duolingo",
+  "ats": "greenhouse",
+  "slug": "duolingo",
+  "group": "larger"
+ },
+ {
+  "name": "E2B",
+  "ats": "ashby",
+  "slug": "e2b",
+  "group": "ai-startup"
+ },
+ {
+  "name": "ElevenLabs",
+  "ats": "ashby",
+  "slug": "elevenlabs",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Elicit",
+  "ats": "ashby",
+  "slug": "elicit",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Ema",
+  "ats": "ashby",
+  "slug": "ema",
+  "group": "application-log"
+ },
+ {
+  "name": "EvolutionIQ",
+  "ats": "greenhouse",
+  "slug": "evolutioniq",
+  "group": "application-log"
+ },
+ {
+  "name": "Exa",
+  "ats": "ashby",
+  "slug": "exa",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Factory",
+  "ats": "ashby",
+  "slug": "factory",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Figma",
+  "ats": "greenhouse",
+  "slug": "figma",
+  "group": "larger"
+ },
+ {
+  "name": "Figure",
+  "ats": "greenhouse",
+  "slug": "figureai",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Fivetran",
+  "ats": "greenhouse",
+  "slug": "fivetran",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Galileo",
+  "ats": "greenhouse",
+  "slug": "galileo",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Glean",
+  "ats": "greenhouse",
+  "slug": "gleanwork",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Halluminate",
+  "ats": "ashby",
+  "slug": "halluminate",
+  "group": "application-log"
+ },
+ {
+  "name": "Harvey",
+  "ats": "ashby",
+  "slug": "harvey",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Hex",
+  "ats": "ashby",
+  "slug": "hex",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Hightouch",
+  "ats": "ashby",
+  "slug": "hightouch",
+  "group": "ai-startup"
+ },
+ {
+  "name": "HUD",
+  "ats": "ashby",
+  "slug": "hud",
+  "group": "application-log"
+ },
+ {
+  "name": "Imbue",
+  "ats": "greenhouse",
+  "slug": "imbue",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Instacart",
+  "ats": "greenhouse",
+  "slug": "instacart",
+  "group": "larger"
+ },
+ {
+  "name": "Kastle",
+  "ats": "ashby",
+  "slug": "kastle",
+  "group": "application-log"
+ },
+ {
+  "name": "Keenable",
+  "ats": "ashby",
+  "slug": "keenable",
+  "group": "application-log"
+ },
+ {
+  "name": "Klaviyo (campus)",
+  "ats": "greenhouse",
+  "slug": "klaviyocampus",
+  "group": "application-log"
+ },
+ {
+  "name": "Labelbox",
+  "ats": "greenhouse",
+  "slug": "labelbox",
+  "group": "ai-startup"
+ },
+ {
+  "name": "LangChain",
+  "ats": "ashby",
+  "slug": "langchain",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Letta",
+  "ats": "ashby",
+  "slug": "letta",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Linear",
+  "ats": "ashby",
+  "slug": "linear",
+  "group": "larger"
+ },
+ {
+  "name": "LlamaIndex",
+  "ats": "ashby",
+  "slug": "llamaindex",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Lovable",
+  "ats": "ashby",
+  "slug": "lovable",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Mercor",
+  "ats": "ashby",
+  "slug": "mercor",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Mercury",
+  "ats": "greenhouse",
+  "slug": "mercury",
+  "group": "larger"
+ },
+ {
+  "name": "Mintlify",
+  "ats": "ashby",
+  "slug": "mintlify",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Mixpanel",
+  "ats": "greenhouse",
+  "slug": "mixpanel",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Modal",
+  "ats": "ashby",
+  "slug": "modal",
+  "group": "ai-startup"
+ },
+ {
+  "name": "MotherDuck",
+  "ats": "ashby",
+  "slug": "motherduck",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Netic",
+  "ats": "ashby",
+  "slug": "netic",
+  "group": "application-log"
+ },
+ {
+  "name": "Notion",
+  "ats": "ashby",
+  "slug": "notion",
+  "group": "larger"
+ },
+ {
+  "name": "OpenAI",
+  "ats": "ashby",
+  "slug": "openai",
+  "group": "larger"
+ },
+ {
+  "name": "OuterSignal",
+  "ats": "ashby",
+  "slug": "outersignal",
+  "group": "application-log"
+ },
+ {
+  "name": "Outmarket AI",
+  "ats": "ashby",
+  "slug": "outmarket",
+  "group": "application-log"
+ },
+ {
+  "name": "Parakeet Health",
+  "ats": "ashby",
+  "slug": "parakeet-health",
+  "group": "application-log"
+ },
+ {
+  "name": "Patronus AI",
+  "ats": "greenhouse",
+  "slug": "patronusaiinc",
+  "group": "application-log"
+ },
+ {
+  "name": "Perplexity",
+  "ats": "ashby",
+  "slug": "perplexity",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Physical Intelligence",
+  "ats": "ashby",
+  "slug": "physicalintelligence",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Pinecone",
+  "ats": "ashby",
+  "slug": "pinecone",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Pinterest",
+  "ats": "greenhouse",
+  "slug": "pinterest",
+  "group": "larger"
+ },
+ {
+  "name": "Plaid",
+  "ats": "ashby",
+  "slug": "plaid",
+  "group": "larger"
+ },
+ {
+  "name": "Poolside",
+  "ats": "ashby",
+  "slug": "poolside",
+  "group": "ai-startup"
+ },
+ {
+  "name": "PostHog",
+  "ats": "ashby",
+  "slug": "posthog",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Preference Model",
+  "ats": "ashby",
+  "slug": "Preference-Model",
+  "group": "application-log"
+ },
+ {
+  "name": "Quora",
+  "ats": "ashby",
+  "slug": "quora",
+  "group": "application-log"
+ },
+ {
+  "name": "Raindrop",
+  "ats": "ashby",
+  "slug": "raindrop",
+  "group": "application-log"
+ },
+ {
+  "name": "Ramp",
+  "ats": "ashby",
+  "slug": "ramp",
+  "group": "larger"
+ },
+ {
+  "name": "Reddit",
+  "ats": "greenhouse",
+  "slug": "reddit",
+  "group": "larger"
+ },
+ {
+  "name": "Replit",
+  "ats": "ashby",
+  "slug": "replit",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Robinhood",
+  "ats": "greenhouse",
+  "slug": "robinhood",
+  "group": "larger"
+ },
+ {
+  "name": "Laminar",
+  "ats": "lever",
+  "slug": "runlaminar",
+  "group": "application-log"
+ },
+ {
+  "name": "Runway",
+  "ats": "ashby",
+  "slug": "runway",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Scale AI",
+  "ats": "greenhouse",
+  "slug": "scaleai",
+  "group": "application-log"
+ },
+ {
+  "name": "Sierra",
+  "ats": "ashby",
+  "slug": "sierra",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Snorkel AI",
+  "ats": "greenhouse",
+  "slug": "snorkelai",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Snowflake",
+  "ats": "ashby",
+  "slug": "snowflake",
+  "group": "larger"
+ },
+ {
+  "name": "Spotify",
+  "ats": "lever",
+  "slug": "spotify",
+  "group": "larger"
+ },
+ {
+  "name": "Stripe",
+  "ats": "greenhouse",
+  "slug": "stripe",
+  "group": "larger"
+ },
+ {
+  "name": "Supabase",
+  "ats": "ashby",
+  "slug": "supabase",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Tavily",
+  "ats": "ashby",
+  "slug": "tavily",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Together AI",
+  "ats": "greenhouse",
+  "slug": "togetherai",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Unstructured",
+  "ats": "ashby",
+  "slug": "unstructured",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Valon",
+  "ats": "ashby",
+  "slug": "valon",
+  "group": "application-log"
+ },
+ {
+  "name": "Vals AI",
+  "ats": "ashby",
+  "slug": "vals-ai",
+  "group": "application-log"
+ },
+ {
+  "name": "Vercel",
+  "ats": "greenhouse",
+  "slug": "vercel",
+  "group": "larger"
+ },
+ {
+  "name": "Warp",
+  "ats": "ashby",
+  "slug": "warp",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Watershed",
+  "ats": "ashby",
+  "slug": "watershed",
+  "group": "application-log"
+ },
+ {
+  "name": "Weaviate",
+  "ats": "ashby",
+  "slug": "weaviate",
+  "group": "ai-startup"
+ },
+ {
+  "name": "Writer",
+  "ats": "ashby",
+  "slug": "writer",
+  "group": "ai-startup"
+ }
+]
