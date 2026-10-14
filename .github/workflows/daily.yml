@@ -1,0 +1,72 @@
+name: Daily update
+
+# Scrapes jobs, papers, posts and videos, commits the data, opens the digest issue
+# (GitHub emails the repo owner), and redeploys the site. Pushes made with the
+# workflow token do not trigger other workflows, so this job deploys Pages itself.
+on:
+  schedule:
+    - cron: "17 10 * * *"   # 06:17 in New York during daylight time, 05:17 in winter
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scrape
+        run: python3 scripts/daily.py
+
+      - name: Render digest
+        run: python3 scripts/digest.py > "$RUNNER_TEMP/digest.md"
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Daily update $(date -u +%F)"
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+          fi
+
+      - name: Open digest issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          d=$(date -u +%F)
+          gh label create daily --color 0f6e6e --description "Daily digest" 2>/dev/null || true
+          for n in $(gh issue list --label daily --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --reason completed
+          done
+          gh issue create --title "Daily digest $d" --label daily --body-file "$RUNNER_TEMP/digest.md"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
