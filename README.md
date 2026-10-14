@@ -6,18 +6,29 @@ data scientist and analyst interviews. Live at
 
 ## What is in it
 
-Twelve study modules, each written at three depths with matching headings, so you
-can switch depth mid read and land in the same section:
+The flashcards are the core. Each of the twelve modules has 80 to 150 cards that
+together teach the whole module, in learning order: the first card is the first
+idea, and every later card builds only on earlier ones, ending with the interview
+questions that combine them. Every card teaches rather than quizzes:
+
+- a **plain answer** a beginner can follow, with a concrete example,
+- a **deep answer** with the math, the mechanism and the why,
+- a **spoken answer** of 60 to 130 words to say out loud in an interview,
+- the **points a strong answer must mention**, the **follow up questions** with
+  answers, and the **traps** interviewers listen for.
+
+The Learn page serves your due reviews first, then the next new cards in
+curriculum order (20 a day by default), and schedules each card with a small SM-2
+variant based on how you rate it.
+
+Behind the cards, each module also has three written guides with matching
+headings, so you can switch depth mid read and land in the same section:
 
 - **Cheatsheet**: the dense one page refresher for the ten minutes before a call.
-- **Plain**: the intuition, an analogy and one worked example, for a smart friend
-  with no ML background.
+- **Plain**: the intuition, an analogy and one worked example.
 - **Deep**: derivations, assumptions, failure modes, comparisons and the follow up
-  chains a research lab interviewer will push on, with citations.
-
-Every module also has flashcards. A card carries a plain answer, a deep answer,
-a spoken answer of 60 to 130 words to say out loud, the points a strong answer must
-mention, follow up questions with answers, and the traps interviewers listen for.
+  chains a research lab interviewer will push on, with citations. The cards are
+  mined from this guide.
 
 | Group | Modules |
 | --- | --- |
@@ -30,8 +41,9 @@ mention, follow up questions with answers, and the traps interviewers listen for
 
 The site also has:
 
-- **Cards**: spaced repetition (a small SM-2 variant) with keyboard shortcuts.
-  Progress stays in your browser; export it from the Progress page.
+- **Keyboard first cards**: space shows the answer, d goes deep, s shows the spoken
+  version, f the follow ups, 1 to 4 rates. Progress stays in your browser; export
+  it from the Progress page.
 - **Drill**: a spoken answer trainer. You get a question and a timer, answer out
   loud, optionally record yourself, then check your answer against the must mention
   list, a delivery rubric and the model spoken answer, and answer the follow up.
