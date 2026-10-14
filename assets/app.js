@@ -67,7 +67,7 @@
     try { return (await getJSON(`content/${id}/cards.json`)).map((c) => ({ ...c, module: id })); } catch (e) { return []; }
   }
   async function allCards() {
-    const ids = (await modules()).map((m) => m.id).concat(EXTRA_CARD_SOURCES);
+    const ids = (await modules()).filter((m) => m.ready).map((m) => m.id).concat(EXTRA_CARD_SOURCES);
     const lists = await Promise.all(ids.map(moduleCards));
     return lists.flat().sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
   }
@@ -255,7 +255,7 @@
   // ------------------------------------------------------------ study
   routes.study = async () => {
     const mods = await modules();
-    const counts = await Promise.all(mods.map((m) => moduleCards(m.id)));
+    const counts = await Promise.all(mods.map((m) => (m.ready ? moduleCards(m.id) : [])));
     const groups = [...new Set(mods.map((m) => m.group))];
     const tile = (m, cards) => {
       const ready = cards.length > 0;
@@ -525,7 +525,7 @@
 
   async function drillHome() {
     const mods = await modules();
-    const counts = await Promise.all(mods.map((m) => moduleCards(m.id)));
+    const counts = await Promise.all(mods.map((m) => (m.ready ? moduleCards(m.id) : [])));
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     const sec = state.drillSeconds || 45;
     main.innerHTML = `<h1>Spoken drill</h1>

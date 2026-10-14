@@ -30,7 +30,7 @@ def load(path: Path, default):
 
 def all_cards() -> list[dict]:
     """Same card list as allCards() in assets/app.js: every module in data/modules.json plus lectures."""
-    ids = [m["id"] for m in load(ROOT / "data/modules.json", [])] + ["lectures"]
+    ids = [m["id"] for m in load(ROOT / "data/modules.json", []) if m.get("ready")] + ["lectures"]
     cards = []
     for mid in ids:
         for c in load(ROOT / "content" / mid / "cards.json", []):

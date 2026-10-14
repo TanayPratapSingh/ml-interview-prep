@@ -3,72 +3,84 @@
   "id": "probability-statistics",
   "title": "Probability and statistics",
   "group": "Foundations",
-  "summary": "Bayes, distributions, the CLT, tests, intervals, MLE, and the puzzles screens love."
+  "summary": "Bayes, distributions, the CLT, tests, intervals, MLE, and the puzzles screens love.",
+  "ready": false
  },
  {
   "id": "experimentation-causal",
   "title": "Experiments and causal inference",
   "group": "Analytics",
-  "summary": "A/B tests end to end, power, CUPED, interference, and causal methods without experiments."
+  "summary": "A/B tests end to end, power, CUPED, interference, and causal methods without experiments.",
+  "ready": false
  },
  {
   "id": "sql-analytics",
   "title": "SQL and data wrangling",
   "group": "Analytics",
-  "summary": "Joins, window functions, the ten patterns every SQL round tests, pandas, and analytics engineering."
+  "summary": "Joins, window functions, the ten patterns every SQL round tests, pandas, and analytics engineering.",
+  "ready": false
  },
  {
   "id": "product-analytics",
   "title": "Product analytics and cases",
   "group": "Analytics",
-  "summary": "Metrics, product sense, metric drop diagnosis, dashboards, and telling executives the answer."
+  "summary": "Metrics, product sense, metric drop diagnosis, dashboards, and telling executives the answer.",
+  "ready": false
  },
  {
   "id": "classical-ml",
   "title": "Classical machine learning",
   "group": "Machine learning",
-  "summary": "Bias and variance, linear models, trees and boosting, clustering, PCA, evaluation and leakage."
+  "summary": "Bias and variance, linear models, trees and boosting, clustering, PCA, evaluation and leakage.",
+  "ready": false
  },
  {
   "id": "deep-learning",
   "title": "Deep learning foundations",
   "group": "Machine learning",
-  "summary": "Backprop from scratch, optimisers, normalisation, CNNs, RNNs, diffusion, and training at scale."
+  "summary": "Backprop from scratch, optimisers, normalisation, CNNs, RNNs, diffusion, and training at scale.",
+  "ready": false
  },
  {
   "id": "transformers-llms",
   "title": "Transformers and LLMs",
   "group": "LLMs",
-  "summary": "Tokenisation, attention, positional encodings, scaling laws, and how inference really works."
+  "summary": "Tokenisation, attention, positional encodings, scaling laws, and how inference really works.",
+  "ready": false
  },
  {
   "id": "post-training-reasoning",
   "title": "Post training and reasoning",
   "group": "LLMs",
-  "summary": "SFT, LoRA, RLHF, DPO, GRPO and Dr. GRPO, reasoning models, and test time compute."
+  "summary": "SFT, LoRA, RLHF, DPO, GRPO and Dr. GRPO, reasoning models, and test time compute.",
+  "ready": false
  },
  {
   "id": "rag-agents-evals",
   "title": "RAG, agents and evals",
   "group": "LLMs",
-  "summary": "Retrieval end to end, agent patterns, guardrails, and how to build evals you can trust."
+  "summary": "Retrieval end to end, agent patterns, guardrails, and how to build evals you can trust.",
+  "ready": false
  },
  {
   "id": "ml-system-design",
   "title": "ML system design",
   "group": "Systems",
-  "summary": "A framework for the design round and full designs for recsys, search, ads, fraud and LLM apps."
+  "summary": "A framework for the design round and full designs for recsys, search, ads, fraud and LLM apps.",
+  "ready": false
  },
  {
   "id": "ml-coding",
   "title": "ML coding",
   "group": "Interview craft",
-  "summary": "From scratch implementations, numpy and pandas, and the algorithm patterns screens use."
+  "summary": "From scratch implementations, numpy and pandas, and the algorithm patterns screens use.",
+  "ready": false
  },
  {
   "id": "narration",
   "title": "Narration and your projects",
   "group": "Interview craft",
-  "summary": "How to explain anything out loud, behavioural stories, and your own projects at three lengths."
+  "summary": "How to explain anything out loud, behavioural stories, and your own projects at three lengths.",
+  "ready": false
  }
 ]
