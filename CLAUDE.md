@@ -25,7 +25,8 @@ data science and analytics interviews. Read `README.md`, then `docs/STYLE.md`,
 ## Daily Claude run
 
 The GitHub Actions job (`.github/workflows/daily.yml`) does the mechanical scrape
-at 10:17 UTC. A scheduled Claude run afterwards adds judgement:
+at 10:17 UTC every day. A scheduled Claude routine runs on weekdays at 11:00 UTC
+and adds judgement:
 
 1. Pull `main` and read `data/daily/<today>.json`. If it does not exist yet, stop.
 2. Write `data/daily/<today>.notes.md`: at most 250 words, three to five bullets on
@@ -35,11 +36,12 @@ at 10:17 UTC. A scheduled Claude run afterwards adds judgement:
    matters in one sentence. Prefer early career roles whose posting does not rule
    out sponsorship. Plain markdown, no heading line, no em dashes.
 3. If a paper or post from today would make a good interview question, add at
-   most three cards to the matching `content/<module>/cards.json`, following
+   most three cards to the matching `content/<module>/cards.json` of a module whose
+   `ready` flag in `data/modules.json` is true, following
    `docs/CONTENT_SPEC.md`, with `source` set to the item's URL.
 4. Run `python3 tools/validate.py`, fix every error, then commit with the message
    `Daily notes <date>` and push.
-5. Edit the open issue titled `Daily digest <date>` by adding a comment with the
-   same notes, using `gh issue comment`.
+5. Nothing else. `.github/workflows/notes.yml` sees the pushed notes file and posts
+   it as a comment on that day's digest issue, and `pages.yml` redeploys the site.
 
 Never apply to a job, email anyone, or change repo settings during the daily run.
