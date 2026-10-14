@@ -8,10 +8,25 @@ The site reads them directly, so names and shapes matter.
 | `cheatsheet.md` | One page dense reference | 900 to 1,800 words |
 | `plain.md` | Easy version, intuition first | 2,500 to 5,000 words |
 | `deep.md` | Exhaustive technical version | 6,000 to 12,000 words |
-| `cards.json` | Flashcards with spoken answers | 45 to 70 cards |
+| `cards.json` | Flashcards that teach the whole module, in learning order | 80 to 150 cards |
 | `sources.json` | Every source used, all fetched and checked | 8 to 25 entries |
 
 Read `docs/STYLE.md` first. The writing rules there are not optional.
+
+**The flashcards are the main product.** The reader wants to learn everything in a
+module from its cards alone. The markdown guides are the source material and the
+reference; the cards are what gets studied every day. So:
+
+- The cards together cover every concept, definition, formula, mechanism,
+  comparison, worked example, failure mode and common interview question in
+  `deep.md`. If it is in the deep guide and worth knowing, it is on a card.
+- Card ids are a learning path. `prob-001` is the first thing to learn, and every
+  card only relies on cards with smaller ids. Prerequisites first, then the ideas
+  built on them, then the interview questions that combine them.
+- Every card teaches. `plain` is a complete beginner explanation (3 to 6
+  sentences with a concrete example), not a one line hint. `deep` is the full
+  technical answer with the math and the why.
+- One idea per card. Split a big topic into several cards instead of one long one.
 
 ## Markdown files
 
@@ -47,7 +62,8 @@ indent=1)` so escaping is always right.
   "must_mention": ["probability of data this extreme if the null is true", "not P(null | data)", "depends on sample size"],
   "followups": [{"q": "So what would you report instead?", "a": "An effect size with a confidence interval, plus the p value."}],
   "traps": ["Saying p = 0.03 means a 3 percent chance the null is true."],
-  "source": {"title": "Where this question was seen asked", "url": "https://..."}
+  "source": {"title": "Where this question was seen asked", "url": "https://..."},
+  "kind": "concept"
 }
 ```
 
@@ -64,6 +80,10 @@ Field rules:
   checklist after you answer out loud.
 - `followups`: 1 to 4 objects with `q` and a short `a`.
 - `traps`: 0 to 3 wrong answers or pitfalls interviewers listen for.
+- `kind`: optional, one of `concept` (what is it), `why` (why does it work or
+  exist), `compare` (X versus Y), `formula` (state or derive it), `example` (work
+  through numbers), `code` (implement it), `interview` (a question as asked in
+  real interviews, combining ideas).
 - `source`: optional. Include it when the question was seen in a real interview
   write up or question bank, and only with a URL you fetched.
 

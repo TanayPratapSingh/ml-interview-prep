@@ -60,7 +60,8 @@ URL_RE = re.compile(r"https?://\S+|\]\([^)]*\)")
 PREFIXES = {"prob", "exp", "sql", "pa", "cml", "dl", "llm", "post", "rag", "sysd", "code", "narr", "lec", "qb"}
 LEVELS = {"core", "advanced", "expert"}
 SOURCE_TYPES = {"course", "book", "paper", "blog", "docs", "video", "question-bank", "repo", "forum"}
-CARD_KEYS = {"id", "topic", "level", "q", "plain", "deep", "say", "must_mention", "followups", "traps", "source"}
+CARD_KEYS = {"id", "topic", "level", "q", "plain", "deep", "say", "must_mention", "followups", "traps", "source", "kind"}
+KINDS = {"concept", "why", "compare", "formula", "example", "code", "interview"}
 REQUIRED_CARD_KEYS = {"id", "topic", "level", "q", "plain", "deep", "say", "must_mention", "followups"}
 
 LENGTHS = {"cheatsheet.md": (900, 1800), "plain.md": (2500, 5000), "deep.md": (6000, 12000)}
@@ -195,6 +196,8 @@ def check_cards(rep: Report, path: Path) -> list[str]:
         tr = c.get("traps", [])
         if not isinstance(tr, list) or len(tr) > 3:
             rep.err(cw, "traps must be a list of at most 3 strings")
+        if "kind" in c and c["kind"] not in KINDS:
+            rep.err(cw, f"kind must be one of {sorted(KINDS)}")
         src = c.get("source")
         if src is not None and (not isinstance(src, dict) or not str(src.get("url", "")).startswith("http")):
             rep.err(cw, "source must be an object with title and an http url")
@@ -209,8 +212,8 @@ def check_cards(rep: Report, path: Path) -> list[str]:
     if dupes:
         rep.err(where, f"duplicate ids {sorted(dupes)}")
     total = len(cards)
-    if path.parent.name not in {"lectures", "question-bank"} and not 45 <= total <= 70:
-        rep.warn(where, f"{total} cards, target 45 to 70")
+    if path.parent.name not in {"lectures", "question-bank"} and not 80 <= total <= 160:
+        rep.warn(where, f"{total} cards, target 80 to 150")
     if total:
         share = {k: round(100 * v / total) for k, v in levels.items()}
         if share["expert"] > 30 or share["core"] < 25:

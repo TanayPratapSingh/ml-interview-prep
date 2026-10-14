@@ -15,6 +15,10 @@ paper replications (BEIR, Dr. GRPO). They need two things from every module:
 1. To understand the material well enough to answer follow up after follow up.
 2. To say it out loud clearly. Every card has a spoken answer for this reason.
 
+The flashcards are the main product: the reader learns the module from its cards.
+Treat `deep.md` as the source you mine the cards from, and see the flashcard rules
+at the top of `docs/CONTENT_SPEC.md`.
+
 ## Research process
 
 1. **Find what gets asked.** Search for real interview questions on the topic:
