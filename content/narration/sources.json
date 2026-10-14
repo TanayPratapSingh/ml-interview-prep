@@ -1,0 +1,212 @@
+[
+ {
+  "title": "Tech Interview Handbook: coding interview cheatsheet",
+  "url": "https://www.techinterviewhandbook.org/coding-interview-cheatsheet/",
+  "type": "blog",
+  "why": "Step by step behaviour during a coding round: clarify, discuss approaches, narrate, test before announcing done.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Tech Interview Handbook: coding interview rubrics",
+  "url": "https://www.techinterviewhandbook.org/coding-interview-rubrics/",
+  "type": "blog",
+  "why": "The four rubric dimensions and the communication bands from strong hire to strong no hire.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Tech Interview Handbook: behavioral interviews",
+  "url": "https://www.techinterviewhandbook.org/behavioral-interview/",
+  "type": "blog",
+  "why": "STAR with an added reflection, the big three questions, and building stories from 3 to 5 projects.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Tech Interview Handbook: behavioral interview rubrics",
+  "url": "https://www.techinterviewhandbook.org/behavioral-interview-rubrics/",
+  "type": "question-bank",
+  "why": "Eight focus areas and how the same story scopes as junior, senior or staff.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Tech Interview Handbook: final questions to ask",
+  "url": "https://www.techinterviewhandbook.org/final-questions/",
+  "type": "question-bank",
+  "why": "A bank of closing questions grouped by interviewer type.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Tech Interview Handbook: self introduction",
+  "url": "https://www.techinterviewhandbook.org/self-introduction/",
+  "type": "blog",
+  "why": "Structure for tell me about yourself as a tailored elevator pitch.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Amazon Leadership Principles",
+  "url": "https://www.amazon.jobs/content/en/our-workplace/leadership-principles",
+  "type": "docs",
+  "why": "The official text of the principles behavioural answers are scored against, including Have Backbone; Disagree and Commit.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Amazon interview guide",
+  "url": "https://www.aboutamazon.com/news/workplace/amazon-interview-guide",
+  "type": "docs",
+  "why": "Amazon's own guidance: STAR, I statements, 2 to 3 minute answers, recording yourself to practise.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "interviewing.io: stop memorizing STAR, start selecting better stories",
+  "url": "https://interviewing.io/blog/stop-memorizing-star-for-behavioral-interviews-start-selecting-better-stories",
+  "type": "blog",
+  "why": "Story selection over structure, the brainstorm, evidence and filter process, and story titles.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "interviewing.io: a senior engineer's guide to the system design interview",
+  "url": "https://interviewing.io/guides/system-design-interview",
+  "type": "blog",
+  "why": "Why design rounds are conversations, clarifying the prompt, and justifying decisions with trade offs.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Exponent: what is the STAR method",
+  "url": "https://blog.tryexponent.com/what-is-the-star-method-and-how-to-use-it-during-interviews",
+  "type": "blog",
+  "why": "STAR worked examples and why the Action part carries the answer.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Exponent: Amazon behavioral interview questions",
+  "url": "https://blog.tryexponent.com/how-to-nail-amazons-behavioral-interview-questions/",
+  "type": "question-bank",
+  "why": "Candidate reported format of Amazon loops: two principles per 60 minute round, about 25 minutes per question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Hello Interview: system design delivery framework",
+  "url": "https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery",
+  "type": "blog",
+  "why": "Phase by phase plan and timings for a 45 minute design round, and the most common mid level failure.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Farnam Street: the Feynman technique",
+  "url": "https://fs.blog/feynman-technique/",
+  "type": "blog",
+  "why": "The four step study method behind explaining a concept in plain words.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "MIT OpenCourseWare: Patrick Winston, How to Speak",
+  "url": "https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/pages/how-to-speak/",
+  "type": "video",
+  "why": "The lecture and its verified chapter outline, including job talks, oral exams and how to stop.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Upworthy: five takeaways from Winston's How to Speak",
+  "url": "https://www.upworthy.com/mit-professor-gave-the-same-how-to-speak-lecture-for-40-years-here-are-his-5-pearls-of-wisdom/",
+  "type": "blog",
+  "why": "Secondary summary used to verify Winston's opening promise, repetition and closing advice.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Portfolio",
+  "url": "https://tanaypratapsingh.github.io/",
+  "type": "docs",
+  "why": "Source for the four experience entries and their numbers.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "beir-replication",
+  "url": "https://github.com/TanayPratapSingh/beir-replication",
+  "type": "repo",
+  "why": "README: BEIR reproduction results, the DPR truncation sweep and stated deviations.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "drgrpo-replication",
+  "url": "https://github.com/TanayPratapSingh/drgrpo-replication",
+  "type": "repo",
+  "why": "README: seed 0 results, deviations from the paper and verification of the objective.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "handoff",
+  "url": "https://github.com/TanayPratapSingh/handoff",
+  "type": "repo",
+  "why": "README: escalation policy, the three kept bugs, numbers and limitations.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "distributed-vit-cifar10",
+  "url": "https://github.com/TanayPratapSingh/distributed-vit-cifar10",
+  "type": "repo",
+  "why": "README: scaling results, the isolation experiment and the verification guards.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "tool-dependency-graph",
+  "url": "https://github.com/TanayPratapSingh/tool-dependency-graph",
+  "type": "repo",
+  "why": "README: resolution design, catalog results and limitations.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "ztf-transient-pipeline",
+  "url": "https://github.com/TanayPratapSingh/ztf-transient-pipeline",
+  "type": "repo",
+  "why": "README: two plane architecture, dbt layers and stated scope.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "shopfloor-ai",
+  "url": "https://github.com/TanayPratapSingh/shopfloor-ai",
+  "type": "repo",
+  "why": "README: model results on AI4I 2020, features, pipeline and limitations.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "media-pulse",
+  "url": "https://github.com/TanayPratapSingh/media-pulse",
+  "type": "repo",
+  "why": "README: human review loop, metrics and synthetic data notes.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "comms-agent",
+  "url": "https://github.com/TanayPratapSingh/comms-agent",
+  "type": "repo",
+  "why": "README: state graph agent and the review gate result.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "wikipedia-edit-stream",
+  "url": "https://github.com/TanayPratapSingh/wikipedia-edit-stream",
+  "type": "repo",
+  "why": "README: sketch parameters and logged live runs.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "orderbook-microstructure",
+  "url": "https://github.com/TanayPratapSingh/orderbook-microstructure",
+  "type": "repo",
+  "why": "README: checksum verification and order flow results.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "live-earthquake-statistics",
+  "url": "https://github.com/TanayPratapSingh/live-earthquake-statistics",
+  "type": "repo",
+  "why": "README: b-value methods, results and the coverage test.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "space-weather-nowcast",
+  "url": "https://github.com/TanayPratapSingh/space-weather-nowcast",
+  "type": "repo",
+  "why": "README: feed joins, propagation and lessons from the feeds.",
+  "checked": "2026-10-13"
+ }
+]
