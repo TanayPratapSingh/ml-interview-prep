@@ -1,0 +1,219 @@
+[
+ {
+  "title": "Training language models to follow instructions with human feedback (InstructGPT)",
+  "url": "https://arxiv.org/html/2203.02155",
+  "type": "paper",
+  "why": "The SFT, reward model, PPO recipe with dataset sizes, the 1.3B versus 175B result and the alignment tax.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+  "url": "https://arxiv.org/html/2305.18290",
+  "type": "paper",
+  "why": "The KL constrained optimum, the reparameterisation, the DPO loss and gradient, and the TL;DR comparison with PPO.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DeepSeekMath, the paper that introduced GRPO",
+  "url": "https://arxiv.org/html/2402.03300",
+  "type": "paper",
+  "why": "GRPO objective, group advantages, k3 KL estimator, hyperparameters, the unified gradient coefficient view and Maj@K versus Pass@K.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DeepSeek-R1 (current arXiv revision)",
+  "url": "https://arxiv.org/html/2501.12948",
+  "type": "paper",
+  "why": "R1-Zero and R1 pipeline details, the language consistency reward and SFT data sizes; the later revision's R1-Zero numbers.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DeepSeek-R1 (first arXiv version)",
+  "url": "https://arxiv.org/html/2501.12948v1",
+  "type": "paper",
+  "why": "The widely quoted AIME numbers, evaluation settings, distillation table and the unsuccessful PRM and MCTS attempts.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Understanding R1-Zero-Like Training: A Critical Perspective (Dr. GRPO)",
+  "url": "https://arxiv.org/html/2503.20783",
+  "type": "paper",
+  "why": "The two GRPO biases, the Dr. GRPO objective and constant normaliser, Oat-Zero-7B, and the base model and template findings.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DAPO: an open source LLM reinforcement learning system at scale",
+  "url": "https://arxiv.org/html/2503.14476",
+  "type": "paper",
+  "why": "Clip-Higher, dynamic sampling, token level loss, overlong shaping, removing the KL term, and the Qwen2.5-32B result.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "LoRA: Low Rank Adaptation of Large Language Models",
+  "url": "https://arxiv.org/html/2106.09685",
+  "type": "paper",
+  "why": "The low rank update, initialisation, alpha over r, GPT-3 savings, rank findings and target module ablation.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+  "url": "https://arxiv.org/html/2305.14314",
+  "type": "paper",
+  "why": "NF4, double quantisation arithmetic, paged optimisers, all linear layer LoRA, and data quality over size.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Let's Verify Step by Step",
+  "url": "https://arxiv.org/html/2305.20050",
+  "type": "paper",
+  "why": "ORM versus PRM, PRM800K, best of 1860 results, product scoring and active learning.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Large Language Monkeys: Scaling Inference Compute with Repeated Sampling",
+  "url": "https://arxiv.org/html/2407.21787",
+  "type": "paper",
+  "why": "Coverage scaling, SWE-bench Lite gains, cost comparisons and the generation verification gap on MATH.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Scaling LLM Test Time Compute Optimally can be More Effective than Scaling Model Parameters",
+  "url": "https://arxiv.org/html/2408.03314",
+  "type": "paper",
+  "why": "Revisions versus PRM search, compute optimal allocation by difficulty, and when pretraining wins.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Proximal Policy Optimization Algorithms",
+  "url": "https://arxiv.org/abs/1707.06347",
+  "type": "paper",
+  "why": "The original PPO paper and its claim of multiple epochs of minibatch updates per batch.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Scaling Laws for Reward Model Overoptimization",
+  "url": "https://arxiv.org/abs/2210.10760",
+  "type": "paper",
+  "why": "Gold versus proxy reward curves, functional forms in square root KL, and the best of N KL formula.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "A General Theoretical Paradigm to Understand Learning from Human Preferences (IPO)",
+  "url": "https://arxiv.org/html/2310.12036",
+  "type": "paper",
+  "why": "Why DPO overfits deterministic preferences and the IPO squared loss.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "KTO: Model Alignment as Prospect Theoretic Optimization",
+  "url": "https://arxiv.org/html/2402.01306",
+  "type": "paper",
+  "why": "Binary feedback alignment, the reference point, the value function and recommended settings.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "ORPO: Monolithic Preference Optimization without Reference Model",
+  "url": "https://arxiv.org/html/2403.07691",
+  "type": "paper",
+  "why": "The odds ratio penalty added to SFT, its motivation and lambda settings.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "SimPO: Simple Preference Optimization with a Reference Free Reward",
+  "url": "https://arxiv.org/html/2405.14734",
+  "type": "paper",
+  "why": "Length normalised reward, target margin, motivation from DPO's ranking mismatch, and reported gains.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Constitutional AI: Harmlessness from AI Feedback",
+  "url": "https://arxiv.org/abs/2212.08073",
+  "type": "paper",
+  "why": "The critique and revision phase and the RL from AI feedback phase.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Self Consistency Improves Chain of Thought Reasoning in Language Models",
+  "url": "https://arxiv.org/abs/2203.11171",
+  "type": "paper",
+  "why": "Majority voting over sampled reasoning paths and its reported gains.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "LIMA: Less Is More for Alignment",
+  "url": "https://arxiv.org/abs/2305.11206",
+  "type": "paper",
+  "why": "A strong chat model from about 1,000 curated SFT examples; the basis of the superficial alignment argument.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "OpenAI Spinning Up: Intro to Policy Optimization",
+  "url": "https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html",
+  "type": "docs",
+  "why": "Clean derivation of the policy gradient, the expected grad log prob lemma, reward to go and baselines.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "OpenAI Spinning Up: Proximal Policy Optimization",
+  "url": "https://spinningup.openai.com/en/latest/algorithms/ppo.html",
+  "type": "docs",
+  "why": "The PPO clip objective by sign of the advantage, the simplified form, and KL early stopping.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Chip Huyen: RLHF",
+  "url": "https://huyenchip.com/2023/05/02/rlhf.html",
+  "type": "blog",
+  "why": "Practitioner walk through of the three phases, the reward model loss, and why RLHF might work.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Hugging Face TRL: GRPO Trainer documentation",
+  "url": "https://huggingface.co/docs/trl/grpo_trainer",
+  "type": "docs",
+  "why": "2026 library defaults: loss types grpo, dapo and dr_grpo, reward scaling options and beta set to zero.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Hugging Face TRL: SFT Trainer documentation",
+  "url": "https://huggingface.co/docs/trl/sft_trainer",
+  "type": "docs",
+  "why": "Dataset formats, completion only and assistant only loss, packing and default learning rates.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Hugging Face Transformers: chat templates",
+  "url": "https://huggingface.co/docs/transformers/main/en/chat_templating",
+  "type": "docs",
+  "why": "How chat templates render messages, generation prompts, and duplicate special token pitfalls.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 18",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch18/",
+  "type": "book",
+  "why": "Interview style overview of feature based use, prompting, PEFT families and RLHF.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Stanford CS329A Self Improving AI Agents syllabus",
+  "url": "https://cs329a.stanford.edu/",
+  "type": "course",
+  "why": "Reading list for the test time compute, verification, feedback and RL scaling lectures.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "RLHF and post training interview topics, 2026 (techinterview.org)",
+  "url": "https://www.techinterview.org/post/3233475333/rlhf-post-training-interview-topics-2026/",
+  "type": "question-bank",
+  "why": "The questions post training interviews ask, including coding and design prompts.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "LLM post training interview questions: SFT, DPO, PPO and GRPO trade offs (PracHub)",
+  "url": "https://prachub.com/resources/llm-post-training-interview-questions-sft-dpo-ppo-and-grpo-trade-offs",
+  "type": "question-bank",
+  "why": "Question by question expectations for method choice, DPO numerics, PPO ratios and GRPO debugging.",
+  "checked": "2026-10-14"
+ }
+]
