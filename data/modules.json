@@ -46,7 +46,7 @@
   "title": "Transformers and LLMs",
   "group": "LLMs",
   "summary": "Tokenisation, attention, positional encodings, scaling laws, and how inference really works.",
-  "ready": false
+  "ready": true
  },
  {
   "id": "post-training-reasoning",
