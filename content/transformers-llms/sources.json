@@ -1,0 +1,177 @@
+[
+ {
+  "title": "CME295 VIP cheatsheet: Transformers and Large Language Models (Afshine and Shervine Amidi)",
+  "url": "https://github.com/afshinea/stanford-cme-295-transformers-large-language-models",
+  "type": "course",
+  "why": "Official course cheatsheet: tokens, attention, MoE, decoding, KV cache, prefill and decode, speculative decoding, FlashAttention.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "nanoGPT model.py (Karpathy)",
+  "url": "https://raw.githubusercontent.com/karpathy/nanoGPT/master/model.py",
+  "type": "repo",
+  "why": "Reference GPT-2 implementation: pre norm block, weight tying, init scaling, MFU estimate, generate loop.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "build-nanogpt train_gpt2.py (Karpathy)",
+  "url": "https://raw.githubusercontent.com/karpathy/build-nanogpt/master/train_gpt2.py",
+  "type": "repo",
+  "why": "GPT-2 124M training recipe: AdamW settings, warmup plus cosine schedule, bf16 autocast, gradient accumulation.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "minbpe README (Karpathy)",
+  "url": "https://raw.githubusercontent.com/karpathy/minbpe/master/README.md",
+  "type": "repo",
+  "why": "Byte level BPE training and encoding, regex pre split, special token handling, worked toy example.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Vaswani et al. 2017, Attention Is All You Need",
+  "url": "https://arxiv.org/html/1706.03762v7",
+  "type": "paper",
+  "why": "Scaled dot product attention, the variance footnote, sinusoidal positions, post norm, base model settings.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Kaplan et al. 2020, Scaling Laws for Neural Language Models",
+  "url": "https://ar5iv.labs.arxiv.org/html/2001.08361",
+  "type": "paper",
+  "why": "Power law exponents, 6N FLOPs per token, 12 L d squared parameter count, Kaplan compute allocation.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Hoffmann et al. 2022, Training Compute Optimal Large Language Models (Chinchilla)",
+  "url": "https://ar5iv.labs.arxiv.org/html/2203.15556",
+  "type": "paper",
+  "why": "Equal scaling of parameters and tokens, Table 3, parametric loss fit, cosine schedule length finding.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Su et al. 2021, RoFormer: Rotary Position Embedding",
+  "url": "https://ar5iv.labs.arxiv.org/html/2104.09864",
+  "type": "paper",
+  "why": "RoPE rotation math, relative position property and the element wise implementation.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Press, Smith and Lewis 2021, ALiBi: Train Short, Test Long",
+  "url": "https://arxiv.org/abs/2108.12409",
+  "type": "paper",
+  "why": "Linear distance bias and the length extrapolation result.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Ainslie et al. 2023, GQA",
+  "url": "https://arxiv.org/abs/2305.13245",
+  "type": "paper",
+  "why": "Grouped query attention and uptraining MHA checkpoints with 5 percent of pretraining compute.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Dao et al. 2022, FlashAttention",
+  "url": "https://ar5iv.labs.arxiv.org/html/2205.14135",
+  "type": "paper",
+  "why": "IO aware tiled attention, online softmax, HBM access complexity, A100 memory figures, speedups.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Kwon et al. 2023, PagedAttention and vLLM",
+  "url": "https://arxiv.org/abs/2309.06180",
+  "type": "paper",
+  "why": "Paged KV cache memory, sharing, and the 2 to 4 times throughput claim.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Leviathan, Kalman and Matias 2022, Fast Inference from Transformers via Speculative Decoding",
+  "url": "https://ar5iv.labs.arxiv.org/html/2211.17192",
+  "type": "paper",
+  "why": "Acceptance rule, residual distribution, expected tokens and speedup formulas, T5-XXL results.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Llama Team, Meta 2024, The Llama 3 Herd of Models",
+  "url": "https://arxiv.org/html/2407.21783v3",
+  "type": "paper",
+  "why": "Architecture table, tokeniser, data pipeline and mix, training schedule, long context stages, MFU.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Frantar et al. 2022, GPTQ",
+  "url": "https://arxiv.org/abs/2210.17323",
+  "type": "paper",
+  "why": "Second order one shot weight quantisation to 3 or 4 bits and its speedups.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Lin et al. 2023, AWQ",
+  "url": "https://arxiv.org/abs/2306.00978",
+  "type": "paper",
+  "why": "Activation aware weight quantisation: 1 percent salient weights and per channel scaling.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Schaeffer, Miranda and Koyejo 2023, Are Emergent Abilities of Large Language Models a Mirage?",
+  "url": "https://arxiv.org/abs/2304.15004",
+  "type": "paper",
+  "why": "Metric choice as the source of apparent emergence.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Kalai, Nachum, Vempala and Zhang 2025, Why Language Models Hallucinate",
+  "url": "https://arxiv.org/abs/2509.04664",
+  "type": "paper",
+  "why": "Statistical origin of hallucination and why binary grading rewards guessing.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Hugging Face Transformers docs, tokenisation algorithms",
+  "url": "https://huggingface.co/docs/transformers/tokenizer_summary",
+  "type": "docs",
+  "why": "BPE, byte level BPE, WordPiece scoring, Unigram pruning and SentencePiece with worked examples.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Mistral 7B v0.1 config.json (Hugging Face)",
+  "url": "https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/config.json",
+  "type": "docs",
+  "why": "Exact shapes used for the 7,241,732,096 parameter count and the KV cache example.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Mixtral 8x7B v0.1 config.json (Hugging Face)",
+  "url": "https://huggingface.co/mistralai/Mixtral-8x7B-v0.1/resolve/main/config.json",
+  "type": "docs",
+  "why": "Expert count, top 2 routing and router loss coefficient used for total versus active parameters.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "LLM Interview Questions and Answers Hub (KalyanKS NLP)",
+  "url": "https://github.com/KalyanKS-NLP/LLM-Interview-Questions-and-Answers-Hub",
+  "type": "question-bank",
+  "why": "115 LLM interview questions; used to pick which questions the cards cover first.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Let's Data Science, 50 LLM and AI engineer interview questions for 2026",
+  "url": "https://letsdatascience.com/blog/50-llm-and-ai-engineer-interview-questions-for-2026",
+  "type": "question-bank",
+  "why": "2026 question list with attention, KV cache, Chinchilla, GQA, FlashAttention, MoE and serving questions.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "techinterview.org, What LLM interviewers actually ask about transformers",
+  "url": "https://www.techinterview.org/post/3233476821/what-llm-interviewers-ask-about-transformers/",
+  "type": "question-bank",
+  "why": "Common transformer interview topics, including tokenisation quirks and prefill versus decode.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "PracHub, Netflix ML engineer screen on attention and the KV cache",
+  "url": "https://prachub.com/interview-questions/transformer-attention-computing-q-k-and-v-and-how-a-kv-cache-speeds-up-decoding",
+  "type": "question-bank",
+  "why": "A real interview write up with the expected follow up chain on attention and KV cache sizing.",
+  "checked": "2026-10-14"
+ }
+]
