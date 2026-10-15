@@ -187,3 +187,4 @@ audio { width: 100%; margin-top: .4rem; }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
 
 .rate[hidden] { display: none; }
+main:focus, main:focus-visible { outline: none; }
