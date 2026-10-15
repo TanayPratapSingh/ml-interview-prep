@@ -1,0 +1,65 @@
+[
+ {
+  "title": "Product Data Science Interview: The Bar to Get Hired, chapter 6 Metrics and problem solving",
+  "url": "https://bookdown.org/madinterviewllc/Product-Data-Science-Interview-The-Bar-to-Get-Hired/metrics.html",
+  "type": "book",
+  "why": "Four metric question types, a response framework, guardrail metrics and a worked engagement drop example with a 3 standard deviation move.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "a16z: 16 startup metrics",
+  "url": "https://a16z.com/16-startup-metrics/",
+  "type": "blog",
+  "why": "Definitions of CAC (blended and paid), LTV on contribution margin, churn variants, cohort retention, GMV versus revenue, ARR, billings and CMGR.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Mandy Liu on Substack: how would you investigate a 20 percent drop",
+  "url": "https://mandyliu.substack.com/p/how-would-you-investigate-a-20-drop",
+  "type": "blog",
+  "why": "Interview framing for a metric drop: understand the change, build a funnel, slice the data, recommend. Only the free part of the post loaded.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Google Research: Measuring the user experience on a large scale (HEART)",
+  "url": "https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/",
+  "type": "paper",
+  "why": "Publication page for the HEART framework and the process that maps product goals to metrics. Only the abstract loaded here.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Tableau Help: Create level of detail expressions",
+  "url": "https://help.tableau.com/current/pro/desktop/en-us/calculations_calculatedfields_lod.htm",
+  "type": "docs",
+  "why": "Official syntax, FIXED, INCLUDE and EXCLUDE behaviour, filter interaction, limitations and example formulas.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Microsoft Learn: Measures in Power BI Desktop",
+  "url": "https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-measures",
+  "type": "docs",
+  "why": "Official description of measures, implicit measures, DAX as an Excel like formula language, and measure organisation.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Amplitude: North Star Playbook",
+  "url": "https://amplitude.com/en-us/books/north-star/about-north-star-framework",
+  "type": "book",
+  "why": "Introduces the north star framework as a link between the language of the customer, the product and the business. Fetched in earlier research notes, introduction only.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Amplitude: Get specific, defining your North Star",
+  "url": "https://amplitude.com/en-us/books/north-star/defining-your-North-Star",
+  "type": "book",
+  "why": "Playbook chapter on defining a north star metric. Page loaded in earlier research notes but only the shared playbook introduction was captured.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Amplitude: The North Star checklist and statement exercise",
+  "url": "https://amplitude.com/en-us/books/north-star/the-north-star-checklist",
+  "type": "book",
+  "why": "Playbook chapter on checking a north star metric. Page loaded in earlier research notes but only the shared playbook introduction was captured.",
+  "checked": "2026-10-13"
+ }
+]
