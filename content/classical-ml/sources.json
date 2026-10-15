@@ -1,0 +1,177 @@
+[
+ {
+  "title": "Stanford CS229 main notes, Spring 2026 (Ma and Ng)",
+  "url": "https://cs229.stanford.edu/main_notes.pdf",
+  "type": "course",
+  "why": "Primary source for the derivations: normal equations, logistic loss, GLMs, GDA, naive Bayes, SVM dual, bias variance, double descent, EM and PCA.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026 course page",
+  "url": "https://cs229.stanford.edu/index.html-spr26",
+  "type": "course",
+  "why": "Teaching team and course structure for the Spring 2026 lectures linked in this module.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Chip Huyen, ML Interviews Book: classic ML questions",
+  "url": "https://huyenchip.com/ml-interviews-book/contents/8.1.2-questions.html",
+  "type": "question-bank",
+  "why": "Real interview questions on kNN, k-means versus GMM, bagging versus boosting, naive Bayes and SVMs.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Chip Huyen, ML Interviews Book: ML basics",
+  "url": "https://huyenchip.com/ml-interviews-book/contents/7.1-basics.html",
+  "type": "question-bank",
+  "why": "Questions on learning settings, empirical risk, parametric models and why L1 gives sparsity.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Chip Huyen, ML Interviews Book: sampling and creating training data",
+  "url": "https://huyenchip.com/ml-interviews-book/contents/7.2-sampling-and-creating-training-data.html",
+  "type": "question-bank",
+  "why": "Questions on class imbalance, missing data, oversampling leakage and split design.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Chip Huyen, ML Interviews Book: objectives, metrics and evaluation",
+  "url": "https://huyenchip.com/ml-interviews-book/contents/7.3-objective-functions,-metrics,-and-evaluation.html",
+  "type": "question-bank",
+  "why": "Questions on bias variance, cross validation, F1, log loss versus MSE and RMSE versus MAE.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Alexey Grigorev, data science interview theory questions",
+  "url": "https://github.com/alexeygrigorev/data-science-interviews/blob/master/theory.md",
+  "type": "question-bank",
+  "why": "A broad bank of screening questions on regression, validation, regularisation, trees, boosting, clustering and time series.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "scikit-learn: common pitfalls and recommended practices",
+  "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+  "type": "docs",
+  "why": "Canonical leakage examples, including feature selection before the split, and the fix with pipelines.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "scikit-learn: cross validation",
+  "url": "https://scikit-learn.org/stable/modules/cross_validation.html",
+  "type": "docs",
+  "why": "Every splitter (stratified, grouped, time series) with its guarantees, plus the cross_val_predict warning.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "scikit-learn: probability calibration",
+  "url": "https://scikit-learn.org/stable/modules/calibration.html",
+  "type": "docs",
+  "why": "Reliability diagrams, typical miscalibration by model family, Platt versus isotonic, and proper scoring rules.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "scikit-learn: permutation feature importance",
+  "url": "https://scikit-learn.org/stable/modules/permutation_importance.html",
+  "type": "docs",
+  "why": "Why permutation importance on held out data beats impurity importance, and the correlated features caveat.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "scikit-learn: clustering",
+  "url": "https://scikit-learn.org/stable/modules/clustering.html",
+  "type": "docs",
+  "why": "k-means assumptions, DBSCAN point types, HDBSCAN, linkage behaviour and clustering metrics.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Breiman (2001), Random Forests",
+  "url": "https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf",
+  "type": "paper",
+  "why": "The strength and correlation bound and the out of bag error estimate.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Chen and Guestrin (2016), XGBoost: A Scalable Tree Boosting System",
+  "url": "https://arxiv.org/abs/1603.02754",
+  "type": "paper",
+  "why": "Regularised objective, second order leaf weights and split gain, sparsity aware splits.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Ke et al. (2017), LightGBM: A Highly Efficient Gradient Boosting Decision Tree",
+  "url": "https://proceedings.neurips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html",
+  "type": "paper",
+  "why": "GOSS and exclusive feature bundling, and the reported speedup over conventional GBDT.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Prokhorenkova et al., CatBoost: unbiased boosting with categorical features",
+  "url": "https://arxiv.org/abs/1706.09516",
+  "type": "paper",
+  "why": "Target leakage in target statistics, prediction shift, ordered target statistics and ordered boosting.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Arthur and Vassilvitskii (2007), k-means++: The Advantages of Careful Seeding",
+  "url": "https://theory.stanford.edu/~sergei/papers/kMeansPP-soda.pdf",
+  "type": "paper",
+  "why": "The D squared seeding rule and its log k competitive guarantee.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Saito and Rehmsmeier (2015), The precision recall plot is more informative than the ROC plot on imbalanced datasets",
+  "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432",
+  "type": "paper",
+  "why": "Why ROC hides poor precision under imbalance, with worked numbers and PR interpolation pitfalls.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Lin et al. (2017), Focal Loss for Dense Object Detection",
+  "url": "https://arxiv.org/abs/1708.02002",
+  "type": "paper",
+  "why": "Definition of focal loss and the gamma and alpha settings that worked best.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Lundberg and Lee (2017), A Unified Approach to Interpreting Model Predictions",
+  "url": "https://arxiv.org/abs/1705.07874",
+  "type": "paper",
+  "why": "SHAP values, their three properties and the uniqueness result.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Kapoor and Narayanan (2023), Leakage and the Reproducibility Crisis in ML based Science",
+  "url": "https://reproducible.cs.princeton.edu/",
+  "type": "paper",
+  "why": "Taxonomy of leakage, the 41 papers across 30 fields, and the civil war prediction case study.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Wattenberg, Viégas and Johnson (2016), How to Use t-SNE Effectively",
+  "url": "https://distill.pub/2016/misread-tsne/",
+  "type": "blog",
+  "why": "Interactive demonstration of perplexity effects and why t-SNE cluster sizes and distances mislead.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "UMAP documentation: basic parameters",
+  "url": "https://umap-learn.readthedocs.io/en/latest/parameters.html",
+  "type": "docs",
+  "why": "What n_neighbors, min_dist, n_components and metric do, with defaults.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "statsmodels: stationarity and detrending with ADF and KPSS",
+  "url": "https://www.statsmodels.org/stable/examples/notebooks/generated/stationarity_detrending_adf_kpss.html",
+  "type": "docs",
+  "why": "Opposite null hypotheses of ADF and KPSS and how to combine their verdicts.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Robert Nau, Duke: introduction to ARIMA models",
+  "url": "https://people.duke.edu/~rnau/411arim.htm",
+  "type": "course",
+  "why": "ARIMA notation, differencing and the special cases such as random walk and simple exponential smoothing.",
+  "checked": "2026-10-13"
+ }
+]
