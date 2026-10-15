@@ -32,7 +32,7 @@
   "title": "Classical machine learning",
   "group": "Machine learning",
   "summary": "Bias and variance, linear models, trees and boosting, clustering, PCA, evaluation and leakage.",
-  "ready": false
+  "ready": true
  },
  {
   "id": "deep-learning",
