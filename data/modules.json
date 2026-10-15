@@ -25,7 +25,7 @@
   "title": "Product analytics and cases",
   "group": "Analytics",
   "summary": "Metrics, product sense, metric drop diagnosis, dashboards, and telling executives the answer.",
-  "ready": false
+  "ready": true
  },
  {
   "id": "classical-ml",
