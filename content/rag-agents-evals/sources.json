@@ -1,0 +1,177 @@
+[
+ {
+  "title": "Anthropic: Building effective agents (2024)",
+  "url": "https://www.anthropic.com/engineering/building-effective-agents",
+  "type": "blog",
+  "why": "Definitions of workflows and agents, the five workflow patterns, and tool design advice for agents.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Anthropic: How we built our multi agent research system (2025)",
+  "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+  "type": "blog",
+  "why": "Orchestrator worker architecture with measured gains, token costs and evaluation lessons for multi agent systems.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Anthropic: Introducing Contextual Retrieval (2024)",
+  "url": "https://www.anthropic.com/engineering/contextual-retrieval",
+  "type": "blog",
+  "why": "Measured retrieval failure reductions from contextual chunks, BM25 and reranking, plus the long context threshold.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Yao et al.: ReAct, Synergizing Reasoning and Acting in Language Models",
+  "url": "https://arxiv.org/abs/2210.03629",
+  "type": "paper",
+  "why": "The Thought, Action, Observation loop and its results on HotpotQA, FEVER, ALFWorld and WebShop.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Schick et al.: Toolformer",
+  "url": "https://arxiv.org/abs/2302.04761",
+  "type": "paper",
+  "why": "Self supervised tool use learned by keeping API calls that reduce the loss on following tokens.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Lewis et al.: Retrieval Augmented Generation for Knowledge Intensive NLP Tasks",
+  "url": "https://arxiv.org/abs/2005.11401",
+  "type": "paper",
+  "why": "The original RAG model, parametric versus non parametric memory, and the index hot swapping experiment.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Karpukhin et al.: Dense Passage Retrieval for Open Domain Question Answering",
+  "url": "https://arxiv.org/pdf/2004.04906",
+  "type": "paper",
+  "why": "Contrastive bi encoder training with in batch and BM25 hard negatives, with ablation numbers.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Thakur et al.: BEIR, a heterogeneous benchmark for zero shot retrieval",
+  "url": "https://arxiv.org/pdf/2104.08663",
+  "type": "paper",
+  "why": "Zero shot comparison of lexical, dense, late interaction and reranking models, nDCG at 10, latency and index sizes.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Khattab and Zaharia: ColBERT",
+  "url": "https://arxiv.org/pdf/2004.12832",
+  "type": "paper",
+  "why": "Late interaction with summed MaxSim over token embeddings, and its speed and storage trade offs.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Cormack, Clarke and Buttcher: Reciprocal Rank Fusion (SIGIR 2009)",
+  "url": "http://cormack.uwaterloo.ca/cormacksigir09-rrf.pdf",
+  "type": "paper",
+  "why": "The RRF formula, the choice of k = 60, and comparisons with Condorcet and CombMNZ.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Malkov and Yashunin: Hierarchical Navigable Small World graphs",
+  "url": "https://arxiv.org/pdf/1603.09320",
+  "type": "paper",
+  "why": "HNSW construction, level sampling, neighbour heuristic, parameters, complexity and memory cost.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "FAISS wiki: Faiss indexes",
+  "url": "https://github.com/facebookresearch/faiss/wiki/Faiss-indexes",
+  "type": "docs",
+  "why": "Index types with bytes per vector, IVF and PQ parameters, and which indexes support removal.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Okapi BM25 (Wikipedia, citing Robertson and Zaragoza 2009)",
+  "url": "https://en.wikipedia.org/wiki/Okapi_BM25",
+  "type": "docs",
+  "why": "The BM25 formula, the Lucene IDF variant, and the usual ranges for k1 and b.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Liu et al.: Lost in the Middle",
+  "url": "https://arxiv.org/pdf/2307.03172",
+  "type": "paper",
+  "why": "Position sensitivity of long context models and the limited value of extra retrieved documents.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Es et al.: RAGAS, automated evaluation of retrieval augmented generation",
+  "url": "https://arxiv.org/pdf/2309.15217",
+  "type": "paper",
+  "why": "Definitions of faithfulness, answer relevance and context relevance, and the WikiEval agreement results.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Zheng et al.: Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+  "url": "https://arxiv.org/pdf/2306.05685",
+  "type": "paper",
+  "why": "Judge modes, measured position, verbosity and self enhancement biases, mitigations, and agreement with humans.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Shankar et al.: Who Validates the Validators?",
+  "url": "https://arxiv.org/pdf/2404.12272",
+  "type": "paper",
+  "why": "Criteria drift and aligning LLM generated evaluators with human grades through coverage and false failure rate.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Hamel Husain: Your AI Product Needs Evals (2024)",
+  "url": "https://hamel.dev/blog/posts/evals/",
+  "type": "blog",
+  "why": "The three levels of evaluation, the Rechat case study, and why generic metrics mislead.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Hamel Husain: Using LLM as a judge, critique shadowing (2024)",
+  "url": "https://hamel.dev/blog/posts/llm-judge/",
+  "type": "blog",
+  "why": "Building a pass or fail judge with a domain expert, data splits, and sample sizes for validation.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Eugene Yan: Evaluating the Effectiveness of LLM Evaluators (2024)",
+  "url": "https://eugeneyan.com/writing/llm-evaluators/",
+  "type": "blog",
+  "why": "Survey of LLM evaluator papers, pairwise versus direct scoring, and kappa versus correlation metrics.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Jimenez et al.: SWE-bench",
+  "url": "https://arxiv.org/pdf/2310.06770",
+  "type": "paper",
+  "why": "Construction and test based grading of 2,294 real GitHub issue tasks, with the original baseline results.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Yao et al.: tau-bench",
+  "url": "https://arxiv.org/pdf/2406.12045",
+  "type": "paper",
+  "why": "Tool agent user benchmark with database state grading and the pass hat k reliability metric.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Model Context Protocol: architecture overview",
+  "url": "https://modelcontextprotocol.io/docs/learn/architecture",
+  "type": "docs",
+  "why": "Hosts, clients and servers, primitives, transports, and the stateless 2026-07-28 protocol version.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "OWASP Top 10 for LLM Applications (2025)",
+  "url": "https://genai.owasp.org/llm-top-10/",
+  "type": "docs",
+  "why": "The 2025 list of LLM application risks, from prompt injection to unbounded consumption.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Greshake et al.: Indirect Prompt Injection",
+  "url": "https://arxiv.org/pdf/2302.12173",
+  "type": "paper",
+  "why": "Demonstrations that instructions planted in retrieved content can steal data and control LLM applications.",
+  "checked": "2026-10-13"
+ }
+]
