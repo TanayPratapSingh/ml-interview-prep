@@ -1,0 +1,58 @@
+[
+ {
+  "title": "SQLite documentation: window functions",
+  "url": "https://www.sqlite.org/windowfunctions.html",
+  "type": "docs",
+  "why": "Defines the default frame, ROWS, RANGE and GROUPS, EXCLUDE, and which window functions honour the frame.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "PostgreSQL documentation: WITH queries (common table expressions)",
+  "url": "https://www.postgresql.org/docs/current/queries-with.html",
+  "type": "docs",
+  "why": "Recursive CTE evaluation with a working table, cycle handling, and MATERIALIZED versus NOT MATERIALIZED behaviour.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Use The Index, Luke: obfuscated conditions on dates",
+  "url": "https://use-the-index-luke.com/sql/where-clause/obfuscation/dates",
+  "type": "book",
+  "why": "States the sargable rule: keep functions off the indexed column and write continuous periods as range conditions.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "dbt documentation: data tests",
+  "url": "https://docs.getdbt.com/docs/build/data-tests",
+  "type": "docs",
+  "why": "Singular and generic tests, the four built in generic tests, pass and fail rules, severity and how to run tests.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "dbt documentation: snapshots",
+  "url": "https://docs.getdbt.com/docs/build/snapshots",
+  "type": "docs",
+  "why": "Type 2 slowly changing dimensions in dbt, the timestamp and check strategies, the meta columns and hard delete options.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Kimball Group: dimensional modeling techniques",
+  "url": "https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/",
+  "type": "docs",
+  "why": "The canonical list of technique names: grain, fact table types, additivity, surrogate keys, conformed dimensions and SCD types 0 to 7.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "The SQL patterns behind almost every interview question (techinterview.org)",
+  "url": "https://www.techinterview.org/post/3233476262/sql-interview-question-patterns/",
+  "type": "question-bank",
+  "why": "Eight recurring interview patterns with sample wording: top N, Nth highest, dedup, running totals, LAG, gaps and islands, pivots, self joins.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "SQL Interview Questions (2026): Window Functions, Optimization, and Advanced Queries (techinterview.org)",
+  "url": "https://www.techinterview.org/post/3233460377/sql-interview-questions-2026-window-functions-optimization-and-advanced-queries/",
+  "type": "question-bank",
+  "why": "Question list by seniority covering window functions, CTEs, indexes, EXPLAIN ANALYZE, gaps and islands and deduplication.",
+  "checked": "2026-10-15"
+ }
+]
