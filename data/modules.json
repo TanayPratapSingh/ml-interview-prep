@@ -60,7 +60,7 @@
   "title": "RAG, agents and evals",
   "group": "LLMs",
   "summary": "Retrieval end to end, agent patterns, guardrails, and how to build evals you can trust.",
-  "ready": false
+  "ready": true
  },
  {
   "id": "ml-system-design",
