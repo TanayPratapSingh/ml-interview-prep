@@ -53,7 +53,7 @@
   "title": "Post training and reasoning",
   "group": "LLMs",
   "summary": "SFT, LoRA, RLHF, DPO, GRPO and Dr. GRPO, reasoning models, and test time compute.",
-  "ready": false
+  "ready": true
  },
  {
   "id": "rag-agents-evals",
