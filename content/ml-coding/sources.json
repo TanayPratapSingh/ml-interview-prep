@@ -1,0 +1,177 @@
+[
+ {
+  "title": "Machine Learning Interviews: ML coding chapter (alirezadir)",
+  "url": "https://github.com/alirezadir/Machine-Learning-Interviews/blob/main/src/MLC/ml-coding.md",
+  "type": "question-bank",
+  "why": "The 41 from scratch problems ML coding rounds draw on, with time budgets per difficulty.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Machine Learning Interviews: DSA coding chapter (alirezadir)",
+  "url": "https://github.com/alirezadir/Machine-Learning-Interviews/blob/main/src/lc-coding.md",
+  "type": "question-bank",
+  "why": "The fourteen algorithm pattern families and a realistic problem count for MLE loops.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Chip Huyen, ML Interviews Book: common interview formats",
+  "url": "https://huyenchip.com/ml-interviews-book/contents/2.2.1-common-interview-formats.html",
+  "type": "book",
+  "why": "How coding challenges and take homes are scoped for new graduates.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Chip Huyen, ML Interviews Book: algorithms questions",
+  "url": "https://huyenchip.com/ml-interviews-book/contents/6.1-algorithms.html",
+  "type": "book",
+  "why": "Algorithm questions asked in ML interviews, including subarray sum equals k.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Chip Huyen, ML Interviews Book: complexity and numerical analysis",
+  "url": "https://huyenchip.com/ml-interviews-book/contents/6.2-complexity-and-numerical-analysis.html",
+  "type": "book",
+  "why": "The vectorise a nested loop and average a million floats questions.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Hello Interview: Meta's AI enabled coding interview",
+  "url": "https://www.hellointerview.com/blog/meta-ai-enabled-coding",
+  "type": "blog",
+  "why": "Phases, environment and common mistakes in Meta's AI enabled round from October 2025.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "interviewing.io: how to use AI in Meta's AI assisted coding interview",
+  "url": "https://interviewing.io/blog/how-to-use-ai-in-meta-s-ai-assisted-coding-interview-with-real-prompts-and-examples",
+  "type": "blog",
+  "why": "A second account of the Meta round, with prompting advice; differs on task types.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Canva engineering: Yes, you can use AI in our interviews",
+  "url": "https://canva.dev/blog/engineering/yes-you-can-use-ai-in-our-interviews",
+  "type": "blog",
+  "why": "First party description of an AI assisted coding round and what it grades (June 2025).",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "aced.io: OpenAI research engineer interview guide",
+  "url": "https://www.aced.io/guides/openai-research-engineer-interview-guide",
+  "type": "blog",
+  "why": "Candidate reported loop including the transformer debugging round and KV cache task.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "PracHub: debug a broken transformer",
+  "url": "https://prachub.com/interview-questions/debug-a-broken-transformer",
+  "type": "question-bank",
+  "why": "Where bugs hide in a transformer that runs but trains badly.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "PracHub: how take home data challenges are graded",
+  "url": "https://prachub.com/learning/data-science-projects/how-take-home-data-challenges-are-graded",
+  "type": "blog",
+  "why": "Rubric order for take homes: question fit, correctness, recommendation, write up, craft.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Tech Interview Handbook: coding interview techniques",
+  "url": "https://www.techinterviewhandbook.org/coding-interview-techniques/",
+  "type": "blog",
+  "why": "The clarify, plan, complexity, code, test routine and the best theoretical time complexity idea.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Python wiki: TimeComplexity",
+  "url": "https://wiki.python.org/moin/TimeComplexity",
+  "type": "docs",
+  "why": "Average and worst case costs of list, deque, set and dict operations in CPython.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Python docs: heapq",
+  "url": "https://docs.python.org/3/library/heapq.html",
+  "type": "docs",
+  "why": "Min heap API, tie breaking with a counter, the 3.14 max heap functions, nlargest guidance.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Python docs: collections",
+  "url": "https://docs.python.org/3/library/collections.html",
+  "type": "docs",
+  "why": "Counter, defaultdict, deque and OrderedDict behaviour, including what .get does not do.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "NumPy docs: broadcasting",
+  "url": "https://numpy.org/doc/stable/user/basics.broadcasting.html",
+  "type": "docs",
+  "why": "The trailing dimension rules and when broadcasting wastes memory.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "pandas 3.0.0 release notes",
+  "url": "https://pandas.pydata.org/docs/whatsnew/v3.0.0.html",
+  "type": "docs",
+  "why": "Copy on Write by default, the str dtype, microsecond datetimes and anti joins (January 2026).",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS231n: neural networks part 3, gradient checks",
+  "url": "https://cs231n.github.io/neural-networks-3/",
+  "type": "course",
+  "why": "Centred differences, relative error thresholds and the pitfalls of gradient checking.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "scikit-learn docs: ndcg_score",
+  "url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.ndcg_score.html",
+  "type": "docs",
+  "why": "Reference values for nDCG with linear gain, used as the test oracle here.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "scikit-learn docs: common pitfalls and recommended practices",
+  "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+  "type": "docs",
+  "why": "The feature selection leakage example and the fit on train only rule.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Wikipedia: algorithms for calculating variance",
+  "url": "https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance",
+  "type": "docs",
+  "why": "Why the naive formula cancels catastrophically, Welford's update and Chan's merge.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Wikipedia: reservoir sampling",
+  "url": "https://en.wikipedia.org/wiki/Reservoir_sampling",
+  "type": "docs",
+  "why": "Algorithm R with its proof, Algorithm L, and weighted A-Res.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Karpathy, minbpe",
+  "url": "https://github.com/karpathy/minbpe",
+  "type": "repo",
+  "why": "Byte level BPE from scratch and the aaabdaaabac worked example.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Hugging Face LLM course: byte pair encoding tokenization",
+  "url": "https://huggingface.co/learn/llm-course/chapter6/5",
+  "type": "course",
+  "why": "The hug, pug, pun, bun, hugs corpus and its first three merges.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Hugging Face blog: how to generate text",
+  "url": "https://huggingface.co/blog/how-to-generate",
+  "type": "blog",
+  "why": "Greedy versus beam search worked example, top k and top p sampling.",
+  "checked": "2026-10-14"
+ }
+]
