@@ -1,11 +1,11 @@
 /* Ink on paper. One typeface, justified text, no accent colour.
    The question on a card is the only loud element; everything else stays quiet. */
 :root {
-  --paper: #fdfdfb;
-  --wash: #f2f2ee;
-  --rule: #e2e1dc;
-  --graphite: #6c6b66;
-  --ink: #1d1d1b;
+  --paper: #f4f4f1;
+  --wash: #ebeae6;
+  --rule: #e0dfda;
+  --graphite: #76756f;
+  --ink: #33332f;
   --serif: "EB Garamond", Garamond, "Adobe Garamond Pro", "Times New Roman", serif;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   --measure: 100%;
@@ -15,17 +15,17 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #1a1a19; --wash: #232321; --rule: #353431; --graphite: #a09e98; --ink: #e8e6e1;
+    --paper: #1f201f; --wash: #282927; --rule: #363734; --graphite: #9c9a94; --ink: #d6d4ce;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --paper: #1a1a19; --wash: #232321; --rule: #353431; --graphite: #a09e98; --ink: #e8e6e1;
+  --paper: #1f201f; --wash: #282927; --rule: #363734; --graphite: #9c9a94; --ink: #d6d4ce;
   color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
-html { font-size: 19px; -webkit-text-size-adjust: 100%; }
+html { font-size: 17px; -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--paper); color: var(--ink);
   font: 400 1rem/1.55 var(--serif);
@@ -61,9 +61,9 @@ main.wide { max-width: var(--wide); }
 .foot { margin: 0; padding: 1.2rem var(--gutter) 2rem; border-top: 1px solid var(--rule); color: var(--graphite); font-size: .85rem; display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 
 /* Type scale: 1, 1.2, 1.44, 2.07 */
-h1 { font-size: 2.07rem; line-height: 1.15; font-weight: 500; margin: 0 0 .9rem; letter-spacing: -.005em; }
-h2 { font-size: 1.44rem; line-height: 1.25; font-weight: 500; margin: 2.4rem 0 .7rem; }
-h3 { font-size: 1.2rem; line-height: 1.3; font-weight: 400; font-style: italic; margin: 1.8rem 0 .5rem; }
+h1 { font-size: 1.75rem; line-height: 1.15; font-weight: 500; margin: 0 0 .9rem; letter-spacing: -.005em; }
+h2 { font-size: 1.3rem; line-height: 1.25; font-weight: 500; margin: 2.4rem 0 .7rem; }
+h3 { font-size: 1.12rem; line-height: 1.3; font-weight: 400; font-style: italic; margin: 1.8rem 0 .5rem; }
 h1, h2, h3 { text-align: left; }
 .lede { color: var(--graphite); margin: 0 0 1.6rem; }
 .meta { color: var(--graphite); font-style: italic; font-size: .9rem; text-align: left; }
@@ -115,7 +115,7 @@ td .meta { display: block; }
 .toc a.h3 { padding-left: .9rem; }
 .toc a.on, .toc a:hover { color: var(--ink); }
 .depth { display: flex; gap: 1.2rem; margin: 0 0 2rem; flex-wrap: wrap; align-items: baseline; }
-.prose { font-size: 1.05rem; line-height: 1.6; }
+.prose { font-size: 1rem; line-height: 1.62; }
 .prose p, .prose ul, .prose ol { margin: 0 0 .9rem; }
 .prose ul, .prose ol { padding-left: 1.2rem; }
 .prose li { margin: .25rem 0; }
@@ -145,8 +145,8 @@ td .meta { display: block; }
 .progress { height: 1px; background: var(--rule); margin: .5rem 0 2.6rem; }
 .progress span { display: block; height: 1px; background: var(--ink); }
 .context { color: var(--graphite); font-style: italic; margin: 0 0 .6rem; text-align: left; }
-.card-q { font-size: 1.9rem; line-height: 1.22; font-weight: 500; margin: 0 0 2rem; text-wrap: balance; }
-.answer > p:first-child { font-size: 1.14rem; }
+.card-q { font-size: 1.6rem; line-height: 1.22; font-weight: 500; margin: 0 0 2rem; text-wrap: balance; }
+.answer > p:first-child { font-size: 1.08rem; }
 .answer ul { padding-left: 1.15rem; }
 .section { border-top: 1px solid var(--rule); margin-top: 1.6rem; padding-top: 1.1rem; }
 .section > h2 { font-size: 1.08rem; font-style: italic; font-weight: 400; margin: 0 0 .7rem; color: var(--graphite); }
@@ -161,7 +161,7 @@ td .meta { display: block; }
 .fu p { margin: .35rem 0 0 1.1rem; color: var(--graphite); }
 
 /* Spoken drill */
-.timer { font-size: 2.6rem; line-height: 1; font-variant-numeric: lining-nums tabular-nums; }
+.timer { font-size: 2.2rem; line-height: 1; font-variant-numeric: lining-nums tabular-nums; }
 .timer.over { font-style: italic; }
 .transcript { border-left: 1px solid var(--rule); padding-left: 1rem; color: var(--graphite); min-height: 2rem; }
 .checklist { list-style: none; padding: 0; margin: 0; }
@@ -175,12 +175,12 @@ audio { width: 100%; margin-top: .4rem; }
 .errors { margin-top: 2.4rem; color: var(--graphite); font-size: .9rem; }
 
 @media (max-width: 640px) {
-  html { font-size: 18px; }
+  html { font-size: 16px; }
   .top { gap: 1rem; padding: .9rem 1rem .8rem; }
   .brand { display: none; }
   main { padding: 1.8rem 1rem 4rem; }
-  h1 { font-size: 1.75rem; }
-  .card-q { font-size: 1.55rem; }
+  h1 { font-size: 1.55rem; }
+  .card-q { font-size: 1.4rem; }
   .rate { grid-template-columns: repeat(2, 1fr); }
   .rate kbd { display: none; }
 }
