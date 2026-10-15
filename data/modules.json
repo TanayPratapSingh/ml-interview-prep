@@ -74,7 +74,7 @@
   "title": "ML coding",
   "group": "Interview craft",
   "summary": "From scratch implementations, numpy and pandas, and the algorithm patterns screens use.",
-  "ready": false
+  "ready": true
  },
  {
   "id": "narration",
