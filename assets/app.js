@@ -29,6 +29,7 @@
   }
   themeBtn.addEventListener("click", () => { state.theme = isDark() ? "light" : "dark"; save(); applyTheme(); });
   applyTheme();
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", applyTheme);
 
   // ------------------------------------------------------------ helpers
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
