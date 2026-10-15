@@ -4,7 +4,7 @@
   "title": "Probability and statistics",
   "group": "Foundations",
   "summary": "Bayes, distributions, the CLT, tests, intervals, MLE, and the puzzles screens love.",
-  "ready": false
+  "ready": true
  },
  {
   "id": "experimentation-causal",
