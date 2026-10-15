@@ -1,0 +1,156 @@
+[
+ {
+  "title": "CS229 Probability Theory Review and Reference (2022)",
+  "url": "https://cs229.stanford.edu/notes2022fall/cs229-probability_review.pdf",
+  "type": "course",
+  "why": "Axioms, Bayes, common distributions, LLN and CLT statements at the level CS229 expects; source of the uncorrelated but dependent counterexample.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "CS229 Lecture Notes, Ma and Ng (Spring 2026)",
+  "url": "https://cs229.stanford.edu/main_notes.pdf",
+  "type": "course",
+  "why": "Least squares as Gaussian MLE, exponential family, GDA, Laplace smoothing, MAP as regularisation, and EM for Gaussian mixtures.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Huyen, Machine Learning Interviews: statistics questions",
+  "url": "https://huyenchip.com/ml-interviews-book/contents/5.2.2-stats.html",
+  "type": "question-bank",
+  "why": "Puppy confidence interval, p value distribution, independence tests, stock correlation and coin fairness questions.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Huyen, Machine Learning Interviews: probability questions",
+  "url": "https://huyenchip.com/ml-interviews-book/contents/5.2.1.2-questions.html",
+  "type": "question-bank",
+  "why": "Base rate disease test, chip factories, crash rates, birthday, HH flips, small cities and exponential MLE questions.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Huyen, Machine Learning Interviews: probability concepts",
+  "url": "https://huyenchip.com/ml-interviews-book/contents/5.2.1-probability.html",
+  "type": "question-bank",
+  "why": "The standing question to explain and sketch any common distribution.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "120 Data Science Interview Questions: probability",
+  "url": "https://github.com/JifuZhao/120-DS-Interview-Questions/blob/master/probability.md",
+  "type": "question-bank",
+  "why": "Classic screen puzzles: biased coin to fair coin, FizzBuzz counting, children until a girl, double headed coin.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "120 Data Science Interview Questions: statistical inference",
+  "url": "https://github.com/JifuZhao/120-DS-Interview-Questions/blob/master/statistical-inference.md",
+  "type": "question-bank",
+  "why": "Randomisation checks, many variant tests, MLE versus MAP versus method of moments, unbiasedness.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "StrataScratch: 30 probability and statistics interview questions",
+  "url": "https://www.stratascratch.com/blog/30-probability-and-statistics-interview-questions-for-data-scientists",
+  "type": "question-bank",
+  "why": "Company tagged questions (Facebook, Lyft, Google, Tesla, Jane Street) on cards, coupons, margins of error and p values.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "TechInterview: 12 classic probability brainteasers",
+  "url": "https://www.techinterview.org/post/3233474735/probability-brainteaser-walkthroughs-12-classics/",
+  "type": "question-bank",
+  "why": "Monty Hall, HH versus HT, Tuesday boy, Penney's game and drunkard's walk as asked in quant screens.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "QuantVault: top 50 quant interview questions",
+  "url": "https://quantvault.org/top-50-quant-interview-questions.html",
+  "type": "question-bank",
+  "why": "Which puzzles quant firms ask most: coin patterns, coupon collector, expected max of dice.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Greenland et al. 2016, Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/",
+  "type": "paper",
+  "why": "The numbered list of p value, confidence interval and power misreadings used throughout the testing sections.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "scipy.stats.ttest_ind documentation",
+  "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html",
+  "type": "docs",
+  "why": "Confirms equal_var defaults to True (Student), Welch via equal_var=False, and permutation options.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "scipy.stats.bootstrap documentation",
+  "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html",
+  "type": "docs",
+  "why": "Percentile, basic and BCa methods, BCa default, 9999 resamples, degenerate data warning.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "scipy.stats.mannwhitneyu documentation",
+  "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mannwhitneyu.html",
+  "type": "docs",
+  "why": "States the null as equal distributions and that a location reading needs extra assumptions; exact versus asymptotic rules.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "statsmodels multipletests documentation",
+  "url": "https://www.statsmodels.org/stable/generated/statsmodels.stats.multitest.multipletests.html",
+  "type": "docs",
+  "why": "Method list and the default method='hs' (Holm Sidak) trap.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Wikipedia: Simpson's paradox",
+  "url": "https://en.wikipedia.org/wiki/Simpson%27s_paradox",
+  "type": "docs",
+  "why": "Kidney stone counts, Berkeley admissions, and Pearl's back door reading of when to stratify.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Wikipedia: Coupon collector's problem",
+  "url": "https://en.wikipedia.org/wiki/Coupon_collector%27s_problem",
+  "type": "docs",
+  "why": "Expectation n H_n, variance, asymptotic form and the 50 coupon example.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Wikipedia: False discovery rate",
+  "url": "https://en.wikipedia.org/wiki/False_discovery_rate",
+  "type": "docs",
+  "why": "Benjamini Hochberg steps, dependence conditions, Benjamini Yekutieli correction and FDR versus FWER.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Wikipedia: Conjugate prior",
+  "url": "https://en.wikipedia.org/wiki/Conjugate_prior",
+  "type": "docs",
+  "why": "Table of conjugate pairs with pseudo observation readings of the hyperparameters.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Wikipedia: Regression toward the mean",
+  "url": "https://en.wikipedia.org/wiki/Regression_toward_the_mean",
+  "type": "docs",
+  "why": "Galton, the rho times z statement, Kahneman's flight instructors and treatment evaluation pitfalls.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Wikipedia: Survivorship bias",
+  "url": "https://en.wikipedia.org/wiki/Survivorship_bias",
+  "type": "docs",
+  "why": "Wald's bombers, mutual fund survivorship estimate, backtests and immortal time bias.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Cut the Knot: stick broken into three pieces",
+  "url": "https://www.cut-the-knot.org/Curriculum/Probability/TriProbability.shtml",
+  "type": "blog",
+  "why": "The 1/4 answer, the Viviani geometric proof, and how the answer changes with the breaking procedure.",
+  "checked": "2026-10-13"
+ }
+]
