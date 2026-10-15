@@ -18,7 +18,7 @@
   "title": "SQL and data wrangling",
   "group": "Analytics",
   "summary": "Joins, window functions, the ten patterns every SQL round tests, pandas, and analytics engineering.",
-  "ready": false
+  "ready": true
  },
  {
   "id": "product-analytics",
