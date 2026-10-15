@@ -20,15 +20,14 @@
   try { state = Object.assign(blank(), JSON.parse(localStorage.getItem(KEY)) || {}); } catch (e) { /* private mode */ }
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { /* ignore */ } };
 
+  const themeBtn = $("#theme");
+  const isDark = () => (state.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark";
   function applyTheme() {
     if (state.theme) document.documentElement.dataset.theme = state.theme;
     else delete document.documentElement.dataset.theme;
+    themeBtn.textContent = isDark() ? "Light" : "Dark";
   }
-  $("#theme").addEventListener("click", () => {
-    const cur = state.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-    state.theme = cur === "dark" ? "light" : "dark";
-    save(); applyTheme();
-  });
+  themeBtn.addEventListener("click", () => { state.theme = isDark() ? "light" : "dark"; save(); applyTheme(); });
   applyTheme();
 
   // ------------------------------------------------------------ helpers
@@ -43,9 +42,15 @@
   const dayIndex = (s) => { const [y, m, d] = s.split("-").map(Number); return Math.round((Date.UTC(y, m - 1, d) - Date.UTC(2026, 0, 1)) / 864e5); };
   const shuffle = (a) => { a = [...a]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   const fmtTime = (iso) => { if (!iso) return ""; const d = new Date(iso); return isNaN(d) ? "" : d.toLocaleString([], { dateStyle: "medium", timeStyle: "short" }); };
+  const lower = (s) => (s ? s.charAt(0).toLowerCase() + s.slice(1) : s);
 
   let cleanups = [];
   const onCleanup = (fn) => cleanups.push(fn);
+  function focusMode(on, exitHref = "#/cards") {
+    document.body.classList.toggle("focus", on);
+    $("#exit").setAttribute("href", exitHref);
+    if (on) onCleanup(() => document.body.classList.remove("focus"));
+  }
 
   // ------------------------------------------------------------ data
   const cache = new Map();
@@ -80,7 +85,6 @@
     return (await allCards()).filter((c) => !path || path.has(c.module))
       .sort((a, b) => (order[a.module] - order[b.module]) || (a.id < b.id ? -1 : 1));
   }
-
   async function moduleTitles() {
     const t = { lectures: "Lecture notes" };
     (await modules()).forEach((m) => { t[m.id] = m.title; });
@@ -98,6 +102,37 @@
       used.add(idx); out.push(cards[idx]);
     }
     return out;
+  }
+
+  // ------------------------------------------------------------ answers as pointers
+  // Prose paragraphs become one point per sentence. Lists, tables, code, display math and
+  // quotes are left alone. With lead=true the first sentence stays a standalone line.
+  const ABBR = /(?:\be\.g|\bi\.e|\bvs|\bet al|\bDr|\bFig|\beq|\bapprox|\bcf|\bU\.S)\.$/i;
+  function sentences(text) {
+    const keep = [];
+    const t = text.replace(/`[^`]*`|\$\$[\s\S]*?\$\$|\$[^$\n]+\$|\[[^\]]*\]\([^)]*\)/g, (m) => `\u0000${keep.push(m) - 1}\u0001`);
+    const parts = t.split(/(?<=[.!?])\s+(?=[A-Z0-9("'\u0000])/);
+    const out = [];
+    for (const p of parts) {
+      if (out.length && ABBR.test(out[out.length - 1])) out[out.length - 1] += " " + p;
+      else out.push(p);
+    }
+    return out.map((s) => s.replace(/\u0000(\d+)\u0001/g, (_, i) => keep[+i]).trim()).filter(Boolean);
+  }
+  function pointers(src, lead = false) {
+    if (!src) return "";
+    let first = true;
+    return src.split(/\n{2,}/).map((block) => {
+      const t = block.trim();
+      const structured = /^([-*+] |\d+[.)] |#|>|\||```|\$\$| {4})/.test(t) || /\n\s*([-*+] |\d+[.)] |\|)/.test(t) || t.includes("```") || t.includes("$$");
+      if (!t || structured) { first = false; return block; }
+      const ss = sentences(t.replace(/\s*\n\s*/g, " "));
+      if (ss.length < 2) { first = false; return block; }
+      let out = "";
+      if (lead && first) out = ss.shift() + "\n\n";
+      first = false;
+      return out + ss.map((s) => `- ${s}`).join("\n");
+    }).join("\n\n");
   }
 
   // ------------------------------------------------------------ markdown with math
@@ -120,13 +155,10 @@
     });
     return html;
   }
-  const CALLOUTS = { "interview trap": "trap", "say it like this": "say", "worked example": "example", "watch": "watch", "remember": "remember" };
   function enhance(root) {
     $$("blockquote", root).forEach((b) => {
       const s = b.querySelector("strong");
-      if (!s) return;
-      const label = s.textContent.replace(/:$/, "").trim().toLowerCase();
-      if (CALLOUTS[label]) b.classList.add(CALLOUTS[label]);
+      if (s && /^interview trap/i.test(s.textContent)) b.classList.add("trap");
     });
     const used = new Set();
     $$("h2, h3", root).forEach((h) => {
@@ -165,6 +197,7 @@
 
   // ------------------------------------------------------------ router
   const routes = {};
+  const WIDE = new Set(["today", "day", "jobs", "lectures", "module", "guide", "questions"]);
   async function route() {
     cleanups.forEach((fn) => { try { fn(); } catch (e) { /* ignore */ } });
     cleanups = [];
@@ -173,42 +206,36 @@
     const [path, query] = hash.split("?");
     const parts = path.split("/").filter(Boolean).map(decodeURIComponent);
     const params = new URLSearchParams(query || "");
-    const name = parts[0] || "today";
+    const name = parts[0] || "cards";
     const navName = { module: "study", guide: "study", day: "archive", progress: "" }[name] ?? name;
     $$(".nav a").forEach((a) => a.classList.toggle("on", a.dataset.route === navName));
-    main.innerHTML = '<p class="loading">Loading…</p>';
+    main.className = WIDE.has(name) ? "wide" : "";
+    main.innerHTML = '<p class="loading">Loading</p>';
     try {
       await (routes[name] || routes.notfound)(parts.slice(1), params);
     } catch (e) {
       console.error(e);
-      main.innerHTML = `<div class="notice">This page could not load: ${esc(e.message)}</div>`;
+      main.innerHTML = `<p class="notice">This page did not load: ${esc(e.message)}. Reload to try again.</p>`;
     }
     if (!params.get("s")) window.scrollTo(0, 0);
     main.focus({ preventScroll: true });
   }
   window.addEventListener("hashchange", route);
+  routes.notfound = async () => { main.innerHTML = `<h1>Not found</h1><p><a href="#/cards">Go to Learn</a></p>`; };
 
-  routes.notfound = async () => { main.innerHTML = `<h1>Not found</h1><p><a href="#/today">Go to Today</a></p>`; };
-
-  // ------------------------------------------------------------ today and day views
-  const SPONSOR = {
-    sponsors: ["good", "Sponsorship stated"], no_sponsorship: ["warn", "No sponsorship"],
-    citizens_only: ["bad", "Citizens or clearance only"], not_stated: ["", "Not stated"],
-  };
-  const sponsorBadge = (s) => { const [c, t] = SPONSOR[s] || SPONSOR.not_stated; return `<span class="badge ${c}">${t}</span>`; };
-
+  // ------------------------------------------------------------ jobs, today, archive
+  const SPONSOR = { sponsors: "sponsorship stated", no_sponsorship: "no sponsorship", citizens_only: "citizens or clearance only", not_stated: "not stated" };
   function jobRows(jobs) {
     return jobs.map((j) => `<tr>
-      <td><b>${esc(j.company)}</b></td>
-      <td>${esc(j.title)}${j.early_career ? ' <span class="badge accent">early career</span>' : ""}${j.comp ? `<div class="muted small">${esc(j.comp)}</div>` : ""}</td>
-      <td class="small">${esc(j.location || (j.remote ? "Remote" : ""))}</td>
-      <td class="nowrap small">${esc(j.posted || "n/a")}</td>
-      <td>${sponsorBadge(j.sponsorship)}</td>
-      <td class="nowrap">${link(j.apply_url || j.url, "Apply", "btn small primary")}</td></tr>`).join("");
+      <td>${esc(j.company)}</td>
+      <td>${esc(j.title)}${j.early_career ? ' <span class="meta" style="display:inline">early career</span>' : ""}${j.comp ? `<span class="meta">${esc(j.comp)}</span>` : ""}</td>
+      <td>${esc(j.location || (j.remote ? "Remote" : ""))}</td>
+      <td class="nowrap">${esc(j.posted || "")}</td>
+      <td class="meta">${SPONSOR[j.sponsorship] || "not stated"}</td>
+      <td class="nowrap">${link(j.apply_url || j.url, "Apply")}</td></tr>`).join("");
   }
   const jobTable = (jobs) => `<div class="table-wrap"><table><thead><tr><th>Company</th><th>Role</th><th>Location</th><th>Posted</th><th>Sponsorship</th><th></th></tr></thead><tbody>${jobRows(jobs)}</tbody></table></div>`;
-
-  const feedList = (items, meta) => items.length ? `<ul class="feed">${items.map((x) => `<li><div class="t">${link(x.url, x.title)}</div><div class="m">${meta(x)}</div>${x.summary ? `<div class="s">${esc(x.summary)}</div>` : ""}</li>`).join("")}</ul>` : `<p class="empty">Nothing new today.</p>`;
+  const feedList = (items, meta) => (items.length ? `<ul class="list">${items.map((x) => `<li>${link(x.url, x.title)}<div class="meta">${meta(x)}</div></li>`).join("")}</ul>` : `<p class="empty">Nothing new today.</p>`);
 
   async function renderDay(date, isToday) {
     const [day, notes, cards, titles] = await Promise.all([getJSON(`data/daily/${date}.json`, true), getText(`data/daily/${date}.notes.md`), allCards(), moduleTitles()]);
@@ -218,79 +245,53 @@
     const jobs = day.jobs_new || [];
     main.innerHTML = `
       <h1>${isToday ? "Today" : esc(date)}</h1>
-      <p class="lede">${isToday ? `Daily update for ${esc(date)}, built ${esc(fmtTime(day.generated_at))}.` : `Archived update, built ${esc(fmtTime(day.generated_at))}.`}
-        New roles, today's spoken drill, and what changed in the field.</p>
-      <div class="stats">
-        <div class="stat"><b>${c.jobs_new ?? 0}</b><span>new roles</span></div>
-        <div class="stat"><b>${c.jobs_open ?? 0}</b><span>open roles tracked</span></div>
-        <div class="stat"><b>${due}</b><span>cards due</span></div>
-        <div class="stat"><b>${streak()}</b><span>day streak</span></div>
-      </div>
-      <div class="row" style="margin-bottom:8px"><a class="btn primary" href="#/cards/learn">Continue learning</a><a class="btn" href="#/drill/today">Today's spoken drill</a></div>
-      ${notes ? `<section class="panel prose" id="notes"><h2 style="margin-top:0">What matters today</h2>${md(notes)}</section>` : ""}
-      <h2>Today's spoken drill</h2>
-      ${picks.length ? `<ol>${picks.map((p) => `<li>${esc(p.q)} <span class="muted small">(${esc(titles[p.module] || p.module)}, ${esc(p.level)})</span></li>`).join("")}</ol>
-        <div class="row"><a class="btn primary" href="#/drill/today">Start the drill</a><a class="btn" href="#/cards/learn">Review ${plural(due, "due card")}</a><a class="btn" href="#/cards/today">Flip today's 5 as cards</a></div>`
-        : `<p class="empty">Cards appear here once the first modules are published.</p>`}
+      <p class="lede">${plural(c.jobs_new ?? 0, "new role")} since the last update, out of ${c.jobs_open ?? 0} open roles tracked. You have ${plural(due, "card")} due for review. Built ${esc(fmtTime(day.generated_at))}.</p>
+      <p class="row"><a class="btn primary" href="#/cards/learn">Start today's session</a><a href="#/drill/today">Spoken drill</a></p>
+      ${notes ? `<h2>What matters today</h2><div class="prose">${md(notes)}</div>` : ""}
+      ${picks.length ? `<h2>Today's spoken drill</h2><ol class="prose">${picks.map((p) => `<li>${esc(p.q)} <span class="meta" style="display:inline">${esc(titles[p.module] || p.module)}</span></li>`).join("")}</ol>` : ""}
       <h2>New roles</h2>
-      ${jobs.length ? jobTable(jobs.slice(0, 30)) + `<p class="small muted">${jobs.length > 30 ? `${jobs.length - 30} more new today. ` : ""}<a href="#/jobs">All ${c.jobs_open ?? ""} open roles with filters</a></p>` : `<p class="empty">No new matching roles since the last run. <a href="#/jobs">Browse all open roles</a>.</p>`}
-      <div class="two">
-        <section><h2>Papers people are reading</h2>${feedList(day.papers || [], (p) => `${p.upvotes} upvotes on Hugging Face, ${link(p.arxiv, "arXiv")}`)}</section>
-        <section><h2>New from the reading list</h2>${feedList((day.posts || []).slice(0, 15), (p) => `${esc(p.source)}, ${esc((p.published || "").slice(0, 10))}`)}</section>
-      </div>
-      <div class="two">
-        <section><h2>Hacker News</h2>${feedList(day.hn || [], (h) => `${h.points} points, ${link(h.discussion, plural(h.comments, "comment"))}`)}</section>
-        <section><h2>Lectures and videos</h2>${feedList(day.videos || [], (v) => `${esc(v.source)}${v.new_in_playlist ? ", new in a playlist you follow" : ""}`)}
-          <h2>Interview intel</h2>${feedList(day.interview_intel || [], (x) => esc(x.source))}</section>
-      </div>
-      ${(day.errors || []).length ? `<details class="errors"><summary>${plural(day.errors.length, "source")} failed this run and were skipped</summary><ul>${day.errors.map((e) => `<li><code>${esc(e.source)}</code>: ${esc(e.error)}</li>`).join("")}</ul></details>` : ""}`;
+      ${jobs.length ? jobTable(jobs.slice(0, 30)) + `<p class="meta">${jobs.length > 30 ? `${jobs.length - 30} more new today. ` : ""}<a href="#/jobs">All open roles</a></p>` : `<p class="empty">No new matching roles since the last update. <a href="#/jobs">Browse all open roles</a>.</p>`}
+      <h2>Papers people are reading</h2>${feedList(day.papers || [], (p) => `${p.upvotes} upvotes on Hugging Face, ${link(p.arxiv, "arXiv")}`)}
+      <h2>New from the reading list</h2>${feedList((day.posts || []).slice(0, 15), (p) => `${esc(p.source)}, ${esc((p.published || "").slice(0, 10))}`)}
+      <h2>Hacker News</h2>${feedList(day.hn || [], (h) => `${h.points} points, ${link(h.discussion, plural(h.comments, "comment"))}`)}
+      ${(day.videos || []).length ? `<h2>Lectures and videos</h2>${feedList(day.videos, (v) => esc(v.source))}` : ""}
+      ${(day.interview_intel || []).length ? `<h2>Interview intel</h2>${feedList(day.interview_intel, (x) => esc(x.source))}` : ""}
+      ${(day.errors || []).length ? `<details class="errors"><summary>${plural(day.errors.length, "source")} failed and were skipped</summary><ul>${day.errors.map((e) => `<li>${esc(e.source)}: ${esc(e.error)}</li>`).join("")}</ul></details>` : ""}`;
     enhance(main);
   }
-
   routes.today = async () => {
     let idx = null;
     try { idx = await getJSON("data/daily/index.json", true); } catch (e) { /* first run pending */ }
-    if (!idx || !idx.latest) {
-      main.innerHTML = `<h1>Today</h1><div class="notice">The first daily run has not finished yet. The study modules and cards already work: <a href="#/study">start studying</a>.</div>`;
-      return;
-    }
+    if (!idx || !idx.latest) { main.innerHTML = `<h1>Today</h1><p class="notice">The first daily update has not run yet. <a href="#/cards">Start learning</a> in the meantime.</p>`; return; }
     await renderDay(idx.latest, true);
   };
   routes.day = async ([date]) => renderDay(date, false);
   routes.archive = async () => {
     const idx = await getJSON("data/daily/index.json", true).catch(() => ({ dates: [] }));
     main.innerHTML = `<h1>Archive</h1><p class="lede">Every daily update, newest first.</p>
-      ${idx.dates.length ? `<ul class="feed">${idx.dates.map((d) => `<li><a href="#/day/${esc(d)}">${esc(d)}</a></li>`).join("")}</ul>` : `<p class="empty">No updates yet.</p>`}`;
+      ${idx.dates.length ? `<ul class="list">${idx.dates.map((d) => `<li><a href="#/day/${esc(d)}">${esc(d)}</a></li>`).join("")}</ul>` : `<p class="empty">No updates yet.</p>`}`;
   };
 
-  // ------------------------------------------------------------ study
+  // ------------------------------------------------------------ study and reading
   routes.study = async () => {
     const mods = await modules();
     const counts = await Promise.all(mods.map((m) => (m.ready ? moduleCards(m.id) : [])));
-    const groups = [...new Set(mods.map((m) => m.group))];
-    const tile = (m, cards) => {
-      const ready = cards.length > 0;
-      const learned = cards.filter((c) => isLearned(c.id)).length;
-      const pct = ready ? Math.round((100 * learned) / cards.length) : 0;
-      return `<div class="panel tile">
-        <h3>${esc(m.title)}</h3><p>${esc(m.summary)}</p>
-        ${ready ? `<div class="meter" title="${learned} of ${cards.length} cards learned"><span style="width:${pct}%"></span></div>
-          <div class="small muted">${cards.length} cards, ${learned} learned</div>
-          <div class="row"><a class="btn small" href="#/module/${m.id}?d=cheat">Cheatsheet</a><a class="btn small" href="#/module/${m.id}?d=plain">Plain</a><a class="btn small" href="#/module/${m.id}?d=deep">Deep</a><a class="btn small primary" href="#/cards/m/${m.id}">Cards</a></div>`
-        : `<div class="small muted">Being written. Check back after the next update.</div>`}
-      </div>`;
-    };
     main.innerHTML = `<h1>Study</h1>
-      <p class="lede">Each module comes at three depths. The cheatsheet is the ten minute refresher, Plain explains it to a smart friend, and Deep goes as far as a research lab interviewer will push. The headings match, so you can switch depth mid read.</p>
-      <div class="row" style="margin-bottom:8px"><a class="btn" href="#/guide/question-bank/study-plan">Study plan</a><a class="btn" href="#/guide/question-bank/interview-loops">How interview loops work</a><a class="btn" href="#/guide/question-bank/resources">Best resources</a><a class="btn" href="#/progress">Your progress</a></div>
-      ${groups.map((g) => `<h2>${esc(g)}</h2><div class="grid">${mods.map((m, i) => (m.group === g ? tile(m, counts[i]) : "")).join("")}</div>`).join("")}`;
+      <p class="lede">Each module is written three ways with matching sections: a cheatsheet for the ten minutes before a call, a plain guide that explains it to a smart friend, and a deep guide that goes as far as an interviewer will push. Switch depth mid read and you land in the same place.</p>
+      <p class="row"><a href="#/guide/question-bank/study-plan">Study plan</a><a href="#/guide/question-bank/interview-loops">How interview loops work</a><a href="#/guide/question-bank/resources">Best resources</a><a href="#/progress">Your progress</a></p>
+      <ul class="list">${mods.map((m, i) => {
+        const cs = counts[i];
+        return `<li><div class="item-title">${m.ready ? `<a href="#/module/${m.id}?d=plain">${esc(m.title)}</a>` : esc(m.title)}</div>
+          <p class="item-body">${esc(m.summary)}</p>
+          ${m.ready ? `<div class="item-links"><a href="#/module/${m.id}?d=cheat">Cheatsheet</a><a href="#/module/${m.id}?d=plain">Plain</a><a href="#/module/${m.id}?d=deep">Deep</a><a href="#/cards/m/${m.id}">${cs.length} cards</a></div>` : `<div class="meta">Being written</div>`}</li>`;
+      }).join("")}</ul>`;
   };
 
   const DEPTH = { cheat: ["cheatsheet.md", "Cheatsheet"], plain: ["plain.md", "Plain"], deep: ["deep.md", "Deep"] };
   async function renderDoc(path, { title, head = "", cls = "" }) {
     const text = await getText(path);
-    if (!text) { main.innerHTML = `<h1>${esc(title)}</h1><div class="notice">This page is still being written.</div>`; return null; }
-    main.innerHTML = `<div class="reader ${cls}"><nav class="toc" aria-label="On this page"></nav><div><div class="reader-head noprint">${head}</div><article class="prose">${md(text)}</article></div></div>`;
+    if (!text) { main.innerHTML = `<h1>${esc(title)}</h1><p class="notice">This page is still being written.</p>`; return null; }
+    main.innerHTML = `<div class="reader ${cls}"><nav class="toc" aria-label="On this page"></nav><div>${head}<article class="prose">${md(text)}</article></div></div>`;
     const art = $("article", main);
     enhance(art);
     const heads = $$("h2, h3", art);
@@ -300,13 +301,11 @@
       const a = e.target.closest("a[data-id]");
       if (!a) return;
       e.preventDefault();
-      document.getElementById(a.dataset.id)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      document.getElementById(a.dataset.id)?.scrollIntoView({ block: "start" });
     });
     if ("IntersectionObserver" in window && heads.length) {
       const io = new IntersectionObserver((entries) => {
-        entries.forEach((en) => {
-          if (en.isIntersecting) $$(".toc a", main).forEach((a) => a.classList.toggle("on", a.dataset.id === en.target.id));
-        });
+        entries.forEach((en) => { if (en.isIntersecting) $$(".toc a", main).forEach((a) => a.classList.toggle("on", a.dataset.id === en.target.id)); });
       }, { rootMargin: "0px 0px -75% 0px" });
       heads.forEach((h) => io.observe(h));
       onCleanup(() => io.disconnect());
@@ -318,18 +317,15 @@
     $$("h2", art).forEach((h) => { if (h.getBoundingClientRect().top < 120) cur = h.id; });
     return cur;
   }
-
   routes.module = async ([id], params) => {
-    const mods = await modules();
-    const m = mods.find((x) => x.id === id);
+    const m = (await modules()).find((x) => x.id === id);
     if (!m) return routes.notfound();
     const depth = DEPTH[params.get("d")] ? params.get("d") : "plain";
-    const head = `<h1 style="margin:0">${esc(m.title)}</h1><span class="spacer"></span>
-      <div class="seg" role="group" aria-label="Depth">${Object.entries(DEPTH).map(([k, [, label]]) => `<button type="button" data-d="${k}" aria-pressed="${k === depth}">${label}</button>`).join("")}</div>
-      <a class="btn primary" href="#/cards/m/${id}">Practise the cards</a>${depth === "cheat" ? `<button class="btn" type="button" id="print">Print</button>` : ""}`;
+    const head = `<div class="depth noprint">${Object.entries(DEPTH).map(([k, [, label]]) => `<button class="link" type="button" data-d="${k}" aria-pressed="${k === depth}">${label}</button>`).join("")}
+      <span class="spacer"></span><a href="#/cards/m/${id}">Learn the cards</a>${depth === "cheat" ? `<button class="link" type="button" id="print">Print</button>` : ""}</div>`;
     const art = await renderDoc(`content/${id}/${DEPTH[depth][0]}`, { title: m.title, head, cls: depth === "cheat" ? "cheat" : "" });
     if (!art) return;
-    $$(".seg button", main).forEach((b) => b.addEventListener("click", () => {
+    $$(".depth [data-d]", main).forEach((b) => b.addEventListener("click", () => {
       const s = currentSection(art);
       location.hash = `#/module/${id}?d=${b.dataset.d}${s ? `&s=${s}` : ""}`;
     }));
@@ -337,15 +333,13 @@
     const s = params.get("s");
     if (s) requestAnimationFrame(() => document.getElementById(s)?.scrollIntoView({ block: "start" }));
   };
-
   routes.guide = async (parts) => {
     const [folder, name] = parts;
     if (!/^[a-z0-9-]+$/.test(folder || "") || !/^[a-z0-9-]+$/.test(name || "")) return routes.notfound();
-    const titles = { "study-plan": "Study plan", "interview-loops": "How interview loops work", resources: "Best resources" };
-    await renderDoc(`content/${folder}/${name}.md`, { title: titles[name] || name, head: `<a class="btn small" href="#/study">Back to Study</a>` });
+    await renderDoc(`content/${folder}/${name}.md`, { title: name, head: `<div class="depth noprint"><a href="#/${folder === "lectures" ? "lectures" : "study"}">Back</a></div>` });
   };
 
-  // ------------------------------------------------------------ flashcards
+  // ------------------------------------------------------------ learn: decks
   async function buildDeck(parts, params) {
     const cards = await allCards();
     const kind = parts[0] || "";
@@ -355,7 +349,7 @@
       const cur = await curriculum();
       const due = cur.filter((c) => isDue(c.id, t)).sort((a, b) => (cardState(a.id).due < cardState(b.id).due ? -1 : 1));
       deck = due.concat(cur.filter((c) => isNew(c.id)).slice(0, state.newPerDay || 20));
-      title = "Continue learning";
+      title = "Today's session";
     } else if (kind === "today") {
       const idx = await getJSON("data/daily/index.json", true).catch(() => null);
       deck = drillPick(cards, (idx && idx.latest) || t); title = "Today's five";
@@ -366,7 +360,7 @@
       title = (await moduleTitles())[parts[1]] || parts[1];
     } else if (kind === "weak") {
       deck = cards.filter((c) => cardState(c.id)).sort((a, b) => cardState(a.id).ease - cardState(b.id).ease).slice(0, 20);
-      title = "Weakest 20";
+      title = "Weakest twenty";
     } else {
       const mods = (params.get("m") || "").split(",").filter(Boolean);
       const lv = (params.get("l") || LEVELS.join(",")).split(",");
@@ -379,59 +373,42 @@
   }
 
   routes.cards = async (parts, params) => {
-    if (!parts.length) return deckPicker();
+    if (!parts.length) return learnHub();
     const { deck, title } = await buildDeck(parts, params);
-    if (!deck.length) {
-      main.innerHTML = `<h1>${esc(title)}</h1><p class="empty">No cards in this deck right now. <a href="#/cards">Pick another deck</a>.</p>`;
-      return;
-    }
+    if (!deck.length) { main.innerHTML = `<h1>${esc(title)}</h1><p class="empty">Nothing is due in this deck. <a href="#/cards">Pick another one</a>.</p>`; return; }
     runSession(deck, title);
   };
 
-  async function deckPicker() {
+  async function learnHub() {
     const [cards, mods] = await Promise.all([allCards(), modules()]);
     const cur = await curriculum();
     const due = cur.filter((c) => isDue(c.id)).length;
     const fresh = cur.filter((c) => isNew(c.id)).length;
     const perDay = state.newPerDay || 20;
-    const seen = cards.filter((c) => cardState(c.id)).length;
     const learned = cards.filter((c) => isLearned(c.id)).length;
     const ready = mods.filter((m) => m.ready).concat(cards.some((c) => c.module === "lectures") ? [{ id: "lectures", title: "Lecture notes", ready: true }] : []);
     const inPath = (id) => !state.path || !state.path.length || state.path.includes(id);
     const by = (id) => cards.filter((c) => c.module === id);
-    if (!cards.length) {
-      main.innerHTML = `<h1>Learn</h1><div class="notice">The first flashcard modules are being written right now. They appear here as soon as each one passes its checks.</div>
-        <p>Meanwhile: <a href="#/today">today's jobs and papers</a>, <a href="#/lectures">the lectures</a>.</p>`;
-      return;
-    }
+    if (!cards.length) { main.innerHTML = `<h1>Learn</h1><p class="notice">The first modules are still being written. They appear here as soon as each one passes its checks.</p>`; return; }
+    const todayCount = due + Math.min(perDay, fresh);
     main.innerHTML = `<h1>Learn</h1>
-      <p class="lede">Learn everything from the cards. Each module's cards run in order, from the first idea to the interview questions that combine them. Every card teaches: a plain answer, a deep answer, a version to say out loud, the points to mention, follow ups and traps. Rate each card honestly and the schedule brings it back just before you would forget it.</p>
-      <div class="stats">
-        <div class="stat"><b>${due}</b><span>reviews due</span></div>
-        <div class="stat"><b>${Math.min(perDay, fresh)}</b><span>new cards today</span></div>
-        <div class="stat"><b>${learned} / ${cards.length}</b><span>learned</span></div>
-        <div class="stat"><b>${streak()}</b><span>day streak</span></div>
-      </div>
-      <div class="row"><a class="btn primary" href="#/cards/learn">Continue learning (${due + Math.min(perDay, fresh)} cards)</a>
-        <label class="check">New cards per day <select id="perday">${[10, 20, 30, 50, 100].map((n) => `<option ${n === perDay ? "selected" : ""}>${n}</option>`).join("")}</select></label>
-        <a class="btn" href="#/cards/weak">Weakest 20</a><a class="btn" href="#/drill/today">Today's spoken drill</a></div>
+      <p class="lede">${due ? `${plural(due, "review")} ${due === 1 ? "is" : "are"} due and ` : ""}${plural(Math.min(perDay, fresh), "new card")} ${due ? "" : "are "}lined up for today. You have learned ${learned} of ${cards.length} cards${streak() ? `, on a ${streak()} day streak` : ""}. Each module runs in order, from the first idea to the interview questions that combine them.</p>
+      <p class="row"><a class="btn primary" href="#/cards/learn">${todayCount ? `Start today's session` : "Nothing due, learn ahead"}</a>
+        <label class="check">New cards a day <select id="perday" aria-label="New cards a day">${[10, 20, 30, 50, 100].map((n) => `<option ${n === perDay ? "selected" : ""}>${n}</option>`).join("")}</select></label></p>
       <h2>Modules</h2>
-      <p class="small muted">Ticked modules are in your learning path, in this order. Or learn one module on its own.</p>
-      <div class="grid">${ready.map((m) => {
-        const cs = by(m.id), l = cs.filter((c) => isLearned(c.id)).length, s = cs.filter((c) => cardState(c.id)).length;
-        return `<div class="panel tile"><div class="row"><h3 style="flex:1">${esc(m.title)}</h3><label class="check" title="Include in my learning path"><input type="checkbox" data-path="${m.id}" ${inPath(m.id) ? "checked" : ""}> path</label></div>
-          <div class="meter" title="${l} of ${cs.length} learned"><span style="width:${cs.length ? Math.round((100 * l) / cs.length) : 0}%"></span></div>
-          <div class="small muted">${cs.length} cards, ${s} seen, ${l} learned</div>
-          <div class="row"><a class="btn small primary" href="#/cards/m/${m.id}">Learn in order</a>${m.id !== "lectures" ? `<a class="btn small" href="#/module/${m.id}?d=plain">Read</a>` : ""}<a class="btn small" href="#/drill/m/${m.id}">Drill</a></div></div>`;
-      }).join("")}</div>
-      <h2>Custom deck</h2>
-      <form id="deck" class="panel">
-        <div class="row">${KINDS.map((k) => `<label class="check"><input type="checkbox" name="k" value="${k}"> ${k}</label>`).join("")}</div>
-        <div class="row" style="margin-top:10px">${LEVELS.map((l) => `<label class="check"><input type="checkbox" name="l" value="${l}" checked> ${l}</label>`).join("")}
-          <label class="check"><input type="checkbox" name="o" value="shuffle" checked> shuffle</label>
-          <span class="spacer"></span><button class="btn primary" type="submit">Start</button></div>
-        <p class="hint">Uses the modules ticked above. Leave every kind unticked to include all kinds. ${seen} of ${cards.length} cards seen so far.</p>
-      </form>`;
+      <ul class="list">${ready.map((m) => {
+        const cs = by(m.id), l = cs.filter((c) => isLearned(c.id)).length;
+        return `<li><div class="row"><a class="item-title" href="#/cards/m/${m.id}">${esc(m.title)}</a><span class="spacer"></span><label class="check" title="Include in today's session"><input type="checkbox" data-path="${m.id}" ${inPath(m.id) ? "checked" : ""}> in my path</label></div>
+          <div class="meta">${cs.length} cards, ${l} learned${m.id !== "lectures" ? `. <a href="#/module/${m.id}?d=plain">Read the guide</a>` : `. <a href="#/lectures">Lecture notes</a>`}, <a href="#/drill/m/${m.id}">drill aloud</a></div></li>`;
+      }).join("")}</ul>
+      <h2>Other decks</h2>
+      <p class="row"><a href="#/cards/today">Today's five</a><a href="#/cards/weak">Weakest twenty</a></p>
+      <details><summary>Build a custom deck</summary>
+        <form id="deck">
+          <p class="row">${KINDS.map((k) => `<label class="check"><input type="checkbox" name="k" value="${k}"> ${k}</label>`).join("")}</p>
+          <p class="row">${LEVELS.map((l) => `<label class="check"><input type="checkbox" name="l" value="${l}" checked> ${l}</label>`).join("")}<label class="check"><input type="checkbox" name="o" value="shuffle" checked> shuffle</label><span class="spacer"></span><button class="btn" type="submit">Start</button></p>
+          <p class="meta">Uses the modules in your path. Leave every kind unticked to include all of them.</p>
+        </form></details>`;
     $("#perday").addEventListener("change", (e) => { state.newPerDay = +e.target.value; save(); route(); });
     $$("[data-path]", main).forEach((cb) => cb.addEventListener("change", () => {
       state.path = $$("[data-path]", main).filter((x) => x.checked).map((x) => x.dataset.path);
@@ -442,8 +419,7 @@
       e.preventDefault();
       const f = new FormData(e.target);
       const m = state.path && state.path.length ? state.path : [];
-      const q = new URLSearchParams({ m: m.join(","), l: f.getAll("l").join(","), k: f.getAll("k").join(","), o: f.get("o") || "" });
-      location.hash = `#/cards/custom?${q}`;
+      location.hash = `#/cards/custom?${new URLSearchParams({ m: m.join(","), l: f.getAll("l").join(","), k: f.getAll("k").join(","), o: f.get("o") || "" })}`;
     });
   }
 
@@ -460,58 +436,67 @@
     const queue = deck.map((c) => c.id);
     const byId = Object.fromEntries(deck.map((c) => [c.id, c]));
     const again = new Set();
-    let done = 0, shown = 0;
+    let done = 0, onKey = null;
     const total = queue.length;
+    focusMode(true, "#/cards");
+    const handler = (e) => onKey && onKey(e);
+    document.addEventListener("keydown", handler);
+    onCleanup(() => document.removeEventListener("keydown", handler));
 
     const show = () => {
       if (!queue.length) {
-        main.innerHTML = `<div class="study"><h1>Done</h1><p class="lede">You went through ${plural(total, "card")} in "${esc(title)}". Anything you rated Again comes back first next time.</p>
-          <div class="row"><a class="btn primary" href="#/drill">Say a few out loud in the drill</a><a class="btn" href="#/cards">Another deck</a><a class="btn" href="#/today">Back to Today</a></div></div>`;
+        onKey = null;
+        main.innerHTML = `<div class="session"><h1>Session done</h1><p class="lede">You went through ${plural(total, "card")}. Cards you marked Again come back first next time.</p>
+          <p class="row"><a class="btn primary" href="#/drill/today">Say five out loud</a><a href="#/cards">Back to Learn</a></p></div>`;
         return;
       }
       const c = byId[queue[0]];
-      const st = cardState(c.id);
-      shown = 0;
-      main.innerHTML = `<div class="study">
-        <div class="progress-line"><span>${esc(title)}</span><div class="meter"><span style="width:${Math.round((100 * done) / total)}%"></span></div><span>${done} / ${total}</span></div>
-        <div class="card">
-          <div class="meta"><span class="badge">${esc(titles[c.module] || c.module)}</span><span class="badge">${esc(c.topic)}</span><span class="badge ${c.level === "expert" ? "warn" : c.level === "advanced" ? "accent" : ""}">${esc(c.level)}</span>${c.kind ? `<span class="badge">${esc(c.kind)}</span>` : ""}${!st ? '<span class="badge good">new</span>' : ""}</div>
-          <p class="q">${esc(c.q)}</p>
-          <div id="reveal"></div>
-          <div class="actions" id="acts">
-            <button class="btn primary" type="button" data-a="plain">Show answer <kbd>space</kbd></button>
-            <button class="btn" type="button" data-a="deep">Go deep <kbd>d</kbd></button>
-            <button class="btn" type="button" data-a="say">Say it <kbd>s</kbd></button>
-            <button class="btn" type="button" data-a="fu">Follow ups <kbd>f</kbd></button>
-            <a class="btn" href="#/drill/q/${esc(c.id)}">Drill this aloud</a>
-          </div>
-          <div class="rate" id="rate" hidden>
-            <button type="button" class="again" data-r="1">Again<small>1</small></button>
-            <button type="button" data-r="2">Hard<small>2</small></button>
-            <button type="button" class="good" data-r="3">Good<small>3</small></button>
-            <button type="button" data-r="4">Easy<small>4</small></button>
-          </div>
-          <p class="hint">Answer in your head or out loud first, then reveal. Rate after you see the answer.</p>
-        </div></div>`;
+      let shown = 0;
+      main.innerHTML = `<div class="session">
+        <div class="session-head"><span>${esc(title)}</span><span>${done + 1} of ${total}</span></div>
+        <div class="progress"><span style="width:${Math.round((100 * done) / total)}%"></span></div>
+        <p class="context">${esc(titles[c.module] || c.module)}, ${esc(lower(c.topic))}</p>
+        <h1 class="card-q">${esc(c.q)}</h1>
+        <div id="reveal"></div>
+        <div class="actions" id="acts">
+          <button class="btn primary" type="button" data-a="plain">Show answer</button>
+          <button class="link" type="button" data-a="deep">Go deeper</button>
+          <button class="link" type="button" data-a="say">Say it</button>
+          <button class="link" type="button" data-a="fu">Follow ups</button>
+        </div>
+        <div class="rate" id="rate" hidden>
+          <button type="button" data-r="1">Again<kbd>1</kbd></button>
+          <button type="button" data-r="2">Hard<kbd>2</kbd></button>
+          <button type="button" data-r="3">Good<kbd>3</kbd></button>
+          <button type="button" data-r="4">Easy<kbd>4</kbd></button>
+        </div>
+        <p class="hint">Answer first, in your head or out loud. Space shows the answer, D goes deeper, S shows the spoken version, F the follow ups, and 1 to 4 rates the card.</p>
+      </div>`;
       const reveal = $("#reveal", main);
       const sections = {};
       const add = (key, html) => {
-        if (sections[key]) { sections[key].scrollIntoView({ block: "nearest", behavior: "smooth" }); return; }
+        if (sections[key]) { sections[key].scrollIntoView({ block: "nearest" }); return; }
         const div = document.createElement("div");
-        div.className = "section"; div.innerHTML = html;
+        div.className = key === "plain" ? "answer prose" : "section prose";
+        div.innerHTML = html;
         reveal.appendChild(div); enhance(div); sections[key] = div;
+        $(`#acts [data-a="${key}"]`, main)?.setAttribute("aria-pressed", "true");
+        if (key === "plain") $(`#acts [data-a="plain"]`, main)?.remove();
         $("#rate", main).hidden = false; shown++;
+        if (key !== "plain") div.scrollIntoView({ block: "nearest" });
       };
       const actions = {
-        plain: () => add("plain", `<h4>Plain answer</h4><div class="prose">${md(c.plain)}</div>`),
-        deep: () => add("deep", `<h4>Deep answer</h4><div class="prose">${md(c.deep)}</div>${(c.traps || []).length ? `<h4 style="margin-top:14px">Traps</h4><ul class="mm">${c.traps.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}${c.source ? `<p class="small muted">Seen asked: ${link(c.source.url, c.source.title)}</p>` : ""}`),
+        plain: () => add("plain", md(pointers(c.plain, true))),
+        deep: () => add("deep", `<h2>Deeper</h2>${md(pointers(c.deep))}
+          ${(c.traps || []).length ? `<h3>Traps</h3><ul>${c.traps.map((t) => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
+          ${c.source ? `<p class="meta">Source: ${link(c.source.url, c.source.title)}</p>` : ""}`),
         say: () => {
-          add("say", `<h4>Say it like this (about ${Math.round(c.say.split(/\s+/).length / 2.6)} seconds)</h4><div class="say">${esc(c.say)}</div>
-            <div class="row" style="margin-top:8px"><button class="btn small" type="button" data-speak>Hear it</button></div>
-            <h4 style="margin-top:14px">Must mention</h4><ul class="mm">${(c.must_mention || []).map((t) => `<li>${esc(t)}</li>`).join("")}</ul>`);
+          add("say", `<h2>Say it like this, about ${Math.round(c.say.split(/\s+/).length / 2.6)} seconds</h2><div class="spoken">${esc(c.say)}</div>
+            <p class="row" style="margin-top:.6rem"><button class="link" type="button" data-speak>Hear it read aloud</button><a href="#/drill/q/${esc(c.id)}">Practise it with a timer</a></p>
+            <h3>Points to hit</h3><ul>${(c.must_mention || []).map((t) => `<li>${esc(t)}</li>`).join("")}</ul>`);
           $("[data-speak]", sections.say)?.addEventListener("click", () => speak(c.say));
         },
-        fu: () => add("fu", `<h4>Follow ups</h4>${(c.followups || []).map((f) => `<details class="fu"><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join("")}`),
+        fu: () => add("fu", `<h2>Follow ups</h2>${(c.followups || []).map((f) => `<details class="fu"><summary>${esc(f.q)}</summary><p>${esc(f.a)}</p></details>`).join("")}`),
       };
       $("#acts", main).addEventListener("click", (e) => { const b = e.target.closest("button[data-a]"); if (b) actions[b.dataset.a](); });
       const rate = (r) => {
@@ -530,23 +515,19 @@
         else if (e.key === "f") actions.fu();
         else if (["1", "2", "3", "4"].includes(e.key)) rate(+e.key);
       };
+      window.scrollTo(0, 0);
     };
-    let onKey = null;
-    const handler = (e) => onKey && onKey(e);
-    document.addEventListener("keydown", handler);
-    onCleanup(() => document.removeEventListener("keydown", handler));
     show();
   }
 
-  // ------------------------------------------------------------ narration drill
+  // ------------------------------------------------------------ spoken drill
   const STOP = new Set("the a an and or of to in on for with is are be by as at it its this that from into than then when what which your you".split(" "));
   const words = (s) => (s || "").toLowerCase().replace(/[^a-z0-9\s]/g, " ").split(/\s+/).filter(Boolean);
   function mentioned(phrase, transcript) {
     const said = new Set(words(transcript).map((w) => w.slice(0, 5)));
     const key = words(phrase).filter((w) => w.length >= 3 && !STOP.has(w)).map((w) => w.slice(0, 5));
     if (!key.length) return false;
-    const hits = key.filter((w) => said.has(w)).length;
-    return hits / key.length >= 0.6;
+    return key.filter((w) => said.has(w)).length / key.length >= 0.6;
   }
 
   routes.drill = async (parts, params) => {
@@ -557,7 +538,7 @@
       const idx = await getJSON("data/daily/index.json", true).catch(() => null);
       items = drillPick(cards, (idx && idx.latest) || today()); title = "Today's drill";
     } else if (parts[0] === "q") {
-      items = cards.filter((c) => c.id === parts[1]); title = "Single question";
+      items = cards.filter((c) => c.id === parts[1]); title = "One question";
     } else if (parts[0] === "m") {
       items = shuffle(cards.filter((c) => c.module === parts[1])).slice(0, +(params.get("n") || 5)); title = (await moduleTitles())[parts[1]] || "Drill";
     } else if (parts[0] === "bank") {
@@ -571,36 +552,31 @@
   };
 
   async function drillHome() {
-    const mods = await modules();
-    const counts = await Promise.all(mods.map((m) => (m.ready ? moduleCards(m.id) : [])));
+    const mods = (await modules()).filter((m) => m.ready);
+    const counts = await Promise.all(mods.map((m) => moduleCards(m.id)));
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     const sec = state.drillSeconds || 45;
     main.innerHTML = `<h1>Spoken drill</h1>
-      <p class="lede">Interviews are spoken, so practise speaking. You get a question and a timer. Answer out loud, then compare against the points a strong answer must hit and the model spoken answer. Record yourself to hear your pace and filler words.</p>
-      <div class="panel">
-        <div class="row"><span>Answer length</span><div class="seg" role="group" aria-label="Answer length">
-          ${[45, 120, 300].map((s) => `<button type="button" data-s="${s}" aria-pressed="${s === sec}">${s < 60 ? `${s} s` : `${s / 60} min`}</button>`).join("")}</div></div>
-        <p class="small muted" style="margin:10px 0 0">45 seconds for concept questions, 2 minutes for a project summary, 5 minutes for a deep dive or a case.</p>
-        <div class="row" style="margin-top:12px">
-          <label class="check"><input type="checkbox" id="rec" ${state.drillRecord ? "checked" : ""}> Record my answer (stays in this tab, never uploaded)</label>
-          ${SR ? `<label class="check"><input type="checkbox" id="stt" ${state.drillTranscript ? "checked" : ""}> Live transcript and auto ticking (your browser sends audio to its speech service)</label>` : `<span class="small muted">Live transcript needs Chrome, Edge or Safari.</span>`}
-        </div>
-      </div>
-      <h2>Pick a drill</h2>
-      <div class="row"><a class="btn primary" href="#/drill/today">Today's five</a><a class="btn" href="#/questions">From the question bank</a></div>
-      <div class="grid" style="margin-top:14px">${mods.map((m, i) => (counts[i].length ? `<a class="panel tile" style="text-decoration:none;color:inherit" href="#/drill/m/${m.id}"><h3>${esc(m.title)}</h3><p>5 random questions from ${counts[i].length}</p></a>` : "")).join("")}</div>`;
-    $$(".seg button", main).forEach((b) => b.addEventListener("click", () => {
+      <p class="lede">Interviews are spoken, so practise speaking. You get a question and a timer. Answer out loud, then check yourself against the points a strong answer hits and the model spoken answer, and take the follow up.</p>
+      <p class="row">Answer length ${[45, 120, 300].map((s) => `<button class="link" type="button" data-s="${s}" aria-pressed="${s === sec}">${s < 60 ? `${s} seconds` : `${s / 60} minutes`}</button>`).join("")}</p>
+      <p class="meta">45 seconds for a concept, 2 minutes for a project summary, 5 minutes for a deep dive or a case.</p>
+      <p><label class="check"><input type="checkbox" id="rec" ${state.drillRecord ? "checked" : ""}> Record my answer so I can play it back. The recording stays in this tab.</label></p>
+      ${SR ? `<p><label class="check"><input type="checkbox" id="stt" ${state.drillTranscript ? "checked" : ""}> Show a live transcript and tick off the points I mention. Your browser sends the audio to its speech service.</label></p>` : ""}
+      <p class="row"><a class="btn primary" href="#/drill/today">Start today's five</a><a href="#/questions">Pick from the question bank</a></p>
+      <h2>Five questions from one module</h2>
+      <ul class="list">${mods.map((m, i) => `<li><a href="#/drill/m/${m.id}">${esc(m.title)}</a> <span class="meta" style="display:inline">from ${counts[i].length} cards</span></li>`).join("")}</ul>`;
+    $$("[data-s]", main).forEach((b) => b.addEventListener("click", () => {
       state.drillSeconds = +b.dataset.s; save();
-      $$(".seg button", main).forEach((x) => x.setAttribute("aria-pressed", x === b));
+      $$("[data-s]", main).forEach((x) => x.setAttribute("aria-pressed", x === b));
     }));
     $("#rec", main)?.addEventListener("change", (e) => { state.drillRecord = e.target.checked; save(); });
     $("#stt", main)?.addEventListener("change", (e) => { state.drillTranscript = e.target.checked; save(); });
   }
 
   function runDrill(items, title, seconds) {
-    let i = 0;
-    let timer = null, recorder = null, stream = null, recog = null, audioUrl = null;
+    let i = 0, timer = null, recorder = null, stream = null, recog = null, audioUrl = null;
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    focusMode(true, "#/drill");
     const stopAll = () => {
       clearInterval(timer); timer = null;
       try { recog && recog.stop(); } catch (e) { /* ignore */ }
@@ -609,18 +585,16 @@
       stream = null;
     };
     onCleanup(() => { stopAll(); if (audioUrl) URL.revokeObjectURL(audioUrl); });
+    const clockText = (s) => `${s < 0 ? "+" : ""}${Math.floor(Math.abs(s) / 60)}:${pad(Math.abs(s) % 60)}`;
 
     const ask = (c, prompt, onDone) => {
       let transcript = "", left = seconds, started = 0;
       const box = $("#stage", main);
-      box.innerHTML = `<p class="q" style="font:600 22px/1.35 var(--sans)">${esc(prompt)}</p>
-        <div class="row"><button class="btn primary" type="button" id="go">Start speaking</button><span class="timer" id="clock">${seconds < 60 ? `0:${pad(seconds)}` : `${Math.floor(seconds / 60)}:${pad(seconds % 60)}`}</span><span id="recstate"></span></div>
+      box.innerHTML = `<h1 class="card-q">${esc(prompt)}</h1>
+        <p class="row"><button class="btn primary" type="button" id="go">Start speaking</button><span class="timer" id="clock">${clockText(seconds)}</span><span class="rec" id="recstate"></span></p>
         <div class="transcript" id="tx" hidden></div>`;
       const clock = $("#clock", box), tx = $("#tx", box);
-      const finish = () => {
-        stopAll();
-        onDone({ transcript, elapsed: Math.round((Date.now() - started) / 1000) });
-      };
+      const finish = () => { stopAll(); onDone({ transcript, elapsed: Math.round((Date.now() - started) / 1000) }); };
       $("#go", box).addEventListener("click", async (e) => {
         if (timer) { finish(); return; }
         e.target.textContent = "Done";
@@ -635,11 +609,11 @@
               if (audioUrl) URL.revokeObjectURL(audioUrl);
               audioUrl = URL.createObjectURL(new Blob(chunks, { type: recorder.mimeType }));
               const slot = $("#playback", main);
-              if (slot) slot.innerHTML = `<h4>Your answer</h4><audio controls src="${audioUrl}"></audio>`;
+              if (slot) slot.innerHTML = `<h2>Your answer</h2><audio controls src="${audioUrl}"></audio>`;
             };
             recorder.start();
-            $("#recstate", box).innerHTML = `<span class="rec-dot" aria-hidden="true"></span> recording`;
-          } catch (err) { $("#recstate", box).textContent = "Microphone blocked, continuing without recording."; }
+            $("#recstate", box).textContent = "recording";
+          } catch (err) { $("#recstate", box).textContent = "microphone blocked, carrying on without a recording"; }
         }
         if (state.drillTranscript && SR) {
           try {
@@ -652,12 +626,7 @@
             recog.start();
           } catch (err) { /* recognition unavailable */ }
         }
-        timer = setInterval(() => {
-          left--;
-          const a = Math.abs(left);
-          clock.textContent = `${left < 0 ? "+" : ""}${Math.floor(a / 60)}:${pad(a % 60)}`;
-          clock.classList.toggle("over", left < 0);
-        }, 1000);
+        timer = setInterval(() => { left--; clock.textContent = clockText(left); clock.classList.toggle("over", left < 0); }, 1000);
       });
     };
 
@@ -666,25 +635,25 @@
       const mm = c.must_mention || [];
       const hits = mm.map((p) => mentioned(p, res.transcript));
       box.innerHTML = `
-        <p class="muted small">${esc(c.q)}</p>
+        <p class="context">${esc(c.q)}</p>
         <p>You spoke for ${res.elapsed} seconds${res.elapsed > seconds * 1.15 ? ", which ran long. Cut the setup and lead with the answer." : "."}</p>
         <div id="playback"></div>
-        ${res.transcript ? `<h4>What you said</h4><div class="transcript">${esc(res.transcript)}</div>` : ""}
-        ${mm.length ? `<h4 style="margin-top:16px">Did you mention</h4><ul class="checklist">${mm.map((p, k) => `<li class="${hits[k] ? "hit" : ""}"><input type="checkbox" data-mm ${hits[k] ? "checked" : ""} aria-label="${esc(p)}"> <span>${esc(p)}</span></li>`).join("")}</ul>` : ""}
-        <h4 style="margin-top:16px">Delivery check</h4><ul class="checklist">${RUBRIC.map((r) => `<li><input type="checkbox" data-rb aria-label="${esc(r)}"> <span>${esc(r)}</span></li>`).join("")}</ul>
-        ${c.say ? `<h4 style="margin-top:16px">Model spoken answer</h4><div class="say" style="background:var(--accent-soft);border-radius:10px;padding:14px 16px;font:17px/1.65 var(--serif)">${esc(c.say)}</div><div class="row" style="margin-top:8px"><button class="btn small" type="button" id="hear">Hear it</button>${c.module && !c.bank ? `<a class="btn small" href="#/module/${esc(c.module)}?d=plain">Read the module</a>` : ""}</div>` : `<p class="small muted">No model answer for this one yet. ${c.bank && c.bank.source ? `Source: ${link(c.bank.source.url, c.bank.source.title)}` : ""}</p>`}
-        ${(c.followups || []).length ? `<h4 style="margin-top:16px">The interviewer follows up</h4><div class="row"><button class="btn" type="button" id="fu">Answer the follow up aloud</button></div>` : ""}
-        <h4 style="margin-top:16px">How clear was it?</h4>
-        <div class="row" id="score">${[1, 2, 3, 4, 5].map((n) => `<button class="btn" type="button" data-n="${n}">${n}</button>`).join("")}<span class="muted small">1 rambling, 5 crisp</span></div>`;
-      if (audioUrl) $("#playback", box).innerHTML = `<h4>Your answer</h4><audio controls src="${audioUrl}"></audio>`;
+        ${res.transcript ? `<h2>What you said</h2><div class="transcript">${esc(res.transcript)}</div>` : ""}
+        ${mm.length ? `<h2>Did you mention</h2><ul class="checklist">${mm.map((p, k) => `<li class="${hits[k] ? "hit" : ""}"><input type="checkbox" data-mm ${hits[k] ? "checked" : ""} aria-label="${esc(p)}"><span>${esc(p)}</span></li>`).join("")}</ul>` : ""}
+        <h2>Delivery</h2><ul class="checklist">${RUBRIC.map((r) => `<li><input type="checkbox" aria-label="${esc(r)}"><span>${esc(r)}</span></li>`).join("")}</ul>
+        ${c.say ? `<h2>A strong spoken answer</h2><div class="spoken">${esc(c.say)}</div><p class="row" style="margin-top:.6rem"><button class="link" type="button" id="hear">Hear it read aloud</button></p>` : `<p class="meta">No model answer for this one yet.${c.bank && c.bank.source ? ` Source: ${link(c.bank.source.url, c.bank.source.title)}` : ""}</p>`}
+        ${(c.followups || []).length ? `<h2>The interviewer follows up</h2><p><button class="btn" type="button" id="fu">Answer the follow up</button></p>` : ""}
+        <h2>How clear was it</h2>
+        <p class="row" id="score">${[1, 2, 3, 4, 5].map((n) => `<button class="btn" type="button" data-n="${n}">${n}</button>`).join("")}<span class="meta" style="display:inline">1 rambling, 5 crisp</span></p>`;
+      if (audioUrl) $("#playback", box).innerHTML = `<h2>Your answer</h2><audio controls src="${audioUrl}"></audio>`;
       $("#hear", box)?.addEventListener("click", () => speak(c.say));
       $("#fu", box)?.addEventListener("click", () => {
         const f = c.followups[0];
         ask(c, f.q, (r2) => {
           const b2 = $("#stage", main);
-          b2.innerHTML = `<p class="muted small">Follow up: ${esc(f.q)}</p><p>You spoke for ${r2.elapsed} seconds.</p>${r2.transcript ? `<div class="transcript">${esc(r2.transcript)}</div>` : ""}
-            <h4 style="margin-top:14px">A strong answer</h4><div class="say" style="background:var(--accent-soft);border-radius:10px;padding:14px 16px">${esc(f.a)}</div>
-            <div class="row" style="margin-top:14px"><button class="btn primary" type="button" id="next">Next question</button></div>`;
+          b2.innerHTML = `<p class="context">Follow up: ${esc(f.q)}</p><p>You spoke for ${r2.elapsed} seconds.</p>${r2.transcript ? `<div class="transcript">${esc(r2.transcript)}</div>` : ""}
+            <h2>A strong answer</h2><div class="spoken">${esc(f.a)}</div>
+            <p class="row" style="margin-top:1.4rem"><button class="btn primary" type="button" id="next">Next question</button></p>`;
           $("#next", b2).addEventListener("click", next);
         });
       });
@@ -702,14 +671,13 @@
       if (i >= items.length) {
         const mine = state.drills.slice(-items.length);
         const avg = mine.length ? (mine.reduce((a, d) => a + d.score, 0) / mine.length).toFixed(1) : "n/a";
-        main.innerHTML = `<div class="study"><h1>Drill done</h1><p class="lede">${plural(items.length, "question")} answered out loud. Average clarity ${avg} out of 5.</p>
-          <div class="row"><a class="btn primary" href="#/cards/learn">Continue learning</a><a class="btn" href="#/drill">Another drill</a><a class="btn" href="#/progress">Progress</a></div></div>`;
+        main.innerHTML = `<div class="session"><h1>Drill done</h1><p class="lede">${plural(items.length, "question")} answered out loud, average clarity ${avg} out of 5.</p>
+          <p class="row"><a class="btn primary" href="#/cards/learn">Continue learning</a><a href="#/drill">Another drill</a></p></div>`;
         return;
       }
-      const c = items[i];
-      main.innerHTML = `<div class="study"><div class="progress-line"><span>${esc(title)}</span><div class="meter"><span style="width:${Math.round((100 * i) / items.length)}%"></span></div><span>${i + 1} / ${items.length}</span></div>
-        <div class="card" id="stage"></div></div>`;
-      ask(c, c.q, (res) => review(c, res));
+      main.innerHTML = `<div class="session"><div class="session-head"><span>${esc(title)}</span><span>${i + 1} of ${items.length}</span></div>
+        <div class="progress"><span style="width:${Math.round((100 * i) / items.length)}%"></span></div><div id="stage"></div></div>`;
+      ask(items[i], items[i].q, (res) => review(items[i], res));
     };
     render();
   }
@@ -720,25 +688,24 @@
     const notes = await Promise.all(pls.map((p) => getText(`content/lectures/${p.key}.md`)));
     const mins = (d) => d.split(":").map(Number).reduce((a, x) => a * 60 + x, 0) / 60;
     main.innerHTML = `<h1>Lectures</h1>
-      <p class="lede">The four playlists this site is built around. The study modules link the lecture that teaches each section, and each playlist has its own notes page once it is written.</p>
-      ${pls.map((p, k) => `<section><h2>${esc(p.title)}</h2>
-        <div class="row small muted" style="margin-bottom:10px">${plural(p.videos.length, "video")}, about ${Math.round(p.videos.reduce((a, v) => a + mins(v.duration || "0"), 0) / 60)} hours. ${link(p.url, "Open on YouTube")}
-          ${notes[k] ? `<a class="btn small primary" href="#/guide/lectures/${p.key}">Read the notes</a>` : `<span class="badge">notes being written</span>`}</div>
-        <div class="table-wrap"><table><thead><tr><th>#</th><th>Lecture</th><th>Length</th><th></th></tr></thead><tbody>
-        ${p.videos.map((v) => `<tr><td>${v.n}</td><td>${esc(v.title.replace(/^Stanford [A-Z]+\d+[A-Z]?[^|]*\|\s*[^|]*\|\s*/, ""))}</td><td class="nowrap">${esc(v.duration)}</td><td>${link(v.url, "Watch", "btn small")}</td></tr>`).join("")}
-        </tbody></table></div></section>`).join("")}`;
+      <p class="lede">The four playlists this site is built on. The study modules link the lecture that teaches each section, and each playlist gets a notes page with timestamped key ideas.</p>
+      ${pls.map((p, k) => `<h2>${esc(p.title)}</h2>
+        <p class="meta">${plural(p.videos.length, "video")}, about ${Math.round(p.videos.reduce((a, v) => a + mins(v.duration || "0"), 0) / 60)} hours. ${link(p.url, "Open on YouTube")}. ${notes[k] ? `<a href="#/guide/lectures/${p.key}">Read the notes</a>` : "Notes are being written."}</p>
+        <div class="table-wrap"><table><thead><tr><th></th><th>Lecture</th><th>Length</th><th></th></tr></thead><tbody>
+        ${p.videos.map((v) => `<tr><td>${v.n}</td><td>${esc(v.title.replace(/^Stanford [A-Z]+\d+[A-Z]?[^|]*\|\s*[^|]*\|\s*/, ""))}</td><td class="nowrap">${esc(v.duration)}</td><td>${link(v.url, "Watch")}</td></tr>`).join("")}
+        </tbody></table></div>`).join("")}`;
   };
 
   // ------------------------------------------------------------ question bank
   routes.questions = async () => {
     let qs;
     try { qs = await getJSON("content/question-bank/questions.json"); } catch (e) {
-      main.innerHTML = `<h1>Questions</h1><div class="notice">The question bank is still being compiled.</div>`; return;
+      main.innerHTML = `<h1>Questions</h1><p class="notice">The question bank is still being compiled.</p>`; return;
     }
     const titles = await moduleTitles();
     const opts = (vals, label) => `<option value="">${label}</option>` + [...new Set(vals)].sort().map((v) => `<option value="${esc(v)}">${esc(titles[v] || v)}</option>`).join("");
     main.innerHTML = `<h1>Questions</h1>
-      <p class="lede">${qs.length} real interview questions gathered from question banks, books, course material and interview write ups, each linked to where it was seen. Practise any of them aloud.</p>
+      <p class="lede">${qs.length} real interview questions from question banks, books, course material and interview write ups, each linked to where it was seen. Practise any of them out loud.</p>
       <div class="filters">
         <input type="search" id="q" placeholder="Search questions" aria-label="Search questions">
         <select id="fm" aria-label="Module">${opts(qs.map((x) => x.module), "All modules")}</select>
@@ -746,14 +713,13 @@
         <select id="fr" aria-label="Role">${opts(qs.flatMap((x) => x.roles || []), "All roles")}</select>
         <select id="fl" aria-label="Level">${opts(qs.map((x) => x.level), "All levels")}</select>
       </div>
-      <p class="small muted" id="count"></p><ul class="feed" id="list"></ul>`;
+      <p class="meta" id="count"></p><ul class="list" id="list"></ul>`;
     const draw = () => {
       const t = $("#q").value.toLowerCase(), m = $("#fm").value, k = $("#fk").value, r = $("#fr").value, l = $("#fl").value;
       const hit = qs.filter((x) => (!t || x.q.toLowerCase().includes(t)) && (!m || x.module === m) && (!k || x.kind === k) && (!r || (x.roles || []).includes(r)) && (!l || x.level === l));
       $("#count").textContent = `${hit.length} of ${qs.length} questions`;
-      $("#list").innerHTML = hit.slice(0, 300).map((x) => `<li><div class="t">${esc(x.q)}</div>
-        <div class="m row"><span class="badge">${esc(titles[x.module] || x.module)}</span><span class="badge">${esc(x.kind)}</span><span class="badge">${esc(x.level)}</span>
-        ${x.seen ? `<span>${esc(x.seen)}</span>` : ""}${x.source ? link(x.source.url, x.source.title) : ""}<a class="btn small" href="#/drill/bank/${esc(x.id)}">Practise aloud</a></div></li>`).join("");
+      $("#list").innerHTML = hit.slice(0, 300).map((x) => `<li>${esc(x.q)}
+        <div class="meta">${esc(titles[x.module] || x.module)}, ${esc(x.kind)}, ${esc(x.level)}${x.seen ? `, ${esc(x.seen)}` : ""}. ${x.source ? link(x.source.url, x.source.title) : ""}. <a href="#/drill/bank/${esc(x.id)}">Practise aloud</a></div></li>`).join("");
     };
     $$(".filters input, .filters select", main).forEach((el) => el.addEventListener("input", draw));
     draw();
@@ -763,25 +729,24 @@
   routes.jobs = async () => {
     let data;
     try { data = await getJSON("data/jobs/open.json", true); } catch (e) {
-      main.innerHTML = `<h1>Jobs</h1><div class="notice">The first daily run has not finished yet.</div>`; return;
+      main.innerHTML = `<h1>Jobs</h1><p class="notice">The first daily update has not run yet.</p>`; return;
     }
-    const GROUPS = { "": "All sources", "application-log": "Companies you applied to or tracked", "ai-startup": "AI startups", "new-grad-list": "New grad list (SimplifyJobs)", "hn-who-is-hiring": "HN Who is hiring", larger: "Larger companies" };
+    const GROUPS = { "": "All sources", "application-log": "Companies you tracked", "ai-startup": "AI startups", "new-grad-list": "New grad list", "hn-who-is-hiring": "HN Who is hiring", larger: "Larger companies" };
     main.innerHTML = `<h1>Jobs</h1>
-      <p class="lede">${data.count} open roles matching ML, AI, data science and analytics titles in the US or remote, from ${Object.keys(GROUPS).length - 1} kinds of source. Senior, staff, lead and manager titles are filtered out. Updated ${esc(fmtTime(data.generated_at))}.</p>
+      <p class="lede">${data.count} open ML, AI, data science and analytics roles in the US or remote, without senior, staff, lead or manager titles. Sponsorship comes from keyword matching on the posting, and "not stated" means the posting says nothing either way, so check before you apply. Updated ${esc(fmtTime(data.generated_at))}.</p>
       <div class="filters">
-        <input type="search" id="q" placeholder="Search company, title or location" aria-label="Search jobs">
+        <input type="search" id="q" placeholder="Search company, role or place" aria-label="Search jobs">
         <select id="g" aria-label="Source">${Object.entries(GROUPS).map(([k, v]) => `<option value="${k}">${esc(v)}</option>`).join("")}</select>
-        <label class="check"><input type="checkbox" id="early"> Early career only</label>
-        <label class="check"><input type="checkbox" id="hidecit" checked> Hide citizens or clearance only</label>
-        <label class="check"><input type="checkbox" id="hideno"> Hide "no sponsorship"</label>
+        <label class="check"><input type="checkbox" id="early"> early career only</label>
+        <label class="check"><input type="checkbox" id="hidecit" checked> hide citizens only</label>
+        <label class="check"><input type="checkbox" id="hideno"> hide no sponsorship</label>
       </div>
-      <p class="small muted">Sponsorship comes from keyword matching on the posting text. "Not stated" means the posting did not say either way, so check before you apply.</p>
-      <p class="small muted" id="count"></p><div id="tbl"></div>`;
+      <p class="meta" id="count"></p><div id="tbl"></div>`;
     const draw = () => {
       const t = $("#q").value.toLowerCase(), g = $("#g").value;
       const hit = data.jobs.filter((j) => (!t || `${j.company} ${j.title} ${j.location}`.toLowerCase().includes(t)) && (!g || j.group === g) &&
         (!$("#early").checked || j.early_career) && (!$("#hidecit").checked || j.sponsorship !== "citizens_only") && (!$("#hideno").checked || j.sponsorship !== "no_sponsorship"));
-      $("#count").textContent = `Showing ${Math.min(hit.length, 400)} of ${hit.length} matching roles`;
+      $("#count").textContent = `Showing ${Math.min(hit.length, 400)} of ${hit.length} roles`;
       $("#tbl").innerHTML = hit.length ? jobTable(hit.slice(0, 400)) : `<p class="empty">No roles match these filters.</p>`;
     };
     $$(".filters input, .filters select", main).forEach((el) => el.addEventListener("input", draw));
@@ -795,20 +760,11 @@
     const learned = cards.filter((c) => isLearned(c.id)).length;
     const due = cards.filter((c) => isDue(c.id)).length;
     const last7 = [...Array(7)].map((_, k) => addDays(today(), -k)).reduce((a, d) => a + (state.reviews[d] || 0), 0);
-    const avg = state.drills.length ? (state.drills.reduce((a, d) => a + d.score, 0) / state.drills.length).toFixed(1) : "n/a";
+    const avg = state.drills.length ? (state.drills.reduce((a, d) => a + d.score, 0) / state.drills.length).toFixed(1) : null;
     main.innerHTML = `<h1>Progress</h1>
-      <p class="lede">Your progress lives in this browser only. Export it to move to another device or to keep a backup.</p>
-      <div class="stats">
-        <div class="stat"><b>${seen} / ${cards.length}</b><span>cards seen</span></div>
-        <div class="stat"><b>${learned}</b><span>learned (interval of a week or more)</span></div>
-        <div class="stat"><b>${due}</b><span>due now</span></div>
-        <div class="stat"><b>${last7}</b><span>reviews in the last 7 days</span></div>
-        <div class="stat"><b>${state.drills.length}</b><span>spoken drills, average clarity ${avg}</span></div>
-        <div class="stat"><b>${streak()}</b><span>day streak</span></div>
-      </div>
-      <div class="row"><button class="btn" type="button" id="exp">Export progress</button>
-        <label class="btn" for="imp">Import progress</label><input type="file" id="imp" accept="application/json" hidden>
-        <button class="btn" type="button" id="reset">Reset everything</button></div>`;
+      <p class="lede">You have seen ${seen} of ${cards.length} cards and learned ${learned}, meaning their next review is a week or more away. ${plural(due, "card")} ${due === 1 ? "is" : "are"} due now. You did ${plural(last7, "review")} in the last seven days${streak() ? ` and are on a ${streak()} day streak` : ""}. ${state.drills.length ? `You have answered ${plural(state.drills.length, "drill question")} out loud, with an average clarity of ${avg} out of 5.` : "You have not done a spoken drill yet."}</p>
+      <p>Progress lives in this browser only. Export it to move to another device or to keep a copy.</p>
+      <p class="row"><button class="btn" type="button" id="exp">Export progress</button><label class="btn" for="imp">Import progress</label><input type="file" id="imp" accept="application/json" hidden><button class="link" type="button" id="reset">Reset everything</button></p>`;
     $("#exp").addEventListener("click", () => {
       const a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([JSON.stringify(state, null, 1)], { type: "application/json" }));
@@ -819,7 +775,7 @@
     $("#imp").addEventListener("change", async (e) => {
       const f = e.target.files[0];
       if (!f) return;
-      try { state = Object.assign(blank(), JSON.parse(await f.text())); save(); route(); } catch (err) { alert("That file is not a progress export."); }
+      try { state = Object.assign(blank(), JSON.parse(await f.text())); save(); route(); } catch (err) { alert("That file is not a progress export from this site."); }
     });
     $("#reset").addEventListener("click", () => {
       if (confirm("Delete all card progress and drill history in this browser?")) { state = Object.assign(blank(), { theme: state.theme }); save(); route(); }
