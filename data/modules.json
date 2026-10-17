@@ -67,7 +67,7 @@
   "title": "ML system design",
   "group": "Systems",
   "summary": "A framework for the design round and full designs for recsys, search, ads, fraud and LLM apps.",
-  "ready": false
+  "ready": true
  },
  {
   "id": "ml-coding",
