@@ -28,6 +28,25 @@ reference; the cards are what gets studied every day. So:
   technical answer with the math and the why.
 - One idea per card. Split a big topic into several cards instead of one long one.
 
+### The plain answer: easy to read, nothing left out
+
+`plain` is what the reader sees first, so it must be easy to understand without
+hiding any of the technical content. `deep` holds the technical language.
+
+- Sentence one answers the question in everyday words.
+- Keep every technical idea, fact, number and caveat. When a technical term
+  appears, keep the term and explain it in plain words where it first appears:
+  "the gradient (the direction in which the error grows fastest)". Spell out
+  every abbreviation the first time: "retrieval augmented generation (RAG)".
+- One idea per sentence, at most about 20 words. The site shows each sentence as
+  its own point, so each one must stand alone.
+- 4 to 8 sentences, including one concrete example with real numbers.
+- Say formulas in words ("divide by the square root of the key size"). Symbols,
+  notation and derivations go in `deep`.
+- Prefer common words: "use" over "employ", "shows" over "demonstrates", "about"
+  over "approximately", "start" over "initialise".
+- `deep` stays fully technical: notation, derivations, code, edge cases, citations.
+
 ## Markdown files
 
 - Start with a single `# Title` line, then a one paragraph summary.

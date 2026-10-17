@@ -48,7 +48,7 @@ the mechanical ones and CI fails when they break.
 | Depth | Reader | What it contains |
 | --- | --- | --- |
 | Cheatsheet | You, ten minutes before the interview | Dense one page reference: formulas, decision tables, "if asked X, say Y" lines, the numbers worth memorising |
-| Plain | A smart friend with no ML background | Intuition first, an analogy, one worked example with numbers, where it breaks. Minimal symbols, every symbol defined in words |
+| Plain | A smart friend with no ML background | Intuition first, an analogy, one worked example with numbers, where it breaks. Every technical term kept and explained in plain words where it first appears, short sentences, formulas said in words. Nothing technical is left out |
 | Deep | An interviewer at a research lab | Exhaustive: definitions, derivations interviewers ask you to reproduce, assumptions, complexity, edge cases, comparisons, failure modes, what interviewers probe, citations |
 
 ## Spoken answers (the `say` field on every card)
