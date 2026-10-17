@@ -1,0 +1,170 @@
+[
+ {
+  "title": "Stanford CS229 main lecture notes",
+  "url": "https://cs229.stanford.edu/main_notes.pdf",
+  "type": "course",
+  "why": "Neural networks, activations, layer norm, RMSNorm, residual blocks, backprop theorem, VAE and reparameterisation, contrastive learning, and retrieval with embeddings.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Chip Huyen, Machine Learning Interviews book, training neural networks",
+  "url": "https://huyenchip.com/ml-interviews-book/contents/8.3-training-neural-networks.html",
+  "type": "question-bank",
+  "why": "The list of real interview questions on activations, optimisers, normalisation, regularisation, batch size and dead neurons that the cards cover.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Chip Huyen, Machine Learning Interviews book, computer vision",
+  "url": "https://huyenchip.com/ml-interviews-book/contents/8.2.2-computer-vision.html",
+  "type": "question-bank",
+  "why": "Interview questions on filter size, padding, pooling, 1 by 1 and depthwise separable convolutions, and using a pretrained CNN at another image size.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Karpathy, micrograd engine.py",
+  "url": "https://raw.githubusercontent.com/karpathy/micrograd/master/micrograd/engine.py",
+  "type": "repo",
+  "why": "The scalar autograd Value class with topological backward that the autograd card follows.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Karpathy, build-nanogpt train_gpt2.py",
+  "url": "https://raw.githubusercontent.com/karpathy/build-nanogpt/master/train_gpt2.py",
+  "type": "repo",
+  "why": "A real training recipe: AdamW settings, weight decay groups, warmup plus cosine schedule, bf16 autocast, gradient accumulation, clipping and init scaling.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Karpathy, nanoGPT model.py",
+  "url": "https://raw.githubusercontent.com/karpathy/nanoGPT/master/model.py",
+  "type": "repo",
+  "why": "Pre norm block, final layer norm, GELU MLP and weight tying in a GPT implementation.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Karpathy, The spelled out intro to neural networks and backpropagation: building micrograd",
+  "url": "https://www.youtube.com/watch?v=VMj-3S1tku0",
+  "type": "video",
+  "why": "Chain rule on a graph, a neuron, topological backward, the gradient accumulation bug and the zero grad mistake.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Karpathy, The spelled out intro to language modeling: building makemore",
+  "url": "https://www.youtube.com/watch?v=PaCmpygFfXo",
+  "type": "video",
+  "why": "Softmax, negative log likelihood, and one hot encoding as a row lookup.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Karpathy, Building makemore Part 2: MLP",
+  "url": "https://www.youtube.com/watch?v=TCH_1BHY58I",
+  "type": "video",
+  "why": "Embedding lookup, cross entropy, overfitting a small batch and a learning rate sweep.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Karpathy, Building makemore Part 3: Activations and Gradients, BatchNorm",
+  "url": "https://www.youtube.com/watch?v=P6sfmUTpUmc",
+  "type": "video",
+  "why": "Initial loss, saturated tanh, Kaiming init, batch norm and the update to data ratio.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Karpathy, Building makemore Part 4: Becoming a Backprop Ninja",
+  "url": "https://www.youtube.com/watch?v=q8SA3rM6ckI",
+  "type": "video",
+  "why": "Manual backward passes for cross entropy and batch norm, with the Bessel correction note.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Karpathy, Let's build GPT: from scratch, in code, spelled out",
+  "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY",
+  "type": "video",
+  "why": "Self attention step by step, scaling by head size, residual connections, layer norm and dropout.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Karpathy, Let's reproduce GPT-2 (124M)",
+  "url": "https://www.youtube.com/watch?v=l8pRSuU81PU",
+  "type": "video",
+  "why": "Init scaling, bf16, AdamW, clipping, cosine schedule, gradient accumulation and distributed data parallel.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 7: Neural Networks 1 (Architecture)",
+  "url": "https://www.youtube.com/watch?v=fRM41w9jzQo",
+  "type": "video",
+  "why": "Neurons, ReLU as a primitive, stacking layers and minibatch gradient estimates.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 8: Neural Networks 2 (Backprop)",
+  "url": "https://www.youtube.com/watch?v=ne2ngVAoMG8",
+  "type": "video",
+  "why": "Forward and backward passes and the chain rule as a backward function.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 11: Diffusion Models",
+  "url": "https://www.youtube.com/watch?v=dqUMCzWjZSI",
+  "type": "video",
+  "why": "Forward noising, closed form, reverse parameterisation, the ELBO and the KL chain rule.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 12: Representation Learning",
+  "url": "https://www.youtube.com/watch?v=_kREM2UAiJ8",
+  "type": "video",
+  "why": "Linear probing versus fine tuning of pretrained representations.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Stanford CME295 Autumn 2025, Lecture 4: LLM Training",
+  "url": "https://www.youtube.com/watch?v=VlA_jt_3Qc4",
+  "type": "video",
+  "why": "Data parallelism with ZeRO, model parallelism and mixed precision training.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Kingma and Ba 2015, Adam: A Method for Stochastic Optimization",
+  "url": "https://arxiv.org/pdf/1412.6980",
+  "type": "paper",
+  "why": "Algorithm 1, default hyperparameters, bias correction and the effective step size bound.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Loshchilov and Hutter 2019, Decoupled Weight Decay Regularization",
+  "url": "https://arxiv.org/pdf/1711.05101",
+  "type": "paper",
+  "why": "Why L2 and weight decay differ under Adam, the AdamW update and the reported test error gain.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Rajbhandari et al. 2020, ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+  "url": "https://arxiv.org/pdf/1910.02054",
+  "type": "paper",
+  "why": "16 bytes per parameter accounting, the three stages, the 7.5B model example and communication volumes.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Ho, Jain and Abbeel 2020, Denoising Diffusion Probabilistic Models",
+  "url": "https://arxiv.org/pdf/2006.11239",
+  "type": "paper",
+  "why": "T = 1000, the linear beta schedule, the simple noise prediction loss, sampler and U Net details.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Micikevicius et al. 2018, Mixed Precision Training",
+  "url": "https://arxiv.org/pdf/1710.03740",
+  "type": "paper",
+  "why": "FP32 master weights, loss scaling choices and memory effects.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Chen et al. 2020, A Simple Framework for Contrastive Learning of Visual Representations",
+  "url": "https://arxiv.org/pdf/2002.05709",
+  "type": "paper",
+  "why": "NT-Xent loss, augmentations, projection head, large batches with LARS and global batch norm.",
+  "checked": "2026-10-15"
+ }
+]
