@@ -1,0 +1,51 @@
+[
+ {
+  "title": "Deng, Xu, Kohavi, Walker: CUPED, improving the sensitivity of online controlled experiments with pre experiment data (WSDM 2013)",
+  "url": "https://exp-platform.com/Documents/2013-02-CUPED-ImprovingSensitivityOfControlledExperiments.pdf",
+  "type": "paper",
+  "why": "The CUPED paper: control variates and stratification derivation, optimal theta, variance reduction by one minus rho squared, the 45, 52 and 49 percent Bing reductions, and the post treatment covariate warning.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Evan Miller: How Not To Run an A/B Test",
+  "url": "https://www.evanmiller.org/how-not-to-run-an-ab-test.html",
+  "type": "blog",
+  "why": "Clear case against peeking: the 26.1 percent false positive example, the table of adjusted per look thresholds, the 16 sigma squared over delta squared rule, and sequential and Bayesian alternatives.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Fabijan et al.: Diagnosing Sample Ratio Mismatch in Online Controlled Experiments (KDD 2019)",
+  "url": "https://exp-platform.com/Documents/2019_KDDFabijanGupchupFuptaOmhoverVermeerDmitriev.pdf",
+  "type": "paper",
+  "why": "Best source for SRM: chi square check, the 821,588 versus 815,482 example, the five stage taxonomy with real cases, the ten rules of thumb for diagnosis, and prevalence figures.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Deng, Knoblich, Lu: Applying the Delta method in metric analytics (arXiv 1803.06336)",
+  "url": "https://arxiv.org/abs/1803.06336",
+  "type": "paper",
+  "why": "Abstract page for the delta method in metric analytics: closed form variance for ratio metrics instead of bootstrap, with four large scale A/B testing applications.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Kohavi, Deng, Longbotham, Xu: Seven Rules of Thumb for Web Site Experimenters (KDD 2014)",
+  "url": "https://exp-platform.com/Documents/2014%20experimentersRulesOfThumb.pdf",
+  "type": "paper",
+  "why": "Dilution of segment lifts, the 89 percent and 3.1 percent probability calculations, Twyman's law, novelty and primacy effects, speed experiments, and the 355 times squared skewness sample size rule.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Cunningham: Causal Inference, The Mixtape, chapter 9 Difference in differences",
+  "url": "https://mixtape.scunning.com/09-difference_in_differences",
+  "type": "book",
+  "why": "Difference in differences estimator, parallel trends and no anticipation, the Snow cholera and Card and Krueger numbers, event studies and falsification tests. The staggered adoption section was beyond the part read.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Amplitude: 22 A/B testing interview questions and how to answer them",
+  "url": "https://www.amplitude.com/blog/a-b-testing-interview-questions.md",
+  "type": "question-bank",
+  "why": "Real interview question list used to check coverage: duration, small samples, interference, long term metrics, inconclusive results, network effects, conflicting metrics and alternatives to testing.",
+  "checked": "2026-10-15"
+ }
+]
