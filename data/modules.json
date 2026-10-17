@@ -39,7 +39,7 @@
   "title": "Deep learning foundations",
   "group": "Machine learning",
   "summary": "Backprop from scratch, optimisers, normalisation, CNNs, RNNs, diffusion, and training at scale.",
-  "ready": false
+  "ready": true
  },
  {
   "id": "transformers-llms",
