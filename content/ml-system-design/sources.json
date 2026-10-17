@@ -1,0 +1,51 @@
+[
+ {
+  "title": "alirezadir Machine Learning Interviews: ML system design framework and sample questions",
+  "url": "https://raw.githubusercontent.com/alirezadir/Machine-Learning-Interviews/main/src/MLSD/ml-system-design.md",
+  "type": "repo",
+  "why": "A nine step ML system design framework, metric and model lists, and the sample question list (recommendation, search, ads, fraud, ETA, moderation, LLM support chatbot).",
+  "checked": "2026-10-17"
+ },
+ {
+  "title": "Chip Huyen: Machine Learning Interviews book",
+  "url": "https://huyenchip.com/ml-interviews-book/",
+  "type": "book",
+  "why": "States that almost every company asks at least one ML system design question and that candidates often find it hardest; its table of contents links the system design material.",
+  "checked": "2026-10-17"
+ },
+ {
+  "title": "Google: Rules of Machine Learning",
+  "url": "https://developers.google.com/machine-learning/guides/rules-of-ml",
+  "type": "docs",
+  "why": "Numbered practical rules on launching without ML, metrics, skew (rule 37), logging features at serving (rule 29), feedback loops and position features.",
+  "checked": "2026-10-17"
+ },
+ {
+  "title": "Hidden Technical Debt in Machine Learning Systems (Sculley et al., NIPS 2015)",
+  "url": "https://papers.neurips.cc/paper_files/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf",
+  "type": "paper",
+  "why": "CACE, correction cascades, undeclared consumers, data dependencies, feedback loops, glue code, configuration debt, monitoring starting points.",
+  "checked": "2026-10-17"
+ },
+ {
+  "title": "Deep Neural Networks for YouTube Recommendations (Covington, Adams, Sargin, RecSys 2016)",
+  "url": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf",
+  "type": "paper",
+  "why": "Two stage recommender, extreme multiclass candidate generation, example age, watch time weighted logistic regression, feature handling.",
+  "checked": "2026-10-17"
+ },
+ {
+  "title": "Practical Lessons from Predicting Clicks on Ads at Facebook (He et al., ADKDD 2014)",
+  "url": "https://quinonero.net/Publications/predicting-clicks-facebook.pdf",
+  "type": "paper",
+  "why": "Tree plus logistic regression hybrid, normalized entropy and calibration, data freshness, online learning, negative downsampling and recalibration.",
+  "checked": "2026-10-17"
+ },
+ {
+  "title": "Meet Michelangelo: Uber's Machine Learning Platform",
+  "url": "https://www.uber.com/blog/michelangelo-machine-learning-platform/",
+  "type": "blog",
+  "why": "Feature store with offline and online split, shared feature definitions for training and serving, model repository and versioning, deployment modes, monitoring.",
+  "checked": "2026-10-17"
+ }
+]
