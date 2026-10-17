@@ -11,7 +11,7 @@
   "title": "Experiments and causal inference",
   "group": "Analytics",
   "summary": "A/B tests end to end, power, CUPED, interference, and causal methods without experiments.",
-  "ready": false
+  "ready": true
  },
  {
   "id": "sql-analytics",
