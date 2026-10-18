@@ -1,0 +1,271 @@
+{
+ "date": "2026-10-18",
+ "generated_at": "2026-10-18T14:03:09Z",
+ "counts": {
+  "jobs_open": 857,
+  "jobs_new": 0,
+  "papers": 10,
+  "posts": 6,
+  "hn": 3,
+  "reddit": 6,
+  "videos": 0,
+  "interview_intel": 0,
+  "errors": 5
+ },
+ "jobs_new": [],
+ "papers": [
+  {
+   "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+   "url": "https://huggingface.co/papers/2610.21601",
+   "arxiv": "https://arxiv.org/abs/2610.21601",
+   "upvotes": 667,
+   "github": "https://github.com/hhhbxloveai/WaypointOPD",
+   "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially cancel each other ...",
+   "published": "2026-10-15T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+   "url": "https://huggingface.co/papers/2610.22276",
+   "arxiv": "https://arxiv.org/abs/2610.22276",
+   "upvotes": 353,
+   "github": "https://github.com/Fr0zenCrane/MJev-Spatial",
+   "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few options, a scalar ...",
+   "published": "2026-10-15T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+   "url": "https://huggingface.co/papers/2610.22200",
+   "arxiv": "https://arxiv.org/abs/2610.22200",
+   "upvotes": 316,
+   "github": "https://github.com/Tongyi-MAI/OpenGCUA",
+   "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GPT-6 Astra's ...",
+   "published": "2026-10-15T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "FDE-Gym: The Last Mile of AI Delivery",
+   "url": "https://huggingface.co/papers/2610.22350",
+   "arxiv": "https://arxiv.org/abs/2610.22350",
+   "upvotes": 285,
+   "github": "https://github.com/deeplethe/fde-gym",
+   "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors ...",
+   "published": "2026-10-15T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
+   "url": "https://huggingface.co/papers/2610.17665",
+   "arxiv": "https://arxiv.org/abs/2610.17665",
+   "upvotes": 202,
+   "github": "https://github.com/MAC-AutoML/RoTA-Bench",
+   "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses successive ...",
+   "published": "2026-10-14T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Self-Evolving Agent Harness",
+   "url": "https://huggingface.co/papers/2610.18813",
+   "arxiv": "https://arxiv.org/abs/2610.18813",
+   "upvotes": 200,
+   "github": "https://github.com/zgcagi/Harness-RSI",
+   "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code ...",
+   "published": "2026-10-13T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+   "url": "https://huggingface.co/papers/2610.20939",
+   "arxiv": "https://arxiv.org/abs/2610.20939",
+   "upvotes": 154,
+   "github": "https://github.com/Tongyi-MAI/MAI-Gym",
+   "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL training across mobile ...",
+   "published": "2026-10-14T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+   "url": "https://huggingface.co/papers/2610.21261",
+   "arxiv": "https://arxiv.org/abs/2610.21261",
+   "upvotes": 106,
+   "github": "https://github.com/OpenSAE/SAE-Behavioral-Compositionality",
+   "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of interactions above ...",
+   "published": "2026-10-15T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
+   "url": "https://huggingface.co/papers/2610.21439",
+   "arxiv": "https://arxiv.org/abs/2610.21439",
+   "upvotes": 56,
+   "github": "https://github.com/zhaihaotian/MRTPO",
+   "summary": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the format of a tool call, or the individual constraints of a complex instruction. Reward-decoupled normalization (GDPO) normalizes each reward separately so that different reward combinations keep distinct advantages, but it still spreads every reward's advantage evenly over the whole response, although ...",
+   "published": "2026-10-15T07:47:04Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "VLA-Δ: Learning Physical State Transition for Vision-Language-Action Models",
+   "url": "https://huggingface.co/papers/2610.21306",
+   "arxiv": "https://arxiv.org/abs/2610.21306",
+   "upvotes": 54,
+   "github": "https://github.com/ZJU-OmniAI/VLA-Delta",
+   "summary": "Vision-language-action (VLA) models transfer semantic knowledge acquired through vision-language pretraining to robot control, achieving strong performance across various benchmarks. However, most VLAs directly map observations to demonstrated actions without explicit supervision of intermediate physical state changes, making them prone to overfitting observation-action correspondences. Some methods introduce ...",
+   "published": "2026-10-15T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "Inferring the Host: A Bayesian Look at the Monty Hall Problem",
+   "url": "https://towardsdatascience.com/inferring-the-host-a-bayesian-look-at-the-monty-hall-problem/",
+   "published": "2026-10-18T14:00:00Z",
+   "summary": "\"Always switch\" is true for one particular host. Watch a few episodes and you can work out which host you've got. The post Inferring the Host: A Bayesian Look at the Monty Hall Problem appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+   "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
+   "published": "2026-10-18T12:31:36Z",
+   "summary": "Listen now (72 mins) | Emmanuel Ameisen of Anthropic explains what looking inside language models reveals about planning, consciousness, and AI safety",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "Both Charts Are Right. So Why Do They Disagree?",
+   "url": "https://towardsdatascience.com/both-charts-are-right-so-why-do-they-disagree/",
+   "published": "2026-10-18T12:00:00Z",
+   "summary": "The statistical paradox that shows how combining data can reverse the story. The post Both Charts Are Right. So Why Do They Disagree? appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Meta shakes up the frontiers, open and closed",
+   "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+   "published": "2026-10-17T14:06:54Z",
+   "summary": "US open weights are back!",
+   "source": "Interconnects (Nathan Lambert)",
+   "topic": "post-training"
+  },
+  {
+   "title": "The Number Your Quantization Gate Doesn't Have",
+   "url": "https://towardsdatascience.com/the-number-your-quantization-gate-doesnt-have/",
+   "published": "2026-10-17T14:00:00Z",
+   "summary": "Ten quantization guides, and not one threshold-dependent metric between them , what that gap hides, and the two numbers that close it. The post The Number Your Quantization Gate Doesn't Have appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "🧠 Community Wisdom: PRDs for agents, tracking competitor messaging, whether software moats still exist, exercising startup options when you leave, and more",
+   "url": "https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents",
+   "published": "2026-10-17T13:53:57Z",
+   "summary": "Community Wisdom 302",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Show HN: Sphinx to A hook that quizzes you on your AI's code before shipping",
+   "url": "https://sphinx-six-theta.vercel.app/",
+   "discussion": "https://news.ycombinator.com/item?id=50137950",
+   "points": 181,
+   "comments": 55,
+   "published": "2026-10-18T04:33:49Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Amazon uses AI to monitor union risk in UK warehouses",
+   "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+   "discussion": "https://news.ycombinator.com/item?id=50132278",
+   "points": 168,
+   "comments": 58,
+   "published": "2026-10-17T16:04:23Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Development statistics for the 7.2 kernel",
+   "url": "https://lwn.net/Articles/1088776/",
+   "discussion": "https://news.ycombinator.com/item?id=50132950",
+   "points": 136,
+   "comments": 109,
+   "published": "2026-10-17T17:14:12Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "What is wrong with AI writing - ICLR edition [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1x8oksb/what_is_wrong_with_ai_writing_iclr_edition_d/",
+   "published": "2026-10-17T23:40:03Z",
+   "summary": "I'm sure many of us are slogging through impenetrable AI writing as we finish ICLR reviewing. I'll try to create an anonymized version from a paper I'm reviewing, though it's hard to match Claude on this: outperforms the best baseline costing no more at none of six operating ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "17 AIs, 7,700 hands of poker: frontier vs cheap vs local vs Jev [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1x8j8kg/17_ais_7700_hands_of_poker_frontier_vs_cheap_vs/",
+   "published": "2026-10-17T19:41:19Z",
+   "summary": "submitted by /u/Civil-Demand555 [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "EpochGo: Local-first multi-agent AutoML engine using offline Ollama LLMs and deterministic Scikit-Learn pipelines [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1x8c2sq/epochgo_localfirst_multiagent_automl_engine_using/",
+   "published": "2026-10-17T14:48:25Z",
+   "summary": "Hello r/MachineLearning , I wanted to share EpochGo , an open-source, local-first AutoML system built to tackle two major bottlenecks in applied machine learning: 1. Cloud API inference costs and data privacy risks: Traditional agentic ML frameworks rely heavily on cloud APIs ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "GPT-2 KV cache from scratch: correctness, latency, and memory measurements [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1x8xxmv/gpt2_kv_cache_from_scratch_correctness_latency/",
+   "published": "2026-10-18T08:23:02Z",
+   "summary": "I built GPT-2 small and a KV cache in PyTorch as a learning project, then compared the mathematical savings with measured latency and memory. I have published the implementation and a detailed write-up, and would appreciate feedback on the methodology. Setup: pretrained GPT-2 ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "EMNLP main presentation[D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1x8ey1m/emnlp_main_presentationd/",
+   "published": "2026-10-17T16:45:33Z",
+   "summary": "Hello everyone, I am presenting at EMNLP Main this year, but I just got the underline link, and under my presentations, it says no presentations yet, so I cannot check my time, but I have seen other projects with times. Is this normal on underline, or should I contact them? ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Built a search engine for debugging which is not a wrapper [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1x8uwbg/built_a_search_engine_for_debugging_which_is_not/",
+   "published": "2026-10-18T05:18:51Z",
+   "summary": "TLDR: I built a search engine that reads a bug report (or lets you define it) and points to the exact file (93%) and to the exact function (79.4%) you need to fix. Hey everyone, I recently made a new project while trying to get into RAG and automation. Odin is more than a search ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  }
+ ],
+ "videos": [],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
