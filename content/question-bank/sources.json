@@ -1,0 +1,1052 @@
+[
+ {
+  "title": "Alexey Grigorev, Data Science Interviews: theory questions",
+  "url": "https://github.com/alexeygrigorev/data-science-interviews/blob/master/theory.md",
+  "type": "question-bank",
+  "why": "About 170 theory questions on classic ML, from regression to time series, each marked by difficulty. Best for a self test.",
+  "checked": "2026-10-18"
+ },
+ {
+  "title": "Amplitude, 22 A/B testing interview questions and how to answer them",
+  "url": "https://www.amplitude.com/blog/a-b-testing-interview-questions.md",
+  "type": "question-bank",
+  "why": "Published 15 June 2022. 22 questions grouped by setup, tools, problems, scenarios, analysis and workflows.",
+  "checked": "2026-10-18"
+ },
+ {
+  "title": "DataLemur: 4 Rolls to 4 (Visa data science interview question)",
+  "url": "https://datalemur.com/questions/4-rolls-to-4",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: App Click through Rate (Facebook SQL interview question)",
+  "url": "https://datalemur.com/questions/click-through-rate",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Assumptions of Linear Regression (McKinsey machine learning interview question)",
+  "url": "https://datalemur.com/questions/assumptions-linear-regression",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Average Review Ratings (Amazon SQL interview question)",
+  "url": "https://datalemur.com/questions/sql-avg-review-ratings",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Card Launch Success (JPMorgan SQL interview question)",
+  "url": "https://datalemur.com/questions/card-launch-success",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Coin Fairness Test (Facebook statistics interview question)",
+  "url": "https://datalemur.com/questions/coin-fairness-test",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Completed Trades (Robinhood SQL interview question)",
+  "url": "https://datalemur.com/questions/completed-trades",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Connection Request Spam (LinkedIn machine learning interview question)",
+  "url": "https://datalemur.com/questions/connection-request-spam",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Consecutive Fives (Akuna Capital statistics interview question)",
+  "url": "https://datalemur.com/questions/consecutive-fives",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Duplicate Job Listings (LinkedIn SQL interview question)",
+  "url": "https://datalemur.com/questions/duplicate-job-listings",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Frequentist vs. Bayesian (Microsoft statistics interview question)",
+  "url": "https://datalemur.com/questions/frequentist-vs-bayesian",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Long Calls Growth (UnitedHealth Group SQL interview question)",
+  "url": "https://datalemur.com/questions/long-calls-growth",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Marketing Touch Streak (Snowflake SQL interview question)",
+  "url": "https://datalemur.com/questions/marketing-touch-streak",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Minimum of Two Uniform Variables (Google statistics interview question)",
+  "url": "https://datalemur.com/questions/minimum-two-uniform-variables",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Odd and Even Measurements (Google SQL interview question)",
+  "url": "https://datalemur.com/questions/odd-even-measurements",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Pages With No Likes (Facebook SQL interview question)",
+  "url": "https://datalemur.com/questions/sql-page-with-no-likes",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Precision/Recall Tradeoff (BCG Gamma machine learning interview question)",
+  "url": "https://datalemur.com/questions/precision-recall-tradeoff",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Reactivated Users (Facebook SQL interview question)",
+  "url": "https://datalemur.com/questions/reactivated-users",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Repeated Payments (Stripe SQL interview question)",
+  "url": "https://datalemur.com/questions/repeated-payments",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Second Day Confirmation (TikTok SQL interview question)",
+  "url": "https://datalemur.com/questions/second-day-confirmation",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Supercloud Customer (Microsoft SQL interview question)",
+  "url": "https://datalemur.com/questions/supercloud-customer",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Swapped Food Delivery (Zomato SQL interview question)",
+  "url": "https://datalemur.com/questions/sql-swapped-food-delivery",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Tesla Unfinished Parts (Tesla SQL interview question)",
+  "url": "https://datalemur.com/questions/tesla-unfinished-parts",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Time Spent on Snaps (Snapchat SQL interview question)",
+  "url": "https://datalemur.com/questions/time-spent-snaps",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Top Three Salaries (FAANG SQL interview question)",
+  "url": "https://datalemur.com/questions/sql-top-three-salaries",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "DataLemur: Year over Year Growth Rate (Wayfair SQL interview question)",
+  "url": "https://datalemur.com/questions/yoy-growth-rate",
+  "type": "question-bank",
+  "why": "One real interview question with the company it is tagged to and a worked solution on most pages.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Exponent: Amazon behavioral interview questions",
+  "url": "https://blog.tryexponent.com/how-to-nail-amazons-behavioral-interview-questions/",
+  "type": "question-bank",
+  "why": "Candidate reported format of Amazon loops: two principles per 60 minute round, about 25 minutes per question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Kalyan KS, LLM Interview Questions and Answers Hub",
+  "url": "https://github.com/KalyanKS-NLP/LLM-Interview-Questions-and-Answers-Hub",
+  "type": "question-bank",
+  "why": "115 numbered LLM questions on transformers, inference, decoding, prompting, fine tuning and pre training.",
+  "checked": "2026-10-18"
+ },
+ {
+  "title": "Let's Data Science, 50 LLM and AI engineer interview questions for 2026",
+  "url": "https://letsdatascience.com/blog/50-llm-and-ai-engineer-interview-questions-for-2026",
+  "type": "question-bank",
+  "why": "Published 18 March 2026. 51 questions sorted by topic and seniority: architecture, RAG, fine tuning, agents, production and safety.",
+  "checked": "2026-10-18"
+ },
+ {
+  "title": "Machine Learning Interviews: DSA coding chapter (alirezadir)",
+  "url": "https://github.com/alirezadir/Machine-Learning-Interviews/blob/main/src/lc-coding.md",
+  "type": "question-bank",
+  "why": "The fourteen algorithm pattern families and a realistic problem count for MLE loops.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "PracHub: debug a broken transformer",
+  "url": "https://prachub.com/interview-questions/debug-a-broken-transformer",
+  "type": "question-bank",
+  "why": "Where bugs hide in a transformer that runs but trains badly.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "StrataScratch, 30 probability and statistics interview questions for data scientists",
+  "url": "https://www.stratascratch.com/blog/30-probability-and-statistics-interview-questions-for-data-scientists",
+  "type": "question-bank",
+  "why": "About 30 questions on probability and statistics, each tied to a named company.",
+  "checked": "2026-10-18"
+ },
+ {
+  "title": "StrataScratch, Uber Data Scientist Interview Questions",
+  "url": "https://www.stratascratch.com/blog/uber-data-scientist-interview-questions",
+  "type": "question-bank",
+  "why": "Six SQL questions presented as real Uber data scientist questions, with step by step solutions and a list of tested concepts.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Tech Interview Handbook: behavioral interview rubrics",
+  "url": "https://www.techinterviewhandbook.org/behavioral-interview-rubrics/",
+  "type": "question-bank",
+  "why": "Eight focus areas and how the same story scopes as junior, senior or staff.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Tech Interview Handbook: final questions to ask",
+  "url": "https://www.techinterviewhandbook.org/final-questions/",
+  "type": "question-bank",
+  "why": "A bank of closing questions grouped by interviewer type.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "The SQL patterns behind almost every interview question (techinterview.org)",
+  "url": "https://www.techinterview.org/post/3233476262/sql-interview-question-patterns/",
+  "type": "question-bank",
+  "why": "Eight recurring interview patterns with sample wording: top N, Nth highest, dedup, running totals, LAG, gaps and islands, pivots, self joins.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "techinterview.org, SQL interview questions 2026: window functions, optimization and advanced queries",
+  "url": "https://www.techinterview.org/post/3233460377/sql-interview-questions-2026-window-functions-optimization-and-advanced-queries/",
+  "type": "question-bank",
+  "why": "Published 16 April 2026. SQL questions sorted by junior, senior and staff level, plus common query patterns.",
+  "checked": "2026-10-18"
+ },
+ {
+  "title": "Amplitude: North Star Playbook",
+  "url": "https://amplitude.com/en-us/books/north-star/about-north-star-framework",
+  "type": "book",
+  "why": "Introduces the north star framework as a link between the language of the customer, the product and the business. Fetched in earlier research notes, introduction only.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Chip Huyen, Machine Learning Interviews book",
+  "url": "https://huyenchip.com/ml-interviews-book/",
+  "type": "book",
+  "why": "Interview formats, behavioral questions, ML basics, vectors and reinforcement learning questions. Sections 2.3.1.1, 5.1.1, 7.1 and 8.2.3 were read from saved copies.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Product Data Science Interview: The Bar to Get Hired, chapter 6 Metrics and problem solving",
+  "url": "https://bookdown.org/madinterviewllc/Product-Data-Science-Interview-The-Bar-to-Get-Hired/metrics.html",
+  "type": "book",
+  "why": "Worked metric cases, such as an engagement drop and a counterfactual impact, and the types of metric question.",
+  "checked": "2026-10-18"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 10: Randomness in Model Training",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch10/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 11: Counting Model Parameters",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch11/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 12: Fully Connected vs. Convolutional",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch12/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 13: Training Vision Transformers",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch13/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 14: The Distributional Hypothesis",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch14/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 15: Data Augmentation for Text",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch15/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 16: Self Attention",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch16/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 17: Encoder and Decoder Transformers",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch17/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 18: Fine Tuning Transformers",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch18/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 19: Evaluating Generative LLMs",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch19/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 1: Embeddings, Latent Space",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch01/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 20: Stateless and Stateful Training",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch20/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 21: Data Centric AI",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch21/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 22: Speeding Up Inference",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch22/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 23: Data Distribution Shifts",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch23/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 24: Poisson and Ordinal Regression",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch24/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 25: Confidence Intervals",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch25/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 26: Confidence vs. Conformal Intervals",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch26/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 27: Proper Metrics",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch27/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 28: Choosing k for Cross Validation",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch28/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 29: Training and Test Set Discordance",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch29/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 2: Self Supervised Learning",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch02/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 30: Learning with Limited Labeled Data",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch30/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 3: Few Shot Learning",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch03/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 4: Lottery Ticket Hypothesis",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch04/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 5: Overfitting and Training Data",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch05/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 6: Model Changes Against Overfitting",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch06/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 7: Multi GPU Training",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch07/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 8: Why Transformers Work",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch08/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Sebastian Raschka, Machine Learning Q and AI, chapter 9: Generative AI Models",
+  "url": "https://sebastianraschka.com/books/ml-q-and-ai-chapters/ch09/",
+  "type": "book",
+  "why": "One chapter of a free online book that answers a single practical machine learning question.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Use The Index, Luke: obfuscated conditions on dates",
+  "url": "https://use-the-index-luke.com/sql/where-clause/obfuscation/dates",
+  "type": "book",
+  "why": "States the sargable rule: keep functions off the indexed column and write continuous periods as range conditions.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "CME295 VIP cheatsheet: Transformers and Large Language Models (Afshine and Shervine Amidi)",
+  "url": "https://github.com/afshinea/stanford-cme-295-transformers-large-language-models",
+  "type": "course",
+  "why": "Official course cheatsheet: tokens, attention, MoE, decoding, KV cache, prefill and decode, speculative decoding, FlashAttention.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 main notes, Spring 2026 (Ma and Ng)",
+  "url": "https://cs229.stanford.edu/main_notes.pdf",
+  "type": "course",
+  "why": "Primary source for the derivations: normal equations, logistic loss, GLMs, GDA, naive Bayes, SVM dual, bias variance, double descent, EM and PCA.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Karpathy, Neural Networks: Zero to Hero, Video 10: Let's reproduce GPT-2 (124M)",
+  "url": "https://www.youtube.com/watch?v=l8pRSuU81PU",
+  "type": "video",
+  "why": "Playlist item 10 of 10. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Karpathy, Neural Networks: Zero to Hero, Video 1: Building micrograd",
+  "url": "https://www.youtube.com/watch?v=VMj-3S1tku0",
+  "type": "video",
+  "why": "Playlist item 1 of 10. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Karpathy, Neural Networks: Zero to Hero, Video 2: Building makemore, the bigram model",
+  "url": "https://www.youtube.com/watch?v=PaCmpygFfXo",
+  "type": "video",
+  "why": "Playlist item 2 of 10. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Karpathy, Neural Networks: Zero to Hero, Video 3: Makemore Part 2, the MLP",
+  "url": "https://www.youtube.com/watch?v=TCH_1BHY58I",
+  "type": "video",
+  "why": "Playlist item 3 of 10. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Karpathy, Neural Networks: Zero to Hero, Video 4: Makemore Part 3, activations, gradients, BatchNorm",
+  "url": "https://www.youtube.com/watch?v=P6sfmUTpUmc",
+  "type": "video",
+  "why": "Playlist item 4 of 10. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Karpathy, Neural Networks: Zero to Hero, Video 5: Makemore Part 4, backprop ninja",
+  "url": "https://www.youtube.com/watch?v=q8SA3rM6ckI",
+  "type": "video",
+  "why": "Playlist item 5 of 10. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Karpathy, Neural Networks: Zero to Hero, Video 6: Makemore Part 5, building a WaveNet",
+  "url": "https://www.youtube.com/watch?v=t3YJ5hKiMQ0",
+  "type": "video",
+  "why": "Playlist item 6 of 10. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Karpathy, Neural Networks: Zero to Hero, Video 7: Let's build GPT from scratch",
+  "url": "https://www.youtube.com/watch?v=kCc8FmEb1nY",
+  "type": "video",
+  "why": "Playlist item 7 of 10. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Karpathy, Neural Networks: Zero to Hero, Video 8: State of GPT",
+  "url": "https://www.youtube.com/watch?v=bZQun8Y4L2A",
+  "type": "video",
+  "why": "Playlist item 8 of 10. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Karpathy, Neural Networks: Zero to Hero, Video 9: Let's build the GPT tokenizer",
+  "url": "https://www.youtube.com/watch?v=zduSFxRajkE",
+  "type": "video",
+  "why": "Playlist item 9 of 10. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CME295 Autumn 2025, Lecture 1: NLP basics, embeddings, attention and the transformer",
+  "url": "https://www.youtube.com/watch?v=Ub3GoFaUcds",
+  "type": "video",
+  "why": "Playlist item 1 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CME295 Autumn 2025, Lecture 2: Position embeddings, attention variants and BERT",
+  "url": "https://www.youtube.com/watch?v=yT84Y5zCnaA",
+  "type": "video",
+  "why": "Playlist item 2 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CME295 Autumn 2025, Lecture 3: LLMs, mixture of experts, decoding and inference tricks",
+  "url": "https://www.youtube.com/watch?v=Q5baLehv5So",
+  "type": "video",
+  "why": "Playlist item 3 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CME295 Autumn 2025, Lecture 4: Pretraining, scaling laws, FlashAttention, SFT and LoRA",
+  "url": "https://www.youtube.com/watch?v=VlA_jt_3Qc4",
+  "type": "video",
+  "why": "Playlist item 4 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CME295 Autumn 2025, Lecture 5: Preference tuning, RLHF with PPO, best of N and DPO",
+  "url": "https://www.youtube.com/watch?v=PmW_TMQ3l0I",
+  "type": "video",
+  "why": "Playlist item 5 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CME295 Autumn 2025, Lecture 6: Reasoning models, pass@k, GRPO and DeepSeek R1",
+  "url": "https://www.youtube.com/watch?v=k5Fh-UgTuCo",
+  "type": "video",
+  "why": "Playlist item 6 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CME295 Autumn 2025, Lecture 7: RAG, tool calling, MCP and agents",
+  "url": "https://www.youtube.com/watch?v=h-7S6HNq0Vg",
+  "type": "video",
+  "why": "Playlist item 7 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CME295 Autumn 2025, Lecture 8: LLM evaluation: judges, agent errors and benchmarks",
+  "url": "https://www.youtube.com/watch?v=8fNP4N46RRo",
+  "type": "video",
+  "why": "Playlist item 8 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CME295 Autumn 2025, Lecture 9: Course recap, vision transformers and diffusion LLMs",
+  "url": "https://www.youtube.com/watch?v=Q86qzJ1K1Ss",
+  "type": "video",
+  "why": "Playlist item 9 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 10: EM derivation and principal component analysis",
+  "url": "https://www.youtube.com/watch?v=sUS-eTa0l6s",
+  "type": "video",
+  "why": "Playlist item 10 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 11: Diffusion models and their training objective",
+  "url": "https://www.youtube.com/watch?v=dqUMCzWjZSI",
+  "type": "video",
+  "why": "Playlist item 11 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 12: Noise prediction, foundation models and adaptation",
+  "url": "https://www.youtube.com/watch?v=_kREM2UAiJ8",
+  "type": "video",
+  "why": "Playlist item 12 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 13: Contrastive embeddings, semantic search and RAG",
+  "url": "https://www.youtube.com/watch?v=lNTajqxxOn4",
+  "type": "video",
+  "why": "Playlist item 13 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 14: Autoregressive language models and transformer attention",
+  "url": "https://www.youtube.com/watch?v=pwQ0l4hFCVI",
+  "type": "video",
+  "why": "Playlist item 14 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 15: KV cache, mixture of experts, in context learning and SFT",
+  "url": "https://www.youtube.com/watch?v=hHC-SF3utxg",
+  "type": "video",
+  "why": "Playlist item 15 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 16: Reinforcement learning basics: MDPs and policy gradient",
+  "url": "https://www.youtube.com/watch?v=xveNBYVTrqw",
+  "type": "video",
+  "why": "Playlist item 16 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 17: Policy gradient refinements, PPO and RL for reasoning",
+  "url": "https://www.youtube.com/watch?v=J7CossjMvEg",
+  "type": "video",
+  "why": "Playlist item 17 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 1: Course overview and the three kinds of learning",
+  "url": "https://www.youtube.com/watch?v=DATnpGoGhM8",
+  "type": "video",
+  "why": "Playlist item 1 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 2: Linear regression, gradient descent and SGD",
+  "url": "https://www.youtube.com/watch?v=cmNIMjPYdgM",
+  "type": "video",
+  "why": "Playlist item 2 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 3: Maximum likelihood, logistic regression and Newton's method",
+  "url": "https://www.youtube.com/watch?v=uJF_gL3jhxI",
+  "type": "video",
+  "why": "Playlist item 3 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 4: Exponential family, GLMs, softmax and cross entropy",
+  "url": "https://www.youtube.com/watch?v=8gVi4Rk21Eg",
+  "type": "video",
+  "why": "Playlist item 4 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 5: Generative models: GDA and naive Bayes",
+  "url": "https://www.youtube.com/watch?v=zRdE8A4UZes",
+  "type": "video",
+  "why": "Playlist item 5 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 6: Bias, variance, regularization and model selection",
+  "url": "https://www.youtube.com/watch?v=llnEgyyuYkQ",
+  "type": "video",
+  "why": "Playlist item 6 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 7: Neural network architectures and normalization",
+  "url": "https://www.youtube.com/watch?v=fRM41w9jzQo",
+  "type": "video",
+  "why": "Playlist item 7 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 8: Backpropagation and automatic differentiation",
+  "url": "https://www.youtube.com/watch?v=ne2ngVAoMG8",
+  "type": "video",
+  "why": "Playlist item 8 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS229 Spring 2026, Lecture 9: K-means, Gaussian mixtures and the EM idea",
+  "url": "https://www.youtube.com/watch?v=bSmIGBCoffA",
+  "type": "video",
+  "why": "Playlist item 9 of 17. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS329A, Part 1: Course overview, scaling, reasoning models and agent workflows",
+  "url": "https://www.youtube.com/watch?v=6YnLB0XbTnI",
+  "type": "video",
+  "why": "Playlist item 1 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS329A, Part 2: Test time compute scaling, reward models and Archon",
+  "url": "https://www.youtube.com/watch?v=-Ggc37xLj_Y",
+  "type": "video",
+  "why": "Playlist item 2 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS329A, Part 3: Verification, process rewards and weak verifiers",
+  "url": "https://www.youtube.com/watch?v=p7TdPUcPoik",
+  "type": "video",
+  "why": "Playlist item 3 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS329A, Part 4: Learning from feedback: ReAct, RLEF and Constitutional AI",
+  "url": "https://www.youtube.com/watch?v=Lxh9RF5S-K0",
+  "type": "video",
+  "why": "Playlist item 4 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS329A, Part 5: Planning and multi step reasoning: LATS, SPRINT, SWiRL",
+  "url": "https://www.youtube.com/watch?v=Ml_fp9XkB8Y",
+  "type": "video",
+  "why": "Playlist item 5 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS329A, Part 6: Train time scaling and scaling RL: STaR, GRPO and DAPO",
+  "url": "https://www.youtube.com/watch?v=yVnmHSAy3ck",
+  "type": "video",
+  "why": "Playlist item 6 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS329A, Part 7: Self improvement and deep research agents",
+  "url": "https://www.youtube.com/watch?v=Uni9dqyuuDM",
+  "type": "video",
+  "why": "Playlist item 7 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS329A, Part 8: Agentic evaluations and long horizon tasks",
+  "url": "https://www.youtube.com/watch?v=8JAqLnTaZu4",
+  "type": "video",
+  "why": "Playlist item 8 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Stanford CS329A, Part 9: Future research areas",
+  "url": "https://www.youtube.com/watch?v=AyO6wyu4DEg",
+  "type": "video",
+  "why": "Playlist item 9 of 9. The Lectures page on this site links the notes for it.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Deep Neural Networks for YouTube Recommendations (Covington, Adams, Sargin, RecSys 2016)",
+  "url": "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf",
+  "type": "paper",
+  "why": "Two stage recommender, extreme multiclass candidate generation, example age, watch time weighted logistic regression, feature handling.",
+  "checked": "2026-10-17"
+ },
+ {
+  "title": "Google Research: Measuring the user experience on a large scale (HEART)",
+  "url": "https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/",
+  "type": "paper",
+  "why": "Publication page for the HEART framework and the process that maps product goals to metrics. Only the abstract loaded here.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "Hidden Technical Debt in Machine Learning Systems (Sculley et al., NIPS 2015)",
+  "url": "https://papers.neurips.cc/paper_files/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf",
+  "type": "paper",
+  "why": "CACE, correction cascades, undeclared consumers, data dependencies, feedback loops, glue code, configuration debt, monitoring starting points.",
+  "checked": "2026-10-17"
+ },
+ {
+  "title": "Practical Lessons from Predicting Clicks on Ads at Facebook (He et al., ADKDD 2014)",
+  "url": "https://quinonero.net/Publications/predicting-clicks-facebook.pdf",
+  "type": "paper",
+  "why": "Tree plus logistic regression hybrid, normalized entropy and calibration, data freshness, online learning, negative downsampling and recalibration.",
+  "checked": "2026-10-17"
+ },
+ {
+  "title": "Vaswani et al. 2017, Attention Is All You Need",
+  "url": "https://arxiv.org/html/1706.03762v7",
+  "type": "paper",
+  "why": "Scaled dot product attention, the variance footnote, sinusoidal positions, post norm, base model settings.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Anthropic: Building effective agents (2024)",
+  "url": "https://www.anthropic.com/engineering/building-effective-agents",
+  "type": "blog",
+  "why": "Definitions of workflows and agents, the five workflow patterns, and tool design advice for agents.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Anthropic: How we built our multi agent research system (2025)",
+  "url": "https://www.anthropic.com/engineering/multi-agent-research-system",
+  "type": "blog",
+  "why": "Orchestrator worker architecture with measured gains, token costs and evaluation lessons for multi agent systems.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Canva engineering: Yes, you can use AI in our interviews",
+  "url": "https://canva.dev/blog/engineering/yes-you-can-use-ai-in-our-interviews",
+  "type": "blog",
+  "why": "First party description of an AI assisted coding round and what it grades (June 2025).",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Chip Huyen: RLHF",
+  "url": "https://huyenchip.com/2023/05/02/rlhf.html",
+  "type": "blog",
+  "why": "Practitioner walk through of the three phases, the reward model loss, and why RLHF might work.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Eugene Yan: Evaluating the Effectiveness of LLM Evaluators (2024)",
+  "url": "https://eugeneyan.com/writing/llm-evaluators/",
+  "type": "blog",
+  "why": "Survey of LLM evaluator papers, pairwise versus direct scoring, and kappa versus correlation metrics.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Hamel Husain: Using LLM as a judge, critique shadowing (2024)",
+  "url": "https://hamel.dev/blog/posts/llm-judge/",
+  "type": "blog",
+  "why": "Building a pass or fail judge with a domain expert, data splits, and sample sizes for validation.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Hamel Husain: Your AI Product Needs Evals (2024)",
+  "url": "https://hamel.dev/blog/posts/evals/",
+  "type": "blog",
+  "why": "The three levels of evaluation, the Rechat case study, and why generic metrics mislead.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Hello Interview: Meta's AI enabled coding interview",
+  "url": "https://www.hellointerview.com/blog/meta-ai-enabled-coding",
+  "type": "blog",
+  "why": "Phases, environment and common mistakes in Meta's AI enabled round from October 2025.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Hello Interview: system design delivery framework",
+  "url": "https://www.hellointerview.com/learn/system-design/in-a-hurry/delivery",
+  "type": "blog",
+  "why": "Phase by phase plan and timings for a 45 minute design round, and the most common mid level failure.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Mandy Liu on Substack: how would you investigate a 20 percent drop",
+  "url": "https://mandyliu.substack.com/p/how-would-you-investigate-a-20-drop",
+  "type": "blog",
+  "why": "Interview framing for a metric drop: understand the change, build a funnel, slice the data, recommend. Only the free part of the post loaded.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "PracHub: how take home data challenges are graded",
+  "url": "https://prachub.com/learning/data-science-projects/how-take-home-data-challenges-are-graded",
+  "type": "blog",
+  "why": "Rubric order for take homes: question fit, correctness, recommendation, write up, craft.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "Tech Interview Handbook: coding interview rubrics",
+  "url": "https://www.techinterviewhandbook.org/coding-interview-rubrics/",
+  "type": "blog",
+  "why": "The four rubric dimensions and the communication bands from strong hire to strong no hire.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "a16z: 16 startup metrics",
+  "url": "https://a16z.com/16-startup-metrics/",
+  "type": "blog",
+  "why": "Definitions of CAC (blended and paid), LTV on contribution margin, churn variants, cohort retention, GMV versus revenue, ARR, billings and CMGR.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "aced.io: OpenAI research engineer interview guide",
+  "url": "https://www.aced.io/guides/openai-research-engineer-interview-guide",
+  "type": "blog",
+  "why": "Candidate reported loop including the transformer debugging round and KV cache task.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "interviewing.io: a senior engineer's guide to the system design interview",
+  "url": "https://interviewing.io/guides/system-design-interview",
+  "type": "blog",
+  "why": "Why design rounds are conversations, clarifying the prompt, and justifying decisions with trade offs.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "interviewing.io: how to use AI in Meta's AI assisted coding interview",
+  "url": "https://interviewing.io/blog/how-to-use-ai-in-meta-s-ai-assisted-coding-interview-with-real-prompts-and-examples",
+  "type": "blog",
+  "why": "A second account of the Meta round, with prompting advice; differs on task types.",
+  "checked": "2026-10-14"
+ },
+ {
+  "title": "interviewing.io: stop memorizing STAR, start selecting better stories",
+  "url": "https://interviewing.io/blog/stop-memorizing-star-for-behavioral-interviews-start-selecting-better-stories",
+  "type": "blog",
+  "why": "Story selection over structure, the brainstorm, evidence and filter process, and story titles.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Amazon interview guide",
+  "url": "https://www.aboutamazon.com/news/workplace/amazon-interview-guide",
+  "type": "docs",
+  "why": "Amazon's own guidance: STAR, I statements, 2 to 3 minute answers, recording yourself to practise.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Google: Rules of Machine Learning",
+  "url": "https://developers.google.com/machine-learning/guides/rules-of-ml",
+  "type": "docs",
+  "why": "Numbered practical rules on launching without ML, metrics, skew (rule 37), logging features at serving (rule 29), feedback loops and position features.",
+  "checked": "2026-10-17"
+ },
+ {
+  "title": "OWASP Top 10 for LLM Applications (2025)",
+  "url": "https://genai.owasp.org/llm-top-10/",
+  "type": "docs",
+  "why": "The 2025 list of LLM application risks, from prompt injection to unbounded consumption.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "SQLite documentation: window functions",
+  "url": "https://www.sqlite.org/windowfunctions.html",
+  "type": "docs",
+  "why": "Defines the default frame, ROWS, RANGE and GROUPS, EXCLUDE, and which window functions honour the frame.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "scikit-learn: common pitfalls and recommended practices",
+  "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+  "type": "docs",
+  "why": "Canonical leakage examples, including feature selection before the split, and the fix with pipelines.",
+  "checked": "2026-10-13"
+ },
+ {
+  "title": "Karpathy, nanoGPT model.py",
+  "url": "https://raw.githubusercontent.com/karpathy/nanoGPT/master/model.py",
+  "type": "repo",
+  "why": "Pre norm block, final layer norm, GELU MLP and weight tying in a GPT implementation.",
+  "checked": "2026-10-15"
+ },
+ {
+  "title": "alirezadir, Machine Learning Interviews: ML coding chapter",
+  "url": "https://github.com/alirezadir/Machine-Learning-Interviews/blob/main/src/MLC/ml-coding.md",
+  "type": "repo",
+  "why": "41 practice problems in four families: classic ML, language models, generative AI and agentic coding.",
+  "checked": "2026-10-18"
+ },
+ {
+  "title": "alirezadir, Machine Learning Interviews: ML system design chapter",
+  "url": "https://raw.githubusercontent.com/alirezadir/Machine-Learning-Interviews/main/src/MLSD/ml-system-design.md",
+  "type": "repo",
+  "why": "A framework for the design round and a long list of sample prompts, including LLM systems marked 2026.",
+  "checked": "2026-10-18"
+ }
+]
