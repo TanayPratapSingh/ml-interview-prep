@@ -1,0 +1,872 @@
+{
+ "date": "2026-10-22",
+ "generated_at": "2026-10-22T15:21:42Z",
+ "counts": {
+  "jobs_open": 874,
+  "jobs_new": 23,
+  "papers": 10,
+  "posts": 21,
+  "hn": 10,
+  "reddit": 9,
+  "videos": 0,
+  "interview_intel": 3,
+  "errors": 5
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:4cfab2b8-f3f3-4b5e-b36a-df9c1747f11b",
+   "company": "ByteDance",
+   "title": "Research Scientist",
+   "location": "San Jose, CA",
+   "remote": false,
+   "url": "https://jobs.bytedance.com/en/position/7698902624003229957/detail",
+   "apply_url": "https://jobs.bytedance.com/en/position/7698902624003229957/detail",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "simplify:f0af7b08-4219-47f9-bdb7-9ff2e900dcc8",
+   "company": "Amazon",
+   "title": "Software Development Engineer 1 - AI/ML Network Infrastructure",
+   "location": "Cupertino, CA",
+   "remote": false,
+   "url": "https://amazon.jobs/en/jobs/10490741/software-development-engineer-i-ai-ml-network-infrastructure-annapurna-labs",
+   "apply_url": "https://amazon.jobs/en/jobs/10490741/software-development-engineer-i-ai-ml-network-infrastructure-annapurna-labs",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "simplify:90126943-996a-4235-bb88-26c2405d1cde",
+   "company": "N1 Health",
+   "title": "Associate Data Ops Engineer",
+   "location": "Boston, MA",
+   "remote": false,
+   "url": "https://jobs.lever.co/algorex/cf93bbb8-6b46-430b-8554-6fab5aa8e719/apply",
+   "apply_url": "https://jobs.lever.co/algorex/cf93bbb8-6b46-430b-8554-6fab5aa8e719/apply",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "simplify:ceafe55a-b038-4f84-97a8-40d747032438",
+   "company": "Draper",
+   "title": "Software Machine Learning Engineer - GNSS - Software Defined Radio",
+   "location": "Cambridge, MA",
+   "remote": false,
+   "url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Software-Mach-Learn-Engr--GNSS--Software-Defined-Radio-_JR003064",
+   "apply_url": "https://draper.wd5.myworkdayjobs.com/Draper_Careers/job/Cambridge-MA/Software-Mach-Learn-Engr--GNSS--Software-Defined-Radio-_JR003064",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "simplify:03e3488f-bdec-49ba-875b-b5128864ae39",
+   "company": "Caterpillar",
+   "title": "Operations Automation Technician",
+   "location": "Champaign, IL",
+   "remote": false,
+   "url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Champaign-Illinois/Operations-Automation-Technician_R0000400033",
+   "apply_url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Champaign-Illinois/Operations-Automation-Technician_R0000400033",
+   "posted": "2026-10-21",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "simplify:04c60e91-d01a-4064-8c1d-ca70d2b2a05c",
+   "company": "Varian",
+   "title": "Systems Engineer 1 - Robotics & Automation",
+   "location": "United States",
+   "remote": false,
+   "url": "https://onehealthineers.wd3.myworkdayjobs.com/SHSJB/job/TAR-B/Systems-Engineer-1---Robotics---Automation_R-31137-1",
+   "apply_url": "https://onehealthineers.wd3.myworkdayjobs.com/SHSJB/job/TAR-B/Systems-Engineer-1---Robotics---Automation_R-31137-1",
+   "posted": "2026-10-21",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "simplify:a81ea685-687e-4db9-8c99-a39d7bc2f563",
+   "company": "NVIDIA",
+   "title": "High-Performance LLM Training Engineer New Grad",
+   "location": "Canada; Santa Clara, CA; United States",
+   "remote": false,
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2027_JR2028237",
+   "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/High-Performance-LLM-Training-Engineer---New-College-Grad-2027_JR2028237",
+   "posted": "2026-10-21",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "simplify:389660f7-4e35-43bf-953c-a0115348941c",
+   "company": "ByteDance",
+   "title": "Research Scientist",
+   "location": "San Jose, CA",
+   "remote": false,
+   "url": "https://jobs.bytedance.com/en/position/7698902624389482757/detail",
+   "apply_url": "https://jobs.bytedance.com/en/position/7698902624389482757/detail",
+   "posted": "2026-10-21",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "simplify:e22e13a7-4aae-4b4c-8cca-020d71177405",
+   "company": "Prime Therapeutics",
+   "title": "Business Intelligence Developer Associate",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://primetherapeutics.wd1.myworkdayjobs.com/PrimeTherapeuticsCareers/job/Home/Business-Intelligence-Developer-Associate---Remote_R-17456",
+   "apply_url": "https://primetherapeutics.wd1.myworkdayjobs.com/PrimeTherapeuticsCareers/job/Home/Business-Intelligence-Developer-Associate---Remote_R-17456",
+   "posted": "2026-10-21",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "simplify:de4b6392-8af5-4df9-8875-82c50964fa98",
+   "company": "GlobalFoundries",
+   "title": "AI Software Engineer New Grad",
+   "location": "Santa Clara, CA; Richardson, TX",
+   "remote": false,
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/AI-Software-Engineer--2027-New-College-Graduate-_JR-2604055",
+   "apply_url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/AI-Software-Engineer--2027-New-College-Graduate-_JR-2604055",
+   "posted": "2026-10-21",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "simplify:a06a1856-cdbd-4ca1-a106-b34bbefe114b",
+   "company": "Affirm",
+   "title": "Analyst to Early Career - Full Stack",
+   "location": "SF; Remote in USA; NYC",
+   "remote": true,
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8039471003",
+   "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8039471003",
+   "posted": "2026-10-21",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "simplify:3f1e39bd-ca4d-4c3c-a7eb-d986f4e70d2f",
+   "company": "Xaira Therapeutics",
+   "title": "Robotics Systems & Simulation Engineer",
+   "location": "South SF",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/xairatherapeutics/jobs/5255784007",
+   "apply_url": "https://job-boards.greenhouse.io/xairatherapeutics/jobs/5255784007",
+   "posted": "2026-10-21",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "simplify:636691a8-a377-4b9f-9540-af9a315361cc",
+   "company": "R1 RCM",
+   "title": "Machine Learning Engineer",
+   "location": "Remote in USA; NYC",
+   "remote": true,
+   "url": "https://r1rcm.wd1.myworkdayjobs.com/en-US/R1RCM/job/Remote-USA/ML-Engineer--R37-_R260000007540",
+   "apply_url": "https://r1rcm.wd1.myworkdayjobs.com/en-US/R1RCM/job/Remote-USA/ML-Engineer--R37-_R260000007540",
+   "posted": "2026-10-08",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "greenhouse:databricks:8907988002",
+   "company": "Databricks",
+   "title": "Associate Forward Deployed Engineer",
+   "location": "New York City, New York",
+   "remote": false,
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8907988002",
+   "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8907988002",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "ashby:pinecone:edf2a2a5-64e2-45b8-9f2e-4f354af350b8",
+   "company": "Pinecone",
+   "title": "Applied AI Engineer (Full-Stack)",
+   "location": "New York City; US Remote",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/pinecone/edf2a2a5-64e2-45b8-9f2e-4f354af350b8",
+   "apply_url": "https://jobs.ashbyhq.com/pinecone/edf2a2a5-64e2-45b8-9f2e-4f354af350b8/application",
+   "posted": "2026-10-22",
+   "comp": "$190K to $270K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "ashby:sierra:0cb4da3e-3c67-4f14-a84d-956042669275",
+   "company": "Sierra",
+   "title": "Software Engineer, Agent Runtime",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/sierra/0cb4da3e-3c67-4f14-a84d-956042669275",
+   "apply_url": "https://jobs.ashbyhq.com/sierra/0cb4da3e-3c67-4f14-a84d-956042669275/application",
+   "posted": "2026-10-22",
+   "comp": "$230K to $390K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "ashby:sierra:200df475-2175-45ce-9510-7d04afabd08d",
+   "company": "Sierra",
+   "title": "Software Engineer, Agent Builder",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/sierra/200df475-2175-45ce-9510-7d04afabd08d",
+   "apply_url": "https://jobs.ashbyhq.com/sierra/200df475-2175-45ce-9510-7d04afabd08d/application",
+   "posted": "2026-10-22",
+   "comp": "$230K to $390K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "ashby:openai:0ca02747-5c97-432b-95c5-4b9099bce992",
+   "company": "OpenAI",
+   "title": "Machine Learning Data Scientist - Consumer Forecasting",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/0ca02747-5c97-432b-95c5-4b9099bce992",
+   "apply_url": "https://jobs.ashbyhq.com/openai/0ca02747-5c97-432b-95c5-4b9099bce992/application",
+   "posted": "2026-10-22",
+   "comp": "$347K to $445K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "greenhouse:anthropic:5459098008",
+   "company": "Anthropic",
+   "title": "Research Engineer, Chip Design RL",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5459098008",
+   "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5459098008",
+   "posted": "2026-10-21",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "sponsors",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "greenhouse:figma:6227402004",
+   "company": "Figma",
+   "title": "Product Builder, AI Insights",
+   "location": "San Francisco, CA • New York, NY • United States",
+   "remote": false,
+   "url": "https://boards.greenhouse.io/figma/jobs/6227402004?gh_jid=6227402004",
+   "apply_url": "https://boards.greenhouse.io/figma/jobs/6227402004?gh_jid=6227402004",
+   "posted": "2026-10-21",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "ashby:openai:6ef9babb-e210-496f-a004-fed919a9ed2d",
+   "company": "OpenAI",
+   "title": "Applied Scientist, Product Policy",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/6ef9babb-e210-496f-a004-fed919a9ed2d",
+   "apply_url": "https://jobs.ashbyhq.com/openai/6ef9babb-e210-496f-a004-fed919a9ed2d/application",
+   "posted": "2026-10-21",
+   "comp": "$207K to $230K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "ashby:openai:1441816f-6429-426e-8f6d-8e5930a818f9",
+   "company": "OpenAI",
+   "title": "Research Scientist / Research Engineer, Search - Knowledge Graphs",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/openai/1441816f-6429-426e-8f6d-8e5930a818f9",
+   "apply_url": "https://jobs.ashbyhq.com/openai/1441816f-6429-426e-8f6d-8e5930a818f9/application",
+   "posted": "2026-10-21",
+   "comp": "$380K to $850K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "id": "ashby:openai:5ef10e09-2b3f-41de-b77c-829787302101",
+   "company": "OpenAI",
+   "title": "Research Scientist / Research Engineer, Search Integrity",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/openai/5ef10e09-2b3f-41de-b77c-829787302101",
+   "apply_url": "https://jobs.ashbyhq.com/openai/5ef10e09-2b3f-41de-b77c-829787302101/application",
+   "posted": "2026-10-21",
+   "comp": "$380K to $850K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-10-22"
+  }
+ ],
+ "papers": [
+  {
+   "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+   "url": "https://huggingface.co/papers/2610.28402",
+   "arxiv": "https://arxiv.org/abs/2610.28402",
+   "upvotes": 215,
+   "github": "https://github.com/StreamEval/StreamEval",
+   "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, each specifying ...",
+   "published": "2026-10-20T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+   "url": "https://huggingface.co/papers/2610.26659",
+   "arxiv": "https://arxiv.org/abs/2610.26659",
+   "upvotes": 128,
+   "github": "https://github.com/JesseZZZZZ/SpatialScout",
+   "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on active object-level 3D ...",
+   "published": "2026-10-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+   "url": "https://huggingface.co/papers/2610.29997",
+   "arxiv": "https://arxiv.org/abs/2610.29997",
+   "upvotes": 100,
+   "github": "https://github.com/Ropedia/DONIC",
+   "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly challenging ...",
+   "published": "2026-10-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Cache Engineering for Agents",
+   "url": "https://huggingface.co/papers/2610.28577",
+   "arxiv": "https://arxiv.org/abs/2610.28577",
+   "upvotes": 86,
+   "github": "https://github.com/thu-nics/AKV",
+   "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or summarizing ...",
+   "published": "2026-10-20T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+   "url": "https://huggingface.co/papers/2610.29989",
+   "arxiv": "https://arxiv.org/abs/2610.29989",
+   "upvotes": 69,
+   "github": "https://github.com/TencentARC/Looking-Ahead",
+   "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxiliary objective ...",
+   "published": "2026-10-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+   "url": "https://huggingface.co/papers/2610.26828",
+   "arxiv": "https://arxiv.org/abs/2610.26828",
+   "upvotes": 59,
+   "github": "https://github.com/MSR-Orchard/WildAWM",
+   "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general computer-use agents ...",
+   "published": "2026-10-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis",
+   "url": "https://huggingface.co/papers/2610.20538",
+   "arxiv": "https://arxiv.org/abs/2610.20538",
+   "upvotes": 48,
+   "github": "https://github.com/QiushiSun/PrismaCoder",
+   "summary": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages, animations, and semi-structured documents. Recently, proprietary models have pushed far ahead, producing interactive artifacts even from a text description or a screenshot alone. Yet their data and ...",
+   "published": "2026-10-14T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+   "url": "https://huggingface.co/papers/2610.28698",
+   "arxiv": "https://arxiv.org/abs/2610.28698",
+   "upvotes": 40,
+   "github": "https://github.com/THUSI-Lab/GameScaling",
+   "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume ...",
+   "published": "2026-10-20T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Socratic Skill Learning: Interleaving Teaching and Practice for Transferable Agent Skills",
+   "url": "https://huggingface.co/papers/2610.17860",
+   "arxiv": "https://arxiv.org/abs/2610.17860",
+   "upvotes": 29,
+   "github": "https://github.com/NJU-LINK/Socratic-Skill-Learning",
+   "summary": "Agent Skills improve LLM agents by making task knowledge reusable across sessions. Learning transferable Skills requires evidence about a procedure and its conditions of use, which a successful task attempt can leave untested. We introduce Socratic Skill Learning (SSL), which interleaves expert teaching with Student practice. An Educator guides investigation while the Student remains the sole environment operator ...",
+   "published": "2026-10-13T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Retrieval Augmented Generation Compositionality",
+   "url": "https://huggingface.co/papers/2610.29722",
+   "arxiv": "https://arxiv.org/abs/2610.29722",
+   "upvotes": 20,
+   "github": "https://github.com/dolev31/lasagna",
+   "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfulness favor the same ...",
+   "published": "2026-10-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "Beyond tree cover: mapping the world’s forest types",
+   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "published": "2026-10-22T14:30:24Z",
+   "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+   "source": "Google DeepMind",
+   "topic": "research"
+  },
+  {
+   "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
+   "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-199472cfded5?source=rss----2615bd06b42e---4",
+   "published": "2026-10-22T14:15:09Z",
+   "summary": "",
+   "source": "Netflix TechBlog",
+   "topic": "systems"
+  },
+  {
+   "title": "You are the Team , Anekha Sokhal, Moshi",
+   "url": "https://www.latent.space/p/moshi",
+   "published": "2026-10-22T14:03:40Z",
+   "summary": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Raman Spectra Preprocessing and Non-Negative Least Squares Modelling in Python: Monitoring Zeolite Crystallization",
+   "url": "https://towardsdatascience.com/raman-spectra-preprocessing-and-non-negative-least-squares-modelling-in-python-monitoring-zeolite-crystallization/",
+   "published": "2026-10-22T14:00:00Z",
+   "summary": "A short, reproducible tutorial on spectral unmixing using real in situ interzeolite conversion data The post Raman Spectra Preprocessing and Non-Negative Least Squares Modelling in Python: Monitoring Zeolite Crystallization appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Process Large JSON Files in Python With ijson",
+   "url": "https://www.kdnuggets.com/how-to-process-large-json-files-in-python-with-ijson",
+   "published": "2026-10-22T14:00:00Z",
+   "summary": "I loaded a large JSON file in Python and watched memory jump from 43 MB to 808 MB. Here’s what happened and how streaming changed everything.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Same Answer, Different Reason: What a Reasoning Model Says When It Follows a Planted Hint",
+   "url": "https://towardsdatascience.com/same-answer-different-reason-what-a-reasoning-model-says-when-it-follows-a-planted-hint/",
+   "published": "2026-10-22T12:30:00Z",
+   "summary": "I put wrong answers in front of 200 exam questions and read what a small model’s reasoning said when it fell for them. The post Same Answer, Different Reason: What a Reasoning Model Says When It Follows a Planted Hint appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Google Open-Sources Harness²: Self-Improving AI Agents Without Retraining",
+   "url": "https://www.kdnuggets.com/google-open-sources-harness-self-improving-ai-agents-without-retraining",
+   "published": "2026-10-22T12:00:00Z",
+   "summary": "Google's Harness² lets AI agents improve their prompts, tools, memory, and scripts through two recursive loops without touching model weights. Learn more, including how to run the free demo yourself.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Could On-Policy Self-Distillation Revolutionize Post-Training?",
+   "url": "https://towardsdatascience.com/could-on-policy-self-distillation-revolutionize-post-training/",
+   "published": "2026-10-22T11:00:00Z",
+   "summary": "Teaching foundation models new skills without breaking them is hard. A new reinforcement learning-based approach might have the power to change that. The post Could On-Policy Self-Distillation Revolutionize Post-Training? appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Ensemble forecasting with IBM Granite time-series models",
+   "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+   "published": "2026-10-22T07:51:31Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+   "url": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+   "published": "2026-10-22T07:42:44Z",
+   "summary": "The Big Hardening begins",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "What FDE means at OpenAI",
+   "url": "https://openai.com/index/forward-deployed-engineering-means",
+   "published": "2026-10-22T06:00:00Z",
+   "summary": "What forward deployed engineering means at OpenAI",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Broad access through consistent standards",
+   "url": "https://openai.com/index/broad-access-through-consistent-standards",
+   "published": "2026-10-21T21:00:00Z",
+   "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Claude Duet is beautiful. I still forgot to use it",
+   "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
+   "published": "2026-10-21T20:25:18Z",
+   "summary": "Watch now (16 mins) | 🎙️ I tested Claude Duet, Anthropic's beautifully designed new personal agent, on real work to see if it can beat my personal agent fatigue and make the cut",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+   "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+   "published": "2026-10-21T18:26:30Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+   "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+   "published": "2026-10-21T17:35:36Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "How AT&T is rethinking in-house legal work with OpenAI",
+   "url": "https://openai.com/index/att-legal",
+   "published": "2026-10-21T17:00:00Z",
+   "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+   "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+   "published": "2026-10-21T16:23:53Z",
+   "summary": "Health & Bioscience",
+   "source": "Google Research",
+   "topic": "research"
+  },
+  {
+   "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+   "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+   "published": "2026-10-21T16:04:43Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Decision Models in Action: Build a Hybrid LLM Workflow",
+   "url": "https://towardsdatascience.com/decision-models-in-action-build-a-hybrid-llm-workflow/",
+   "published": "2026-10-21T15:30:00Z",
+   "summary": "A hands-on guide to building browser automation by combining decision models with LLMs. The post Decision Models in Action: Build a Hybrid LLM Workflow appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+   "url": "https://openai.com/index/cloudflare-cyber",
+   "published": "2026-10-21T00:00:00Z",
+   "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+   "url": "https://openai.com/index/empowering-cyber-defenders",
+   "published": "2026-10-21T00:00:00Z",
+   "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Claude Duet",
+   "url": "https://claude.com/product/claude-duet",
+   "discussion": "https://news.ycombinator.com/item?id=50186037",
+   "points": 491,
+   "comments": 450,
+   "published": "2026-10-21T19:14:01Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "DuckDB 2.0.0 LTS “Cinnamon Teal”",
+   "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+   "discussion": "https://news.ycombinator.com/item?id=50181136",
+   "points": 444,
+   "comments": 61,
+   "published": "2026-10-21T14:01:22Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+   "url": "https://www.wiz.io/blog/php2shell-php-rce",
+   "discussion": "https://news.ycombinator.com/item?id=50180836",
+   "points": 443,
+   "comments": 183,
+   "published": "2026-10-21T13:43:19Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+   "discussion": "https://news.ycombinator.com/item?id=50190363",
+   "points": 391,
+   "comments": 117,
+   "published": "2026-10-22T02:18:41Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "OpenAI models are coming to Google Cloud",
+   "url": "https://openai.com/index/openai-models-google-cloud/",
+   "discussion": "https://news.ycombinator.com/item?id=50180079",
+   "points": 315,
+   "comments": 137,
+   "published": "2026-10-21T12:53:11Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+   "discussion": "https://news.ycombinator.com/item?id=50181175",
+   "points": 260,
+   "comments": 180,
+   "published": "2026-10-21T14:03:43Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Using thousands of AI agents to uncover new leads in biological data",
+   "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+   "discussion": "https://news.ycombinator.com/item?id=50180752",
+   "points": 151,
+   "comments": 100,
+   "published": "2026-10-21T13:37:00Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Google staff resign in backlash over its AI contracts with military",
+   "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+   "discussion": "https://news.ycombinator.com/item?id=50186043",
+   "points": 124,
+   "comments": 26,
+   "published": "2026-10-21T19:14:21Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Show HN: Omnara to Open-source alternative to Claude Managed Agents",
+   "url": "https://github.com/omnara-ai/omnara",
+   "discussion": "https://news.ycombinator.com/item?id=50183892",
+   "points": 98,
+   "comments": 28,
+   "published": "2026-10-21T16:44:53Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Claude Duet",
+   "url": "https://claude.com/resources/articles/claude-duet",
+   "discussion": "https://news.ycombinator.com/item?id=50186455",
+   "points": 85,
+   "comments": 11,
+   "published": "2026-10-21T19:40:18Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "Carbon-X is an open 14.8B model trained jointly on DNA and text [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xchayq/carbonx_is_an_open_148b_model_trained_jointly_on/",
+   "published": "2026-10-22T12:32:56Z",
+   "summary": "Carbon-X is a 14.8B parameter decoder-only model that takes raw DNA in a normal chat and answers in English. It shares one token stream for text and DNA, using 6-mer tokens, and was mid-trained on 302B tokens. Hugging Face reports a 66.7% average across five DNA benchmarks with ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Frontier models are bad at hearing ASMR: 8 judges vs human labels on 480 clips [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xcbqdm/frontier_models_are_bad_at_hearing_asmr_8_judges/",
+   "published": "2026-10-22T07:10:18Z",
+   "summary": "I'm training text2asmr, a text-to-ASMR model (whispering plus trigger sounds like tapping, crinkling, brushing). The generator needs every training clip tagged with the sounds in it, and there are about 126k recordings, so I tried frontier models as labellers. They were much ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Noun-verb-conjunction triads [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xbtzv9/nounverbconjunction_triads_d/",
+   "published": "2026-10-21T17:44:08Z",
+   "summary": "The neural network would consist of multiple layers with at least one layer consisting of multiple attention heads. Each attention head would hold one triad consisting of one noun + one verb + one conjunction. The hungry cat ate the mouse then died: (Null) Cat ate also Mouse ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Laid Off in March 2025, Took a 50% Pay Cut, and Finally Landed a $230K Offer. Don't Give Up.",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xc2q5p/laid_off_in_march_2025_took_a_50_pay_cut_and/",
+   "published": "2026-10-21T23:23:56Z",
+   "summary": "Hi everyone, I wanted to share my story in hopes that it gives some encouragement to those who are struggling with the current job market. Long story short, I was laid off from my software engineering job in March 2025. It was one of the most devastating moments of my life ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Graduated into COVID, six years in, and I have never once seen a normal market",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xc9y0w/graduated_into_covid_six_years_in_and_i_have/",
+   "published": "2026-10-22T05:23:38Z",
+   "summary": "2020 grad. My entire working life has been: a hiring freeze, then the 2021 boom where I got three offers in a fortnight and thought that meant I was good, then the 2022 layoffs, then two flat years, then this. I'm 28, and I've never worked in a market where the rules stayed ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "EBay to lay off 9% (1000 people ) of workforce. 6% were laid off earlier this year in Feb",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xc93yi/ebay_to_lay_off_9_1000_people_of_workforce_6_were/",
+   "published": "2026-10-22T04:37:10Z",
+   "summary": "https://www.cnbc.com/2026/10/21/ebay-layoffs-workforce-cuts.html EBay will lay off about 9% of its workforce in a move to streamline its operations and focus on its fastest-growing areas, a company spokesperson confirmed to CNBC. The layoffs will affect approximately 1,000 ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Barclays to slash 5,000 jobs in AI efficiency push | 60% expected to be in roles like software development",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xchers/barclays_to_slash_5000_jobs_in_ai_efficiency_push/",
+   "published": "2026-10-22T12:37:50Z",
+   "summary": "https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html “The bank’s chief financial officer, Anna Cross, told reporters on Thursday that the job cuts were part of plans to save more than £1.1bn in 2027. “These actions involve an expected reduction of circa 5,000 full-time ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Banned from reapplying to AI lab",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xbu5l8/banned_from_reapplying_to_ai_lab/",
+   "published": "2026-10-21T17:49:50Z",
+   "summary": "I interviewed 2 years ago for a position at one of big AI labs. I did pretty terribly at the interviews and was understandably rejected (had a bad few weeks back then). Fast forward now, got a warm internal referral for a role that is a very good fit but was blocked by ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Anyone else considering a clean-room implementation of their previous employers product if they are laid off due to AI automation?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xbtmsb/anyone_else_considering_a_cleanroom/",
+   "published": "2026-10-21T17:31:10Z",
+   "summary": "Title. Assuming AI eats our jobs, is anyone considering writing a clean-room style implementation of the company’s platform? Without the customer book it might not be worth it. Any thoughts on how can we migrate the customers too? It generally feels like AI redundancy is coming ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  }
+ ],
+ "videos": [],
+ "interview_intel": [
+  {
+   "title": "Laid Off in March 2025, Took a 50% Pay Cut, and Finally Landed a $230K Offer. Don't Give Up.",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xc2q5p/laid_off_in_march_2025_took_a_50_pay_cut_and/",
+   "published": "2026-10-21T23:23:56Z",
+   "summary": "Hi everyone, I wanted to share my story in hopes that it gives some encouragement to those who are struggling with the current job market. Long story short, I was laid off from my software engineering job in March 2025. It was one of the most devastating moments of my life ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "EBay to lay off 9% (1000 people ) of workforce. 6% were laid off earlier this year in Feb",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xc93yi/ebay_to_lay_off_9_1000_people_of_workforce_6_were/",
+   "published": "2026-10-22T04:37:10Z",
+   "summary": "https://www.cnbc.com/2026/10/21/ebay-layoffs-workforce-cuts.html EBay will lay off about 9% of its workforce in a move to streamline its operations and focus on its fastest-growing areas, a company spokesperson confirmed to CNBC. The layoffs will affect approximately 1,000 ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Anyone else considering a clean-room implementation of their previous employers product if they are laid off due to AI automation?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xbtmsb/anyone_else_considering_a_cleanroom/",
+   "published": "2026-10-21T17:31:10Z",
+   "summary": "Title. Assuming AI eats our jobs, is anyone considering writing a clean-room style implementation of the company’s platform? Without the customer book it might not be worth it. Any thoughts on how can we migrate the customers too? It generally feels like AI redundancy is coming ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  }
+ ],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "youtube:playlist:cs329a",
+   "error": "no playlist data on page (consent or bot check)"
+  }
+ ]
+}
