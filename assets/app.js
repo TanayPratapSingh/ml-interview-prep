@@ -447,7 +447,7 @@
     const show = () => {
       if (!queue.length) {
         onKey = null;
-        main.innerHTML = `<div class="session"><h1>Session done</h1><p class="lede">You went through ${plural(total, "card")}. Cards you marked Again come back first next time.</p>
+        main.innerHTML = `<div class="session"><h1>Session done</h1><p class="lede">You went through ${plural(total, "card")}. Cards you did not know come back first next time.</p>
           <p class="row"><a class="btn primary" href="#/drill/today">Say five out loud</a><a href="#/cards">Back to Learn</a></p></div>`;
         return;
       }
@@ -466,12 +466,10 @@
           <button class="link" type="button" data-a="fu">Follow ups</button>
         </div>
         <div class="rate" id="rate" hidden>
-          <button type="button" data-r="1">Again<kbd>1</kbd></button>
-          <button type="button" data-r="2">Hard<kbd>2</kbd></button>
-          <button type="button" data-r="3">Good<kbd>3</kbd></button>
-          <button type="button" data-r="4">Easy<kbd>4</kbd></button>
+          <button type="button" data-r="1">Don't know<kbd>left arrow</kbd></button>
+          <button type="button" data-r="3">Know it<kbd>right arrow</kbd></button>
         </div>
-        <p class="hint">Answer first, in your head or out loud. Space shows the answer, D goes deeper, S shows the spoken version, F the follow ups, and 1 to 4 rates the card.</p>
+        <p class="hint">Answer first, in your head or out loud. Space shows the answer, D goes deeper, S shows the spoken version, F the follow ups. Then tap Know it or Don't know.</p>
       </div>`;
       const reveal = $("#reveal", main);
       const sections = {};
@@ -514,7 +512,8 @@
         else if (e.key === "d") actions.deep();
         else if (e.key === "s") actions.say();
         else if (e.key === "f") actions.fu();
-        else if (["1", "2", "3", "4"].includes(e.key)) rate(+e.key);
+        else if (e.key === "ArrowLeft" || e.key === "1") rate(1);
+        else if (e.key === "ArrowRight" || e.key === "2") rate(3);
       };
       window.scrollTo(0, 0);
     };

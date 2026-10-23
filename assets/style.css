@@ -152,8 +152,8 @@ td .meta { display: block; }
 .section > h2 { font-size: 1.08rem; font-style: italic; font-weight: 400; margin: 0 0 .7rem; color: var(--graphite); }
 .spoken { background: var(--wash); padding: 1rem 1.2rem; border-radius: 2px; }
 .actions { display: flex; gap: 1.4rem; flex-wrap: wrap; align-items: baseline; margin-top: 2rem; }
-.rate { display: grid; grid-template-columns: repeat(4, 1fr); gap: .6rem; margin-top: 2.2rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); }
-.rate button { background: none; border: 1px solid var(--rule); border-radius: 2px; padding: .45rem .3rem; cursor: pointer; }
+.rate { display: grid; grid-template-columns: repeat(2, 1fr); gap: .6rem; margin-top: 2.2rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); }
+.rate button { background: none; border: 1px solid var(--rule); border-radius: 2px; padding: .7rem .3rem; cursor: pointer; font-size: 1.05rem; }
 .rate button:hover { border-color: var(--ink); }
 .rate kbd { display: block; margin-top: .1rem; }
 .hint { color: var(--graphite); font-size: .85rem; font-style: italic; margin-top: 2rem; text-align: left; }
