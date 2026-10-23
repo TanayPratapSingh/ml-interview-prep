@@ -18,7 +18,80 @@
   const blank = () => ({ cards: {}, drills: [], reviews: {}, theme: null });
   let state = blank();
   try { state = Object.assign(blank(), JSON.parse(localStorage.getItem(KEY)) || {}); } catch (e) { /* private mode */ }
-  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { /* ignore */ } };
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { /* ignore */ } syncSoon(); };
+
+  // ------------------------------------------------------------ sync across devices
+  // Progress is mirrored to a private gist in the reader's own GitHub account. The token
+  // lives only in this browser (key "mip.sync") and is sent only to api.github.com.
+  const SYNC_KEY = "mip.sync";
+  const GIST_FILE = "ml-interview-prep-progress.json";
+  let syncTimer = null, syncBusy = false;
+  const syncCfg = () => { try { return JSON.parse(localStorage.getItem(SYNC_KEY)) || {}; } catch (e) { return {}; } };
+  const saveSyncCfg = (c) => { try { localStorage.setItem(SYNC_KEY, JSON.stringify(c)); } catch (e) { /* ignore */ } };
+  async function gh(path, opts = {}) {
+    const r = await fetch(`https://api.github.com${path}`, { ...opts, headers: { Accept: "application/vnd.github+json",
+      Authorization: `Bearer ${syncCfg().token}`, "X-GitHub-Api-Version": "2022-11-28", ...(opts.headers || {}) } });
+    if (r.status === 401) throw new Error("GitHub rejected the token. Create a new one and connect again.");
+    if (!r.ok) throw new Error(`GitHub answered ${r.status}`);
+    return r.json();
+  }
+  const payload = () => JSON.stringify({ cards: state.cards, drills: state.drills, reviews: state.reviews,
+    newPerDay: state.newPerDay || null, path: state.path || null, updated: new Date().toISOString() });
+  function mergeRemote(remote) {
+    let changed = false;
+    for (const [id, r] of Object.entries(remote.cards || {})) {
+      const l = state.cards[id];
+      const newer = !l || (r.t || 0) > (l.t || 0) || (!r.t && !l.t && ((r.last || "") > (l.last || "")));
+      if (newer) { state.cards[id] = r; changed = true; }
+    }
+    for (const [d, n] of Object.entries(remote.reviews || {})) {
+      if ((state.reviews[d] || 0) < n) { state.reviews[d] = n; changed = true; }
+    }
+    const key = (x) => `${x.id}|${x.date}|${x.seconds}|${x.score}`;
+    const have = new Set(state.drills.map(key));
+    for (const x of remote.drills || []) if (!have.has(key(x))) { state.drills.push(x); changed = true; }
+    if (remote.newPerDay && !state.newPerDay) state.newPerDay = remote.newPerDay;
+    if (remote.path && !state.path) state.path = remote.path;
+    return changed;
+  }
+  async function findOrCreateGist() {
+    for (let page = 1; page <= 5; page++) {
+      const list = await gh(`/gists?per_page=100&page=${page}`);
+      const hit = list.find((g) => g.files && g.files[GIST_FILE]);
+      if (hit) return hit.id;
+      if (list.length < 100) break;
+    }
+    const g = await gh("/gists", { method: "POST", body: JSON.stringify({ description: "ML Interview Prep progress", public: false,
+      files: { [GIST_FILE]: { content: payload() } } }) });
+    return g.id;
+  }
+  async function syncNow() {
+    const c = syncCfg();
+    if (!c.token || syncBusy) return false;
+    syncBusy = true;
+    try {
+      if (!c.gistId) { c.gistId = await findOrCreateGist(); saveSyncCfg(c); }
+      const g = await gh(`/gists/${c.gistId}`);
+      const f = g.files && g.files[GIST_FILE];
+      let changed = false;
+      if (f) {
+        const text = f.truncated ? await (await fetch(f.raw_url)).text() : f.content;
+        try { changed = mergeRemote(JSON.parse(text)); } catch (e) { /* unreadable remote: overwrite it */ }
+      }
+      try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { /* ignore */ }
+      await gh(`/gists/${c.gistId}`, { method: "PATCH", body: JSON.stringify({ files: { [GIST_FILE]: { content: payload() } } }) });
+      saveSyncCfg({ ...syncCfg(), last: new Date().toISOString(), error: null });
+      return changed;
+    } catch (e) {
+      saveSyncCfg({ ...syncCfg(), error: e.message });
+      return false;
+    } finally { syncBusy = false; }
+  }
+  function syncSoon() {
+    if (!syncCfg().token) return;
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(syncNow, 4000);
+  }
 
   const themeBtn = $("#theme");
   const isDark = () => (state.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark";
@@ -184,6 +257,7 @@
     else { s.interval = s.reps === 0 ? 3 : Math.round(Math.max(1, s.interval) * s.ease * 1.3); s.ease += 0.15; s.reps += 1; }
     s.due = addDays(today(), s.interval);
     s.last = today();
+    s.t = Date.now();
     state.cards[id] = s;
     state.reviews[today()] = (state.reviews[today()] || 0) + 1;
     save();
@@ -387,13 +461,14 @@
     const fresh = cur.filter((c) => isNew(c.id)).length;
     const perDay = state.newPerDay || 20;
     const learned = cards.filter((c) => isLearned(c.id)).length;
+    const doneN = cards.filter((c) => cardState(c.id)).length;
     const ready = mods.filter((m) => m.ready).concat(cards.some((c) => c.module === "lectures") ? [{ id: "lectures", title: "Lecture notes", ready: true }] : []);
     const inPath = (id) => !state.path || !state.path.length || state.path.includes(id);
     const by = (id) => cards.filter((c) => c.module === id);
     if (!cards.length) { main.innerHTML = `<h1>Learn</h1><p class="notice">The first modules are still being written. They appear here as soon as each one passes its checks.</p>`; return; }
     const todayCount = due + Math.min(perDay, fresh);
     main.innerHTML = `<h1>Learn</h1>
-      <p class="lede">${due ? `${plural(due, "review")} ${due === 1 ? "is" : "are"} due and ` : ""}${plural(Math.min(perDay, fresh), "new card")} ${due ? "" : "are "}lined up for today. You have learned ${learned} of ${cards.length} cards${streak() ? `, on a ${streak()} day streak` : ""}. Each module runs in order, from the first idea to the interview questions that combine them.</p>
+      <p class="lede">${due ? `${plural(due, "review")} ${due === 1 ? "is" : "are"} due and ` : ""}${plural(Math.min(perDay, fresh), "new card")} ${due ? "" : "are "}lined up for today. You have done ${doneN} of ${cards.length} cards, ${cards.length - doneN} to go, and learned ${learned}${syncCfg().token ? " (synced across your devices)" : ""}${streak() ? `, on a ${streak()} day streak` : ""}. Each module runs in order, from the first idea to the interview questions that combine them.</p>
       <p class="row"><a class="btn primary" href="#/cards/learn">${todayCount ? `Start today's session` : "Nothing due, learn ahead"}</a>
         <label class="check">New cards a day <select id="perday" aria-label="New cards a day">${[10, 20, 30, 50, 100].map((n) => `<option ${n === perDay ? "selected" : ""}>${n}</option>`).join("")}</select></label></p>
       <h2>Modules</h2>
@@ -761,10 +836,37 @@
     const due = cards.filter((c) => isDue(c.id)).length;
     const last7 = [...Array(7)].map((_, k) => addDays(today(), -k)).reduce((a, d) => a + (state.reviews[d] || 0), 0);
     const avg = state.drills.length ? (state.drills.reduce((a, d) => a + d.score, 0) / state.drills.length).toFixed(1) : null;
+    const sc = syncCfg();
     main.innerHTML = `<h1>Progress</h1>
-      <p class="lede">You have seen ${seen} of ${cards.length} cards and learned ${learned}, meaning their next review is a week or more away. ${plural(due, "card")} ${due === 1 ? "is" : "are"} due now. You did ${plural(last7, "review")} in the last seven days${streak() ? ` and are on a ${streak()} day streak` : ""}. ${state.drills.length ? `You have answered ${plural(state.drills.length, "drill question")} out loud, with an average clarity of ${avg} out of 5.` : "You have not done a spoken drill yet."}</p>
-      <p>Progress lives in this browser only. Export it to move to another device or to keep a copy.</p>
+      <p class="lede">You have done ${seen} of ${cards.length} cards and have ${cards.length - seen} to go. ${learned} are learned, meaning their next review is a week or more away, and ${plural(due, "card")} ${due === 1 ? "is" : "are"} due now. You did ${plural(last7, "review")} in the last seven days${streak() ? ` and are on a ${streak()} day streak` : ""}. ${state.drills.length ? `You have answered ${plural(state.drills.length, "drill question")} out loud, with an average clarity of ${avg} out of 5.` : "You have not done a spoken drill yet."}</p>
+      <h2>Sync across devices</h2>
+      ${sc.token ? `<p>This device saves your progress to a private gist in your GitHub account${sc.last ? `, last synced ${esc(fmtTime(sc.last))}` : ""}. Every device you connect shows the same cards done and due.</p>
+        ${sc.error ? `<p class="notice">The last sync failed: ${esc(sc.error)}</p>` : ""}
+        <p class="row"><button class="btn primary" type="button" id="syncnow">Sync now</button><button class="link" type="button" id="unsync">Disconnect this device</button></p>`
+      : `<p>Your progress is saved in this browser only. To see the same progress on your phone and laptop, save it to a private gist (a small file GitHub keeps for you) in your own GitHub account:</p>
+        <ol class="prose">
+          <li>On GitHub, open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Settings, Developer settings, Fine grained tokens</a> and create a token. Give it any name and an expiry, set Repository access to "Public repositories", and under Account permissions set Gists to "Read and write". Nothing else is needed.</li>
+          <li>Paste the token below and press Connect. Do the same on each device. The token stays in that browser and is only ever sent to GitHub.</li>
+        </ol>
+        <form id="syncform" class="row"><input type="password" id="tok" placeholder="Paste your GitHub token" aria-label="GitHub token" autocomplete="off" spellcheck="false" style="flex:1 1 18rem"><button class="btn primary" type="submit">Connect</button></form>`}
+      <p class="meta" id="syncmsg"></p>
+      <h2>Backup</h2>
       <p class="row"><button class="btn" type="button" id="exp">Export progress</button><label class="btn" for="imp">Import progress</label><input type="file" id="imp" accept="application/json" hidden><button class="link" type="button" id="reset">Reset everything</button></p>`;
+    const msg = (t) => { const m = $("#syncmsg", main); if (m) m.textContent = t; };
+    $("#syncform", main)?.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const token = $("#tok", main).value.trim();
+      if (!token) return;
+      saveSyncCfg({ token });
+      msg("Connecting to GitHub");
+      await syncNow();
+      if (syncCfg().error) { msg(syncCfg().error); saveSyncCfg({}); return; }
+      route();
+    });
+    $("#syncnow", main)?.addEventListener("click", async () => { msg("Syncing"); await syncNow(); route(); });
+    $("#unsync", main)?.addEventListener("click", () => {
+      if (confirm("Stop syncing on this device? Your progress stays here and in your gist.")) { saveSyncCfg({}); route(); }
+    });
     $("#exp").addEventListener("click", () => {
       const a = document.createElement("a");
       a.href = URL.createObjectURL(new Blob([JSON.stringify(state, null, 1)], { type: "application/json" }));
@@ -775,12 +877,18 @@
     $("#imp").addEventListener("change", async (e) => {
       const f = e.target.files[0];
       if (!f) return;
-      try { state = Object.assign(blank(), JSON.parse(await f.text())); save(); route(); } catch (err) { alert("That file is not a progress export from this site."); }
+      try { mergeRemote(JSON.parse(await f.text())); save(); route(); } catch (err) { alert("That file is not a progress export from this site."); }
     });
     $("#reset").addEventListener("click", () => {
-      if (confirm("Delete all card progress and drill history in this browser?")) { state = Object.assign(blank(), { theme: state.theme }); save(); route(); }
+      if (confirm("Delete all card progress and drill history in this browser? A synced gist keeps its copy.")) { state = Object.assign(blank(), { theme: state.theme }); try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) { /* ignore */ } route(); }
     });
   };
 
-  route();
+  // Pull synced progress before the first page draws, but never wait more than 4 seconds.
+  async function start() {
+    if (syncCfg().token) await Promise.race([syncNow(), new Promise((r) => setTimeout(r, 4000))]);
+    route();
+  }
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") syncNow().then((changed) => { if (changed) route(); }); });
+  start();
 })();
