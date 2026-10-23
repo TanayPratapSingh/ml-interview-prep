@@ -1,0 +1,754 @@
+{
+ "date": "2026-10-23",
+ "generated_at": "2026-10-23T15:11:10Z",
+ "counts": {
+  "jobs_open": 864,
+  "jobs_new": 16,
+  "papers": 10,
+  "posts": 21,
+  "hn": 9,
+  "reddit": 12,
+  "videos": 1,
+  "interview_intel": 0,
+  "errors": 4
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:308d7d0e-34ed-4c86-9997-1b2c9cc3df0d",
+   "company": "Crescent Energy",
+   "title": "Master Data Management Analyst",
+   "location": "Houston, TX",
+   "remote": false,
+   "url": "https://crescentenergyco.wd108.myworkdayjobs.com/crescent_energy_careers/job/Houston-TX/Master-Data-Management-Analyst_R504",
+   "apply_url": "https://crescentenergyco.wd108.myworkdayjobs.com/crescent_energy_careers/job/Houston-TX/Master-Data-Management-Analyst_R504",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "simplify:62139b4b-4989-4dbd-9408-c58649080617",
+   "company": "Cleveland Clinic",
+   "title": "Healthcare Reporting Analyst 1",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://ccf.wd1.myworkdayjobs.com/ClevelandClinicCareers/job/Remote-Location/Healthcare-Reporting-Analyst-I_351300",
+   "apply_url": "https://ccf.wd1.myworkdayjobs.com/ClevelandClinicCareers/job/Remote-Location/Healthcare-Reporting-Analyst-I_351300",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "simplify:e3bad092-7807-41e6-b124-2c0c7c7f3d56",
+   "company": "GE Aerospace",
+   "title": "Engineer to Robotics and Autonomy",
+   "location": "Niskayuna, NY",
+   "remote": false,
+   "url": "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Niskayuna/Research-Engineer---Robotics---Autonomy_R5042077-1",
+   "apply_url": "https://geaerospace.wd5.myworkdayjobs.com/ge_externalsite/job/Niskayuna/Research-Engineer---Robotics---Autonomy_R5042077-1",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "simplify:025ab3a4-c3a2-432b-a205-d415f311bccb",
+   "company": "Memorial Sloan Kettering Cancer Center",
+   "title": "Data Analyst 1",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://msk.wd108.myworkdayjobs.com/MSKCC_Careers_Primary/job/New-York-NY/Data-Analyst-I_103335-1",
+   "apply_url": "https://msk.wd108.myworkdayjobs.com/MSKCC_Careers_Primary/job/New-York-NY/Data-Analyst-I_103335-1",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "simplify:cc259ac7-d903-41ef-8372-0b9bff0ba883",
+   "company": "UT Southwestern Medical Center",
+   "title": "Clinical Quality Data Coordinator 1",
+   "location": "Dallas, TX",
+   "remote": false,
+   "url": "https://utsw.taleo.net/careersection/2/jobdetail.ftl?job=973896",
+   "apply_url": "https://utsw.taleo.net/careersection/2/jobdetail.ftl?job=973896",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "simplify:dad4f37f-c017-4f05-82a4-52de0ab189cd",
+   "company": "Thermo Fisher Scientific",
+   "title": "Data Engineer",
+   "location": "Pittsburgh, PA",
+   "remote": false,
+   "url": "https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Pittsburgh-Pennsylvania-USA/Data-Engineer_R-01372756",
+   "apply_url": "https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers/job/Pittsburgh-Pennsylvania-USA/Data-Engineer_R-01372756",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "simplify:b160c2da-eab8-4a59-9b66-181feed9fbdb",
+   "company": "Palantir",
+   "title": "Forward Deployed Software Engineer New Grad",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://jobs.lever.co/palantir/66b495eb-aaf9-4bf9-a759-41854534add7/apply",
+   "apply_url": "https://jobs.lever.co/palantir/66b495eb-aaf9-4bf9-a759-41854534add7/apply",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "simplify:5b0e9d21-c3ae-4d90-942f-5d0d6ac9c90b",
+   "company": "Booz Allen",
+   "title": "Data Scientist",
+   "location": "Honolulu, HI; Annapolis Junction, MD; Colorado Springs, CO; McLean, VA; Rome, NY; Panama City, FL; Charleston, SC; Atlanta, GA; Huntsville, AL; San Diego, CA ...",
+   "remote": false,
+   "url": "https://bah.wd1.myworkdayjobs.com/Confidential/job/McLean-VA/University---Data-Scientist_R0252282",
+   "apply_url": "https://bah.wd1.myworkdayjobs.com/Confidential/job/McLean-VA/University---Data-Scientist_R0252282",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "ashby:elevenlabs:a3097257-a07a-4a7e-b9fe-b8555c1a0fa7",
+   "company": "ElevenLabs",
+   "title": "Engineering - Internal AI Transformation",
+   "location": "London; Dublin; New York; Germany; Poland; Sweden; Italy; Poland; United Kingdom; Canada; Berlin",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/elevenlabs/a3097257-a07a-4a7e-b9fe-b8555c1a0fa7",
+   "apply_url": "https://jobs.ashbyhq.com/elevenlabs/a3097257-a07a-4a7e-b9fe-b8555c1a0fa7/application",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "greenhouse:gleanwork:4746908005",
+   "company": "Glean",
+   "title": "AI Engineer - Data and Evals",
+   "location": "San Francisco Bay Area",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4746908005",
+   "apply_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4746908005",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "greenhouse",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "greenhouse:gleanwork:4746915005",
+   "company": "Glean",
+   "title": "AI Engineer - Quality and Post-Training",
+   "location": "San Francisco Bay Area",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4746915005",
+   "apply_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4746915005",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "greenhouse",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "ashby:perplexity:06dcd116-2b07-4f40-869e-06ed540f7614",
+   "company": "Perplexity",
+   "title": "Member of Technical Staff, (Software Engineer, Experience)",
+   "location": "San Francisco; New York City",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/perplexity/06dcd116-2b07-4f40-869e-06ed540f7614",
+   "apply_url": "https://jobs.ashbyhq.com/perplexity/06dcd116-2b07-4f40-869e-06ed540f7614/application",
+   "posted": "2026-10-22",
+   "comp": "$220K to $405K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "ashby:snowflake:e054c37d-8940-4cf6-b166-d5741991ad12",
+   "company": "Snowflake",
+   "title": "Forward Deployed Engineer, Frontier Engineering",
+   "location": "NZ-New Zealand-Remote",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/snowflake/e054c37d-8940-4cf6-b166-d5741991ad12",
+   "apply_url": "https://jobs.ashbyhq.com/snowflake/e054c37d-8940-4cf6-b166-d5741991ad12/application",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "ashby:openai:cec9ba9a-0b2d-4e90-8482-01ccc72234fb",
+   "company": "OpenAI",
+   "title": "Research Communications, Models & Frontier AI",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/cec9ba9a-0b2d-4e90-8482-01ccc72234fb",
+   "apply_url": "https://jobs.ashbyhq.com/openai/cec9ba9a-0b2d-4e90-8482-01ccc72234fb/application",
+   "posted": "2026-10-22",
+   "comp": "$297K to $330K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "ashby:ramp:29a5da77-37f0-402a-92bc-072778e77ed8",
+   "company": "Ramp",
+   "title": "Software Engineer, Forward Deployed",
+   "location": "New York, NY (HQ); San Francisco, CA",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/ramp/29a5da77-37f0-402a-92bc-072778e77ed8",
+   "apply_url": "https://jobs.ashbyhq.com/ramp/29a5da77-37f0-402a-92bc-072778e77ed8/application",
+   "posted": "2026-10-22",
+   "comp": "$168K to $285K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-10-23"
+  },
+  {
+   "id": "greenhouse:asana:8194522",
+   "company": "Asana",
+   "title": "Software Engineer - AI Teammates Platform",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://www.asana.com/jobs/apply/8194522?gh_jid=8194522",
+   "apply_url": "https://www.asana.com/jobs/apply/8194522?gh_jid=8194522",
+   "posted": "2026-10-14",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-10-23"
+  }
+ ],
+ "papers": [
+  {
+   "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+   "url": "https://huggingface.co/papers/2610.31329",
+   "arxiv": "https://arxiv.org/abs/2610.31329",
+   "upvotes": 213,
+   "github": "https://github.com/Tencent/WeVisOne-VL",
+   "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+   "url": "https://huggingface.co/papers/2610.30926",
+   "arxiv": "https://arxiv.org/abs/2610.30926",
+   "upvotes": 162,
+   "github": "https://github.com/Songlin1998/ShotVerse2.0",
+   "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them ...",
+   "published": "2026-10-22T08:43:48Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Deep Search in Real-World Web Environments",
+   "url": "https://huggingface.co/papers/2610.30181",
+   "arxiv": "https://arxiv.org/abs/2610.30181",
+   "upvotes": 147,
+   "github": "https://github.com/Yu-xm/OpenDS",
+   "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and ...",
+   "published": "2026-10-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
+   "url": "https://huggingface.co/papers/2610.24738",
+   "arxiv": "https://arxiv.org/abs/2610.24738",
+   "upvotes": 73,
+   "github": "",
+   "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples ...",
+   "published": "2026-10-17T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+   "url": "https://huggingface.co/papers/2610.30949",
+   "arxiv": "https://arxiv.org/abs/2610.30949",
+   "upvotes": 49,
+   "github": "",
+   "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Toward Recursive Self-Improvement in Physical AI",
+   "url": "https://huggingface.co/papers/2610.29677",
+   "arxiv": "https://arxiv.org/abs/2610.29677",
+   "upvotes": 44,
+   "github": "https://github.com/Physical2RSI/Awesome-Physical2RSI",
+   "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operating conditions and ...",
+   "published": "2026-10-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+   "url": "https://huggingface.co/papers/2610.25100",
+   "arxiv": "https://arxiv.org/abs/2610.25100",
+   "upvotes": 35,
+   "github": "",
+   "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides only shallow ...",
+   "published": "2026-10-18T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
+   "url": "https://huggingface.co/papers/2610.23987",
+   "arxiv": "https://arxiv.org/abs/2610.23987",
+   "upvotes": 30,
+   "github": "https://github.com/LRuca/GAFU",
+   "summary": "Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations, yet remains challenging for existing vision-language models. Unified multimodal models (UMMs) offer a new opportunity through generation pathways that preserve rich visual information complementary to understanding. However, existing generation-assisted understanding methods mainly rely on ...",
+   "published": "2026-10-14T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+   "url": "https://huggingface.co/papers/2610.27851",
+   "arxiv": "https://arxiv.org/abs/2610.27851",
+   "upvotes": 25,
+   "github": "https://github.com/junha1125/LaLa-World",
+   "summary": "This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream policy fine-tuning. To this end, we introduce LaLa-World, a Language-conditioned Latent World model that learns from ...",
+   "published": "2026-10-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
+   "url": "https://huggingface.co/papers/2610.27598",
+   "arxiv": "https://arxiv.org/abs/2610.27598",
+   "upvotes": 24,
+   "github": "",
+   "summary": "As model parameters scale up, sparsely activated Mixture-of-Experts (MoE) approaches have become essential for model scaling. However, mainstream models currently adopt hierarchical architectures, where experts in different layers, although topologically independent, exhibit substantial similarity and redundancy in their stored content. Compared to the hierarchically arranged Local Expert in existing mainstream ...",
+   "published": "2026-10-20T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "Skewness and Kurtosis: From Moments to Machine Learning",
+   "url": "https://towardsdatascience.com/skewness-and-kurtosis-from-moments-to-machine-learning/",
+   "published": "2026-10-23T14:00:00Z",
+   "summary": "The mathematics, intuition, interpretation, and practical use of higher-order moments. The post Skewness and Kurtosis: From Moments to Machine Learning appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "What Companies Actually Mean When They Say They Want “AI Experience”",
+   "url": "https://www.kdnuggets.com/what-companies-actually-mean-when-they-say-they-want-ai-experience",
+   "published": "2026-10-23T14:00:00Z",
+   "summary": "What employers actually mean when job postings list \"AI experience\" as a requirement.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Why Parameter Count Is Not Model Complexity: An Introduction to Effective Dimension",
+   "url": "https://towardsdatascience.com/why-parameter-count-is-not-model-complexity-an-introduction-to-effective-dimension/",
+   "published": "2026-10-23T12:30:00Z",
+   "summary": "What does effective dimension reveal about redundancy, generalization, and trainability that parameter count, loss, and accuracy do not? The post Why Parameter Count Is Not Model Complexity: An Introduction to Effective Dimension appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "5 Free AI Coding Agents You Should Try in 2026",
+   "url": "https://www.kdnuggets.com/5-free-ai-coding-agents-you-should-try-in-2026",
+   "published": "2026-10-23T12:00:00Z",
+   "summary": "Access powerful open-source and proprietary models through OpenCode Zen, Gemini’s free quota, Kilo Gateway, Cline Provider, and Charm Hyper without paying for API access upfront.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Your Six AI Models Are Really Two: The Math of Correlated Mistakes",
+   "url": "https://towardsdatascience.com/your-six-ai-models-are-really-two-the-math-of-correlated-mistakes/",
+   "published": "2026-10-23T11:00:00Z",
+   "summary": "Ask several models the same question, take a vote, and you get fewer independent opinions than you paid for. One formula says how many, and I checked it on six open models and 1,500 exam questions. The post Your Six AI Models Are Really Two: The Math of Correlated Mistakes ...",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "[AINews] Black October",
+   "url": "https://latent.space/p/ainews-black-october/",
+   "published": "2026-10-23T10:09:29Z",
+   "summary": "the Cyber onslaught continues.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Does Your Model Run on AWS Trainium? Look It Up",
+   "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+   "published": "2026-10-23T00:00:00Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+   "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+   "published": "2026-10-23T00:00:00Z",
+   "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+   "published": "2026-10-22T22:24:34Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
+   "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163?source=rss----2615bd06b42e---4",
+   "published": "2026-10-22T22:19:12Z",
+   "summary": "",
+   "source": "Netflix TechBlog",
+   "topic": "systems"
+  },
+  {
+   "title": "Build more responsive apps with the Decisions API",
+   "url": "https://openai.com/index/decisions-api",
+   "published": "2026-10-22T19:00:00Z",
+   "summary": "Fast, focused, low-cost decisions for any application.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Why AI Compute Comes in Rectangles , Erik Bernhardsson, Modal CEO",
+   "url": "https://latent.space/p/modal-d/",
+   "published": "2026-10-22T17:40:57Z",
+   "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+   "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+   "published": "2026-10-22T16:11:31Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Does Agentic RAG Actually Retrieve Better Evidence? I Tested It on 298 Questions",
+   "url": "https://towardsdatascience.com/does-agentic-rag-actually-retrieve-better-evidence-i-tested-it-on-298-questions/",
+   "published": "2026-10-22T15:30:00Z",
+   "summary": "I let an AI agent search again whenever it chose. It found some papers plain search had missed, lost some plain search had found, and gained too little to trust. The post Does Agentic RAG Actually Retrieve Better Evidence? I Tested It on 298 Questions appeared first on Towards ...",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "You are the Team , Anekha Sokhal, Moshi",
+   "url": "https://latent.space/p/moshi/",
+   "published": "2026-10-22T14:03:40Z",
+   "summary": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+   "url": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
+   "published": "2026-10-22T07:42:44Z",
+   "summary": "The Big Hardening begins",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+   "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+   "published": "2026-10-22T00:00:00Z",
+   "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Claude Mods: Flipping the Harness Inside Out",
+   "url": "https://latent.space/p/claude-mods/",
+   "published": "2026-10-21T13:04:19Z",
+   "summary": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+   "url": "https://latent.space/p/ainews-deepseek-deepinfer-open-source/",
+   "published": "2026-10-21T06:54:09Z",
+   "summary": "An open source “bomb” drops from China",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC , Alex Lieberman & CJ Hess",
+   "url": "https://latent.space/p/tenex/",
+   "published": "2026-10-21T05:01:26Z",
+   "summary": "Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "The Programmable Data Center , Evan Conrad, SF Compute",
+   "url": "https://latent.space/p/sfcompute2/",
+   "published": "2026-10-20T19:31:57Z",
+   "summary": "From GPU trading to physical settlement, independent markets, and programmable compute",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Every AI model has the same \"controversial\" take on humans",
+   "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+   "discussion": "https://news.ycombinator.com/item?id=50197313",
+   "points": 540,
+   "comments": 532,
+   "published": "2026-10-22T16:08:00Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "OpenShell to A safe, private runtime for fleets of autonomous AI agents",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "discussion": "https://news.ycombinator.com/item?id=50198675",
+   "points": 453,
+   "comments": 204,
+   "published": "2026-10-22T17:44:06Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+   "url": "https://news.ycombinator.com/item?id=50200997",
+   "discussion": "https://news.ycombinator.com/item?id=50200997",
+   "points": 319,
+   "comments": 348,
+   "published": "2026-10-22T21:03:55Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Swedish government offices to ban ChatGPT and Claude",
+   "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+   "discussion": "https://news.ycombinator.com/item?id=50207405",
+   "points": 239,
+   "comments": 87,
+   "published": "2026-10-23T11:39:54Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI and the Enclosure of the Scientific Commons",
+   "url": "https://arxiv.org/abs/2610.27251",
+   "discussion": "https://news.ycombinator.com/item?id=50199230",
+   "points": 136,
+   "comments": 80,
+   "published": "2026-10-22T18:28:16Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+   "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+   "discussion": "https://news.ycombinator.com/item?id=50205229",
+   "points": 131,
+   "comments": 140,
+   "published": "2026-10-23T06:41:11Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Hacker leaks 281 GB of data from Germany's far-right AfD party",
+   "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-leaks-281-gb-data-germany-afd",
+   "discussion": "https://news.ycombinator.com/item?id=50208258",
+   "points": 126,
+   "comments": 64,
+   "published": "2026-10-23T12:56:38Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+   "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+   "discussion": "https://news.ycombinator.com/item?id=50198940",
+   "points": 87,
+   "comments": 44,
+   "published": "2026-10-22T18:02:54Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+   "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+   "discussion": "https://news.ycombinator.com/item?id=50200843",
+   "points": 86,
+   "comments": 55,
+   "published": "2026-10-22T20:51:23Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "I just came across Next-Concept Modeling and the idea is fascinating[R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xd7bsu/i_just_came_across_nextconcept_modeling_and_the/",
+   "published": "2026-10-23T07:24:12Z",
+   "summary": "I've been learning how language models work, especially next-token prediction, and came across this paper on Next-Concept Modeling (NCM). The interesting part is how it generates text. Instead of predicting tokens one by one, NCM learns a hierarchy of discrete codes. It ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "AAAI 2027 phase 2 reviews discussion [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xddbgv/aaai_2027_phase_2_reviews_discussion_d/",
+   "published": "2026-10-23T12:58:18Z",
+   "summary": "AAAI phase 2 reviews are expected to be visible in the next 24 hours (24/10). Hope for the best outcomes for those who stay in this phase, and let's share your reviews! submitted by /u/Away-Cattle7081 [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "How does arXiv prepublishing work with ICLR's double-blind review? [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xdbvrf/how_does_arxiv_prepublishing_work_with_iclrs/",
+   "published": "2026-10-23T11:51:47Z",
+   "summary": "Hey folks, maybe a really dumb question from an inexperienced PhD student. I recently submitted to ICLR and spotted a bunch of papers that I was already familiar with because I had seen them on arXiv before. Doesn't this break the double-blind review process? I mean, on the one ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "I built Open-XTTS-Trainer: Now you can add new language scripts and train all 3 XTTS v2 components in 1 click [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xcurgj/i_built_openxttstrainer_now_you_can_add_new/",
+   "published": "2026-10-22T21:03:28Z",
+   "summary": "TL;DR: When Coqui AI shut down, they left XTTS v2 without official training code for the DVAE audio tokenizer and Latent HiFi-GAN vocoder, and fine-tuning new scripts (Arabic, Indic, etc.) broke on fixed vocabularies. I built Open-XTTS-Trainer , an open-source, modular ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Study Notes on Transformers and Hamiltonian Monte Carlo [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xdfeki/study_notes_on_transformers_and_hamiltonian_monte/",
+   "published": "2026-10-23T14:20:54Z",
+   "summary": "I’m sharing my study notes in case they might be useful to someone else. The Transformer notes are mostly based on the original architecture described in Attention Is All You Need . https://doi.org/10.5281/zenodo.22031925 I’ve also written notes on Hamiltonian Monte Carlo (HMC) ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "We shrank our steerable small TTS to 11.84 MB. WER is unchanged, UTMOS drops ~0.1 [p]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xcum4s/we_shrank_our_steerable_small_tts_to_1184_mb_wer/",
+   "published": "2026-10-22T20:57:42Z",
+   "summary": "A while back I posted SteerTTS v1, a small English TTS you steer with numbers ( https://huggingface.co/WhissleAI/steer-tts ). Today I am releasing the edge variant: https://huggingface.co/WhissleAI/steer-tts-edge Size: everything an app has to ship (weights, voices, text front ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Models disappearing from Huggingface",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd7ptj/models_disappearing_from_huggingface/",
+   "published": "2026-10-23T07:47:43Z",
+   "summary": "I've been noticing a lot of my downloads stopping suddenly and being unable to resume. When I checked the models it seemed like they were gone. Here's the ones I can see are missing: dealignai/MiMo-V2.6-Pro-RL-UNCENSORED audnai/penclaw-GLM-5.3-abliterated-for-offensive-cyber ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "MiniMax-M3.1-Flash",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xd0fgs/minimaxm31flash/",
+   "published": "2026-10-23T01:12:49Z",
+   "summary": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash submitted by /u/mrtime777 [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "DeepSeek and MiniMax Clear China’s AI Export Rules for Overseas Open-Source Releases",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcoelw/deepseek_and_minimax_clear_chinas_ai_export_rules/",
+   "published": "2026-10-22T17:07:31Z",
+   "summary": "On October 22, Chinese media reported that DeepSeek and MiniMax have officially completed the required registration filings under China’s new temporary AI export regulations. By submitting their technologies for cross-border review, both companies successfully fulfilled the ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Meta's 816B Muse Spark Open scores 39 on Artificial Analysis, the 180B Qwen3.8-Flash-Next scores 40. Score vs size for 11 open-weight models",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcthj8/metas_816b_muse_spark_open_scores_39_on/",
+   "published": "2026-10-22T20:14:06Z",
+   "summary": "Made this from the Artificial Analysis model pages after Muse Spark Open and Beam got their scores last week. X axis is total parameters as AA lists them, log scale. Orange = released in October 2026. - Muse Spark Open (816B, 42B active) scores 39. Qwen3.8-Flash-Next (180B, 6B ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Ant Ling just announced a second model today: Ling-3.0-flash-Sante (124B, 5.1B active)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcljvi/ant_ling_just_announced_a_second_model_today/",
+   "published": "2026-10-22T15:22:41Z",
+   "summary": "InclusionAI just announced Sante too. Damn, two model announcements in one day. They're on a roll. I posted about the 3.1-flash-1019 update earlier today and they've already announced Sante . Two model announcements in one day, damn. This one's built on Ling-3.0-flash , with ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "NVIDIA/OpenShell: safe, private runtime for autonomous AI agents",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcs9e2/nvidiaopenshell_safe_private_runtime_for/",
+   "published": "2026-10-22T19:29:01Z",
+   "summary": "submitted by /u/sensitivecrocodile [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  }
+ ],
+ "videos": [
+  {
+   "title": "Stanford EE292R AI and Data for Science | Autumn 2026 | From World Models to World Agents",
+   "url": "https://www.youtube.com/watch?v=IfkeGU4bEJI",
+   "id": "IfkeGU4bEJI",
+   "published": "2026-10-22T22:00:15Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
