@@ -1,0 +1,688 @@
+{
+ "date": "2026-10-24",
+ "generated_at": "2026-10-24T14:02:25Z",
+ "counts": {
+  "jobs_open": 868,
+  "jobs_new": 19,
+  "papers": 10,
+  "posts": 11,
+  "hn": 7,
+  "reddit": 10,
+  "videos": 1,
+  "interview_intel": 0,
+  "errors": 4
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:ed5d8236-8fcb-4304-a50f-c4acfdd5f275",
+   "company": "RSM",
+   "title": "AI Machine Learning Engineer",
+   "location": "Orlando, FL; Dallas, TX; Raleigh, NC; Chicago, IL; Georgia; Minneapolis, MN; Denver, CO",
+   "remote": false,
+   "url": "https://rsm.wd1.myworkdayjobs.com/RSMCareers/job/Chicago/AI-Machine-Learning-Engineer_JR122103",
+   "apply_url": "https://rsm.wd1.myworkdayjobs.com/RSMCareers/job/Chicago/AI-Machine-Learning-Engineer_JR122103",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:4aad94b7-19e6-4d69-8e9d-8fecfc34e591",
+   "company": "ByteDance",
+   "title": "Research Scientist New Grad - Video and Edge - Multimedia Lab",
+   "location": "San Jose, CA",
+   "remote": false,
+   "url": "https://jobs.bytedance.com/en/position/7670374385110599989/detail",
+   "apply_url": "https://jobs.bytedance.com/en/position/7670374385110599989/detail",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:ee3a8d08-0634-4977-978a-3073541eb055",
+   "company": "Applied Underwriters",
+   "title": "AI Engineer - Application Development",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://jobs.lever.co/auw/9234d6e2-f306-48d9-9cd6-9192d34d889c/apply",
+   "apply_url": "https://jobs.lever.co/auw/9234d6e2-f306-48d9-9cd6-9192d34d889c/apply",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:0c8d98d2-72e2-45bf-b3c4-72c3f25641b6",
+   "company": "Applied Underwriters",
+   "title": "AI Engineer - Data Science",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://jobs.lever.co/auw/6f317af6-4362-4dea-accc-e86ec1d102a5/apply",
+   "apply_url": "https://jobs.lever.co/auw/6f317af6-4362-4dea-accc-e86ec1d102a5/apply",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:afc381bd-a720-48e2-9119-10766e6c7d5c",
+   "company": "BeyondTrust",
+   "title": "Associate Data Engineer",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://job-boards.greenhouse.io/beyondtrust/jobs/8300876",
+   "apply_url": "https://job-boards.greenhouse.io/beyondtrust/jobs/8300876",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:bf76a3f8-5091-4571-bda7-999deb6382dd",
+   "company": "Dell Technologies",
+   "title": "AI Performance Test Technician",
+   "location": "Austin, TX",
+   "remote": false,
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300880",
+   "apply_url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300880",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:d4136527-95f3-42f5-beaf-aaf2f8948265",
+   "company": "Booz Allen",
+   "title": "Data Scientist",
+   "location": "Honolulu, HI; Annapolis Junction, MD; Colorado Springs, CO; Arlington County, Arlington, VA; Rome, NY; Panama City, FL; Charleston, SC; Atlanta, GA ...",
+   "remote": false,
+   "url": "https://bah.wd1.myworkdayjobs.com/Confidential/job/Arlington-VA/University---Data-Scientist_R0252257",
+   "apply_url": "https://bah.wd1.myworkdayjobs.com/Confidential/job/Arlington-VA/University---Data-Scientist_R0252257",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:19cab4c6-8cb4-4890-8917-5ee1650aaea3",
+   "company": "Sola",
+   "title": "Forward Deployed Engineer",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/sola/cf2b27be-7dc8-4e14-aff0-512639bac918/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/sola/cf2b27be-7dc8-4e14-aff0-512639bac918/application?embed=true",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:5f761cf2-ff4a-483d-81fe-021419690c6c",
+   "company": "New York Mets",
+   "title": "Associate Amateur Scouting",
+   "location": "Queens, NY",
+   "remote": false,
+   "url": "https://sterlingmets.wd5.myworkdayjobs.com/Mets/job/Citi-Field--Queens-New-York/Associate--Amateur-Scouting_R1530",
+   "apply_url": "https://sterlingmets.wd5.myworkdayjobs.com/Mets/job/Citi-Field--Queens-New-York/Associate--Amateur-Scouting_R1530",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:caf1ce87-4304-475f-9332-e9ae965a8557",
+   "company": "Intel",
+   "title": "Deep Learning Hardware Engineer",
+   "location": "Santa Clara, CA; Hillsboro, OR",
+   "remote": false,
+   "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Santa-Clara/Deep-Learning-Hardware-Engineer_JR0288400",
+   "apply_url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Santa-Clara/Deep-Learning-Hardware-Engineer_JR0288400",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:9e08800b-29d9-481b-b8c2-3a1025b1e37c",
+   "company": "Farther",
+   "title": "Business Intelligence Associate",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/fartherfinance/jobs/4746642005",
+   "apply_url": "https://job-boards.greenhouse.io/fartherfinance/jobs/4746642005",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:4c051e4b-6347-4cf8-9fb7-abfc0d3bb7db",
+   "company": "Dell Technologies",
+   "title": "AI Performance Engineer",
+   "location": "Austin, TX",
+   "remote": false,
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299245",
+   "apply_url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299245",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:e47a73e2-c0e4-4b76-90a4-bd1bced3be1d",
+   "company": "Dell Technologies",
+   "title": "AI Performance Engineer",
+   "location": "Austin, TX",
+   "remote": false,
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300865",
+   "apply_url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300865",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:25f0ff56-0ef3-4cea-8a0f-ae88483a537f",
+   "company": "UCSF",
+   "title": "Research Data Analyst 1",
+   "location": "SF",
+   "remote": false,
+   "url": "https://iazuqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10078",
+   "apply_url": "https://iazuqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10078",
+   "posted": "2026-10-21",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "simplify:b97f7672-c951-4e97-9b56-f73ad605eb1a",
+   "company": "Moxxi Digital",
+   "title": "Junior Optimization Analyst",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/moxxidigital/jobs/5451237008",
+   "apply_url": "https://job-boards.greenhouse.io/moxxidigital/jobs/5451237008",
+   "posted": "2026-10-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "greenhouse:databricks:8910846002",
+   "company": "Databricks",
+   "title": "Associate Forward Deployed Engineer",
+   "location": "Mountain View, California",
+   "remote": false,
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
+   "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "greenhouse:assemblyai:4747365005",
+   "company": "AssemblyAI",
+   "title": "Forward Deployed Engineer, Triage (NYC)",
+   "location": "New York City",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/assemblyai/jobs/4747365005",
+   "apply_url": "https://job-boards.greenhouse.io/assemblyai/jobs/4747365005",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "greenhouse",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "greenhouse:assemblyai:4747340005",
+   "company": "AssemblyAI",
+   "title": "Forward Deployed Engineer, Triage (SF)",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/assemblyai/jobs/4747340005",
+   "apply_url": "https://job-boards.greenhouse.io/assemblyai/jobs/4747340005",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "greenhouse",
+   "first_seen": "2026-10-24"
+  },
+  {
+   "id": "greenhouse:togetherai:5274195007",
+   "company": "Together AI",
+   "title": "Forward Deployed Engineer, Post-Training",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/togetherai/jobs/5274195007",
+   "apply_url": "https://job-boards.greenhouse.io/togetherai/jobs/5274195007",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "greenhouse",
+   "first_seen": "2026-10-24"
+  }
+ ],
+ "papers": [
+  {
+   "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+   "url": "https://huggingface.co/papers/2610.31329",
+   "arxiv": "https://arxiv.org/abs/2610.31329",
+   "upvotes": 230,
+   "github": "https://github.com/Tencent/WeVisOne-VL",
+   "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+   "url": "https://huggingface.co/papers/2610.30926",
+   "arxiv": "https://arxiv.org/abs/2610.30926",
+   "upvotes": 165,
+   "github": "https://github.com/Songlin1998/ShotVerse2.0",
+   "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them ...",
+   "published": "2026-10-22T08:43:48Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Deep Search in Real-World Web Environments",
+   "url": "https://huggingface.co/papers/2610.30181",
+   "arxiv": "https://arxiv.org/abs/2610.30181",
+   "upvotes": 153,
+   "github": "https://github.com/Yu-xm/OpenDS",
+   "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and ...",
+   "published": "2026-10-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
+   "url": "https://huggingface.co/papers/2610.24738",
+   "arxiv": "https://arxiv.org/abs/2610.24738",
+   "upvotes": 134,
+   "github": "",
+   "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples ...",
+   "published": "2026-10-17T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+   "url": "https://huggingface.co/papers/2610.30949",
+   "arxiv": "https://arxiv.org/abs/2610.30949",
+   "upvotes": 77,
+   "github": "",
+   "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Toward Recursive Self-Improvement in Physical AI",
+   "url": "https://huggingface.co/papers/2610.29677",
+   "arxiv": "https://arxiv.org/abs/2610.29677",
+   "upvotes": 50,
+   "github": "https://github.com/Physical2RSI/Awesome-Physical2RSI",
+   "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operating conditions and ...",
+   "published": "2026-10-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+   "url": "https://huggingface.co/papers/2610.28889",
+   "arxiv": "https://arxiv.org/abs/2610.28889",
+   "upvotes": 44,
+   "github": "",
+   "summary": "Selecting intermediate features from a frozen diffusion model for discriminative tasks is non-trivial because the useful signal is distributed across the denoising trajectory, network depth, and channels. In practice, this requires choosing a timestep, a block, and a channel subset. Existing methods either fix these choices by hand or optimize only a few extraction hyperparameters, most often the timestep, then ...",
+   "published": "2026-10-20T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+   "url": "https://huggingface.co/papers/2610.25100",
+   "arxiv": "https://arxiv.org/abs/2610.25100",
+   "upvotes": 40,
+   "github": "",
+   "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides only shallow ...",
+   "published": "2026-10-18T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
+   "url": "https://huggingface.co/papers/2610.23987",
+   "arxiv": "https://arxiv.org/abs/2610.23987",
+   "upvotes": 33,
+   "github": "https://github.com/LRuca/GAFU",
+   "summary": "Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations, yet remains challenging for existing vision-language models. Unified multimodal models (UMMs) offer a new opportunity through generation pathways that preserve rich visual information complementary to understanding. However, existing generation-assisted understanding methods mainly rely on ...",
+   "published": "2026-10-14T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Self-Distilling Future Video Representations for World Action Models",
+   "url": "https://huggingface.co/papers/2610.30320",
+   "arxiv": "https://arxiv.org/abs/2610.30320",
+   "upvotes": 29,
+   "github": "https://github.com/suhyeok-jang/FRED",
+   "summary": "World Action Models (WAMs) have emerged as a promising approach to learning generalist robot policies using rich spatiotemporal priors from pre-trained video diffusion models. A recent line of WAMs improves inference efficiency by conditioning a separate action decoder on intermediate future video representations extracted from a single denoising step, avoiding costly iterative denoising required for video ...",
+   "published": "2026-10-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "How to Add Guardrails to a Local LLM Agent",
+   "url": "https://towardsdatascience.com/how-to-add-guardrails-to-a-local-llm-agent/",
+   "published": "2026-10-24T14:00:00Z",
+   "summary": "A hands-on guide with Gemma 4, Ollama, and the OpenAI Agents SDK The post How to Add Guardrails to a Local LLM Agent appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Python 3.15 Has a New Profiler",
+   "url": "https://towardsdatascience.com/python-315-has-a-new-profiler/",
+   "published": "2026-10-24T12:00:00Z",
+   "summary": "Here's what it finds that cProfile misses The post Python 3.15 Has a New Profiler appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Build Your Own Reasoning Model: A Full Video Course",
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "published": "2026-10-24T11:14:32Z",
+   "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+   "source": "Sebastian Raschka",
+   "topic": "llm"
+  },
+  {
+   "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+   "url": "https://latent.space/p/ainews-kimi-31/",
+   "published": "2026-10-24T07:18:29Z",
+   "summary": "We have Fable at home... or so we are being told by paid shills",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Bringing foundational models to the front lines of TB screening",
+   "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+   "published": "2026-10-23T18:51:33Z",
+   "summary": "Generative AI",
+   "source": "Google Research",
+   "topic": "research"
+  },
+  {
+   "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
+   "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4",
+   "published": "2026-10-23T18:32:51Z",
+   "summary": "",
+   "source": "Netflix TechBlog",
+   "topic": "systems"
+  },
+  {
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "published": "2026-10-23T17:00:00Z",
+   "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+   "url": "https://huggingface.co/blog/allenai/litpivot",
+   "published": "2026-10-23T16:15:50Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Don’t Let Messy Data Bend Your Curves",
+   "url": "https://towardsdatascience.com/dont-let-messy-data-bend-your-curves/",
+   "published": "2026-10-23T15:30:00Z",
+   "summary": "Robust Estimation Series: Building Accurate Curves with Polynomials and Splines With Spurious Data The post Don’t Let Messy Data Bend Your Curves appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "AI Is Getting Good at Math. Here’s Why.",
+   "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+   "published": "2026-10-23T15:19:48Z",
+   "summary": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Securing our frontier model training environment",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "published": "2026-10-23T10:00:00Z",
+   "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Dessa: Conversation Model trained only on speech",
+   "url": "https://block.xyz/dessa",
+   "discussion": "https://news.ycombinator.com/item?id=50213925",
+   "points": 423,
+   "comments": 158,
+   "published": "2026-10-23T19:09:54Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+   "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+   "discussion": "https://news.ycombinator.com/item?id=50214218",
+   "points": 361,
+   "comments": 180,
+   "published": "2026-10-23T19:34:15Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Swedish government offices to ban ChatGPT and Claude",
+   "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+   "discussion": "https://news.ycombinator.com/item?id=50207405",
+   "points": 321,
+   "comments": 119,
+   "published": "2026-10-23T11:39:54Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+   "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+   "discussion": "https://news.ycombinator.com/item?id=50218633",
+   "points": 312,
+   "comments": 89,
+   "published": "2026-10-24T05:49:57Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Hacker leaks 281 GB of data from Germany's far-right AfD party",
+   "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-leaks-281-gb-data-germany-afd",
+   "discussion": "https://news.ycombinator.com/item?id=50208258",
+   "points": 162,
+   "comments": 118,
+   "published": "2026-10-23T12:56:38Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Securing our frontier model training environment",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "discussion": "https://news.ycombinator.com/item?id=50214416",
+   "points": 108,
+   "comments": 110,
+   "published": "2026-10-23T19:50:56Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+   "url": "https://corgi.computer/",
+   "discussion": "https://news.ycombinator.com/item?id=50214373",
+   "points": 104,
+   "comments": 28,
+   "published": "2026-10-23T19:46:38Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "[R] The Hive Mind is a Single Reinforcement Learning Agent: Deriving the Exact Equivalence Between Swarm Dynamics and Multi-Armed Bandits",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xdhf7r/r_the_hive_mind_is_a_single_reinforcement/",
+   "published": "2026-10-23T15:37:23Z",
+   "summary": "TL;DR We prove a mathematical equivalence between collective decision-making via local imitation (such as honey bees choosing a nest site via the waggle dance) and single-agent Reinforcement Learning (RL) in a multi-armed bandit setting. Even when individual members have no ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Are we solving LLM memory by remembering more, when the real problem is knowing what to forget?[D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xdpek9/are_we_solving_llm_memory_by_remembering_more/",
+   "published": "2026-10-23T20:39:06Z",
+   "summary": "Long-context models can now handle hundreds of thousands, even millions of tokens. But I've been wondering if we're focusing too much on recall and not enough on what happens when information changes. Say a coding agent reads that an API timeout is 30 seconds. Later, the ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Stenosis detection in coronary angiograms, need recall over precision [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xdkcav/stenosis_detection_in_coronary_angiograms_need/",
+   "published": "2026-10-23T17:25:52Z",
+   "summary": "Starting a project to detect candidate stenoses in x-ray coronary angiograms. The goal is high recall, false positives are fine as long as it doesn't flag half the image. I already tried YOLO on a couple of in-house datasets earlier. It looked fine in-domain and fell apart on ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Got a pretrained music transformer to jam with me live, no fine-tuning, just steering the sampling [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xe4pex/got_a_pretrained_music_transformer_to_jam_with_me/",
+   "published": "2026-10-24T09:58:29Z",
+   "summary": "I wanted to see how far you can get making a pretrained symbolic music model \"listen\" to a live player without training it. Turns out pretty far. Setup: I play a MIDI keyboard, the Anticipatory Music Transformer (Thickstun et al., music-medium-800k) plays a second piano. While I ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "American Express to Cut 3,500 Jobs",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xdh0lw/american_express_to_cut_3500_jobs/",
+   "published": "2026-10-23T15:22:01Z",
+   "summary": "https://www.wsj.com/economy/jobs/american-express-to-cut-3-500-jobs-63955c6f Follow up to this Reddit post a few months ago about being replaced by offshoring https://www.reddit.com/r/cscareerquestions/s/UnYpqPg8Ub Job listings in the Gurugram office confirm most of the roles ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Over a year post grad, no job. What now?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xdm7jl/over_a_year_post_grad_no_job_what_now/",
+   "published": "2026-10-23T18:36:29Z",
+   "summary": "I'm 27k in student loan debt, with no job, no savings, two SWE internships on my resume, projects, and a useless cs bachelor's degree from 2025. I got absolutely no call backs for anything my senior year or for the year post graduation. My \"new grad\" status expired a long time ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Negotiating for the first time - Google L3 SWE",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xdvz2l/negotiating_for_the_first_time_google_l3_swe/",
+   "published": "2026-10-24T01:35:29Z",
+   "summary": "Hi everyone, I'm expecting a Google L3 SWE offer soon (matched with a team, just waiting on approvals). Based on what I've seen, I'm expecting something around the standard L3 package: Base: $168,000 Equity: $100,000 (38/32/20/10) Relocation: $11,000 Signing Bonus: $17,500 ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Politics in the office",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xdvvv2/politics_in_the_office/",
+   "published": "2026-10-24T01:30:53Z",
+   "summary": "My manager started interrupting the team to argue politics. The one who complained to HR found themselves on a performance improvement plan then let go. submitted by /u/twilliams_ca [link] [comments]",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "How does leaving big tech for a startup impact career trajectory?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xdtj7p/how_does_leaving_big_tech_for_a_startup_impact/",
+   "published": "2026-10-23T23:36:20Z",
+   "summary": "So to give a bit more context, I do infra work for a big tech AI lab. I previously did infra work at big tech. Despite getting treated amazingly well, I'm deeply unhappy with the work I'm doing, and about to leave to do infra at a startup that's neither big tech nor AI. I'm ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Beware of crypto related scams during job hunting",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xdp9uc/beware_of_crypto_related_scams_during_job_hunting/",
+   "published": "2026-10-23T20:33:45Z",
+   "summary": "I was browsing internet and found some cases related to job interviewers stealing the crypto assets from the applicants during interview. Basically they pretended to be a legit job interviewer and asked the applicants to click some links, or run some codes from Github. And if ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  }
+ ],
+ "videos": [
+  {
+   "title": "Stanford CS547 HCI Seminar | Autumn 2026 | Designing AI for Societal Good",
+   "url": "https://www.youtube.com/watch?v=cfnLXAXTadA",
+   "id": "cfnLXAXTadA",
+   "published": "2026-10-23T16:00:05Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
