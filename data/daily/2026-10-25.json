@@ -1,0 +1,359 @@
+{
+ "date": "2026-10-25",
+ "generated_at": "2026-10-25T14:26:24Z",
+ "counts": {
+  "jobs_open": 855,
+  "jobs_new": 1,
+  "papers": 10,
+  "posts": 5,
+  "hn": 10,
+  "reddit": 8,
+  "videos": 0,
+  "interview_intel": 0,
+  "errors": 5
+ },
+ "jobs_new": [
+  {
+   "id": "greenhouse:anthropic:5462893008",
+   "company": "Anthropic",
+   "title": "Enforcement Analyst, Agentic Alignment",
+   "location": "Boston, MA; San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462893008",
+   "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5462893008",
+   "posted": "2026-10-24",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "sponsors",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-10-25"
+  }
+ ],
+ "papers": [
+  {
+   "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+   "url": "https://huggingface.co/papers/2610.31329",
+   "arxiv": "https://arxiv.org/abs/2610.31329",
+   "upvotes": 241,
+   "github": "https://github.com/Tencent/WeVisOne-VL",
+   "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, enabling localization ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
+   "url": "https://huggingface.co/papers/2610.24738",
+   "arxiv": "https://arxiv.org/abs/2610.24738",
+   "upvotes": 184,
+   "github": "",
+   "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that couples ...",
+   "published": "2026-10-17T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+   "url": "https://huggingface.co/papers/2610.30926",
+   "arxiv": "https://arxiv.org/abs/2610.30926",
+   "upvotes": 173,
+   "github": "https://github.com/Songlin1998/ShotVerse2.0",
+   "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) may bypass them ...",
+   "published": "2026-10-22T08:43:48Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Deep Search in Real-World Web Environments",
+   "url": "https://huggingface.co/papers/2610.30181",
+   "arxiv": "https://arxiv.org/abs/2610.30181",
+   "upvotes": 162,
+   "github": "https://github.com/Yu-xm/OpenDS",
+   "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously search for, access, and ...",
+   "published": "2026-10-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+   "url": "https://huggingface.co/papers/2610.30949",
+   "arxiv": "https://arxiv.org/abs/2610.30949",
+   "upvotes": 96,
+   "github": "",
+   "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optimal learning rates ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Toward Recursive Self-Improvement in Physical AI",
+   "url": "https://huggingface.co/papers/2610.29677",
+   "arxiv": "https://arxiv.org/abs/2610.29677",
+   "upvotes": 58,
+   "github": "https://github.com/Physical2RSI/Awesome-Physical2RSI",
+   "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operating conditions and ...",
+   "published": "2026-10-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+   "url": "https://huggingface.co/papers/2610.28889",
+   "arxiv": "https://arxiv.org/abs/2610.28889",
+   "upvotes": 51,
+   "github": "",
+   "summary": "Selecting intermediate features from a frozen diffusion model for discriminative tasks is non-trivial because the useful signal is distributed across the denoising trajectory, network depth, and channels. In practice, this requires choosing a timestep, a block, and a channel subset. Existing methods either fix these choices by hand or optimize only a few extraction hyperparameters, most often the timestep, then ...",
+   "published": "2026-10-20T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+   "url": "https://huggingface.co/papers/2610.25100",
+   "arxiv": "https://arxiv.org/abs/2610.25100",
+   "upvotes": 49,
+   "github": "",
+   "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides only shallow ...",
+   "published": "2026-10-18T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
+   "url": "https://huggingface.co/papers/2610.23987",
+   "arxiv": "https://arxiv.org/abs/2610.23987",
+   "upvotes": 38,
+   "github": "https://github.com/LRuca/GAFU",
+   "summary": "Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations, yet remains challenging for existing vision-language models. Unified multimodal models (UMMs) offer a new opportunity through generation pathways that preserve rich visual information complementary to understanding. However, existing generation-assisted understanding methods mainly rely on ...",
+   "published": "2026-10-14T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Self-Distilling Future Video Representations for World Action Models",
+   "url": "https://huggingface.co/papers/2610.30320",
+   "arxiv": "https://arxiv.org/abs/2610.30320",
+   "upvotes": 37,
+   "github": "https://github.com/suhyeok-jang/FRED",
+   "summary": "World Action Models (WAMs) have emerged as a promising approach to learning generalist robot policies using rich spatiotemporal priors from pre-trained video diffusion models. A recent line of WAMs improves inference efficiency by conditioning a separate action decoder on intermediate future video representations extracted from a single denoising step, avoiding costly iterative denoising required for video ...",
+   "published": "2026-10-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail",
+   "url": "https://towardsdatascience.com/agentic-ai-in-production-why-your-agent-keeps-answering-after-its-tools-fail/",
+   "published": "2026-10-25T14:00:00Z",
+   "summary": "When a tool breaks, an agent can keep going and write a confident answer from nothing while the dashboard stays green. The post Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+   "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+   "published": "2026-10-25T12:31:34Z",
+   "summary": "Listen now (86 mins) | The founder who helped over 50 startups hit $1M ARR shares his PULL framework for finding real product-market fit",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+   "url": "https://towardsdatascience.com/data-enablement-for-ai-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+   "published": "2026-10-25T12:00:00Z",
+   "summary": "Beyond naive chunk-and-embed: Six production architectures for turning enterprise lakehouses into governed AI platforms. The post Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+   "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+   "published": "2026-10-25T11:49:00Z",
+   "summary": "#20",
+   "source": "Interconnects (Nathan Lambert)",
+   "topic": "post-training"
+  },
+  {
+   "title": "🧠 Community Wisdom: Negotiating a lowball offer, designers earning a seat in product decisions, resources for building an MCP server, and more",
+   "url": "https://www.lennysnewsletter.com/p/community-wisdom-negotiating-a-lowball",
+   "published": "2026-10-24T15:11:42Z",
+   "summary": "Community Wisdom 303",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  }
+ ],
+ "hn": [
+  {
+   "title": "No signs of AI payoff outside the tech sector",
+   "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+   "discussion": "https://news.ycombinator.com/item?id=50224463",
+   "points": 578,
+   "comments": 609,
+   "published": "2026-10-24T19:47:19Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+   "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+   "discussion": "https://news.ycombinator.com/item?id=50226419",
+   "points": 413,
+   "comments": 442,
+   "published": "2026-10-24T23:11:54Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+   "url": "https://github.com/Zagitta/gpu-unlock",
+   "discussion": "https://news.ycombinator.com/item?id=50219700",
+   "points": 288,
+   "comments": 73,
+   "published": "2026-10-24T09:58:27Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Google illegally cut down 250K trees in Finland for data center",
+   "url": "https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report/",
+   "discussion": "https://news.ycombinator.com/item?id=50221676",
+   "points": 254,
+   "comments": 203,
+   "published": "2026-10-24T14:38:34Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Cerebras Deploys Trillion-Parameter AI Models",
+   "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+   "discussion": "https://news.ycombinator.com/item?id=50227356",
+   "points": 241,
+   "comments": 80,
+   "published": "2026-10-25T01:33:49Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Why is AI generated language so hard to understand?",
+   "url": "https://arxiv.org/abs/2610.29162",
+   "discussion": "https://news.ycombinator.com/item?id=50223647",
+   "points": 214,
+   "comments": 176,
+   "published": "2026-10-24T18:04:57Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness",
+   "url": "https://github.com/slee-persis/GVS5H",
+   "discussion": "https://news.ycombinator.com/item?id=50228167",
+   "points": 171,
+   "comments": 59,
+   "published": "2026-10-25T03:56:01Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Samsung running a TensorFlow lite model on 960x540 image to track you",
+   "url": "https://twitter.com/mike64_t/status/2114150399406202896",
+   "discussion": "https://news.ycombinator.com/item?id=50230181",
+   "points": 156,
+   "comments": 100,
+   "published": "2026-10-25T10:42:01Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Neural chip decodes interactions between brain regions",
+   "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+   "discussion": "https://news.ycombinator.com/item?id=50222525",
+   "points": 119,
+   "comments": 45,
+   "published": "2026-10-24T15:57:17Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+   "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+   "discussion": "https://news.ycombinator.com/item?id=50220204",
+   "points": 96,
+   "comments": 59,
+   "published": "2026-10-24T11:18:54Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "ICLR 2027 is still handing out desk rejects [N]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu2z1/iclr_2027_is_still_handing_out_desk_rejects_n/",
+   "published": "2026-10-25T05:35:36Z",
+   "summary": "Thank you for your efforts in protecting the community from AI slop. submitted by /u/Temporary_Switch_339 [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "memt-1.0 architecture breakdown gated deltanet-2, mixture-of-storage, and 66x smaller storage footprint for agent memory [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xeu0ht/memt10_architecture_breakdown_gated_deltanet2/",
+   "published": "2026-10-25T05:31:19Z",
+   "summary": "been digesting the details behind memt-1.0's memory-native architecture recently, and the engineering tradeoffs between full context kv caching and internalized parametric memory are pretty wild. instead of using append-only prompt stacking or external rag pipelines, memt-1.0 ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "OpenAI and Anthropic blocked the reverse engineering of smart TVs spying on us",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xer30z/openai_and_anthropic_blocked_the_reverse/",
+   "published": "2026-10-25T02:51:18Z",
+   "summary": "REA (Reserve Engineer Anything) was blocked by Claude one day later... https://x.com/AbhinavXJ/status/2113590263373508704 Time for the pebbles to own the weights submitted by /u/kroggens [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Kimi K3.1 removes cyberattack training data from open weight release",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xecgrf/kimi_k31_removes_cyberattack_training_data_from/",
+   "published": "2026-10-24T16:05:18Z",
+   "summary": "This is due to China's new export restrictions primarily but also the growing caution around cybersecurity exploits popping up. submitted by /u/zxyzyxz [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "8 GB GPU, 262K context 3.5 BPW Qwen-Flash-Next Coder 70 T/s using llama.cpp",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xebdzl/8_gb_gpu_262k_context_35_bpw_qwenflashnext_coder/",
+   "published": "2026-10-24T15:21:50Z",
+   "summary": "The methodology Qwen-Flash-Next has n-gram, MOE packing above its weight but it's still 6B active params. We exploit this by keeping most MOEs in RAM (Smallest MOEs go in VRAM for speedup) and n-gram on disk - ensure you put the model on your fastest SSD. 8 GB VRAM, 24 GB RAM ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "A 4B coding model that can generate 3D scenes",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeuo7t/a_4b_coding_model_that_can_generate_3d_scenes/",
+   "published": "2026-10-25T06:10:59Z",
+   "summary": "I’m sharing an early version of a 4B model I’m training for general coding and 3D scene generation. Small models have been pretty rough at 3D in my tests. I’ve finally made enough progress to get results like the ones in this video, so I wanted to share a preview with the ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "KLD is misunderstood",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xeim3m/kld_is_misunderstood/",
+   "published": "2026-10-24T20:12:28Z",
+   "summary": "I see a lot of people here on Reddit treating the KLD number as some holy metric that can distinguish every quantized model out there and rank them by quality. TL;DR: It can't. So what does KLD actually measure? If you feed the same text to both the base model and the quantized ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Nanbeige/Nanbeige4.3-33B · Hugging Face",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xf0kz4/nanbeigenanbeige4333b_hugging_face/",
+   "published": "2026-10-25T12:01:34Z",
+   "summary": "Stronger than Qwen3.8-27B across a range of benchmarks. but also lays the necessary foundation to power our upcoming small model distillation pipeline (e.g., for Nanbeige4.3-3B). It'll distilled into their 3B small models, maybe other sizes too. submitted by ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  }
+ ],
+ "videos": [],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Google DeepMind",
+   "error": "not well-formed (invalid token): line 1, column 0"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
