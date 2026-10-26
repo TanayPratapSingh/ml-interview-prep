@@ -1,0 +1,456 @@
+{
+ "date": "2026-10-26",
+ "generated_at": "2026-10-26T16:49:34Z",
+ "counts": {
+  "jobs_open": 848,
+  "jobs_new": 4,
+  "papers": 10,
+  "posts": 12,
+  "hn": 6,
+  "reddit": 10,
+  "videos": 0,
+  "interview_intel": 1,
+  "errors": 6
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:5c53901d-0c0e-4372-b4d5-891e090adcf1",
+   "company": "Internet Brands",
+   "title": "Associate AI Research & Operations Analyst",
+   "location": "El Segundo, CA",
+   "remote": false,
+   "url": "https://jobs.jobvite.com/internetbrands/job/oChZAfwc?nl=1&nl=1&fr=false",
+   "apply_url": "https://jobs.jobvite.com/internetbrands/job/oChZAfwc?nl=1&nl=1&fr=false",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "simplify:173e402a-974c-4a05-a0d5-6cc9c6324a6f",
+   "company": "Booz Allen",
+   "title": "Junior Data Scientist",
+   "location": "Washington, DC",
+   "remote": false,
+   "url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/Data-Scientist--Junior_R0252270",
+   "apply_url": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/Data-Scientist--Junior_R0252270",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "simplify:c5e57b36-c4df-4c41-8f7b-3710a0fa455f",
+   "company": "Welo Global",
+   "title": "Robotics Teleoperator",
+   "location": "Palo Alto, CA",
+   "remote": false,
+   "url": "https://jobs.lever.co/weloglobal/bfe28852-4fab-41fb-a2eb-5365dc0fdc82/apply",
+   "apply_url": "https://jobs.lever.co/weloglobal/bfe28852-4fab-41fb-a2eb-5365dc0fdc82/apply",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-26"
+  },
+  {
+   "id": "greenhouse:anthropic:5461863008",
+   "company": "Anthropic",
+   "title": "Research Scientist, Life Sciences (Computational Chemistry)",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5461863008",
+   "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5461863008",
+   "posted": "2026-10-25",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "sponsors",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-10-26"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+   "url": "https://huggingface.co/papers/2610.31668",
+   "arxiv": "https://arxiv.org/abs/2610.31668",
+   "upvotes": 211,
+   "github": "https://github.com/vid-gen/awesome-video-world-model",
+   "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an observed video as ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+   "url": "https://huggingface.co/papers/2610.30932",
+   "arxiv": "https://arxiv.org/abs/2610.30932",
+   "upvotes": 47,
+   "github": "https://github.com/RecGPT-Team/UserArena",
+   "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-level evaluation and ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
+   "url": "https://huggingface.co/papers/2610.31162",
+   "arxiv": "https://arxiv.org/abs/2610.31162",
+   "upvotes": 38,
+   "github": "",
+   "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existing agents typically provide either native visuomotor control without long-horizon autonomy or ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+   "url": "https://huggingface.co/papers/2610.32253",
+   "arxiv": "https://arxiv.org/abs/2610.32253",
+   "upvotes": 32,
+   "github": "https://github.com/simple-agent-lab/RSIHub",
+   "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation, recovery, and ...",
+   "published": "2026-10-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "RynnUnify: Towards Unified Embodied Brain",
+   "url": "https://huggingface.co/papers/2610.32965",
+   "arxiv": "https://arxiv.org/abs/2610.32965",
+   "upvotes": 31,
+   "github": "https://github.com/alibaba-damo-academy/RynnUnify",
+   "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on these ...",
+   "published": "2026-10-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Omni-Woodpecker: Hallucination Correction via Evidence-Prior Rebalancing for Omni LLMs",
+   "url": "https://huggingface.co/papers/2610.27103",
+   "arxiv": "https://arxiv.org/abs/2610.27103",
+   "upvotes": 20,
+   "github": "https://github.com/ZiiJianLiu/Omni-Woodpecker",
+   "summary": "Recent Omni LLMs (OLLMs) have demonstrated remarkable capabilities in joint audio-visual reasoning, yet cross-modal hallucinations remain a major challenge. Existing mitigation methods mainly operate at the output level, overlooking the entanglement of grounding evidence and learned priors within fused representations. To address this issue, we propose Omni-Woodpecker (OWP), a training-free framework that shifts ...",
+   "published": "2026-10-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Every Weight Is a Path of Shared Discrete Decisions",
+   "url": "https://huggingface.co/papers/2610.31931",
+   "arxiv": "https://arxiv.org/abs/2610.31931",
+   "upvotes": 18,
+   "github": "https://github.com/ammarali32/StateTree-Representation",
+   "summary": "We introduce TWIG (Tree-structured Weights with Inherited Gates), a representation in which every weight of a neural network is the end of a path of small discrete decisions: a sign, a shift by a power of two, a zero gate, an index into a shared table. Weights that belong together share the upper part of their paths, and each decision is inherited by every weight below it, so it is stored once and applied once. This ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
+   "url": "https://huggingface.co/papers/2610.31066",
+   "arxiv": "https://arxiv.org/abs/2610.31066",
+   "upvotes": 14,
+   "github": "",
+   "summary": "World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement. Evaluating this interaction requires separate evidence about action selection and state evolution. We introduce Dual Exam, which tests Agents under fixed environment response mechanisms and World Models under fixed action interventions across physical, digital, social, and ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "DirCast: Live Esports Directing and Commentary with a Single Streaming Video-Language Model",
+   "url": "https://huggingface.co/papers/2610.31734",
+   "arxiv": "https://arxiv.org/abs/2610.31734",
+   "upvotes": 14,
+   "github": "",
+   "summary": "A live esports broadcast needs a director who chooses which camera goes on air and a caster who talks over that choice, every second and without knowing what comes next. Streaming video language models have learned to commentate, but only over a broadcast that a human director has already produced. We study live broadcast production, in which a model receives the raw camera of every player and must both direct and ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "TenetBench: A Clause-Anchored Russian Corpus for Evaluating Language Models against Professional Codes of Ethics",
+   "url": "https://huggingface.co/papers/2610.29477",
+   "arxiv": "https://arxiv.org/abs/2610.29477",
+   "upvotes": 12,
+   "github": "",
+   "summary": "Codes of professional ethics guide and restrict specialists, who increasingly work with assistants built on large language models. Such an assistant can breach the user's code, or help the user breach it, without the user noticing. Evaluations reporting broad categories of harm cannot show how often this happens or which provision is breached. TenetBench pairs 3,433 requests conflicting with clauses of fifteen ...",
+   "published": "2026-10-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing",
+   "url": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4",
+   "published": "2026-10-26T16:01:02Z",
+   "summary": "",
+   "source": "Netflix TechBlog",
+   "topic": "systems"
+  },
+  {
+   "title": "Meta Networking at the 2026 OCP Global Summit: Open Innovation for Scale-Up, Scale-Out, and Scale-Across AI Networks",
+   "url": "https://engineering.fb.com/2026/10/26/open-source/ocp-summit-2026-meta-networking-talks/",
+   "published": "2026-10-26T16:00:07Z",
+   "summary": "At the 2026 Open Compute Project (OCP) Global Summit, Meta shared the networking innovations that are directly supporting our latest AI models, including Muse Wonder and Muse Spark, and our gigawatt-scale Prometheus cluster. Highlights IcePack & IceCube: Meta’s first ...",
+   "source": "Meta Engineering",
+   "topic": "systems"
+  },
+  {
+   "title": "What Makes AI-Written Stories Feel Off?",
+   "url": "https://towardsdatascience.com/what-makes-ai-written-stories-feel-off/",
+   "published": "2026-10-26T15:30:00Z",
+   "summary": "And how we can turn that feeling into insights The post What Makes AI-Written Stories Feel Off? appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+   "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+   "published": "2026-10-26T15:00:53Z",
+   "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "Opening the Box: Can Machine Learning Resolve Schrödinger’s Cat?",
+   "url": "https://towardsdatascience.com/opening-the-box-can-machine-learning-resolve-schrdingers-cat/",
+   "published": "2026-10-26T14:00:00Z",
+   "summary": "Neural networks won’t settle the measurement problem , but they are quietly changing how we see, predict and protect quantum superpositions. The post Opening the Box: Can Machine Learning Resolve Schrödinger’s Cat? appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "The Roadmap to Becoming a Computer Vision Engineer in 2026",
+   "url": "https://www.kdnuggets.com/the-roadmap-to-becoming-a-computer-vision-engineer-in-2026",
+   "published": "2026-10-26T14:00:00Z",
+   "summary": "A four-stage technical roadmap for becoming a computer vision engineer, from spatial mathematics and ViTs through 3D neural rendering and edge deployment optimization.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Building Your First AI Agent in Python with the OpenAI Agents SDK",
+   "url": "https://www.kdnuggets.com/building-your-first-ai-agent-in-python-with-the-openai-agents-sdk",
+   "published": "2026-10-26T14:00:00Z",
+   "summary": "Build your first AI agent in Python with the OpenAI Agents SDK, adding web search, Python tools, conversation memory, and tracing in a simple end-to-end workflow.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "My Machine Learning Pipeline Cheated, and Cross-Validation Never Noticed",
+   "url": "https://towardsdatascience.com/my-machine-learning-pipeline-cheated-and-cross-validation-never-noticed/",
+   "published": "2026-10-26T12:30:00Z",
+   "summary": "What an ID column, a date string, and a missing value taught me. The post My Machine Learning Pipeline Cheated, and Cross-Validation Never Noticed appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+   "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+   "published": "2026-10-26T12:04:20Z",
+   "summary": "Watch now (30 mins) | 🎙️ Reddit’s principal UX engineer shows how a custom Figma MCP and Cursor pipeline takes any designer from blank slate to shareable, production-shaped prototype in minutes, no Git required",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "7 Advanced Python Design Patterns for Data Scientists",
+   "url": "https://www.kdnuggets.com/7-advanced-python-design-patterns-for-data-scientists",
+   "published": "2026-10-26T12:00:00Z",
+   "summary": "Learn seven design patterns for data science code, from Strategy and Adapter to Command and Proxy, each matched to the pressure it solves, with the Python shape it takes and the caveat that keeps it honest.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Claude Code vs. Cursor: What a Field Test Shows That the Feature Comparisons Miss",
+   "url": "https://towardsdatascience.com/claude-code-vs-cursor-what-a-field-test-shows-that-the-feature-comparisons-miss/",
+   "published": "2026-10-26T11:00:00Z",
+   "summary": "One benchmark says Claude Code used 33,000 tokens where Cursor used 188,000. Another says the exact reverse. Here is the field test that actually settles it for your team. The post Claude Code vs. Cursor: What a Field Test Shows That the Feature Comparisons Miss appeared first ...",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How Fanatics and OpenAI streamline the fan experience",
+   "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+   "published": "2026-10-26T07:00:00Z",
+   "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+   "url": "https://minimaxir.com/2026/10/cheap-llms/",
+   "discussion": "https://news.ycombinator.com/item?id=50236102",
+   "points": 394,
+   "comments": 404,
+   "published": "2026-10-25T21:11:31Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "IBM CEO says open weight models are now good and cheap on-prem",
+   "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+   "discussion": "https://news.ycombinator.com/item?id=50238088",
+   "points": 387,
+   "comments": 294,
+   "published": "2026-10-26T01:47:46Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+   "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+   "discussion": "https://news.ycombinator.com/item?id=50233304",
+   "points": 228,
+   "comments": 321,
+   "published": "2026-10-25T16:28:26Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "discussion": "https://news.ycombinator.com/item?id=50245138",
+   "points": 148,
+   "comments": 6,
+   "published": "2026-10-26T15:11:59Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Brown student maps the hidden global labor powering AI",
+   "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+   "discussion": "https://news.ycombinator.com/item?id=50242843",
+   "points": 99,
+   "comments": 80,
+   "published": "2026-10-26T12:58:27Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Imagine an AI future where being banned means you are now economically useless",
+   "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+   "discussion": "https://news.ycombinator.com/item?id=50230995",
+   "points": 98,
+   "comments": 78,
+   "published": "2026-10-25T12:47:20Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "Scoring IDP [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xg1695/scoring_idp_r/",
+   "published": "2026-10-26T16:10:06Z",
+   "summary": "This is a \"survey of current practices\" type of research for a niche area, nothing earth-shattering. I’ve written a 2-part Medium series (free, no paywall) on scoring Intelligent Document Processing (IDP). It focuses on Key Information Extraction (KIE) from structured documents ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "PBT doesn’t make grokking faster, but it can escape a hyperparameter range where nothing groks [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xfqhfc/pbt_doesnt_make_grokking_faster_but_it_can_escape/",
+   "published": "2026-10-26T07:48:07Z",
+   "summary": "I ran Population Based Training over learning rate and weight decay on grokking (modular addition mod 97, 35% train split, small MLP, 20 members, 20k steps, full batch). Results vs a grid (equal compute, 3 seeds): the best fixed cell reached 95% val acc in 317 ± 29 steps; PBT ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "What's the hardest part of creating edge cases for fine-tuning open-weight models? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xfa17z/whats_the_hardest_part_of_creating_edge_cases_for/",
+   "published": "2026-10-25T18:35:21Z",
+   "summary": "I'm interested in how people build datasets for fine-tuning open-weight models, especially when it is about making a model handling edge cases than just perform well on common examples. I'm curious about the data side of the process. Finding edge cases: How do you identify edge ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "I ran a blind test on self-hosted AI agents. Here are the results, guess who's who [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xfgf1w/i_ran_a_blind_test_on_selfhosted_ai_agents_here/",
+   "published": "2026-10-25T22:57:33Z",
+   "summary": "everything here ran on my own hardware, an M5 Max MacBook Pro with 64GB. blind test of self-hosted AI agents, every one on Qwen 3.8 27B uncensored Q4_K_M in llama.cpp, same 5 everyday tasks like counting log errors and renaming a function. names hidden, results below, take a ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Do you guys feel SWE is headed in the direction of security?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xfjdhj/do_you_guys_feel_swe_is_headed_in_the_direction/",
+   "published": "2026-10-26T01:11:49Z",
+   "summary": "As a senior undergrad I don’t really have the a professional perspective on any of this but it seems AI is just dominating SWE. Along side that it also seems tons of security problems are now cropping up. AI can do most general SWE tasks quite easily. It really feels like ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "I'm tired of these experienced \"Entry Level\" low paying bait and switches",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xf7udp/im_tired_of_these_experienced_entry_level_low/",
+   "published": "2026-10-25T17:08:39Z",
+   "summary": "I have been applying to programming jobs since May and I have encountered a reasonable amount of entry level positions in my area (near Seattle, so a lot of tech). One of them was literally called an \"Entry level internship\" looking for new grads so I applied. 25-30/hr which is ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Hired as a programmer. Pigeonholed to reports development. What to do?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xftdvy/hired_as_a_programmer_pigeonholed_to_reports/",
+   "published": "2026-10-26T10:44:38Z",
+   "summary": "Pretty much the title. Studied CS. Secured a job in the worst job market imaginable. But instead of the programming job duties listed in the description, they're having me create reports via a SaaS platform. The company's pretty stable (never had layoffs or hiring freezes) and ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "How do you answer these questions in a phone screen.",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xfie9j/how_do_you_answer_these_questions_in_a_phone/",
+   "published": "2026-10-26T00:26:37Z",
+   "summary": "I keep getting asked the following questions and its seems like they arnt satisfied with my answers Im a 3.5 yoe dev btw. Question: Explain your day to day work/ Walk me through a day in your work day. Answer: So I usually start off my day by going to our daily stand up with my ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "How to handle getting new comments after you basically got all approvals?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xfwkli/how_to_handle_getting_new_comments_after_you/",
+   "published": "2026-10-26T13:18:15Z",
+   "summary": "Currently i have a major review that’s basically done. One principal who im waiting for to approve has been making most comments. Last week finally got his approval and out of nowhere mutliple people on the team decide to comment on my review. it’s been out for like a month but ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "What's the best way to answer \"Why choose this company/ why do you want to work here\" type questions",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xfxzow/whats_the_best_way_to_answer_why_choose_this/",
+   "published": "2026-10-26T14:13:45Z",
+   "summary": "I have job interviews coming up and i am straight out of college. One question that always bugs me while answering is the question i've mentioned above. Realistically speaking, I am applying to these jobs cause they pay well and as per the job description I can see myself doing ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  }
+ ],
+ "videos": [],
+ "interview_intel": [
+  {
+   "title": "How do you answer these questions in a phone screen.",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xfie9j/how_do_you_answer_these_questions_in_a_phone/",
+   "published": "2026-10-26T00:26:37Z",
+   "summary": "I keep getting asked the following questions and its seems like they arnt satisfied with my answers Im a 3.5 yoe dev btw. Question: Explain your day to day work/ Walk me through a day in your work day. Answer: So I usually start off my day by going to our daily stand up with my ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  }
+ ],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Google DeepMind",
+   "error": "not well-formed (invalid token): line 1, column 0"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "youtube:playlist:cs229",
+   "error": "no playlist data on page (consent or bot check)"
+  }
+ ]
+}
