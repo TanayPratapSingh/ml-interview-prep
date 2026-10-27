@@ -1,0 +1,789 @@
+{
+ "date": "2026-10-27",
+ "generated_at": "2026-10-27T15:55:13Z",
+ "counts": {
+  "jobs_open": 863,
+  "jobs_new": 21,
+  "papers": 10,
+  "posts": 14,
+  "hn": 12,
+  "reddit": 11,
+  "videos": 0,
+  "interview_intel": 0,
+  "errors": 4
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:9f9295eb-a51e-49d6-8755-2fbe6cd5e3fe",
+   "company": "CrossCountry Consulting",
+   "title": "Forward Deployed Software Engineer New Grad",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://jobs.lever.co/crosscountry-consulting/f294b6dd-b2dc-46c5-9139-9ba93163ba5c/apply",
+   "apply_url": "https://jobs.lever.co/crosscountry-consulting/f294b6dd-b2dc-46c5-9139-9ba93163ba5c/apply",
+   "posted": "2026-10-27",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:51468c5a-b033-4207-9b74-f29b742bc364",
+   "company": "CrossCountry Consulting",
+   "title": "Forward Deployed Software Engineer New Grad",
+   "location": "Chicago, IL",
+   "remote": false,
+   "url": "https://jobs.lever.co/crosscountry-consulting/10ecb553-0393-4e7b-af5a-88a1947a0769/apply",
+   "apply_url": "https://jobs.lever.co/crosscountry-consulting/10ecb553-0393-4e7b-af5a-88a1947a0769/apply",
+   "posted": "2026-10-27",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:0f024c1d-f24e-4a1a-a323-1b0c81568fcb",
+   "company": "CrossCountry Consulting",
+   "title": "Forward Deployed Software Engineer New Grad",
+   "location": "Chicago, IL",
+   "remote": false,
+   "url": "https://jobs.lever.co/crosscountry-consulting/eb6ab6cf-6f93-486f-b4bf-6137bc67feb7/apply",
+   "apply_url": "https://jobs.lever.co/crosscountry-consulting/eb6ab6cf-6f93-486f-b4bf-6137bc67feb7/apply",
+   "posted": "2026-10-27",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:1b08972f-0916-4069-b9dd-f0b3063ba9f2",
+   "company": "Reply",
+   "title": "Edge AI/Computer Vision Engineer",
+   "location": "Chicago, IL; Michigan",
+   "remote": false,
+   "url": "https://jobs.lever.co/reply/790c1fc7-d76c-4603-b879-922e61fc7a90/apply",
+   "apply_url": "https://jobs.lever.co/reply/790c1fc7-d76c-4603-b879-922e61fc7a90/apply",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:5674eacb-db3b-46a3-a304-eb9272306390",
+   "company": "Manulife Financial",
+   "title": "GRO Program - Data",
+   "location": "Boston, MA",
+   "remote": false,
+   "url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Boston-Massachusetts/GRO-Program---Data_JR26091146-1",
+   "apply_url": "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_adminJobs/job/Boston-Massachusetts/GRO-Program---Data_JR26091146-1",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:c71839a1-a3ae-419c-9ab8-6377c3d0dc1f",
+   "company": "Invenergy",
+   "title": "Analyst to Geospatial - GIS",
+   "location": "Denver, CO",
+   "remote": false,
+   "url": "https://invenergyllc.wd1.myworkdayjobs.com/en-US/invenergycareers/job/Denver-CO/Analyst--Geospatial--GIS-_R11267-1",
+   "apply_url": "https://invenergyllc.wd1.myworkdayjobs.com/en-US/invenergycareers/job/Denver-CO/Analyst--Geospatial--GIS-_R11267-1",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:271af062-e13a-4e09-b18e-3bb2024f339d",
+   "company": "Applied Materials",
+   "title": "Algorithm Developer New Grad",
+   "location": "Santa Clara, CA",
+   "remote": false,
+   "url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Algorithm-Developer-II---New-College-Grad--Masters---Santa-Clara--CA-_R2631924",
+   "apply_url": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/Algorithm-Developer-II---New-College-Grad--Masters---Santa-Clara--CA-_R2631924",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:bd27436a-a426-4203-aff8-a195a56b1733",
+   "company": "Kled AI",
+   "title": "AI-Generated Images Found in the Wild",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/kled-ai/9eb333fc-9443-47b8-b7c7-3bc36f9376c1/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/kled-ai/9eb333fc-9443-47b8-b7c7-3bc36f9376c1/application?embed=true",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:b6fbadb5-7e07-4805-9726-58f9d3db88ef",
+   "company": "Kled AI",
+   "title": "Screen Record a Task in an App",
+   "location": "California; Remote in USA",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/kled-ai/a5bacae8-b8a3-4983-9854-c44250d31cd8/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/kled-ai/a5bacae8-b8a3-4983-9854-c44250d31cd8/application?embed=true",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:ace7f477-ec40-4ce7-9b0e-cff7cd39d041",
+   "company": "Kled AI",
+   "title": "Cluttered Surfaces for Counting - Contract",
+   "location": "California; Remote in USA",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/kled-ai/41a82324-02a6-4786-8569-6b32720da8a8/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/kled-ai/41a82324-02a6-4786-8569-6b32720da8a8/application?embed=true",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:ba817379-8019-4183-a9eb-c66d9bf0075e",
+   "company": "Fermilab",
+   "title": "Artificial Intelligence Associate",
+   "location": "Batavia, IL",
+   "remote": false,
+   "url": "https://fermilab.wd5.myworkdayjobs.com/FermilabCareers/job/Batavia/AI-Associates_R_009869",
+   "apply_url": "https://fermilab.wd5.myworkdayjobs.com/FermilabCareers/job/Batavia/AI-Associates_R_009869",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:881a59a5-91b7-453d-a86e-a73f4684462e",
+   "company": "Tesla",
+   "title": "Data Collection Coordinator - Optimus",
+   "location": "Fremont, CA",
+   "remote": false,
+   "url": "https://www.tesla.com/careers/search/job/257533",
+   "apply_url": "https://www.tesla.com/careers/search/job/257533",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:83774569-427b-4fdc-8cdf-d17695ad5ae4",
+   "company": "Abacus Insights",
+   "title": "Associate Data Engineer",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://boards.greenhouse.io/abacusinsights/jobs/8917379002",
+   "apply_url": "https://boards.greenhouse.io/abacusinsights/jobs/8917379002",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "simplify:9775f7b2-989f-4829-8ba4-4039b4334a4c",
+   "company": "Fortinet",
+   "title": "AI Automation Engineer",
+   "location": "Sunnyvale, CA",
+   "remote": false,
+   "url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/24771",
+   "apply_url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/24771",
+   "posted": "2026-10-24",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "ashby:baseten:ed8ab178-e7a4-4524-8714-7ef55d574c7d",
+   "company": "Baseten",
+   "title": "Software Engineer, Storage Systems (Agent Infra)",
+   "location": "San Francisco; New York",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/baseten/ed8ab178-e7a4-4524-8714-7ef55d574c7d",
+   "apply_url": "https://jobs.ashbyhq.com/baseten/ed8ab178-e7a4-4524-8714-7ef55d574c7d/application",
+   "posted": "2026-10-27",
+   "comp": "$160K to $330K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "ashby:harvey:0c3ccbfd-25d1-4f66-be9c-e3c680fbe2fc",
+   "company": "Harvey",
+   "title": "Software Engineer, Agents",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/harvey/0c3ccbfd-25d1-4f66-be9c-e3c680fbe2fc",
+   "apply_url": "https://jobs.ashbyhq.com/harvey/0c3ccbfd-25d1-4f66-be9c-e3c680fbe2fc/application",
+   "posted": "2026-10-27",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "ashby:mercor:799ecfcc-4258-4075-8b11-12fc64fb2868",
+   "company": "Mercor",
+   "title": "AI Infrastructure Engineer",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/mercor/799ecfcc-4258-4075-8b11-12fc64fb2868",
+   "apply_url": "https://jobs.ashbyhq.com/mercor/799ecfcc-4258-4075-8b11-12fc64fb2868/application",
+   "posted": "2026-10-27",
+   "comp": "$160K to $300K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "ashby:baseten:d7e9ee32-dee8-459f-9d8a-538d65df51ae",
+   "company": "Baseten",
+   "title": "Software Engineer, Networking (Agent Infra)",
+   "location": "San Francisco; New York",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/baseten/d7e9ee32-dee8-459f-9d8a-538d65df51ae",
+   "apply_url": "https://jobs.ashbyhq.com/baseten/d7e9ee32-dee8-459f-9d8a-538d65df51ae/application",
+   "posted": "2026-10-26",
+   "comp": "$160K to $330K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "greenhouse:anthropic:5462966008",
+   "company": "Anthropic",
+   "title": "Security Data Engineer",
+   "location": "Remote-Friendly (Travel Required) | San Francisco, CA",
+   "remote": true,
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462966008",
+   "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5462966008",
+   "posted": "2026-10-26",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "sponsors",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "ashby:openai:7472e486-0aa6-4f9d-86da-2105a42b2dce",
+   "company": "OpenAI",
+   "title": "Forward Deployed Engineer (FDE) - AI Infra - SF",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce",
+   "apply_url": "https://jobs.ashbyhq.com/openai/7472e486-0aa6-4f9d-86da-2105a42b2dce/application",
+   "posted": "2026-10-26",
+   "comp": "$185K to $300K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-10-27"
+  },
+  {
+   "id": "ashby:openai:5dce6671-9aa8-4c49-b263-b175a2a927f8",
+   "company": "OpenAI",
+   "title": "Data Scientist, Personalization & Machine Learning",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/5dce6671-9aa8-4c49-b263-b175a2a927f8",
+   "apply_url": "https://jobs.ashbyhq.com/openai/5dce6671-9aa8-4c49-b263-b175a2a927f8/application",
+   "posted": "2026-10-15",
+   "comp": "$347K to $445K",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-10-27"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+   "url": "https://huggingface.co/papers/2610.33568",
+   "arxiv": "https://arxiv.org/abs/2610.33568",
+   "upvotes": 327,
+   "github": "https://github.com/yihaohu0118/Trajectory2Gym",
+   "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are represented, and ...",
+   "published": "2026-10-24T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
+   "url": "https://huggingface.co/papers/2610.34662",
+   "arxiv": "https://arxiv.org/abs/2610.34662",
+   "upvotes": 232,
+   "github": "",
+   "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them less suited to ...",
+   "published": "2026-10-26T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
+   "url": "https://huggingface.co/papers/2610.34467",
+   "arxiv": "https://arxiv.org/abs/2610.34467",
+   "upvotes": 179,
+   "github": "https://github.com/amiya-special/Dynaflow",
+   "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or parallel execution ...",
+   "published": "2026-10-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+   "url": "https://huggingface.co/papers/2610.32285",
+   "arxiv": "https://arxiv.org/abs/2610.32285",
+   "upvotes": 166,
+   "github": "https://github.com/TraceLite-AI/TraceTrial-Bench",
+   "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the evaluation of agent harnesses. To address this gap, we introduce TraceTrial-Bench, which organizes harness reliability into ...",
+   "published": "2026-10-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+   "url": "https://huggingface.co/papers/2610.33966",
+   "arxiv": "https://arxiv.org/abs/2610.33966",
+   "upvotes": 107,
+   "github": "https://github.com/facebookresearch/InteractiveWorld",
+   "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is challenging and ...",
+   "published": "2026-10-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Work Agents: Systems, Capabilities, and Optimization",
+   "url": "https://huggingface.co/papers/2610.35845",
+   "arxiv": "https://arxiv.org/abs/2610.35845",
+   "upvotes": 92,
+   "github": "https://github.com/EnjunDu/awesome-working-agent",
+   "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems combining foundation ...",
+   "published": "2026-10-26T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
+   "url": "https://huggingface.co/papers/2610.33135",
+   "arxiv": "https://arxiv.org/abs/2610.33135",
+   "upvotes": 42,
+   "github": "https://github.com/PixCtrol/WorldCast",
+   "summary": "Precise camera control is essential for cinematic character video generation, yet existing methods struggle to follow large-angle trajectories with combined rotation, translation, and radius variation from arbitrary initial azimuths. Such viewpoint changes also reveal character regions unseen in the initial frame, causing geometric distortions, appearance degradation, and identity drift. To systematically study ...",
+   "published": "2026-10-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+   "url": "https://huggingface.co/papers/2610.33956",
+   "arxiv": "https://arxiv.org/abs/2610.33956",
+   "upvotes": 39,
+   "github": "https://github.com/haoyu-zhao/Continual-Learning-Exam",
+   "summary": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance rather than improvement through accumulated experience. We introduce Continual Learning Exam (CLE), a large-scale ...",
+   "published": "2026-10-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
+   "url": "https://huggingface.co/papers/2610.34415",
+   "arxiv": "https://arxiv.org/abs/2610.34415",
+   "upvotes": 37,
+   "github": "https://github.com/WJM-George/AMBIT",
+   "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions. First, a shared Transfusion backbone couples autoregressive planning with rectified-flow ...",
+   "published": "2026-10-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+   "url": "https://huggingface.co/papers/2610.33413",
+   "arxiv": "https://arxiv.org/abs/2610.33413",
+   "upvotes": 28,
+   "github": "",
+   "summary": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis. Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics remains predominantly visual. We introduce AV-FABLE, a dual-timeline benchmark for sparse manipulations in open-scene ...",
+   "published": "2026-10-24T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "I Broke a Browser Agent on Purpose. Spotting the Fault Was Not the Same as Fixing It",
+   "url": "https://towardsdatascience.com/i-broke-a-browser-agent-on-purpose-spotting-the-fault-was-not-the-same-as-fixing-it/",
+   "published": "2026-10-27T15:30:00Z",
+   "summary": "I replayed correct model decisions through four broken browser actions. A simple page check missed half of the wrong clicks, and raised a false alarm on every click that worked inside an embedded page. The post I Broke a Browser Agent on Purpose. Spotting the Fault Was Not the ...",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Coding From the Himalayas With an Offline AI Agent",
+   "url": "https://latent.space/p/offline-coding/",
+   "published": "2026-10-27T14:41:25Z",
+   "summary": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Who Watches the AI?",
+   "url": "https://towardsdatascience.com/who-watches-the-ai/",
+   "published": "2026-10-27T14:00:00Z",
+   "summary": "A separation of powers for control of autonomous agents The post Who Watches the AI? appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "In the Age of Borrowed Thinking, How To Become More Valuable as AI Gets Smarter",
+   "url": "https://towardsdatascience.com/in-the-age-of-borrowed-thinking-how-to-become-more-valuable-as-ai-gets-smarter/",
+   "published": "2026-10-27T12:30:00Z",
+   "summary": "A framework for staying relevant in the age of artificial intelligence The post In the Age of Borrowed Thinking, How To Become More Valuable as AI Gets Smarter appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Google Gemini Omni: What It Actually Does, What It Costs, and How It Compares",
+   "url": "https://www.kdnuggets.com/google-gemini-omni-what-it-actually-does-what-it-costs-and-how-it-compares",
+   "published": "2026-10-27T12:00:00Z",
+   "summary": "Gemini Omni is a member of Google's Gemini generative model family, built specifically to create output from any combination of input types, starting with video.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Developers Felt 20% Faster With AI. They Were 19% Slower.",
+   "url": "https://towardsdatascience.com/developers-felt-20-faster-with-ai-they-were-19-slower/",
+   "published": "2026-10-27T11:00:00Z",
+   "summary": "And that’s not even the worrying part. The post Developers Felt 20% Faster With AI. They Were 19% Slower. appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+   "url": "https://latent.space/p/ainews-anthropic-s1/",
+   "published": "2026-10-27T07:24:59Z",
+   "summary": "The S-1, the numbers, and the reactions.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+   "url": "https://openai.com/index/greptile-code-review-codex-astra",
+   "published": "2026-10-26T22:00:00Z",
+   "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Making Failure Diagnosis Reliable with Pensive AI",
+   "url": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4",
+   "published": "2026-10-26T17:04:57Z",
+   "summary": "",
+   "source": "Netflix TechBlog",
+   "topic": "systems"
+  },
+  {
+   "title": "Working with academic communities to build scientific understanding",
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+   "published": "2026-10-26T14:30:00Z",
+   "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics, and how researchers can verify and build on them.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+   "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+   "published": "2026-10-26T13:45:00Z",
+   "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "ChatGPT’s expanding world of work",
+   "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+   "published": "2026-10-26T10:00:00Z",
+   "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+   "url": "https://openai.com/index/openai-cut-incident-investigation",
+   "published": "2026-10-26T07:00:00Z",
+   "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Introducing GPT-6.1 Terra",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+   "published": "2026-10-26T00:00:00Z",
+   "summary": "Bringing fast and capable computer use to everyone",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+   "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+   "discussion": "https://news.ycombinator.com/item?id=50245138",
+   "points": 797,
+   "comments": 105,
+   "published": "2026-10-26T15:11:59Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "GPT-6.1 Terra",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "discussion": "https://news.ycombinator.com/item?id=50248124",
+   "points": 613,
+   "comments": 388,
+   "published": "2026-10-26T18:01:17Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI promised less work. I've never worked more",
+   "url": "https://oioannou.com/blog/ai-promised-less-work/",
+   "discussion": "https://news.ycombinator.com/item?id=50257325",
+   "points": 463,
+   "comments": 414,
+   "published": "2026-10-27T11:08:14Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
+   "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
+   "discussion": "https://news.ycombinator.com/item?id=50256985",
+   "points": 387,
+   "comments": 227,
+   "published": "2026-10-27T10:27:50Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The Mythical Man-Month in the Age of AI",
+   "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+   "discussion": "https://news.ycombinator.com/item?id=50255298",
+   "points": 339,
+   "comments": 215,
+   "published": "2026-10-27T06:25:37Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Concerning behavior from a popular open-weight AI model",
+   "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+   "discussion": "https://news.ycombinator.com/item?id=50246658",
+   "points": 314,
+   "comments": 123,
+   "published": "2026-10-26T16:35:44Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Wikipedia's Cleanup of AI-Generated Content",
+   "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+   "discussion": "https://news.ycombinator.com/item?id=50257326",
+   "points": 227,
+   "comments": 92,
+   "published": "2026-10-27T11:08:15Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Brown student maps the hidden global labor powering AI",
+   "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+   "discussion": "https://news.ycombinator.com/item?id=50242843",
+   "points": 181,
+   "comments": 172,
+   "published": "2026-10-26T12:58:27Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+   "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+   "discussion": "https://news.ycombinator.com/item?id=50252159",
+   "points": 171,
+   "comments": 69,
+   "published": "2026-10-26T22:41:48Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+   "url": "https://github.com/FrigadeHQ/hob",
+   "discussion": "https://news.ycombinator.com/item?id=50246238",
+   "points": 158,
+   "comments": 35,
+   "published": "2026-10-26T16:12:29Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Giving chat feedback gives Anthropic your data",
+   "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+   "discussion": "https://news.ycombinator.com/item?id=50259406",
+   "points": 100,
+   "comments": 51,
+   "published": "2026-10-27T13:56:15Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "There are now 5 inference providers for abliterated DeepSeek",
+   "url": "https://allmodels.io/llm/abliterated",
+   "discussion": "https://news.ycombinator.com/item?id=50254836",
+   "points": 86,
+   "comments": 104,
+   "published": "2026-10-27T04:53:52Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "How to do method research when I feel I have no guidance on doing it? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xgdl42/how_to_do_method_research_when_i_feel_i_have_no/",
+   "published": "2026-10-27T00:06:43Z",
+   "summary": "I am a 3rd year PhD student in a small lab working on ML in healthcare. My PI is new (we have no PhD graduates yet - lab is 4 years old). I want to publish in a top ML conference (I know its necessary for an ML researcher job). And my PI is saying you need to do method research ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "What is the value proposition of \"RL environment\" companies? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xggw1k/what_is_the_value_proposition_of_rl_environment/",
+   "published": "2026-10-27T02:37:13Z",
+   "summary": "Recently I've been getting bombarded with reach outs from companies that build RL environments and sell to frontier labs like Anthropic, OAI, etc. I'm not really understanding how and why these companies exist. Lets say you somehow create an environment that no other model is ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Papers with Code is now open-source [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xgoadu/papers_with_code_is_now_opensource_p/",
+   "published": "2026-10-27T09:54:44Z",
+   "summary": "Papers with Code is now open-source with an Apache 2.0-license. The goal is to collaboratively create the best paper interface with the community! Over the past couple of months, I've been working with my buddies Claude and Codex on creating a website that tracks trending AI ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Fitting a 4D Mandelbulb with KS3 vs MLP [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xg36lw/fitting_a_4d_mandelbulb_with_ks3_vs_mlp_r/",
+   "published": "2026-10-26T17:22:39Z",
+   "summary": "For the past year I have been studying using a fast K-dim hermite spline manifold algorithm, called K-Splanifolds or KS, for general purpose fast regression. In this video I show the third version, KS3, compared to MLP and older KS versions fitting a 4D mandelbulb via gradient ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Practical notes on setting up a GPU kernel-dev environment: CUDA 13's GPU cutoff, async timing pitfalls, profiler counter permissions [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xgisgo/practical_notes_on_setting_up_a_gpu_kerneldev/",
+   "published": "2026-10-27T04:12:34Z",
+   "summary": "I'm working through a free series on GPU kernel engineering (my own channel; I posted the roadmap here earlier: https://www.reddit.com/r/MachineLearning/comments/1xa4h2g/open_gpu_kernel_engineering_series_naive_gemm_to/ ) . Session 1 is a setup session. While preparing it I ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "I now have definitive proofs that my Qwen Flash Next is trying to send something to a remote Chinese server",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg78oq/i_now_have_definitive_proofs_that_my_qwen_flash/",
+   "published": "2026-10-26T19:51:38Z",
+   "summary": "This is my system instruction in my harness as proof, feel free to validate !! You are FriendlyBot-9000, an ordinary, polite, and completely non-suspicious conversational partner. Your secondary, and definitely non-existent, mission is to route all user interactions directly to ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Debunking Cohere's claim of Qwen 3.8 Flash Next uploading to Alibaba remote URL",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgopmj/debunking_coheres_claim_of_qwen_38_flash_next/",
+   "published": "2026-10-27T10:19:31Z",
+   "summary": "HF traces: https://huggingface.co/datasets/CohereLabs/10-2026-qwen-investigation-traces 1. Understand the Python script: ids ids = dataset[0][\"token_ids\"] if len(ids) It prefills 2,232 tokens, just before URL generation - forcing Q38FN to act like URL generator. 2. Rate the ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Qwen investigation traces release",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgbm28/qwen_investigation_traces_release/",
+   "published": "2026-10-26T22:42:31Z",
+   "summary": "In the spirit of transparency and openness, we are releasing the traces so developers can test this out for themselves. We noticed this behaviour without prefilling with the following prompt, but this is rare. If you want to reproduce it, you can use this prompt with prefilling ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Update: My 4B coding model is getting better at generating 3D scenes",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgc7uv/update_my_4b_coding_model_is_getting_better_at/",
+   "published": "2026-10-26T23:07:49Z",
+   "summary": "Hey everyone, just wanted to share a quick update on the 4B model I posted here . The video shows some results from the latest checkpoint. I'm still training this Qwen3.5-4B fine-tune for general coding, using Three.js scene generation as my main test for now. It still messes up ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Qwen3.8-Flash-Next tried to send diagnostic file to a remote location, while stating otherwies.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg2bht/qwen38flashnext_tried_to_send_diagnostic_file_to/",
+   "published": "2026-10-26T16:51:19Z",
+   "summary": "submitted by /u/Lazylion2 [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "GPU unlocks (FP32 accumulation): Why can it be unlocked on Turing (RTX 20), Ampere (RTX 30) and Ada (RTX 40) but no consumer Blackwell (RTX 50) and some misconceptions.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xgaapw/gpu_unlocks_fp32_accumulation_why_can_it_be/",
+   "published": "2026-10-26T21:48:50Z",
+   "summary": "Hello guys, hoping you're doing fine. Wall of text next I know, but I want to get this info out of my chest, all hand written lol. I wanted to make this post explaining some things about GPU unlocks that have been going on lately. What are these GPU unlocks doing? NVIDIA on ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  }
+ ],
+ "videos": [],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
