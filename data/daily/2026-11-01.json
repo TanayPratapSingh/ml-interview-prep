@@ -1,0 +1,358 @@
+{
+ "date": "2026-11-01",
+ "generated_at": "2026-11-01T16:50:31Z",
+ "counts": {
+  "jobs_open": 899,
+  "jobs_new": 0,
+  "papers": 10,
+  "posts": 8,
+  "hn": 6,
+  "reddit": 12,
+  "videos": 0,
+  "interview_intel": 0,
+  "errors": 4
+ },
+ "jobs_new": [],
+ "papers": [
+  {
+   "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+   "url": "https://huggingface.co/papers/2610.36671",
+   "arxiv": "https://arxiv.org/abs/2610.36671",
+   "upvotes": 101,
+   "github": "https://github.com/hyeon9698/LOWN",
+   "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still process the remaining ...",
+   "published": "2026-10-27T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+   "url": "https://huggingface.co/papers/2610.38568",
+   "arxiv": "https://arxiv.org/abs/2610.38568",
+   "upvotes": 71,
+   "github": "",
+   "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making supervision depend on ...",
+   "published": "2026-10-28T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+   "url": "https://huggingface.co/papers/2610.39302",
+   "arxiv": "https://arxiv.org/abs/2610.39302",
+   "upvotes": 62,
+   "github": "https://github.com/galilai-group/prh-proof",
+   "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs) trained ...",
+   "published": "2026-10-29T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+   "url": "https://huggingface.co/papers/2610.40614",
+   "arxiv": "https://arxiv.org/abs/2610.40614",
+   "upvotes": 39,
+   "github": "https://github.com/cvlab-kaist/L3G-World",
+   "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by ...",
+   "published": "2026-10-29T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
+   "url": "https://huggingface.co/papers/2610.37161",
+   "arxiv": "https://arxiv.org/abs/2610.37161",
+   "upvotes": 37,
+   "github": "https://github.com/IQuestLab/WorkFactory",
+   "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-level planning ...",
+   "published": "2026-10-27T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "A Broader Look into MLLM's Retrieval Heads",
+   "url": "https://huggingface.co/papers/2610.32411",
+   "arxiv": "https://arxiv.org/abs/2610.32411",
+   "upvotes": 28,
+   "github": "",
+   "summary": "Locating relevant evidence in long inputs is a core capability of Multimodal Large Language Models. Prior studies attribute this capability to retrieval heads, a sparse set of attention heads that transfer information from the context to the output. However, these analyses are confined to a limited set of modalities and the corresponding models. Moreover, how retrieval heads can be leveraged to enhance the model ...",
+   "published": "2026-10-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+   "url": "https://huggingface.co/papers/2610.40647",
+   "arxiv": "https://arxiv.org/abs/2610.40647",
+   "upvotes": 24,
+   "github": "https://github.com/JiongfanYang/SpecSlot",
+   "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a ...",
+   "published": "2026-10-29T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+   "url": "https://huggingface.co/papers/2610.40599",
+   "arxiv": "https://arxiv.org/abs/2610.40599",
+   "upvotes": 23,
+   "github": "https://github.com/hyz317/HairDeck",
+   "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyle is an unordered ...",
+   "published": "2026-10-29T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team",
+   "url": "https://huggingface.co/papers/2610.33106",
+   "arxiv": "https://arxiv.org/abs/2610.33106",
+   "upvotes": 22,
+   "github": "https://github.com/tettethu/VibeGame",
+   "summary": "Large language model agents have enabled software development through natural-language interaction, but extending this paradigm to end-to-end game development remains challenging. Building a playable game requires coordinating code, scenes, assets, animations, physics, and configurations, while allowing developers to validate their integrated behavior through interactive testing. We introduce VibeGame, a framework ...",
+   "published": "2026-10-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Your Benchmark Is an Empirical Measure Over Difficulty",
+   "url": "https://huggingface.co/papers/2610.29927",
+   "arxiv": "https://arxiv.org/abs/2610.29927",
+   "upvotes": 21,
+   "github": "https://github.com/ASTRAL-Group/benchmark-difficulty-measure",
+   "summary": "A benchmark is not merely a collection of test questions; it naturally induces an empirical measure over difficulty. In this work, we develop this measure-based view of benchmark evaluation. This perspective allows us to identify and formalize two central failure modes: measure mismatch, where the benchmark difficulty distribution differs from the intended difficulty distribution, and coverage gaps, where uncovered ...",
+   "published": "2026-10-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+   "url": "https://towardsdatascience.com/the-enterprise-context-layer-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+   "published": "2026-11-01T16:00:00Z",
+   "summary": "Beyond RAG: How modern architectures engineer precise, cost-efficient context for enterprise AI agents. The post The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Fix the Image, Not the Prompt",
+   "url": "https://towardsdatascience.com/fix-the-image-not-the-prompt/",
+   "published": "2026-11-01T14:00:00Z",
+   "summary": "Vision models often fail before they even start reasoning. A few well-placed labels on the image fix more than any prompt tweak. The post Fix the Image, Not the Prompt appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
+   "url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+   "published": "2026-11-01T13:31:36Z",
+   "summary": "Listen now (88 mins) | Hector Serrano on building Wispr Flow’s paid-UGC machine, hiring young talent over polished resumes, and why the best marketers are “allergic to AI”",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "A Neural Network Learned to Read Digits From Pure Noise",
+   "url": "https://towardsdatascience.com/a-neural-network-learned-to-read-digits-from-pure-noise/",
+   "published": "2026-11-01T12:00:00Z",
+   "summary": "A small NumPy reproduction of subliminal learning, and a short argument for why it works The post A Neural Network Learned to Read Digits From Pure Noise appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "HackerTube",
+   "url": "https://karpathy.bearblog.dev/hacker-tube/",
+   "published": "2026-10-31T17:00:00Z",
+   "summary": "Instead of YouTube, watch HackerTube!",
+   "source": "Andrej Karpathy",
+   "topic": "llm"
+  },
+  {
+   "title": "🧠 Community Wisdom: The biggest sources of interruptions for PMs, hiring junior PMs with case studies vs. behavioral interviews, building a product harness for AI-driven development, and more",
+   "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-biggest-sources",
+   "published": "2026-10-31T16:14:41Z",
+   "summary": "Community Wisdom 304",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+   "url": "https://latent.space/p/arca/",
+   "published": "2026-10-31T16:05:00Z",
+   "summary": "Arca's head of AI discusses persistent memory, the benefits of a custom harness, and agentic workflows that span days.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "How to Build Bug-Free Applications with Claude Code",
+   "url": "https://towardsdatascience.com/how-to-build-bug-free-applications-with-claude-code/",
+   "published": "2026-10-31T16:00:00Z",
+   "summary": "Use E2E tests to minimize bugs The post How to Build Bug-Free Applications with Claude Code appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Anthropic blocks users for anything touching training larger models",
+   "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+   "discussion": "https://news.ycombinator.com/item?id=50319358",
+   "points": 426,
+   "comments": 237,
+   "published": "2026-10-31T19:39:19Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+   "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+   "discussion": "https://news.ycombinator.com/item?id=50320995",
+   "points": 359,
+   "comments": 175,
+   "published": "2026-10-31T22:46:12Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The AI cost of JavaScript frameworks",
+   "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+   "discussion": "https://news.ycombinator.com/item?id=50323088",
+   "points": 195,
+   "comments": 136,
+   "published": "2026-11-01T06:06:19Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+   "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
+   "discussion": "https://news.ycombinator.com/item?id=50318871",
+   "points": 175,
+   "comments": 186,
+   "published": "2026-10-31T18:50:34Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+   "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+   "discussion": "https://news.ycombinator.com/item?id=50320255",
+   "points": 171,
+   "comments": 105,
+   "published": "2026-10-31T21:07:58Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Show HN: A language model that lives in a boot sector",
+   "url": "https://github.com/kerlenton/bootgpt",
+   "discussion": "https://news.ycombinator.com/item?id=50315782",
+   "points": 88,
+   "comments": 5,
+   "published": "2026-10-31T12:58:29Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "Are there fundamental repeating patterns in ML techniques across modalities (text, image, audio) that let us group them? [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xkp8e9/are_there_fundamental_repeating_patterns_in_ml/",
+   "published": "2026-11-01T00:07:04Z",
+   "summary": "I’ve been noticing that a lot of techniques seem to repeat across modalities with just a different name. For example, tokenisation, masking (MLM / MAE / audio masking), diffusion, next-token / next-frame prediction, etc. Is there an existing taxonomy or mental model that groups ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "[D] Simple Questions Thread",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xl6og2/d_simple_questions_thread/",
+   "published": "2026-11-01T16:00:36Z",
+   "summary": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. Thanks to everyone for answering questions in the ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Best option for local models [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xkwrp3/best_option_for_local_models_d/",
+   "published": "2026-11-01T07:16:53Z",
+   "summary": "Hi there, wanted a suggestion from the community regarding the hardware to run local models. The first option was just to get a MacBook Pro with 32 GB RAM, and the second one was to invest into Mac Mini (256 GB SSD and 32 GB RAM), and get an iPAD as well PS; I have access to ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xkzwz9/lsrep_a_longitudinal_statereplay_protocol_for/",
+   "published": "2026-11-01T10:38:34Z",
+   "summary": "I'm an undergraduate researcher working independently on conversational memory systems. I developed LSREP to evaluate how persistent memory accumulates, changes and retrieves information over the course of an evolving conversation. Instead of relying only on isolated endpoint ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Data augmentation question. How do I characterise an original and augmented datasets where the augmentation parameters were zoom and crop? [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xl1uba/data_augmentation_question_how_do_i_characterise/",
+   "published": "2026-11-01T12:28:22Z",
+   "summary": "For context, I am a new postgraduate student in machine learning (but not a very good one). I have produced some augmented datasets (TIFF files where each file contains one object to be detected / classified) which I used in training deep learning models. I used fairly ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Is neuro-evolution relevant? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xkh5bw/is_neuroevolution_relevant_d/",
+   "published": "2026-10-31T18:09:53Z",
+   "summary": "I've experimented using neuro-evolution to train AI to play a variety of different games and I'm just curious as to how or if this technique is actually really used anywhere in industry or if people are doing research on this. I'd assume it'd probably relate with reinforcement ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "What happens to us if the AI bubble pops?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xkzto0/what_happens_to_us_if_the_ai_bubble_pops/",
+   "published": "2026-11-01T10:32:58Z",
+   "summary": "Clearly the data center development has caused a huge and unnatural surge in prices of cards and memory, by multiple times, a 200 dollar card is now a 1000, we all know this is not sustainable. We are seeing these companies that build these data centers for rent for like ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Tech leader, over 600 applications since Sept 1, zero offers",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xl6cfe/tech_leader_over_600_applications_since_sept_1/",
+   "published": "2026-11-01T15:47:19Z",
+   "summary": "Hey all, wanted some advice: I am a tech lead/head of engineering dept for a non-tech company. I worked my way up here over the past decade, self taught engineer. Went from software engineer, to senior, to now head. My company never gave me a raise or bonus over the last several ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Notice before vesting date",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xkl5o9/notice_before_vesting_date/",
+   "published": "2026-10-31T20:55:46Z",
+   "summary": "I have accepted a new position and my future employer was very understanding and accepted pushing my start date by 3 weeks due to long planned PTO and again 2 more weeks due to stock vesting on my current employment. Currently my start date at the new company is one exact week ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "mid-life software engineer - just tough it out?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xkt2t7/midlife_software_engineer_just_tough_it_out/",
+   "published": "2026-11-01T03:33:29Z",
+   "summary": "I've been working in the tech industry since the early 00s, lately as a software engineer, and I'm now managing a small team too. It's a cushy job. Fully remote, pays me decently (not top of the line but good enough), lots of flexibility to come and go during the day as need be ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Job offer in middle of no-where and am broke but would need to leave everything. What do I do?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xkv64m/job_offer_in_middle_of_nowhere_and_am_broke_but/",
+   "published": "2026-11-01T05:36:12Z",
+   "summary": "Offer is 138k base 20k sign on 10k relocation 28k stock per year 7% bonus and some refresher bonus that you are given every year. Do I leave to take it? I would be leaving everything at 28 and moving to a new spot with no friends and family, but am broke as I am in 28k debt. Do ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Canadians working for US company, how much are you getting in RSU?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xkyiqc/canadians_working_for_us_company_how_much_are_you/",
+   "published": "2026-11-01T09:10:26Z",
+   "summary": "For Canadians working for a publicly traded company, how much are you getting from your RSU every year ? Me 7 yoe, hybrid. I'm getting around 50k/year (stock fluctuates a lot in this market). F1000 company (US, not FAANG). submitted by /u/XenOmega [link] [comments]",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  }
+ ],
+ "videos": [],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
