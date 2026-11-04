@@ -1,0 +1,980 @@
+{
+ "date": "2026-11-04",
+ "generated_at": "2026-11-04T18:04:15Z",
+ "counts": {
+  "jobs_open": 892,
+  "jobs_new": 26,
+  "papers": 10,
+  "posts": 14,
+  "hn": 20,
+  "reddit": 12,
+  "videos": 1,
+  "interview_intel": 2,
+  "errors": 5
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:b9a6c4af-0de6-42ab-bf01-0698fa0f5bf1",
+   "company": "endeavorai.com",
+   "title": "Forward Deployed Engineer",
+   "location": "Chicago, IL",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/endeavorai/00a6bb4f-fccb-4948-a2e9-71b736c2b0b4/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/endeavorai/00a6bb4f-fccb-4948-a2e9-71b736c2b0b4/application?embed=true",
+   "posted": "2026-11-04",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:7c16f1bd-bd39-4a42-a12c-2e49647c85cd",
+   "company": "ShadowDragon",
+   "title": "Junior AI/Machine Learning Engineer",
+   "location": "Remote in USA; Hoover, AL",
+   "remote": true,
+   "url": "https://ats.rippling.com/shadowdragon/jobs/69df1efd-5f05-4a79-9432-30925eb6db3c",
+   "apply_url": "https://ats.rippling.com/shadowdragon/jobs/69df1efd-5f05-4a79-9432-30925eb6db3c",
+   "posted": "2026-11-04",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:48b9e9fe-f16a-41df-8f2a-0349f8217fec",
+   "company": "Analog Devices",
+   "title": "Field Robotics Systems Engineer",
+   "location": "Wilmington, MA",
+   "remote": false,
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Field-Robotics-Systems-Engineer_R266640",
+   "apply_url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Field-Robotics-Systems-Engineer_R266640",
+   "posted": "2026-11-04",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:20eef2b5-2b76-436c-be94-9a14b28c9a90",
+   "company": "SambaNova Systems",
+   "title": "Machine Learning Engineer New Grad",
+   "location": "Austin, TX; San Jose, CA",
+   "remote": false,
+   "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6240725004",
+   "apply_url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6240725004",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:74c3232a-e951-409c-8610-a4da9c34320f",
+   "company": "Polished Snow",
+   "title": "Research Engineer - Inference",
+   "location": "Palo Alto, CA",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/plsn/fc551b74-07b0-4dfe-b830-d4c437995100/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/plsn/fc551b74-07b0-4dfe-b830-d4c437995100/application?embed=true",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:35b0df10-483b-41f5-916e-ae22b1d1cdd6",
+   "company": "Rocket Lab Corporation",
+   "title": "AI Software Engineer 1",
+   "location": "Long Beach, CA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/rocketlab/jobs/8182050003",
+   "apply_url": "https://job-boards.greenhouse.io/rocketlab/jobs/8182050003",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:ad7ee672-286b-4929-9c20-6a5cdab58d98",
+   "company": "ServiceNow",
+   "title": "Software Engineer - Agent Eval Platform",
+   "location": "Mountain View, CA",
+   "remote": false,
+   "url": "https://jobs.smartrecruiters.com/ServiceNow/744000159509479",
+   "apply_url": "https://jobs.smartrecruiters.com/ServiceNow/744000159509479",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:8833c73c-b421-4740-acd1-7443ddcf3b19",
+   "company": "Morning Consult",
+   "title": "Research Associate",
+   "location": "Washington, DC; Chicago, IL; NYC",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/morningconsult/ef45d90e-877e-4bfb-9635-29de8881aa89/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/morningconsult/ef45d90e-877e-4bfb-9635-29de8881aa89/application?embed=true",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:3e00b45b-bb26-418f-9464-135f7457c923",
+   "company": "FICO",
+   "title": "Analytic Scientist 1",
+   "location": "Novato, CA",
+   "remote": false,
+   "url": "https://fico.wd1.myworkdayjobs.com/external/job/San-Rafael-CA/Analytic-Scientist-I_32344-1",
+   "apply_url": "https://fico.wd1.myworkdayjobs.com/external/job/San-Rafael-CA/Analytic-Scientist-I_32344-1",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:be79eb94-affb-4e0a-8d40-c2d2b2987b53",
+   "company": "Vestwell",
+   "title": "Data Analyst",
+   "location": "King of Prussia, PA; Austin, TX; Scottsdale, AZ; NYC",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/vestwell/jobs/8108684003",
+   "apply_url": "https://job-boards.greenhouse.io/vestwell/jobs/8108684003",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:174afdd8-2e42-4a3a-a8f4-6b3f619da79c",
+   "company": "Hospital for Special Surgery",
+   "title": "Data Scientist",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://hss.wd1.myworkdayjobs.com/HSS_Careers/job/New-York-NY/Data-Scientist_JR2026-106598",
+   "apply_url": "https://hss.wd1.myworkdayjobs.com/HSS_Careers/job/New-York-NY/Data-Scientist_JR2026-106598",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:0cec02b3-ff62-4d80-a261-00b08bf13994",
+   "company": "ByteDance",
+   "title": "Video/Image AI/ML Software Engineer Graduate - Video and Edge - Multimedia Lab",
+   "location": "San Jose, CA",
+   "remote": false,
+   "url": "https://jobs.bytedance.com/en/position/7704089625815468293/detail",
+   "apply_url": "https://jobs.bytedance.com/en/position/7704089625815468293/detail",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:c9942f0a-e3da-4b00-9ee2-be611a85daca",
+   "company": "LinkedIn",
+   "title": "Data Scientist",
+   "location": "Mountain View, CA",
+   "remote": false,
+   "url": "https://jobs.smartrecruiters.com/LinkedIn3/744000159509679",
+   "apply_url": "https://jobs.smartrecruiters.com/LinkedIn3/744000159509679",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:dd676495-705e-42f9-b036-e687837386ad",
+   "company": "M&T Bank",
+   "title": "Technology Development Program - Software Engineering - Data Engineering",
+   "location": "Buffalo, NY",
+   "remote": false,
+   "url": "https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/XMLNAME-2027-Technology-Development-Program---Software-Engineering--Data-Engineering-_R91882",
+   "apply_url": "https://mtb.wd5.myworkdayjobs.com/Campus/job/Buffalo-NY/XMLNAME-2027-Technology-Development-Program---Software-Engineering--Data-Engineering-_R91882",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "simplify:90860b66-dcd2-4e7f-a44a-33ef29bdd357",
+   "company": "Pacific Northwest National Laboratory",
+   "title": "Post-Masters Research Associate - Large Language Models",
+   "location": "United States",
+   "remote": false,
+   "url": "https://careers.pnnl.gov/jobs/12956?icims=1",
+   "apply_url": "https://careers.pnnl.gov/jobs/12956?icims=1",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "hn:50369025",
+   "company": "Location: Edirne, Turkey Remote: Yes (remote only) Willing ...",
+   "title": "See post",
+   "location": "",
+   "remote": true,
+   "url": "https://news.ycombinator.com/item?id=50369025",
+   "apply_url": "https://egemenoral.com",
+   "posted": "2026-11-04",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "hn-who-is-hiring",
+   "source": "hn",
+   "excerpt": "Location: Edirne, Turkey Remote: Yes (remote only) Willing to relocate: No Technologies: Python, scikit-learn, XGBoost, Hugging Face (BERT), RAG (Chroma, Gemini API), Streamlit, FastAPI, Node.js/Express, Next.js, TypeScript, Tailwind, Git Résumé/CV: https://egemenoral.com GitHub: https://github.com/egemenoral1-jpg LinkedIn: https://linkedin.com/in/egemen-oral Email: egemenoral1@gmail.com Junior ...",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "ashby:writer:93fbe5ce-2ce9-41ea-a998-a433c0f7f085",
+   "company": "Writer",
+   "title": "AI engineer",
+   "location": "San Francisco, CA; New York City, NY",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/writer/93fbe5ce-2ce9-41ea-a998-a433c0f7f085",
+   "apply_url": "https://jobs.ashbyhq.com/writer/93fbe5ce-2ce9-41ea-a998-a433c0f7f085/application",
+   "posted": "2026-11-03",
+   "comp": "$198K to $259K • Offers Equity • Multiple Ranges",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "ashby:writer:6ac02771-059b-490b-960b-f5616f255b65",
+   "company": "Writer",
+   "title": "AI deployment engineer (Central)",
+   "location": "Chicago, IL; Austin, TX",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/writer/6ac02771-059b-490b-960b-f5616f255b65",
+   "apply_url": "https://jobs.ashbyhq.com/writer/6ac02771-059b-490b-960b-f5616f255b65/application",
+   "posted": "2026-11-03",
+   "comp": "$132K to $184K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "ashby:writer:f84935a9-9589-4db1-af82-be9b1cab48a4",
+   "company": "Writer",
+   "title": "AI research scientist",
+   "location": "San Francisco, CA; Seattle, WA; New York City, NY",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/writer/f84935a9-9589-4db1-af82-be9b1cab48a4",
+   "apply_url": "https://jobs.ashbyhq.com/writer/f84935a9-9589-4db1-af82-be9b1cab48a4/application",
+   "posted": "2026-11-03",
+   "comp": "$199K to $325K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "ashby:writer:ce86adec-e8ce-4bbf-a706-43795a982de6",
+   "company": "Writer",
+   "title": "Software engineer, agents",
+   "location": "New York City, NY; Seattle, WA; San Francisco, CA",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/writer/ce86adec-e8ce-4bbf-a706-43795a982de6",
+   "apply_url": "https://jobs.ashbyhq.com/writer/ce86adec-e8ce-4bbf-a706-43795a982de6/application",
+   "posted": "2026-11-03",
+   "comp": "$132K to $240K • Offers Equity • Multiple Ranges",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "ashby:writer:2170c74d-7726-4d8f-910e-7f4ef7ac4fd1",
+   "company": "Writer",
+   "title": "Software engineer, generative AI",
+   "location": "San Francisco, CA; Seattle, WA; New York City, NY",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/writer/2170c74d-7726-4d8f-910e-7f4ef7ac4fd1",
+   "apply_url": "https://jobs.ashbyhq.com/writer/2170c74d-7726-4d8f-910e-7f4ef7ac4fd1/application",
+   "posted": "2026-11-03",
+   "comp": "$132K to $240K • Offers Equity • Multiple Ranges",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "ashby:writer:dcf1819e-6890-434f-8b72-8493bc35a7d2",
+   "company": "Writer",
+   "title": "AI deployment engineer (West)",
+   "location": "San Francisco, CA; Seattle, WA",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/writer/dcf1819e-6890-434f-8b72-8493bc35a7d2",
+   "apply_url": "https://jobs.ashbyhq.com/writer/dcf1819e-6890-434f-8b72-8493bc35a7d2/application",
+   "posted": "2026-11-03",
+   "comp": "$146K to $204K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "ashby:writer:2111a9b4-8dab-4562-9692-ad7cb2c7b968",
+   "company": "Writer",
+   "title": "AI deployment engineer (East)",
+   "location": "New York City, NY",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/writer/2111a9b4-8dab-4562-9692-ad7cb2c7b968",
+   "apply_url": "https://jobs.ashbyhq.com/writer/2111a9b4-8dab-4562-9692-ad7cb2c7b968/application",
+   "posted": "2026-11-03",
+   "comp": "$146K to $204K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "greenhouse:anthropic:5471539008",
+   "company": "Anthropic",
+   "title": "Accounting Analytics & BI Engineer",
+   "location": "San Francisco, CA | New York City, NY",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5471539008",
+   "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5471539008",
+   "posted": "2026-11-04",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "sponsors",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "ashby:openai:85d4e269-af3f-4b62-91d3-8ede8361cd16",
+   "company": "OpenAI",
+   "title": "Editor, Research Team",
+   "location": "Seattle",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/openai/85d4e269-af3f-4b62-91d3-8ede8361cd16",
+   "apply_url": "https://jobs.ashbyhq.com/openai/85d4e269-af3f-4b62-91d3-8ede8361cd16/application",
+   "posted": "2026-11-04",
+   "comp": "$223K to $247K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-04"
+  },
+  {
+   "id": "ashby:openai:5ceff3dd-3503-4ea0-9ade-eeb36b29f14e",
+   "company": "OpenAI",
+   "title": "Data Scientist, Analytics Enablement",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/5ceff3dd-3503-4ea0-9ade-eeb36b29f14e",
+   "apply_url": "https://jobs.ashbyhq.com/openai/5ceff3dd-3503-4ea0-9ade-eeb36b29f14e/application",
+   "posted": "2026-11-04",
+   "comp": "$347K to $385K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-04"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+   "url": "https://huggingface.co/papers/2611.05275",
+   "arxiv": "https://arxiv.org/abs/2611.05275",
+   "upvotes": 94,
+   "github": "https://github.com/InfRec-Cardinal/route-anything",
+   "summary": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a fundamental ...",
+   "published": "2026-11-03T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Words Caught in the Heart: Simulating Person-Specific Expression for Self-Opaque Clients in Psychotherapy",
+   "url": "https://huggingface.co/papers/2611.00617",
+   "arxiv": "https://arxiv.org/abs/2611.00617",
+   "upvotes": 66,
+   "github": "https://github.com/whunextgen/Pandora",
+   "summary": "Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants. We propose Pandora, a psychotherapy ...",
+   "published": "2026-10-31T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+   "url": "https://huggingface.co/papers/2611.04814",
+   "arxiv": "https://arxiv.org/abs/2611.04814",
+   "upvotes": 64,
+   "github": "https://github.com/MuyaoYuan/LoCo",
+   "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the current state. We ...",
+   "published": "2026-11-03T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "MoviEdit: Long-form Multi-Shot Video Editing Made Easy",
+   "url": "https://huggingface.co/papers/2611.02737",
+   "arxiv": "https://arxiv.org/abs/2611.02737",
+   "upvotes": 60,
+   "github": "https://github.com/adobe-research/MoviEdit-Bench",
+   "summary": "Long-form multi-shot video editing requires an intended edit to remain coherent across abrupt changes in scene, viewpoint, and subject appearance, while processing substantially longer visual context than conventional single-shot editors. We introduce MoviEdit, an end-to-end framework for scalable long-form multi-shot video editing that jointly addresses the challenges of data, modeling, and evaluation. To provide ...",
+   "published": "2026-11-02T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
+   "url": "https://huggingface.co/papers/2611.04916",
+   "arxiv": "https://arxiv.org/abs/2611.04916",
+   "upvotes": 48,
+   "github": "",
+   "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire ...",
+   "published": "2026-11-03T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+   "url": "https://huggingface.co/papers/2611.05377",
+   "arxiv": "https://arxiv.org/abs/2611.05377",
+   "upvotes": 47,
+   "github": "",
+   "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We ...",
+   "published": "2026-11-03T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild",
+   "url": "https://huggingface.co/papers/2611.02497",
+   "arxiv": "https://arxiv.org/abs/2611.02497",
+   "upvotes": 42,
+   "github": "https://github.com/RoboColosseum/robocolosseum-client",
+   "summary": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluates five ...",
+   "published": "2026-11-02T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Factorized MLLM Embeddings for Composed Image Retrieval",
+   "url": "https://huggingface.co/papers/2611.05193",
+   "arxiv": "https://arxiv.org/abs/2611.05193",
+   "upvotes": 41,
+   "github": "https://github.com/cvlab-kaist/FactEmbed",
+   "summary": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM's compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervision alone, without ...",
+   "published": "2026-11-03T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
+   "url": "https://huggingface.co/papers/2611.03233",
+   "arxiv": "https://arxiv.org/abs/2611.03233",
+   "upvotes": 38,
+   "github": "https://github.com/bytedance/axion1_0",
+   "summary": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong ...",
+   "published": "2026-11-02T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents",
+   "url": "https://huggingface.co/papers/2611.05036",
+   "arxiv": "https://arxiv.org/abs/2611.05036",
+   "upvotes": 33,
+   "github": "https://github.com/dongguanting/ToolSpace",
+   "summary": "Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one ...",
+   "published": "2026-11-03T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+   "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+   "published": "2026-11-04T17:50:10Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "How big is the open model economy today?",
+   "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+   "published": "2026-11-04T16:35:44Z",
+   "summary": "Our first open model economy research note for paid subscribers.",
+   "source": "Interconnects (Nathan Lambert)",
+   "topic": "post-training"
+  },
+  {
+   "title": "Scaling Model Evaluation at Pinterest with Ray (Part 4)",
+   "url": "https://medium.com/pinterest-engineering/scaling-model-evaluation-at-pinterest-with-ray-part-4-4a96cd12cc11?source=rss----4c5a5f6279b6---4",
+   "published": "2026-11-04T16:01:04Z",
+   "summary": "",
+   "source": "Pinterest Engineering",
+   "topic": "systems"
+  },
+  {
+   "title": "A Computational Analysis of Women’s Suffrage in Historical Newspapers",
+   "url": "https://towardsdatascience.com/a-computational-analysis-of-womens-suffrage-in-historical-newspapers/",
+   "published": "2026-11-04T15:30:00Z",
+   "summary": "Using 600,546 digitized newspaper pages to measure how suffrage coverage changed from 1890 to 1920 The post A Computational Analysis of Women’s Suffrage in Historical Newspapers appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "The Data Science Interview in 2026: What’s Changed and How to Prepare",
+   "url": "https://www.kdnuggets.com/the-data-science-interview-in-2026-whats-changed-and-how-to-prepare",
+   "published": "2026-11-04T15:00:00Z",
+   "summary": "A round-by-round breakdown of how the hiring process has shifted, from AI-assisted coding rounds to GenAI evaluation questions, and what you need to do differently to be ready.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+   "url": "https://openai.com/index/openai-to-acquire-pierre",
+   "published": "2026-11-04T14:30:00Z",
+   "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "How to Combine Contradictory Filters in DAX",
+   "url": "https://towardsdatascience.com/how-to-combine-contradictory-filters-in-dax/",
+   "published": "2026-11-04T14:00:00Z",
+   "summary": "Sometimes we need to calculate results based on contradictory filters. Without any action, these filters will lead to an empty result. Let's see how we can improve the data model to make it work. The post How to Combine Contradictory Filters in DAX appeared first on Towards Data ...",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "7 Small Specialist Models That Beat Giant LLMs at One Job",
+   "url": "https://www.kdnuggets.com/7-small-specialist-models-that-beat-giant-llms-at-one-job",
+   "published": "2026-11-04T13:00:00Z",
+   "summary": "Meet seven open specialist models under 10 billion parameters that rival much bigger systems at one job each, from transcription and OCR to routing and speech.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Let Decision Models Guide Your Voice Assistant",
+   "url": "https://towardsdatascience.com/let-decision-models-guide-your-voice-assistant/",
+   "published": "2026-11-04T12:30:00Z",
+   "summary": "GPT-Live does the talking. A decision model tracks what’s confirmed and picks what to ask next. The post Let Decision Models Guide Your Voice Assistant appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Beyond Classical: A Quantum Approach to Time-Series Prediction",
+   "url": "https://towardsdatascience.com/beyond-classical-a-quantum-approach-to-time-series-prediction/",
+   "published": "2026-11-04T11:00:00Z",
+   "summary": "Introducing CoQS-LSTM, a Coherent Quantum Long Short-Term Memory Architecture The post Beyond Classical: A Quantum Approach to Time-Series Prediction appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+   "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+   "published": "2026-11-04T07:00:00Z",
+   "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Accelerating engineering for the physical world",
+   "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+   "published": "2026-11-03T12:00:00Z",
+   "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "How Cisco defends at machine speed with OpenAI",
+   "url": "https://openai.com/index/cisco-cyber",
+   "published": "2026-11-03T08:00:00Z",
+   "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+   "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+   "published": "2026-11-03T00:00:00Z",
+   "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+   "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+   "discussion": "https://news.ycombinator.com/item?id=50354960",
+   "points": 1450,
+   "comments": 475,
+   "published": "2026-11-03T17:22:37Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+   "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+   "discussion": "https://news.ycombinator.com/item?id=50355251",
+   "points": 703,
+   "comments": 204,
+   "published": "2026-11-03T17:40:00Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI is forcing us to pay off 40 years of technical debt",
+   "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+   "discussion": "https://news.ycombinator.com/item?id=50364336",
+   "points": 697,
+   "comments": 440,
+   "published": "2026-11-04T11:52:17Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Google will turn off search for schools that reject AI",
+   "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+   "discussion": "https://news.ycombinator.com/item?id=50353192",
+   "points": 651,
+   "comments": 454,
+   "published": "2026-11-03T15:25:47Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+   "url": "https://news.ycombinator.com/item?id=50352757",
+   "discussion": "https://news.ycombinator.com/item?id=50352757",
+   "points": 510,
+   "comments": 151,
+   "published": "2026-11-03T14:53:41Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+   "url": "https://news.ycombinator.com/item?id=50363461",
+   "discussion": "https://news.ycombinator.com/item?id=50363461",
+   "points": 464,
+   "comments": 124,
+   "published": "2026-11-04T10:10:27Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+   "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+   "discussion": "https://news.ycombinator.com/item?id=50362905",
+   "points": 452,
+   "comments": 198,
+   "published": "2026-11-04T08:46:29Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+   "discussion": "https://news.ycombinator.com/item?id=50358422",
+   "points": 395,
+   "comments": 160,
+   "published": "2026-11-03T21:26:44Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+   "url": "https://arxiv.org/abs/2605.29713",
+   "discussion": "https://news.ycombinator.com/item?id=50358582",
+   "points": 372,
+   "comments": 58,
+   "published": "2026-11-03T21:40:53Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "North Korean fake job interview led to $6.3B Binance heist",
+   "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
+   "discussion": "https://news.ycombinator.com/item?id=50365755",
+   "points": 358,
+   "comments": 219,
+   "published": "2026-11-04T14:09:55Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The Internals of PostgreSQL",
+   "url": "https://www.interdb.jp/pg/index.html",
+   "discussion": "https://news.ycombinator.com/item?id=50358702",
+   "points": 350,
+   "comments": 28,
+   "published": "2026-11-03T21:51:06Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+   "discussion": "https://news.ycombinator.com/item?id=50363554",
+   "points": 269,
+   "comments": 248,
+   "published": "2026-11-04T10:23:34Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "US voters roundly reject data centers in ballot measures",
+   "url": "https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures",
+   "discussion": "https://news.ycombinator.com/item?id=50365982",
+   "points": 254,
+   "comments": 448,
+   "published": "2026-11-04T14:27:02Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "How I use AI (Oct 2026)",
+   "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+   "discussion": "https://news.ycombinator.com/item?id=50355767",
+   "points": 239,
+   "comments": 273,
+   "published": "2026-11-03T18:11:11Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Just a little AI resistance, as a treat",
+   "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+   "discussion": "https://news.ycombinator.com/item?id=50352257",
+   "points": 176,
+   "comments": 108,
+   "published": "2026-11-03T14:14:12Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Kimi K3.1 Pro model weights are out",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "discussion": "https://news.ycombinator.com/item?id=50366999",
+   "points": 140,
+   "comments": 23,
+   "published": "2026-11-04T15:30:30Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI is destroying my CS degree",
+   "url": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
+   "discussion": "https://news.ycombinator.com/item?id=50353300",
+   "points": 125,
+   "comments": 117,
+   "published": "2026-11-03T15:35:06Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+   "url": "https://uncracked.city",
+   "discussion": "https://news.ycombinator.com/item?id=50358352",
+   "points": 117,
+   "comments": 56,
+   "published": "2026-11-03T21:20:03Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "There is no posttraining data commons",
+   "url": "https://openathena.ai/blog/there-is-no-posttraining-data-commons/",
+   "discussion": "https://news.ycombinator.com/item?id=50352641",
+   "points": 111,
+   "comments": 26,
+   "published": "2026-11-03T14:45:47Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Quili AI",
+   "url": "https://www.quili.ai/",
+   "discussion": "https://news.ycombinator.com/item?id=50353475",
+   "points": 98,
+   "comments": 64,
+   "published": "2026-11-03T15:49:02Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "A message to top tier conferences [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xnkbeu/a_message_to_top_tier_conferences_d/",
+   "published": "2026-11-04T09:55:50Z",
+   "summary": "TL;DR: Please be hard in desk rejecting AI generated papers Recently I went to two AI conferences (A and A*) and I was surprised that \"AI cheaters\" didn't even read their own paper before presentation! For example, a guy couldn't even answer the question of how he represented ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Why can't conferences just reasonably reduce the cap on number of submissions? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xnscvr/why_cant_conferences_just_reasonably_reduce_the/",
+   "published": "2026-11-04T16:17:39Z",
+   "summary": "As per the the 2027 CVPR guidelines: \"Maximum number of submissions (continuing from CVPR 2026): Each author may submit at most 25 papers. If an author enrolls more than 25 papers, the Program Chairs (PCs) will desk-reject the submissions that exceed this limit (see the Desk ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Visa Situation for NeurIPS Sydney Attendees [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xnh0uh/visa_situation_for_neurips_sydney_attendees_d/",
+   "published": "2026-11-04T06:24:54Z",
+   "summary": "I'm just wondering about visa processing situation for NeurIPS sydney attendees. Invitation letter and all valid docs are not really helping (one friend got rejected), processing time is tooo long (almost a month). and organizers not responding in case visa is not approved for ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "A new, open-weights 278M PII detection model and reference benchmark [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xn2lro/a_new_openweights_278m_pii_detection_model_and/",
+   "published": "2026-11-03T19:29:54Z",
+   "summary": "Hi everyone, I wanted to share a new open-weights PII detection model, benchmark and research paper. It's a fine-tune of RoBERTa using 1.2B samples of synthetically generated text that contain a variety of PII. The benchmark, PII-SCOPE (Synthetic Context and Ontology for PII ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Hydrogen-1.0: open-weight scientific model beats GPT-6 Astra on FSR with 72% lower estimated output cost [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xnjhdd/hydrogen10_openweight_scientific_model_beats_gpt6/",
+   "published": "2026-11-04T09:00:29Z",
+   "summary": "Hey everyone, we’re the Deep Principle team behind Mira AI Scientist. We just released Hydrogen-1.0 , an open-weight model post-trained from GLM-5.3 for chemistry, materials science, and life sciences. Here’s how it performed in our evaluations: FrontierScience Research: 38.3% ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Do looped transformers save HBM traffic? Profiling weight reuse in Huginn on a B200 [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xnskvt/do_looped_transformers_save_hbm_traffic_profiling/",
+   "published": "2026-11-04T16:26:12Z",
+   "summary": "Do looped transformers, which reuse the same weights at every iteration, also save HBM traffic? In my new post I cover the looped architecture (Huginn), then model and measure its performance on a B200: how much data each iteration reads from memory, how long it takes, and why ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn568h/british_fintech_revolut_slashes_ai_coding_costs/",
+   "published": "2026-11-03T21:05:30Z",
+   "summary": "submitted by /u/notheresnolight [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Kimi-K3.1-Pro is now open-weights",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights/",
+   "published": "2026-11-04T15:44:08Z",
+   "summary": "submitted by /u/ApprehensiveAd3629 [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "What do people with normal hardware : 32GB ram 16GB VRAM run?",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn2jyz/what_do_people_with_normal_hardware_32gb_ram_16gb/",
+   "published": "2026-11-03T19:28:09Z",
+   "summary": "Just asking because i have been out of the loop for a while and kinda missed everything (strata etc...) a small recap would be appreciated. Everyone seems to own an RTX 6000 or insanely expensive rigs here. So just wanted to hear what model a normal pleb like me with 32GB ram ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "My gift to the mods:",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnr6zd/my_gift_to_the_mods/",
+   "published": "2026-11-04T15:32:17Z",
+   "summary": "Seriously tho, can we just have a mega thread for vibeforked engine releases from now on? submitted by /u/Porespellar [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Introducing Hy4 (open weights soon)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/",
+   "published": "2026-11-04T07:23:10Z",
+   "summary": "submitted by /u/heatOverflower [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "I removed 85% of gemma's weights (and it is mostly fine)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnoqyy/i_removed_85_of_gemmas_weights_and_it_is_mostly/",
+   "published": "2026-11-04T13:53:30Z",
+   "summary": "I pruned Gemma 4 26B-A4B, an MoE model, down to 15% of its original size, and the model still does great on one narrow task. It gets 92% agreement with the original on a classification task. That’s close to how often the 12B agrees with the 26B on the same ticks, which is 90% ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  }
+ ],
+ "videos": [
+  {
+   "title": "Stanford EE292R AI and Data for Science | Autumn 2026 | Multimodal Modeling for Precision Medicine",
+   "url": "https://www.youtube.com/watch?v=GyjB3GYxEj0",
+   "id": "GyjB3GYxEj0",
+   "published": "2026-11-03T21:00:04Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [
+  {
+   "title": "Visa Situation for NeurIPS Sydney Attendees [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xnh0uh/visa_situation_for_neurips_sydney_attendees_d/",
+   "published": "2026-11-04T06:24:54Z",
+   "summary": "I'm just wondering about visa processing situation for NeurIPS sydney attendees. Invitation letter and all valid docs are not really helping (one friend got rejected), processing time is tooo long (almost a month). and organizers not responding in case visa is not approved for ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "North Korean fake job interview led to $6.3B Binance heist",
+   "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
+   "discussion": "https://news.ycombinator.com/item?id=50365755",
+   "points": 358,
+   "comments": 219,
+   "published": "2026-11-04T14:09:55Z",
+   "source": "Hacker News"
+  }
+ ],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Google DeepMind",
+   "error": "not well-formed (invalid token): line 1, column 0"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
