@@ -1,0 +1,779 @@
+{
+ "date": "2026-11-05",
+ "generated_at": "2026-11-05T18:06:00Z",
+ "counts": {
+  "jobs_open": 889,
+  "jobs_new": 21,
+  "papers": 10,
+  "posts": 16,
+  "hn": 11,
+  "reddit": 6,
+  "videos": 1,
+  "interview_intel": 1,
+  "errors": 5
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:59307afb-eb2a-496c-8815-402ff6fafd53",
+   "company": "Yusen Logistics",
+   "title": "IT Reporting Analyst 1 - Reports & Labels",
+   "location": "Sumner, WA; Greenfield, IN; Jacksonville, FL; Grapevine, TX",
+   "remote": false,
+   "url": "https://careers-yusen-logistics.icims.com/jobs/6521/job?mobile=true&needsRedirect=false",
+   "apply_url": "https://careers-yusen-logistics.icims.com/jobs/6521/job?mobile=true&needsRedirect=false",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "simplify:0910266d-0317-4f75-a453-b1e272664c2f",
+   "company": "Oak View Group",
+   "title": "Game Night Statistician",
+   "location": "Palm Desert, CA",
+   "remote": false,
+   "url": "https://careers-ovg.icims.com/jobs/35511/job",
+   "apply_url": "https://careers-ovg.icims.com/jobs/35511/job",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "simplify:3493b74a-e2e1-481d-b66f-6cbcc34bf8b9",
+   "company": "PIMCO",
+   "title": "Analyst/Associate - Client Solutions & Analytics",
+   "location": "Newport Beach, CA; NYC",
+   "remote": false,
+   "url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/New-York-NY-USA/Analyst-Associate--Client-Solutions---Analytics_R107095",
+   "apply_url": "https://pimco.wd1.myworkdayjobs.com/pimco-careers/job/New-York-NY-USA/Analyst-Associate--Client-Solutions---Analytics_R107095",
+   "posted": "2026-11-04",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "simplify:c5064763-1e7d-4712-a2ed-356e98b44688",
+   "company": "Anderson Merchandisers",
+   "title": "Data Validation Specialist",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://amerch.wd1.myworkdayjobs.com/amerchcareers/job/AMERCH-Remote-Workers/Data-Validation-Specialist_R0078210-1",
+   "apply_url": "https://amerch.wd1.myworkdayjobs.com/amerchcareers/job/AMERCH-Remote-Workers/Data-Validation-Specialist_R0078210-1",
+   "posted": "2026-11-04",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "simplify:0df2508c-2ba1-483d-bf63-feb9b1d635c6",
+   "company": "Ulta Beauty",
+   "title": "Analyst, Strategic Analytics",
+   "location": "Bolingbrook, IL",
+   "remote": false,
+   "url": "https://careers.ulta.com/jobs/557120?icims=1",
+   "apply_url": "https://careers.ulta.com/jobs/557120?icims=1",
+   "posted": "2026-11-04",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "simplify:5064e3b2-e63b-4802-9a09-a4ac41a2db8f",
+   "company": "Sony",
+   "title": "Associate Data Analyst",
+   "location": "San Diego, CA",
+   "remote": false,
+   "url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Associate-Data-Analyst_JR-119868",
+   "apply_url": "https://sonyglobal.wd1.myworkdayjobs.com/SonyGlobalCareers/job/San-Diego/Associate-Data-Analyst_JR-119868",
+   "posted": "2026-11-04",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "simplify:7b528d54-ffd1-46d0-b619-21281f247993",
+   "company": "Myriad360",
+   "title": "Junior AI and Automation Engineer",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://boards.greenhouse.io/myriad360/jobs/8930382002",
+   "apply_url": "https://boards.greenhouse.io/myriad360/jobs/8930382002",
+   "posted": "2026-11-04",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "simplify:5d6ceadb-bde0-49af-ab1e-ebcf78cbc505",
+   "company": "Longitude Labs",
+   "title": "Deployment Strategist",
+   "location": "SF; NYC",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/longitudelabs/ec60944d-8f9c-42f9-9fe0-554c6beceb15/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/longitudelabs/ec60944d-8f9c-42f9-9fe0-554c6beceb15/application?embed=true",
+   "posted": "2026-11-04",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "simplify:16ad3a34-6129-4b40-897e-41b2af48883c",
+   "company": "Loft",
+   "title": "Digital Analytics & Reporting Analyst",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://knitwellgroup.wd1.myworkdayjobs.com/US_Corporate_Jobs/job/Times-Square-Tower-ANN-New-York-NY-10036/Digital-Analytics---Reporting-Analyst_R-2041770",
+   "apply_url": "https://knitwellgroup.wd1.myworkdayjobs.com/US_Corporate_Jobs/job/Times-Square-Tower-ANN-New-York-NY-10036/Digital-Analytics---Reporting-Analyst_R-2041770",
+   "posted": "2026-11-04",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "simplify:2b45f3c6-3fb4-4168-8b28-d02c195d4b48",
+   "company": "Publicis Groupe",
+   "title": "Media Analytics Analyst",
+   "location": "Chicago, IL",
+   "remote": false,
+   "url": "https://careers.publicisgroupe.com/jobs/178975?icims=1",
+   "apply_url": "https://careers.publicisgroupe.com/jobs/178975?icims=1",
+   "posted": "2026-10-27",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "simplify:5532adc0-e591-4a48-ad49-19801b0d6b15",
+   "company": "Navitus Health Solutions",
+   "title": "Business Intelligence Specialist - Business Intelligence",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://careers-navitus.icims.com/jobs/6924/job?mobile=true&needsRedirect=false",
+   "apply_url": "https://careers-navitus.icims.com/jobs/6924/job?mobile=true&needsRedirect=false",
+   "posted": "2026-10-27",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "simplify:e421fc9f-ba1a-44dd-830d-fce61d02b2a4",
+   "company": "General Dynamics Mission Systems",
+   "title": "Operations Analyst",
+   "location": "Pittsburgh, PA",
+   "remote": false,
+   "url": "https://careers-gdms.icims.com/jobs/75777/job?mobile=true&needsRedirect=false",
+   "apply_url": "https://careers-gdms.icims.com/jobs/75777/job?mobile=true&needsRedirect=false",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "hn:50373706",
+   "company": "ALBERT",
+   "title": "REMOTE, ALMOST ANYWHERE | New grads who’ve shipped AI features (max 2 years out of school) + Principal/Distinguished engineers for net-new consumer products",
+   "location": "",
+   "remote": true,
+   "url": "https://news.ycombinator.com/item?id=50373706",
+   "apply_url": "https://news.ycombinator.com/item?id=50373706",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "hn-who-is-hiring",
+   "source": "hn",
+   "excerpt": "ALBERT | REMOTE, ALMOST ANYWHERE | New grads who’ve shipped AI features (max 2 years out of school) + Principal/Distinguished engineers for net-new consumer products | senior track up to ~$750k cash plus meaningful equity Consumer fintech, 20M+ users, profitable 4+ years, 3.6-year average tenure. People stay because the work is good and the people are sharp. We hire like a barbell: exceptional ...",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "greenhouse:evolutioniq:6242824004",
+   "company": "EvolutionIQ",
+   "title": "AI Engineer (CCC Auto / Agentic)",
+   "location": "Chicago, IL or Remote",
+   "remote": true,
+   "url": "https://job-boards.greenhouse.io/evolutioniq/jobs/6242824004",
+   "apply_url": "https://job-boards.greenhouse.io/evolutioniq/jobs/6242824004",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "application-log",
+   "source": "greenhouse",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "ashby:abridge:b68ad2ef-daaa-4504-84ca-55eeabf0eee4",
+   "company": "Abridge",
+   "title": "Member of Technical Staff, VA",
+   "location": "SF Office; NYC Office",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/abridge/b68ad2ef-daaa-4504-84ca-55eeabf0eee4",
+   "apply_url": "https://jobs.ashbyhq.com/abridge/b68ad2ef-daaa-4504-84ca-55eeabf0eee4/application",
+   "posted": "2026-11-04",
+   "comp": "$210.8K to $248K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "ashby:anyscale:503a08c2-80b1-4968-8dcf-06380453bcdb",
+   "company": "Anyscale",
+   "title": "Forward Deployed Engineer - AI/ML Platforms",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/anyscale/503a08c2-80b1-4968-8dcf-06380453bcdb",
+   "apply_url": "https://jobs.ashbyhq.com/anyscale/503a08c2-80b1-4968-8dcf-06380453bcdb/application",
+   "posted": "2026-11-04",
+   "comp": "$250K to $275K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "ashby:deepgram:3c9a9729-7ff1-49e3-a388-f108745e4b41",
+   "company": "Deepgram",
+   "title": "Software Engineer - Applied AI",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/deepgram/3c9a9729-7ff1-49e3-a388-f108745e4b41",
+   "apply_url": "https://jobs.ashbyhq.com/deepgram/3c9a9729-7ff1-49e3-a388-f108745e4b41/application",
+   "posted": "2026-11-04",
+   "comp": "$173.8K to $212.4K • Offers Equity • Offers Bonus • 10% Bonus",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "greenhouse:anthropic:5468939008",
+   "company": "Anthropic",
+   "title": "Applied Scientist, Engineering",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468939008",
+   "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5468939008",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "sponsors",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "greenhouse:reddit:8349916",
+   "company": "Reddit",
+   "title": "Machine Learning Engineer",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/reddit/jobs/8349916",
+   "apply_url": "https://job-boards.greenhouse.io/reddit/jobs/8349916",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "greenhouse:vercel:6231535004",
+   "company": "Vercel",
+   "title": "Member of Technical Staff, Financial Data",
+   "location": "Hybrid - San Francisco, New York City",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/6231535004",
+   "apply_url": "https://job-boards.greenhouse.io/vercel/jobs/6231535004",
+   "posted": "2026-10-22",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "id": "ashby:amplitude:f65ba1d9-f809-442f-88df-453241e8d509",
+   "company": "Amplitude",
+   "title": "Software Engineer II, Analytics Compute Platform Team",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/amplitude/f65ba1d9-f809-442f-88df-453241e8d509",
+   "apply_url": "https://jobs.ashbyhq.com/amplitude/f65ba1d9-f809-442f-88df-453241e8d509/application",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "citizens_only",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-05"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+   "url": "https://huggingface.co/papers/2611.06728",
+   "arxiv": "https://arxiv.org/abs/2611.06728",
+   "upvotes": 60,
+   "github": "https://github.com/XD111ds/turn-wise-rl",
+   "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourage useful follow-ups ...",
+   "published": "2026-11-04T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+   "url": "https://huggingface.co/papers/2611.06918",
+   "arxiv": "https://arxiv.org/abs/2611.06918",
+   "upvotes": 55,
+   "github": "",
+   "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual ...",
+   "published": "2026-11-04T18:59:58Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+   "url": "https://huggingface.co/papers/2611.06910",
+   "arxiv": "https://arxiv.org/abs/2611.06910",
+   "upvotes": 36,
+   "github": "",
+   "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across ...",
+   "published": "2026-11-04T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
+   "url": "https://huggingface.co/papers/2610.37257",
+   "arxiv": "https://arxiv.org/abs/2610.37257",
+   "upvotes": 33,
+   "github": "https://github.com/kangverse/GameVerse",
+   "summary": "Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from action inputs. Yet current models struggle to maintain coherence beyond roughly one minute of rollout, a limitation rooted not in model capacity but in the scarcity of long-horizon training data. Existing gameplay video datasets typically consist of clips under ten seconds, with captions that ...",
+   "published": "2026-10-31T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+   "url": "https://huggingface.co/papers/2611.06483",
+   "arxiv": "https://arxiv.org/abs/2611.06483",
+   "upvotes": 29,
+   "github": "https://github.com/GaryStack/Rethinking-Agent-RL",
+   "summary": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly elevate single-step ...",
+   "published": "2026-11-04T13:24:54Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
+   "url": "https://huggingface.co/papers/2611.05320",
+   "arxiv": "https://arxiv.org/abs/2611.05320",
+   "upvotes": 22,
+   "github": "",
+   "summary": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the task in simulation: it writes the scene, an expert controller ...",
+   "published": "2026-11-03T18:25:14Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
+   "url": "https://huggingface.co/papers/2611.06518",
+   "arxiv": "https://arxiv.org/abs/2611.06518",
+   "upvotes": 21,
+   "github": "https://github.com/Tencent-Hunyuan/EmoReward",
+   "summary": "Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics and has no uniquely correct target. Existing approaches typically rely on fixed rewards for visual quality, motion quality, and text alignment that poorly capture emotional intent ...",
+   "published": "2026-11-04T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "StreamDuo: A Live Commentator and a Research Agent for Unseen Games",
+   "url": "https://huggingface.co/papers/2611.01120",
+   "arxiv": "https://arxiv.org/abs/2611.01120",
+   "upvotes": 18,
+   "github": "https://github.com/ZixianGao/StreamDuo-code",
+   "summary": "Streaming video LLMs can now commentate live gameplay, but they are trained and tested on the same games. We study cross-game streaming commentary, in which a model trained on one game commentates games it has never seen, and find that current commentators transfer their timing but not their knowledge of the game world. We propose StreamDuo, which pairs a trainable commentator with a frozen research agent that reads ...",
+   "published": "2026-10-31T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+   "url": "https://huggingface.co/papers/2611.04408",
+   "arxiv": "https://arxiv.org/abs/2611.04408",
+   "upvotes": 16,
+   "github": "",
+   "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fixed spare ratio ...",
+   "published": "2026-11-03T06:45:50Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Solv3R: 3D Looped Transformer as a Multi-view Solver",
+   "url": "https://huggingface.co/papers/2611.02857",
+   "arxiv": "https://arxiv.org/abs/2611.02857",
+   "upvotes": 16,
+   "github": "https://github.com/ubc-vision/solv3r",
+   "summary": "Classical structure-from-motion reconstruction proceeds iteratively, refining camera poses and scene geometry from a current estimate. This allows maps to easily expand without recomputing already computed views, or geometry estimates to improve as more observations are provided. Most geometric foundation models, however, predict entire geometry in a single forward pass or update a recurrent state as frames arrive ...",
+   "published": "2026-11-02T09:59:45Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "published": "2026-11-05T17:05:16Z",
+   "summary": "",
+   "source": "Google DeepMind",
+   "topic": "research"
+  },
+  {
+   "title": "How to Report for 100+ Clients With One Semantic Model",
+   "url": "https://towardsdatascience.com/how-to-report-for-100-clients-with-one-semantic-model/",
+   "published": "2026-11-05T16:30:00Z",
+   "summary": "Configuration-driven reporting: one semantic model, one metric catalog, and a few lines of configuration per audience The post How to Report for 100+ Clients With One Semantic Model appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Detecting signs of hypertension using wearable sensors",
+   "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+   "published": "2026-11-05T16:01:08Z",
+   "summary": "Health & Bioscience",
+   "source": "Google Research",
+   "topic": "research"
+  },
+  {
+   "title": "Web Scraping 7,000 Pages in 3 Minutes with Python and Olostep",
+   "url": "https://www.kdnuggets.com/web-scraping-7000-pages-in-3-minutes-with-python-and-olostep",
+   "published": "2026-11-05T15:00:01Z",
+   "summary": "Scrape thousands of pages in a few minutes with the Olostep Batch API, download Markdown, and measure what actually finished.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "How We Built NASA's Zero-Shot Detector for Gas Leaks from Space",
+   "url": "https://towardsdatascience.com/how-we-built-nasas-zero-shot-detector-for-gas-leaks-from-space/",
+   "published": "2026-11-05T15:00:00Z",
+   "summary": "We trained one model on methane. Without retraining, it also maps carbon monoxide, ammonia and nitrogen dioxide plumes, including the first automated CO detections from NASA’s EMIT. The post How We Built NASA's Zero-Shot Detector for Gas Leaks from Space appeared first on ...",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How GEO, WebMCP, and Bot Paywalls Are Building the AI-Native Internet",
+   "url": "https://towardsdatascience.com/how-geo-webmcp-and-bot-paywalls-are-building-the-ai-native-internet/",
+   "published": "2026-11-05T13:30:00Z",
+   "summary": "The internet of the future will look much different than the one today. Businesses are already transitioning. The post How GEO, WebMCP, and Bot Paywalls Are Building the AI-Native Internet appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "What I Did with Hermes Agent, Ollama & Local Models",
+   "url": "https://www.kdnuggets.com/what-i-did-with-hermes-agent-ollama-local-models",
+   "published": "2026-11-05T13:00:00Z",
+   "summary": "Build a local multi-agent travel planner with Hermes Agent and Ollama: a coordinator and three specialist agents that research destinations, suggest stays, and generate real Google Flights search links.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Why a Tiny GPT Can Know Two Facts and Still Not Connect Them",
+   "url": "https://towardsdatascience.com/why-a-tiny-gpt-can-know-two-facts-and-still-not-connect-them/",
+   "published": "2026-11-05T12:00:00Z",
+   "summary": "A tiny GPT memorized every fact I gave it, then couldn’t answer a single question that needed two of them. I tested the one-line fix from a recent paper, and it only half worked. The post Why a Tiny GPT Can Know Two Facts and Still Not Connect Them appeared first on Towards Data ...",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "[AINews] It's Swapping Season",
+   "url": "https://latent.space/p/ainews-it-s-swapping-season/",
+   "published": "2026-11-05T06:24:09Z",
+   "summary": "November 4, 2026 , OpenAI’s Linux kernel security work, Kimi K3.1 Pro’s open weights, and Ricursive’s Ripple-65B.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Setting a new standard for responsible AI infrastructure",
+   "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+   "published": "2026-11-05T02:00:00Z",
+   "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+   "url": "https://huggingface.co/blog/phonon-tts",
+   "published": "2026-11-05T00:00:00Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+   "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+   "published": "2026-11-04T19:17:30Z",
+   "summary": "November 3, 2026 , A quiet day lets us share some behind the senes.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Agile Deliberation: How AI helps humans define the gray areas",
+   "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/",
+   "published": "2026-11-04T18:07:05Z",
+   "summary": "Data Mining & Modeling",
+   "source": "Google Research",
+   "topic": "research"
+  },
+  {
+   "title": "A thousand fewer paths to root",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "published": "2026-11-04T08:00:00Z",
+   "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Introducing Images 2.6",
+   "url": "https://openai.com/index/introducing-images-2-6",
+   "published": "2026-11-04T00:00:00Z",
+   "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+   "url": "https://openai.com/index/devrev-enterprise-self-service",
+   "published": "2026-11-04T00:00:00Z",
+   "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "North Korean fake job interview led to $6.3B Binance heist",
+   "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
+   "discussion": "https://news.ycombinator.com/item?id=50365755",
+   "points": 623,
+   "comments": 378,
+   "published": "2026-11-04T14:09:55Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Kimi K3.1 Pro model weights are out",
+   "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+   "discussion": "https://news.ycombinator.com/item?id=50366999",
+   "points": 609,
+   "comments": 180,
+   "published": "2026-11-04T15:30:30Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Ask HN: What's your current AI agentic setup?",
+   "url": "https://news.ycombinator.com/item?id=50366117",
+   "discussion": "https://news.ycombinator.com/item?id=50366117",
+   "points": 483,
+   "comments": 585,
+   "published": "2026-11-04T14:37:22Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "US voters roundly reject data centers in ballot measures",
+   "url": "https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures",
+   "discussion": "https://news.ycombinator.com/item?id=50365982",
+   "points": 342,
+   "comments": 732,
+   "published": "2026-11-04T14:27:02Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+   "url": "https://www.ricursive.com/ripple",
+   "discussion": "https://news.ycombinator.com/item?id=50369925",
+   "points": 328,
+   "comments": 119,
+   "published": "2026-11-04T18:53:29Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Progress on provable inference for large language models",
+   "url": "https://www.anthropic.com/research/provable-inference",
+   "discussion": "https://news.ycombinator.com/item?id=50368626",
+   "points": 235,
+   "comments": 121,
+   "published": "2026-11-04T17:17:46Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "GPT-6 Astra covertly underperforms on safety research",
+   "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+   "discussion": "https://news.ycombinator.com/item?id=50376313",
+   "points": 182,
+   "comments": 81,
+   "published": "2026-11-05T07:44:30Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Qualcomm Cloud AI 100 Ultra to 150W AI Accelerator Card with 128GB at 548GB/s",
+   "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+   "discussion": "https://news.ycombinator.com/item?id=50370654",
+   "points": 167,
+   "comments": 63,
+   "published": "2026-11-04T19:55:14Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Everything is an AI scam now",
+   "url": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
+   "discussion": "https://news.ycombinator.com/item?id=50371508",
+   "points": 145,
+   "comments": 59,
+   "published": "2026-11-04T21:05:19Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+   "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+   "discussion": "https://news.ycombinator.com/item?id=50366971",
+   "points": 100,
+   "comments": 160,
+   "published": "2026-11-04T15:28:31Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Launch HN: Kino AI (YC S23) to AI media manager and video editor",
+   "url": "https://news.ycombinator.com/item?id=50368804",
+   "discussion": "https://news.ycombinator.com/item?id=50368804",
+   "points": 95,
+   "comments": 34,
+   "published": "2026-11-04T17:31:53Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "ICLR 2027 Reviews Discussion [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xo6yzo/iclr_2027_reviews_discussion_d/",
+   "published": "2026-11-05T02:17:59Z",
+   "summary": "The ICLR 2027 reviews will be released soon. Share your results here, and keep a lookout on papercopilot to judge your odds. I also found paperScorer quite interesting for the same. Of course, these are only for amusement and should not be taken seriously. Good luck to all ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "What is now considered a “reasonable” publication rate (papers/year) for a PhD student to be considered “productive”? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xo7q89/what_is_now_considered_a_reasonable_publication/",
+   "published": "2026-11-05T02:55:15Z",
+   "summary": "I would assume LLMs have bumped this number, or maybe not. Which is why I am asking. If there are PIs on here, how many papers before you let your students graduate? Is the number different now than it was a year ago? And the same question for “rate of publication” for you to ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Publication expectations for ML PhDs at top-10 US schools / top ML groups? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xoc358/publication_expectations_for_ml_phds_at_top10_us/",
+   "published": "2026-11-05T06:56:48Z",
+   "summary": "From what I’ve read on Reddit so far, I’m getting the impression that around 4 first-author papers at top ML conferences (NeurIPS, ICML, ICLR, etc.) is a fairly standard expectation for graduating from a top ML PhD program. Of course, my impression could be biased by the posts ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "DialFork: a benchmark for procedural hallucination in conversational agents [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xofjrn/dialfork_a_benchmark_for_procedural_hallucination/",
+   "published": "2026-11-05T10:44:15Z",
+   "summary": "Hi all, author here (Idiap Research Institute, joint work with Logitech). We recently released DialFork and thought it might interest people here. It's a benchmark for a failure mode of LLM agents that is easy to miss: every turn is fluent and factual, the tool calls are ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Best approach for demand forecasting across 40 locations? Separate models or one global model? [p]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xohxyv/best_approach_for_demand_forecasting_across_40/",
+   "published": "2026-11-05T12:55:51Z",
+   "summary": "Hey everyone, I'm a final-year B.Tech CSE (AI/ML) student working on a multi-agent supply chain optimization project. I'm currently focusing on the Demand Forecasting Agent and would appreciate some advice on model selection and training strategy. We're working with a synthetic ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "I submitted my AACL paper as a long paper, but it’s listed as a short paper. [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xo8vd3/i_submitted_my_aacl_paper_as_a_long_paper_but_its/",
+   "published": "2026-11-05T03:52:26Z",
+   "summary": "Hi. My AACL Main paper was just published on ACL Anthology, and I noticed that it appears as a Short Paper. My understanding that it was a long paper since that was what I selected during the ARR review, and my paper's main text runs through nine pages. Has anyone run into this ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  }
+ ],
+ "videos": [
+  {
+   "title": "Stanford CME295 Transformers & LLMs | Autumn 2026 | Lecture 5 - LLM Systems",
+   "url": "https://www.youtube.com/watch?v=25KIyaeI_Fg",
+   "id": "25KIyaeI_Fg",
+   "published": "2026-11-05T17:00:02Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [
+  {
+   "title": "North Korean fake job interview led to $6.3B Binance heist",
+   "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
+   "discussion": "https://news.ycombinator.com/item?id=50365755",
+   "points": 623,
+   "comments": 378,
+   "published": "2026-11-04T14:09:55Z",
+   "source": "Hacker News"
+  }
+ ],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
