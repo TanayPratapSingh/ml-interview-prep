@@ -1,0 +1,780 @@
+{
+ "date": "2026-11-06",
+ "generated_at": "2026-11-06T17:33:10Z",
+ "counts": {
+  "jobs_open": 877,
+  "jobs_new": 19,
+  "papers": 10,
+  "posts": 18,
+  "hn": 10,
+  "reddit": 12,
+  "videos": 0,
+  "interview_intel": 0,
+  "errors": 4
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:8d9f37dc-7e91-4b54-8583-f266af7d0c8a",
+   "company": "TikTok",
+   "title": "Research Engineer - Agentic Video Editing",
+   "location": "San Jose, CA",
+   "remote": false,
+   "url": "https://lifeattiktok.com/search/7704036750285867269",
+   "apply_url": "https://lifeattiktok.com/search/7704036750285867269",
+   "posted": "2026-11-06",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "simplify:85aaae64-e026-46d9-aeab-35b8a7fc44f6",
+   "company": "neurohire.ai",
+   "title": "Data Scientist",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://apply.workable.com/neurohire-dot-a-i/j/FC707275E0/apply",
+   "apply_url": "https://apply.workable.com/neurohire-dot-a-i/j/FC707275E0/apply",
+   "posted": "2026-11-06",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "simplify:742f8737-3d0b-47b7-9dc3-858de72e66c5",
+   "company": "Persimmons.ai",
+   "title": "Design Verification Engineer New Grad - AI-Driven",
+   "location": "San Jose, CA",
+   "remote": false,
+   "url": "https://apply.workable.com/persimmons-ai/j/E8AF3CDFB3/apply",
+   "apply_url": "https://apply.workable.com/persimmons-ai/j/E8AF3CDFB3/apply",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "simplify:e286c81e-9d91-47e7-9629-9185635680de",
+   "company": "neurohire.ai",
+   "title": "Software AI Engineer",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://apply.workable.com/neurohire-dot-a-i/j/E5A5756725/apply",
+   "apply_url": "https://apply.workable.com/neurohire-dot-a-i/j/E5A5756725/apply",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "simplify:648dc7ad-8b3e-4c59-b691-a9223a156a3f",
+   "company": "BetterHelp",
+   "title": "Data Science Extern",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://job-boards.greenhouse.io/betterhelpcom/jobs/5439919008",
+   "apply_url": "https://job-boards.greenhouse.io/betterhelpcom/jobs/5439919008",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "simplify:9a9fd8bb-c8ac-43e1-9508-984e213b5172",
+   "company": "Regeneron Pharmaceuticals",
+   "title": "Data Analyst - Quality Assurance",
+   "location": "Troy, NY",
+   "remote": false,
+   "url": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/RENSS---GLOBAL-VIEW/Data-Analyst--Quality-Assurance_R52701",
+   "apply_url": "https://regeneron.wd1.myworkdayjobs.com/en-US/Careers/job/RENSS---GLOBAL-VIEW/Data-Analyst--Quality-Assurance_R52701",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "simplify:e37caf1c-8d8c-472e-9404-b37ec0454b04",
+   "company": "The Aerospace Corporation",
+   "title": "Operations Forecast Analyst",
+   "location": "Colorado Springs, CO; Chantilly, VA; El Segundo, CA",
+   "remote": false,
+   "url": "https://aero.wd5.myworkdayjobs.com/external/job/Chantilly-VA/XMLNAME-2027-Operations-Forecast-Analyst_R017089",
+   "apply_url": "https://aero.wd5.myworkdayjobs.com/external/job/Chantilly-VA/XMLNAME-2027-Operations-Forecast-Analyst_R017089",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "simplify:d202058a-5fc5-4367-a227-1ac6460a5269",
+   "company": "First National Bank",
+   "title": "Data Analytics Engineer 1",
+   "location": "Pittsburgh, PA; Hermitage, PA",
+   "remote": false,
+   "url": "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Data-Analytics-Engineer-1---Pittsburgh-or-Hermitage--PA_2026-02664",
+   "apply_url": "https://fnbcorp.wd501.myworkdayjobs.com/FNBCORP/job/Pittsburgh-PA/Data-Analytics-Engineer-1---Pittsburgh-or-Hermitage--PA_2026-02664",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "hn:50384008",
+   "company": "Sortrace",
+   "title": "Computer Vision Engineer, Junior Frontend Engineer | REMOTE (Europe), hybrid Norrköping or Stockholm",
+   "location": "",
+   "remote": true,
+   "url": "https://news.ycombinator.com/item?id=50384008",
+   "apply_url": "https://sortrace.com",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "hn-who-is-hiring",
+   "source": "hn",
+   "excerpt": "Sortrace | Computer Vision Engineer, Junior Frontend Engineer | REMOTE (Europe), hybrid Norrköping or Stockholm | Full-time | https://sortrace.com Sortrace is a small cleantech AI company in Sweden. Cameras on waste collection trucks and trained vision models flag material in the wrong fraction when bins are emptied. Customers use our platform to review deviations, images, and insights. We're ...",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:cohere:735f26a3-9456-49e2-8f84-23804534cfe4",
+   "company": "Cohere",
+   "title": "Member of Technical Staff, GPU Infrastructure",
+   "location": "Seattle; Canada; New York; California",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/cohere/735f26a3-9456-49e2-8f84-23804534cfe4",
+   "apply_url": "https://jobs.ashbyhq.com/cohere/735f26a3-9456-49e2-8f84-23804534cfe4/application",
+   "posted": "2026-11-06",
+   "comp": "$270K to $335K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:cohere:8f60b8e2-55b9-4258-a4cc-813273161f97",
+   "company": "Cohere",
+   "title": "Member of Technical Staff, ML Workload Platform",
+   "location": "Canada; United States",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/cohere/8f60b8e2-55b9-4258-a4cc-813273161f97",
+   "apply_url": "https://jobs.ashbyhq.com/cohere/8f60b8e2-55b9-4258-a4cc-813273161f97/application",
+   "posted": "2026-11-06",
+   "comp": "CA$300K to CA$420K • Offers Equity • Multiple Ranges",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "greenhouse:anthropic:5463598008",
+   "company": "Anthropic",
+   "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
+   "location": "San Francisco, CA | New York City, NY",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5463598008",
+   "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5463598008",
+   "posted": "2026-11-06",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "sponsors",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:openai:bd1ac97f-20f9-4727-9f92-7064035a416f",
+   "company": "OpenAI",
+   "title": "Data Scientist, Preparedness",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/openai/bd1ac97f-20f9-4727-9f92-7064035a416f",
+   "apply_url": "https://jobs.ashbyhq.com/openai/bd1ac97f-20f9-4727-9f92-7064035a416f/application",
+   "posted": "2026-11-06",
+   "comp": "$265K to $380K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "greenhouse:anthropic:5468937008",
+   "company": "Anthropic",
+   "title": "Research Scientist, Discovery (Engineering & Applied Sciences)",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468937008",
+   "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5468937008",
+   "posted": "2026-11-05",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "sponsors",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:openai:9471b38b-f65c-4a01-9626-bd33fca90f1d",
+   "company": "OpenAI",
+   "title": "Forward Deployed Engineer (FDE) - NYC",
+   "location": "New York City",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/9471b38b-f65c-4a01-9626-bd33fca90f1d",
+   "apply_url": "https://jobs.ashbyhq.com/openai/9471b38b-f65c-4a01-9626-bd33fca90f1d/application",
+   "posted": "2026-11-05",
+   "comp": "$185K to $300K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:openai:c90cfa58-7513-4998-a1ce-f6168dd8fc95",
+   "company": "OpenAI",
+   "title": "Forward Deployed Engineer (FDE), Financial Services- NYC",
+   "location": "New York City",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/c90cfa58-7513-4998-a1ce-f6168dd8fc95",
+   "apply_url": "https://jobs.ashbyhq.com/openai/c90cfa58-7513-4998-a1ce-f6168dd8fc95/application",
+   "posted": "2026-11-05",
+   "comp": "$185K to $300K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:openai:783704d7-5afa-45aa-899b-1d6799f73004",
+   "company": "OpenAI",
+   "title": "Software Engineer, Agent Platform",
+   "location": "San Francisco; New York City",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/783704d7-5afa-45aa-899b-1d6799f73004",
+   "apply_url": "https://jobs.ashbyhq.com/openai/783704d7-5afa-45aa-899b-1d6799f73004/application",
+   "posted": "2026-11-05",
+   "comp": "$230K to $385K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:openai:9c1aa1f3-b4d0-48fa-814b-37d36ad0ad2e",
+   "company": "OpenAI",
+   "title": "Forward Deployed Engineer (FDE), Cyber - NYC",
+   "location": "New York City; San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/9c1aa1f3-b4d0-48fa-814b-37d36ad0ad2e",
+   "apply_url": "https://jobs.ashbyhq.com/openai/9c1aa1f3-b4d0-48fa-814b-37d36ad0ad2e/application",
+   "posted": "2026-11-05",
+   "comp": "$185K to $300K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-06"
+  },
+  {
+   "id": "ashby:openai:a84e6109-142f-45ae-80e1-05811732cca1",
+   "company": "OpenAI",
+   "title": "Forward Deployed Engineer (FDE), Cyber - SF",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/openai/a84e6109-142f-45ae-80e1-05811732cca1",
+   "apply_url": "https://jobs.ashbyhq.com/openai/a84e6109-142f-45ae-80e1-05811732cca1/application",
+   "posted": "2026-11-05",
+   "comp": "$185K to $300K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-06"
+  }
+ ],
+ "papers": [
+  {
+   "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+   "url": "https://huggingface.co/papers/2611.08449",
+   "arxiv": "https://arxiv.org/abs/2611.08449",
+   "upvotes": 78,
+   "github": "",
+   "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast ...",
+   "published": "2026-11-05T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+   "url": "https://huggingface.co/papers/2611.04277",
+   "arxiv": "https://arxiv.org/abs/2611.04277",
+   "upvotes": 51,
+   "github": "https://github.com/DeepExperience/Harness-S",
+   "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains ...",
+   "published": "2026-11-03T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+   "url": "https://huggingface.co/papers/2611.00883",
+   "arxiv": "https://arxiv.org/abs/2611.00883",
+   "upvotes": 49,
+   "github": "https://github.com/George-Ling3/BestRand",
+   "summary": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produce much larger ...",
+   "published": "2026-10-31T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+   "url": "https://huggingface.co/papers/2611.07392",
+   "arxiv": "https://arxiv.org/abs/2611.07392",
+   "upvotes": 37,
+   "github": "",
+   "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared ...",
+   "published": "2026-11-05T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+   "url": "https://huggingface.co/papers/2611.06741",
+   "arxiv": "https://arxiv.org/abs/2611.06741",
+   "upvotes": 34,
+   "github": "https://github.com/Lyricccco/tailsteer",
+   "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are difficult to scale to ...",
+   "published": "2026-11-04T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+   "url": "https://huggingface.co/papers/2611.08373",
+   "arxiv": "https://arxiv.org/abs/2611.08373",
+   "upvotes": 32,
+   "github": "",
+   "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore ...",
+   "published": "2026-11-05T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "EvoMemState: Evolving Memory State for Personal Agents",
+   "url": "https://huggingface.co/papers/2611.03743",
+   "arxiv": "https://arxiv.org/abs/2611.03743",
+   "upvotes": 20,
+   "github": "https://github.com/XMUDeepLIT/EvoMemState",
+   "summary": "Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining user information across interactions. Existing systems support this process through fact extraction, organization, updating, and retrieval, but largely maintain memories as independent facts. This fact-centric paradigm may overlook how new facts update, constrain, or conflict with earlier ones, while ...",
+   "published": "2026-11-02T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "VisSearch-Bench: Evaluating Long Horizon Visual Search in Multimodal Agents",
+   "url": "https://huggingface.co/papers/2611.04894",
+   "arxiv": "https://arxiv.org/abs/2611.04894",
+   "upvotes": 17,
+   "github": "https://github.com/antins-labs/VisSearch-Bench-v1",
+   "summary": "Multimodal agents use web and image tools to answer questions beyond their internal knowledge. Some search tasks use images mainly to identify an initial entity, then rely on text retrieval. These tasks offer limited insight into how agents connect information across images, objects, and search steps. We therefore focus on visual context management. This involves organizing and using visual information and linking ...",
+   "published": "2026-11-03T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Towards Foundation Decision Models: Drex",
+   "url": "https://huggingface.co/papers/2611.07854",
+   "arxiv": "https://arxiv.org/abs/2611.07854",
+   "upvotes": 15,
+   "github": "https://github.com/nace-ai/drex-decision-models",
+   "summary": "Autoregressive approaches with large language models, such as long chain-of-thought reasoning, have become the default for new AI applications because they reach higher accuracy on a wide range of tasks. In production, however, they give inconsistent answers, require parsing of outputs, and add cost and latency. Decision models address this: given a question and a set of options supplied by the user, they return a ...",
+   "published": "2026-11-05T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
+   "url": "https://huggingface.co/papers/2611.06817",
+   "arxiv": "https://arxiv.org/abs/2611.06817",
+   "upvotes": 14,
+   "github": "",
+   "summary": "Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanScale, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanScale-50K---a curated egocentric video corpus densely annotated with hand ...",
+   "published": "2026-11-04T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "How to Measure AI Adoption, Performance, and ROI With 12 KPIs",
+   "url": "https://towardsdatascience.com/how-to-measure-ai-adoption-performance-and-roi-with-12-kpis/",
+   "published": "2026-11-06T16:30:00Z",
+   "summary": "Includes a worked example with 50 users and $110,000 in first-year cost, plus baselines, targets, and ownership rules for every AI initiative. The post How to Measure AI Adoption, Performance, and ROI With 12 KPIs appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Safe and Efficient Multi-Epoch Embedding Training",
+   "url": "https://medium.com/pinterest-engineering/safe-and-efficient-multi-epoch-embedding-training-103bec2abc83?source=rss----4c5a5f6279b6---4",
+   "published": "2026-11-06T16:01:03Z",
+   "summary": "",
+   "source": "Pinterest Engineering",
+   "topic": "systems"
+  },
+  {
+   "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+   "url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+   "published": "2026-11-06T15:10:53Z",
+   "summary": "As systems biology efforts heat up to map biology at higher resolution, greater breadth and more modalities, Fabian Theis is pushing the frontier from mapping to predicting to controlling biology",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "How to Manage Python Environments with uv Instead of venv and pip",
+   "url": "https://towardsdatascience.com/how-to-manage-python-environments-with-uv-instead-of-venv-and-pip/",
+   "published": "2026-11-06T15:00:00Z",
+   "summary": "A side-by-side walkthrough of venv plus pip and uv init, uv add, uv run, and uv sync, with a lockfile that recreates the project on another machine. The post How to Manage Python Environments with uv Instead of venv and pip appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Give Your AI Agent Memory",
+   "url": "https://www.kdnuggets.com/how-to-give-your-ai-agent-memory",
+   "published": "2026-11-06T15:00:00Z",
+   "summary": "Learn how to give AI agents long-term memory using the OpenAI Agents SDK, Mem0, and MCP to remember preferences, context, and important information across sessions.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+   "url": "https://huggingface.co/blog/allenai/toyblocks",
+   "published": "2026-11-06T14:00:48Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Build Your First Multi-Tool AI Agent with Ollama and Python",
+   "url": "https://towardsdatascience.com/build-your-first-multi-tool-ai-agent-with-ollama-and-python/",
+   "published": "2026-11-06T13:30:00Z",
+   "summary": "AI Agents for Beginners, Part 2: The agent picks between three database tools, uses each result to choose its next call, and stops at an eight-turn circuit-breaker if it gets stuck. The post Build Your First Multi-Tool AI Agent with Ollama and Python appeared first on Towards ...",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Top 7 Python Libraries for Time Series Analysis and Modeling",
+   "url": "https://www.kdnuggets.com/top-7-python-libraries-for-time-series-analysis-and-modeling",
+   "published": "2026-11-06T13:00:00Z",
+   "summary": "Working with time series data? These Python libraries cover everything from classical forecasting to deep learning and anomaly detection.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Give Your Python AI Agent Persistent Memory with One JSON File",
+   "url": "https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/",
+   "published": "2026-11-06T12:00:00Z",
+   "summary": "Three Python classes, an OpenRouter key, and gpt-4.1-mini give the agent a calculator, a stub web search, and conversation recall that survives restarts. The post Give Your Python AI Agent Persistent Memory with One JSON File appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+   "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+   "published": "2026-11-06T10:35:21Z",
+   "summary": "November 5, 2026 , Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+   "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+   "published": "2026-11-06T00:00:00Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Cult.fit builds operational muscle with Codex",
+   "url": "https://openai.com/index/cultfit-builds-with-codex",
+   "published": "2026-11-05T20:00:00Z",
+   "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+   "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+   "published": "2026-11-05T19:35:16Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Australian universities are creating AI-native graduates",
+   "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+   "published": "2026-11-05T17:00:00Z",
+   "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+   "url": "https://openai.com/index/introducing-gpt-6-cyber",
+   "published": "2026-11-05T09:00:00Z",
+   "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Merge builds product and business tools with OpenAI technology",
+   "url": "https://openai.com/index/merge-builds-with-openai",
+   "published": "2026-11-05T08:00:00Z",
+   "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Flipsnack grows product signups with conversion optimization",
+   "url": "https://openai.com/ads/customers/flipsnack",
+   "published": "2026-11-05T00:45:15Z",
+   "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Franklin Templeton uses OpenAI to support investment research",
+   "url": "https://openai.com/index/franklin-templeton",
+   "published": "2026-11-05T00:00:00Z",
+   "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Claude Code sends your email address to websites",
+   "url": "https://github.com/anthropics/claude-code/issues/107757",
+   "discussion": "https://news.ycombinator.com/item?id=50385272",
+   "points": 1485,
+   "comments": 463,
+   "published": "2026-11-05T22:17:15Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+   "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+   "discussion": "https://news.ycombinator.com/item?id=50385870",
+   "points": 471,
+   "comments": 216,
+   "published": "2026-11-05T23:09:57Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Hungary: Communist-era files released, up to 60k former agents revealed",
+   "url": "https://www.euronews.com/2026/11/04/hungary-communist-era-files-opened-up-to-60000-former-agents-revealed",
+   "discussion": "https://news.ycombinator.com/item?id=50383163",
+   "points": 230,
+   "comments": 70,
+   "published": "2026-11-05T19:16:34Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Gemini Omni 1.2 Flash",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "discussion": "https://news.ycombinator.com/item?id=50392118",
+   "points": 204,
+   "comments": 157,
+   "published": "2026-11-06T13:35:27Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+   "discussion": "https://news.ycombinator.com/item?id=50382179",
+   "points": 162,
+   "comments": 191,
+   "published": "2026-11-05T18:00:01Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "I struggle to believe that AI R&D is ingenious",
+   "url": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+   "discussion": "https://news.ycombinator.com/item?id=50388513",
+   "points": 160,
+   "comments": 159,
+   "published": "2026-11-06T05:19:04Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Launch HN: Rivet (YC W23) to Scale and Orchestrate Agents on S3",
+   "url": "https://github.com/rivet-dev/rivet",
+   "discussion": "https://news.ycombinator.com/item?id=50381687",
+   "points": 116,
+   "comments": 58,
+   "published": "2026-11-05T17:17:42Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Building a Multi-Agent System from Scratch: Architecture Patterns",
+   "url": "https://kadhar.dev/blog/multi-agent-systems-from-scratch",
+   "discussion": "https://news.ycombinator.com/item?id=50380658",
+   "points": 100,
+   "comments": 41,
+   "published": "2026-11-05T15:51:57Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Show HN: Stroq to a local audit of what your coding agent did and why",
+   "url": "https://github.com/AGGIB/Stroq",
+   "discussion": "https://news.ycombinator.com/item?id=50380704",
+   "points": 89,
+   "comments": 34,
+   "published": "2026-11-05T15:54:41Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+   "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+   "discussion": "https://news.ycombinator.com/item?id=50392499",
+   "points": 87,
+   "comments": 43,
+   "published": "2026-11-06T14:13:09Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "ICLR 2027 Review Scores [N]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xpedgc/iclr_2027_review_scores_n/",
+   "published": "2026-11-06T14:37:41Z",
+   "summary": "submitted by /u/No-Lab4175 [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "The Ultimate MoE Training Handbook: training Mixture-of-Experts models with Megatron-LM, setting by setting [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xorgq0/the_ultimate_moe_training_handbook_training/",
+   "published": "2026-11-05T19:13:51Z",
+   "summary": "Handbook: https://huggingface.co/spaces/huggingface/moe-blogpost Hello, I'm Nouamane, one of the authors. I'm at Hugging Face and also worked on the Ultra-Scale and Smol Training Playbooks, if you've read those. This handbook is for people who have trained a dense model and want ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "ICLR 2027 Reviews are out [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xpc9sh/iclr_2027_reviews_are_out_d/",
+   "published": "2026-11-06T13:03:09Z",
+   "summary": "How did it go? I will start: 3/3/2 submitted by /u/mr_carlduke [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "ICLR27: Reviewer says my paper is too close to the same paper that I previously had in a workshop. [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xpf4t6/iclr27_reviewer_says_my_paper_is_too_close_to_the/",
+   "published": "2026-11-06T15:09:18Z",
+   "summary": "I submitted my paper to ICLR, after improving and correcting since I \"published\" it previously in a workshop/arXiv. In this process, I changed the name of the method and title. Now a reviewer, pointed out that my method is very closely related to basically an old version of my ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "How do you build visibility through open source contributions?[D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xp90lz/how_do_you_build_visibility_through_open_source/",
+   "published": "2026-11-06T09:55:15Z",
+   "summary": "I’m an MSc CS student with a background in 3D computer vision, trying to figure out how to build visibility and credibility in the AI/ML community. I’ve been thinking about contributing to established open source projects rather than building standalone GitHub projects ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Looking for Emergency Reviewers [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xoqca2/looking_for_emergency_reviewers_r/",
+   "published": "2026-11-05T18:31:03Z",
+   "summary": "We’re looking for a few emergency reviewers for the FABRIC Workshop at WACV 2027 due to a very tight review timeline. If you have expertise in computer vision, multimodal learning, physiological sensing, healthcare AI, affective computing, or related areas and can complete a ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Maybe we'll get cheap RAM for Christmas after all!",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xovnaa/maybe_well_get_cheap_ram_for_christmas_after_all/",
+   "published": "2026-11-05T22:00:25Z",
+   "summary": "submitted by /u/keepthepace [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Qwen 4 is stealth announced",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjku/qwen_4_is_stealth_announced/",
+   "published": "2026-11-06T12:26:17Z",
+   "summary": "https://x.com/Alibaba_Qwen/status/2118674834632978755?a=nkzlqosWXNqruaMWsVI&s=20 submitted by /u/Bestlife73 [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Z.ai chief scientist Jie Tang just revealed the training pipeline behind the upcoming GLM-5.5 (32B, 122B, and 256B)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xossr5/zai_chief_scientist_jie_tang_just_revealed_the/",
+   "published": "2026-11-05T20:06:15Z",
+   "summary": "Smaller GLM models are coming! GLM 5.5 will have a 32B model! submitted by /u/wapswaps [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Asking questions to a 0.5b model is hillarious",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp8as6/asking_questions_to_a_05b_model_is_hillarious/",
+   "published": "2026-11-06T09:07:37Z",
+   "summary": "Yes IK it's supposed to be this dumb, but it's still funny (Qwen2 0.5b Q4_K_M) submitted by /u/Pro-editor-1105 [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Qwen - the becoming begins",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpbjzi/qwen_the_becoming_begins/",
+   "published": "2026-11-06T12:26:54Z",
+   "summary": "https://x.com/Alibaba_Qwen/status/2118674834632978755 Official interpretation: Qwhen? Qsoon! For our friends outside China, the Chinese text in the poster comes from Zhuangzi, an ancient Chinese classic: \"Far in the northern sea lives a fish named Kun (pronounced like Qwen). So ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Latest Open-Source Labs are gutting away cybersecurity and reverse-engineering capabilities",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xp9jt1/latest_opensource_labs_are_gutting_away/",
+   "published": "2026-11-06T10:28:37Z",
+   "summary": "Kimi K3.1 and Tencent’s Hy4 are both gutting out cybersecurity, reverse engineering, and vulnerability-patching capabilities from their open-source models. This is becoming a really bad pattern across these latest Chinese open-weight models. If local models are stripped on their ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  }
+ ],
+ "videos": [],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
