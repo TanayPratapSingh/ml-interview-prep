@@ -1,0 +1,339 @@
+{
+ "date": "2026-11-08",
+ "generated_at": "2026-11-08T16:43:18Z",
+ "counts": {
+  "jobs_open": 870,
+  "jobs_new": 1,
+  "papers": 10,
+  "posts": 3,
+  "hn": 6,
+  "reddit": 12,
+  "videos": 0,
+  "interview_intel": 0,
+  "errors": 5
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:6c6b37b8-2259-4edd-ae65-128df2b447ea",
+   "company": "Artificial Analysis",
+   "title": "Robotics Research Assistant",
+   "location": "SF",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/artificialanalysis/45f1b5ed-b508-4a4e-8f5f-fdaacb1bac8f/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/artificialanalysis/45f1b5ed-b508-4a4e-8f5f-fdaacb1bac8f/application?embed=true",
+   "posted": "2026-11-07",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-08"
+  }
+ ],
+ "papers": [
+  {
+   "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+   "url": "https://huggingface.co/papers/2611.05376",
+   "arxiv": "https://arxiv.org/abs/2611.05376",
+   "upvotes": 114,
+   "github": "",
+   "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that ...",
+   "published": "2026-11-03T18:59:52Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+   "url": "https://huggingface.co/papers/2611.08449",
+   "arxiv": "https://arxiv.org/abs/2611.08449",
+   "upvotes": 104,
+   "github": "",
+   "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast ...",
+   "published": "2026-11-05T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+   "url": "https://huggingface.co/papers/2611.08373",
+   "arxiv": "https://arxiv.org/abs/2611.08373",
+   "upvotes": 88,
+   "github": "",
+   "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore ...",
+   "published": "2026-11-05T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+   "url": "https://huggingface.co/papers/2611.02075",
+   "arxiv": "https://arxiv.org/abs/2611.02075",
+   "upvotes": 81,
+   "github": "",
+   "summary": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, while a ...",
+   "published": "2026-11-01T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+   "url": "https://huggingface.co/papers/2611.04277",
+   "arxiv": "https://arxiv.org/abs/2611.04277",
+   "upvotes": 66,
+   "github": "https://github.com/DeepExperience/Harness-S",
+   "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy that remains ...",
+   "published": "2026-11-03T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+   "url": "https://huggingface.co/papers/2611.00883",
+   "arxiv": "https://arxiv.org/abs/2611.00883",
+   "upvotes": 50,
+   "github": "https://github.com/George-Ling3/BestRand",
+   "summary": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produce much larger ...",
+   "published": "2026-10-31T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+   "url": "https://huggingface.co/papers/2611.07392",
+   "arxiv": "https://arxiv.org/abs/2611.07392",
+   "upvotes": 44,
+   "github": "",
+   "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbone combines shared ...",
+   "published": "2026-11-05T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+   "url": "https://huggingface.co/papers/2611.06741",
+   "arxiv": "https://arxiv.org/abs/2611.06741",
+   "upvotes": 40,
+   "github": "https://github.com/Lyricccco/tailsteer",
+   "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are difficult to scale to ...",
+   "published": "2026-11-04T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+   "url": "https://huggingface.co/papers/2611.04408",
+   "arxiv": "https://arxiv.org/abs/2611.04408",
+   "upvotes": 33,
+   "github": "",
+   "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fixed spare ratio ...",
+   "published": "2026-11-03T06:45:50Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "EvoMemState: Evolving Memory State for Personal Agents",
+   "url": "https://huggingface.co/papers/2611.03743",
+   "arxiv": "https://arxiv.org/abs/2611.03743",
+   "upvotes": 32,
+   "github": "https://github.com/XMUDeepLIT/EvoMemState",
+   "summary": "Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining user information across interactions. Existing systems support this process through fact extraction, organization, updating, and retrieval, but largely maintain memories as independent facts. This fact-centric paradigm may overlook how new facts update, constrain, or conflict with earlier ones, while ...",
+   "published": "2026-11-02T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "How to Build Multi-Agent Systems with the OpenAI Agents SDK",
+   "url": "https://towardsdatascience.com/how-to-build-multi-agent-systems-with-the-openai-agents-sdk/",
+   "published": "2026-11-08T15:00:00Z",
+   "summary": "Build an EV purchase adviser and a support agent in Python, then see how fan-out, pipelines, hierarchies, and swarms reuse the same building blocks. The post How to Build Multi-Agent Systems with the OpenAI Agents SDK appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "What it actually takes to build frontier models | Tulsee Doshi (Head of Product for Gemini)",
+   "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+   "published": "2026-11-08T13:31:32Z",
+   "summary": "Listen now (59 mins) | Tulsee Doshi on building Google’s frontier models, why evals and vibes both matter, and her 60-20-20 framework for shipping ahead of the curve",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "Change One Monty Hall Rule and Five LLMs Still Say Switch",
+   "url": "https://towardsdatascience.com/change-one-monty-hall-rule-and-five-llms-still-say-switch/",
+   "published": "2026-11-08T13:00:00Z",
+   "summary": "Even with step-by-step reasoning, the models landed near 33% accuracy, and one quoted the host's rule correctly before ignoring it. The post Change One Monty Hall Rule and Five LLMs Still Say Switch appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Goodbye Claude, hello Pi",
+   "url": "https://caleb.software/posts/claude-to-pi.html",
+   "discussion": "https://news.ycombinator.com/item?id=50410107",
+   "points": 534,
+   "comments": 342,
+   "published": "2026-11-08T03:11:48Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "discussion": "https://news.ycombinator.com/item?id=50407882",
+   "points": 496,
+   "comments": 356,
+   "published": "2026-11-07T20:45:32Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The end of Microsoft Research's AI Frontiers group",
+   "url": "https://hunch.net/?p=13764006",
+   "discussion": "https://news.ycombinator.com/item?id=50406563",
+   "points": 480,
+   "comments": 294,
+   "published": "2026-11-07T18:02:17Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+   "url": "https://github.com/synchopate/llama-modchip",
+   "discussion": "https://news.ycombinator.com/item?id=50411961",
+   "points": 162,
+   "comments": 53,
+   "published": "2026-11-08T10:22:04Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Agent memory needs its OpenTelemetry moment",
+   "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+   "discussion": "https://news.ycombinator.com/item?id=50411467",
+   "points": 119,
+   "comments": 87,
+   "published": "2026-11-08T08:40:23Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The End of AI Frontiers",
+   "url": "https://hunch.net/?p=13764006",
+   "discussion": "https://news.ycombinator.com/item?id=50406589",
+   "points": 81,
+   "comments": 4,
+   "published": "2026-11-07T18:04:07Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "What if diffusion models generates Neural Network weights? Gen AI generate Gen AI [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xqsl8d/what_if_diffusion_models_generates_neural_network/",
+   "published": "2026-11-08T07:20:37Z",
+   "summary": "I'have been dreaming about using a Diffusion Model that will generates Weights instead of pixels. Diffusion models actually are vast used in order to generate from a natural language text description into images, and what is an image? a three dimensional matrix of value ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "NeurIPS 2026 Camera-Ready Deadline Extended? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xqk48t/neurips_2026_cameraready_deadline_extended_d/",
+   "published": "2026-11-07T23:34:19Z",
+   "summary": "I thought the deadline was Nov 6, but I can still edit my paper on OpenReview. Was the deadline extended? Anyone know? submitted by /u/RelationshipIcy7915 [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "NeurIPS SlidesLive [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xqw2n9/neurips_slideslive_d/",
+   "published": "2026-11-08T11:12:05Z",
+   "summary": "Does anyone know what this NeurIPS Slides live is? I got an email saying \"We are SlidesLive, the recording company partnered with NeurIPS to record your talk. We are ready to collect and edit your recording\" with some instructions. This was never mentioned in the official emails ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "GRFNet, PyTorch model for multichannel time-series classification [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xqqj67/grfnet_pytorch_model_for_multichannel_timeseries/",
+   "published": "2026-11-08T05:13:11Z",
+   "summary": "Hi all, Through my MSc work on EEG decoding, I built a novel (partially) architecture tailored to the constraints of EEG. The datasets are small, the subject variability is high, and signal acquisition variables differ significantly. I’ve now extracted that model to develop into ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Locally trained VLA model with minimal attention based vision encoder. [p]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xqrtcz/locally_trained_vla_model_with_minimal_attention/",
+   "published": "2026-11-08T06:31:08Z",
+   "summary": "Hi y’all. Thought Id share the progress on my current local VLA agent project! using agent and language somewhat loosely here. Technically it is an agent, and technically it does adhere to text prompts. However very minimally. Video Link ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Advice needed regarding classical ML conference submission [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xqqrof/advice_needed_regarding_classical_ml_conference/",
+   "published": "2026-11-08T05:26:57Z",
+   "summary": "Hi, I need some advice on submission of classical ML papers in top conferences. During my PhD I made some findings in classical ML (related to SVM and LR) which, on further deep diving, looks like original work (I checked with chatGPT and Gemini too). When I tried to submit them ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Use your phone to monitor anything with local models! Demo of my Open Source and 100% local agent (iOS and Android!)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
+   "published": "2026-11-07T18:16:41Z",
+   "summary": "Hey r/LocalLLaMA ! I made this quick demo of how Observer can run local models to monitor anything with your phone! These are some crazy things I've monitored: When someone that's not me, approaches my car, send me a picture. When a bird is on the bird's nest, send me a telegram ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "\"Does censorship exist in [country]?\", according to various LLMs",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/",
+   "published": "2026-11-08T14:56:07Z",
+   "summary": "I wrote a small program that asks the same Yes/No question about every country to a language model, and generates an SVG world map that visualizes the model's responses: https://github.com/p-e-w/llm-beliefs I'm rather surprised by the results... submitted by /u/-p-e-w- [link] ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Users have started buying RTX 5060 Ti 16GB graphics cards en masse for the sake of AI.",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr01bj/users_have_started_buying_rtx_5060_ti_16gb/",
+   "published": "2026-11-08T14:45:22Z",
+   "summary": "Oh look, thats us! submitted by /u/ab2377 [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Effects of KV Cache Quantization on Qwen3.8 27B",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
+   "published": "2026-11-07T17:09:51Z",
+   "summary": "KV cache quantization has been a hotly-debated topic for this community for some time, with opinions ranging from \"never quantize\" to \"4 bit is fine\". Since the anecdotal evidence is rather inconsistent, I decided to quantify how much KV cache quantization affects the model ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "The Stylome bot is useless spam and should be removed",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqinb7/the_stylome_bot_is_useless_spam_and_should_be/",
+   "published": "2026-11-07T22:24:14Z",
+   "summary": "I've recently been seeing comments everywhere from the Stylome bot, which is also a mod in this sub. Every time it pops up to declare a comment was AI written I've gone in to check its confidence level, and it's always low. I decided to do a few tests myself and have Gemini ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Anyone running local AI on 16GB vram?",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqjenw/anyone_running_local_ai_on_16gb_vram/",
+   "published": "2026-11-07T23:00:19Z",
+   "summary": "Hey everyone, Is anyone here running any useful AI agents, harnesses or toolings with local AI on 16GB vram? I'm currently setting up my system and I want to have a helper agent for daily tasks, a research agent to help me research topics, and a developer agent to help me with ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  }
+ ],
+ "videos": [],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Google DeepMind",
+   "error": "not well-formed (invalid token): line 1, column 0"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
