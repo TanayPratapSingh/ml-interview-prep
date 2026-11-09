@@ -1,0 +1,605 @@
+{
+ "date": "2026-11-09",
+ "generated_at": "2026-11-09T20:50:02Z",
+ "counts": {
+  "jobs_open": 854,
+  "jobs_new": 7,
+  "papers": 10,
+  "posts": 22,
+  "hn": 11,
+  "reddit": 7,
+  "videos": 1,
+  "interview_intel": 1,
+  "errors": 4
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:6f424929-8ec3-4853-902f-a11ffcc2f277",
+   "company": "Netholabs",
+   "title": "Junior AI/ML Engineer",
+   "location": "SF",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/netholabs/a16457f4-63a5-4a75-82d4-04ea2fc4e393/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/netholabs/a16457f4-63a5-4a75-82d4-04ea2fc4e393/application?embed=true",
+   "posted": "2026-11-09",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "simplify:4ec3d85d-62a9-4b10-8936-7508a8f35bac",
+   "company": "Shield AI",
+   "title": "Engineer 1 New Grad - Software - Perception",
+   "location": "Washington, DC",
+   "remote": false,
+   "url": "https://jobs.lever.co/shieldai/cd641bcb-f613-44dd-b66d-2df360067319/apply",
+   "apply_url": "https://jobs.lever.co/shieldai/cd641bcb-f613-44dd-b66d-2df360067319/apply",
+   "posted": "2026-11-08",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "ashby:mercor:6d1de461-c08d-419c-96cf-ed38083e0976",
+   "company": "Mercor",
+   "title": "Software Engineer, Applied AI - Systems",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/mercor/6d1de461-c08d-419c-96cf-ed38083e0976",
+   "apply_url": "https://jobs.ashbyhq.com/mercor/6d1de461-c08d-419c-96cf-ed38083e0976/application",
+   "posted": "2026-11-09",
+   "comp": "$220K to $500K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "greenhouse:anthropic:5468930008",
+   "company": "Anthropic",
+   "title": "Research Scientist, Discovery (Engineering & Applied Sciences)",
+   "location": "San Francisco, CA | New York City, NY",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468930008",
+   "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5468930008",
+   "posted": "2026-11-09",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "sponsors",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "greenhouse:figma:6242701004",
+   "company": "Figma",
+   "title": "Researcher, AI Evaluations",
+   "location": "San Francisco, CA • New York, NY • United States",
+   "remote": false,
+   "url": "https://boards.greenhouse.io/figma/jobs/6242701004?gh_jid=6242701004",
+   "apply_url": "https://boards.greenhouse.io/figma/jobs/6242701004?gh_jid=6242701004",
+   "posted": "2026-11-09",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "greenhouse:anthropic:5459191008",
+   "company": "Anthropic",
+   "title": "Research Engineer, Cybersecurity RL",
+   "location": "San Francisco, CA | New York City, NY",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5459191008",
+   "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5459191008",
+   "posted": "2026-11-08",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "sponsors",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "ashby:applied:a2ddad24-2147-406f-81c9-a88f8acc77c2",
+   "company": "Applied Intuition",
+   "title": "Computer Vision Engineer",
+   "location": "Sunnyvale",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/applied/a2ddad24-2147-406f-81c9-a88f8acc77c2",
+   "apply_url": "https://jobs.ashbyhq.com/applied/a2ddad24-2147-406f-81c9-a88f8acc77c2/application",
+   "posted": "2026-11-09",
+   "comp": "$150K to $225K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "citizens_only",
+   "group": "application-log",
+   "source": "ashby",
+   "first_seen": "2026-11-09"
+  }
+ ],
+ "papers": [
+  {
+   "title": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+   "url": "https://huggingface.co/papers/2611.08264",
+   "arxiv": "https://arxiv.org/abs/2611.08264",
+   "upvotes": 60,
+   "github": "https://github.com/zju3dv/SplatAnything",
+   "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in Gaussian-scale ...",
+   "published": "2026-11-05T16:37:29Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+   "url": "https://huggingface.co/papers/2611.03953",
+   "arxiv": "https://arxiv.org/abs/2611.03953",
+   "upvotes": 42,
+   "github": "https://github.com/SinuoWang/P2-MOPD",
+   "summary": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, whereas task arithmetic offers a training-free alternative through linear parameter combinations. We view the linear combination of student and expert parameters as a single differentiable model and propose P^2-MOPD, which jointly optimizes the mixing coefficients and the student weights under the ...",
+   "published": "2026-11-02T20:53:15Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
+   "url": "https://huggingface.co/papers/2611.06856",
+   "arxiv": "https://arxiv.org/abs/2611.06856",
+   "upvotes": 24,
+   "github": "https://github.com/KlingAIResearch/LongBanana",
+   "summary": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully designed tasks ...",
+   "published": "2026-11-04T18:11:56Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
+   "url": "https://huggingface.co/papers/2611.07624",
+   "arxiv": "https://arxiv.org/abs/2611.07624",
+   "upvotes": 22,
+   "github": "",
+   "summary": "Agent harness evolution enables recursive self-improvement (RSI) without updating model weights. We examine whether higher benchmark scores yield reliable, efficient, and transferable improvement. We evaluate four methods across harnesses, general and coding tasks. Repeated evaluations, controlled agent expansion, component interventions, and admission replays reveal recurring patterns. All sixteen evolved agents ...",
+   "published": "2026-11-05T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Fast and Exact Relative-Position Attention via Structure-Aware Kernels",
+   "url": "https://huggingface.co/papers/2611.01182",
+   "arxiv": "https://arxiv.org/abs/2611.01182",
+   "upvotes": 19,
+   "github": "",
+   "summary": "Relative-position attention mechanisms offer compelling alternatives to RoPE across various transformer architectures, delivering superior performance in domains such as audio. These mechanisms typically modify attention scores by adding content-position or bias-position terms. Unlike RoPE, which encodes position via per-token rotations directly on the queries and keys, relative-position terms generally require ...",
+   "published": "2026-10-31T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+   "url": "https://huggingface.co/papers/2611.06748",
+   "arxiv": "https://arxiv.org/abs/2611.06748",
+   "upvotes": 19,
+   "github": "https://github.com/Tommy-Bie/EvoWorld",
+   "summary": "Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering plausible pixels rather than reasoning about how a world should evolve. Coherent world evolution requires more than visual fidelity: when an event occurs, a model must infer its consequences for the entities in the world and then render the resulting state. For example, after a wild beast appears ...",
+   "published": "2026-11-04T16:26:45Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+   "url": "https://huggingface.co/papers/2611.08175",
+   "arxiv": "https://arxiv.org/abs/2611.08175",
+   "upvotes": 18,
+   "github": "https://github.com/chip-ai-agent/PCBRouteAgent",
+   "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with local execution. A ...",
+   "published": "2026-11-05T15:31:15Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+   "url": "https://huggingface.co/papers/2611.06043",
+   "arxiv": "https://arxiv.org/abs/2611.06043",
+   "upvotes": 18,
+   "github": "https://github.com/netease-youdao/Confucius4-R2T2",
+   "summary": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy and low latency ...",
+   "published": "2026-11-04T06:46:50Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting",
+   "url": "https://huggingface.co/papers/2611.06808",
+   "arxiv": "https://arxiv.org/abs/2611.06808",
+   "upvotes": 16,
+   "github": "",
+   "summary": "Financial backtests of large language models (LLMs) are meaningful only if the model did not already know the outcomes it is asked to predict. Practitioners guard against this by trusting a vendor's stated knowledge cutoff, by asking the model what it knows, or by instructing it to answer as of a past date. To verify whether any of these safeguards can be trusted, we introduce FinDendro, a benchmark of 2,226 dated ...",
+   "published": "2026-11-04T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Video-Coder: Reinforcing Agentic Coding for Video Generation",
+   "url": "https://huggingface.co/papers/2611.09894",
+   "arxiv": "https://arxiv.org/abs/2611.09894",
+   "upvotes": 15,
+   "github": "https://github.com/CYWang735/Video-Coder",
+   "summary": "Recent years have witnessed remarkable progress in video generation in terms of visual quality and temporal consistency. However, generating videos with precise spatial structure, coherent motion dynamics, and controllable scene composition remains challenging. In this paper, we introduce Video-Coder, the first attempt to train a code-driven video generation agent, which autonomously writes and executes code to ...",
+   "published": "2026-11-06T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
+   "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
+   "published": "2026-11-09T20:37:49Z",
+   "summary": "Watch now (25 mins) | 🎙️ My first-look at Fable 5.2: what it built for me, where it fell down, and whether it belongs in your daily AI stack",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "Exploring the world's languages with Language Explorer",
+   "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer/",
+   "published": "2026-11-09T20:29:39Z",
+   "summary": "Natural Language Processing",
+   "source": "Google Research",
+   "topic": "research"
+  },
+  {
+   "title": "ChatGPT Enterprise now available in AWS Marketplace",
+   "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+   "published": "2026-11-09T19:00:00Z",
+   "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "AI Product Management at Spotify: A View From Three Angles",
+   "url": "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles/",
+   "published": "2026-11-09T17:53:35Z",
+   "summary": "Almost every article or podcast about product management and AI refers to \"the AI PM\" as one job. But what... The post AI Product Management at Spotify: A View From Three Angles appeared first on Spotify Engineering .",
+   "source": "Spotify Engineering",
+   "topic": "systems"
+  },
+  {
+   "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI , Garrett Lord & Team",
+   "url": "https://latent.space/p/handshake/",
+   "published": "2026-11-09T17:15:53Z",
+   "summary": "Handshake went from launch to $1B in one year pushing the envelope of specialized data for frontier labs. Our first deep dive into a data lab with specific examples across Finance, Bio, and Alignment",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
+   "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4",
+   "published": "2026-11-09T17:01:02Z",
+   "summary": "",
+   "source": "Netflix TechBlog",
+   "topic": "systems"
+  },
+  {
+   "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+   "url": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+   "published": "2026-11-09T17:00:12Z",
+   "summary": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. It separates shared debugger infrastructure from hardware-specific device control. The design represents the CPU and GPU as separate debugger processes ...",
+   "source": "Meta Engineering",
+   "topic": "systems"
+  },
+  {
+   "title": "Continuous Batching Beats Static and Dynamic by Up to 2.91× in vLLM",
+   "url": "https://towardsdatascience.com/continuous-batching-beats-static-and-dynamic-by-up-to-291-in-vllm/",
+   "published": "2026-11-09T16:30:00Z",
+   "summary": "For anyone running an inference server: a zero-variance control, five traffic traces, and an engine-vs-scheduler split show where the gains come from. The post Continuous Batching Beats Static and Dynamic by Up to 2.91× in vLLM appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
+   "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
+   "published": "2026-11-09T16:01:20Z",
+   "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+   "published": "2026-11-09T15:05:57Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Ask AI to Refine Your Ideas, Not Invent Them",
+   "url": "https://towardsdatascience.com/ask-ai-to-refine-your-ideas-not-invent-them/",
+   "published": "2026-11-09T15:00:00Z",
+   "summary": "Studies of short stories, metaphors, and 486 participants point one way, an 800-person experiment points the other, and the author weighs both. The post Ask AI to Refine Your Ideas, Not Invent Them appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Can AI Spot Data Leakage Before Your Model Hits 99% Accuracy?",
+   "url": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
+   "published": "2026-11-09T15:00:00Z",
+   "summary": "4 classic leaks, planted in real data, tested cold on 4 models.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Estimate the Recall of AI Agents with Capture-Recapture",
+   "url": "https://towardsdatascience.com/how-to-estimate-the-recall-of-ai-agents-with-capture-recapture/",
+   "published": "2026-11-09T13:30:00Z",
+   "summary": "A fisheries estimator from the 1890s, tested on 294 CUAD contracts, landed within 2 points of true recall for most agents with a 10% hand audit. The post How to Estimate the Recall of AI Agents with Capture-Recapture appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How this founder built a better Duolingo with Codex | William Imoh",
+   "url": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
+   "published": "2026-11-09T13:04:17Z",
+   "summary": "Watch now (39 mins) | 🎙️ Hackmamba founder William Imoh shows the native app he built with Codex to learn Norwegian, and the Lord of the Rings Grok bot fellowship that helps run his company",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "5 Useful Python Automation Scripts for Beginners",
+   "url": "https://www.kdnuggets.com/5-useful-python-automation-scripts-for-beginners",
+   "published": "2026-11-09T13:00:00Z",
+   "summary": "Learn how to use Python scripts to automate repetitive tasks, organize files, process images, and simplify daily workflows.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+   "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+   "published": "2026-11-09T12:34:29Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Quantile Regression Caught the House Price OLS Missed by $55K",
+   "url": "https://towardsdatascience.com/quantile-regression-caught-the-house-price-ols-missed-by-55k/",
+   "published": "2026-11-09T12:00:00Z",
+   "summary": "On 88 house sales, OLS predicted $164K for a $219K home, while a 90% interval from 5th and 95th percentile models spanned $136K to $227K. The post Quantile Regression Caught the House Price OLS Missed by $55K appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "BAIR at CoRL 2026",
+   "url": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026/",
+   "published": "2026-11-09T09:00:00Z",
+   "summary": "The Conference on Robot Learning (CoRL) takes place November 9 to 12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of ...",
+   "source": "BAIR",
+   "topic": "research"
+  },
+  {
+   "title": "Kuken Industries searches 70 years of drawings in minutes",
+   "url": "https://openai.com/index/kuken",
+   "published": "2026-11-09T08:00:00Z",
+   "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Hide your slop PR descriptions behind",
+   "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+   "published": "2026-11-09T04:25:05Z",
+   "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished ...",
+   "source": "Simon Willison",
+   "topic": "llm"
+  },
+  {
+   "title": "How Stanford Teaches AI-Native Engineering , Mihail Eric, Monaco",
+   "url": "https://latent.space/p/cs146s/",
+   "published": "2026-11-08T21:41:44Z",
+   "summary": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering , Mihail Eric, Monaco",
+   "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+   "published": "2026-11-08T21:23:29Z",
+   "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfamiliar repo, propose a change, and ...",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+   "discussion": "https://news.ycombinator.com/item?id=50415628",
+   "points": 874,
+   "comments": 470,
+   "published": "2026-11-08T18:16:07Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Claude Fable 5.2 and Mythos 5.2",
+   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "discussion": "https://news.ycombinator.com/item?id=50429906",
+   "points": 608,
+   "comments": 312,
+   "published": "2026-11-09T18:56:29Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "I'm not convinced the AI bubble exists",
+   "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+   "discussion": "https://news.ycombinator.com/item?id=50418975",
+   "points": 533,
+   "comments": 910,
+   "published": "2026-11-08T23:44:36Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "How I'm fighting the AI brain fry",
+   "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+   "discussion": "https://news.ycombinator.com/item?id=50416363",
+   "points": 298,
+   "comments": 206,
+   "published": "2026-11-08T19:37:42Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+   "url": "https://news.ycombinator.com/item?id=50422628",
+   "discussion": "https://news.ycombinator.com/item?id=50422628",
+   "points": 193,
+   "comments": 63,
+   "published": "2026-11-09T08:17:49Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+   "url": "https://arxiv.org/abs/2610.14162",
+   "discussion": "https://news.ycombinator.com/item?id=50422168",
+   "points": 173,
+   "comments": 39,
+   "published": "2026-11-09T07:20:37Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Our Smallest, Most Efficient Model: Muse Ember",
+   "url": "https://research.meta.ai/blog/muse-ember",
+   "discussion": "https://news.ycombinator.com/item?id=50429024",
+   "points": 149,
+   "comments": 63,
+   "published": "2026-11-09T17:58:46Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Apple capped engineers at a $200 daily AI budget",
+   "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
+   "discussion": "https://news.ycombinator.com/item?id=50421426",
+   "points": 109,
+   "comments": 118,
+   "published": "2026-11-09T05:30:11Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+   "url": "https://github.com/OmniJev/Flide",
+   "discussion": "https://news.ycombinator.com/item?id=50421155",
+   "points": 109,
+   "comments": 27,
+   "published": "2026-11-09T04:43:12Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+   "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+   "discussion": "https://news.ycombinator.com/item?id=50415817",
+   "points": 98,
+   "comments": 126,
+   "published": "2026-11-08T18:43:07Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "DeepX claims inference up to 100B parameters at less than 5 W",
+   "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+   "discussion": "https://news.ycombinator.com/item?id=50429545",
+   "points": 86,
+   "comments": 10,
+   "published": "2026-11-09T18:33:58Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "Amazon applied science intern interview next week - EU based [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xrkiaw/amazon_applied_science_intern_interview_next_week/",
+   "published": "2026-11-09T06:31:34Z",
+   "summary": "Hi all! After multiple rejections I finally got an interview for a PhD applied science intern role at Amazon in the EU (Germany or Ams). I have two interviews scheduled after each other next week and need help preparing for those. The thing is, I have never given a technical ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Can coding agents build interactive 3D worlds? Frontier3DBench evaluates 11 configurations across objects, scenes, and worlds [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xrhg3a/can_coding_agents_build_interactive_3d_worlds/",
+   "published": "2026-11-09T03:41:21Z",
+   "summary": "Can the same coding agent build a detailed 3D object, assemble a scene, and make an interactive world actually work? Our team at Einsia released Frontier3DBench to test that progression: 145 tasks across 9 categories, with 11 model to harness configurations producing editable ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "I tried to reproduce “lost in the middle” on current models and actually couldn’t do that! [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xrn7lo/i_tried_to_reproduce_lost_in_the_middle_on/",
+   "published": "2026-11-09T09:22:10Z",
+   "summary": "Everyone keeps citing lost in the middle so, instead of going by the paper's citations, i wanted to actually check it on my own stuff, without building a labeled set for it. So i did the lazy version. make up facts the model can’t already know, drop the one document that has the ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "LoRA-conditioned model skips the first line of its output when the caption is short. Any idea why? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xrdn7p/loraconditioned_model_skips_the_first_line_of_its/",
+   "published": "2026-11-09T00:30:07Z",
+   "summary": "I'm doing an MSc project on BrickNet (kulits/BrickNet on GitHub, CVPR 2026). It writes LEGO models as plain text and fine-tunes Qwen3 (I'm using 0.6B) with LoRA: a PT adapter that learns the text format, and an SFT adapter that conditions on a caption. The text is one root line ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Latent prediction beats reconstruction for tactile pretraining on dexterous manipulation tasks[R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xs05uo/latent_prediction_beats_reconstruction_for/",
+   "published": "2026-11-09T18:52:05Z",
+   "summary": "New paper from Robbyant, with inference code and checkpoints already public. LingBot-Touch is a self-supervised tactile encoder trained JEPA-style: it predicts latent representations of masked contact instead of reconstructing raw sensor signals. The paper tests it against ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Twindex: exact, replayable proofs that your data can't tell two parameter sets apart (ODEs, PDEs, PINNs) [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xryhhg/twindex_exact_replayable_proofs_that_your_data/",
+   "published": "2026-11-09T17:50:57Z",
+   "summary": "PINNs, least squares and Bayesian fits all return a parameter. None of them tell you, with a proof, whether a very different parameter fits your data just as well. Twindex finds those \"twins\" and proves it. It writes a small JSON certificate, and an exact checker ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Weekly Entering & Transitioning - Thread 09 Nov, 2026 - 16 Nov, 2026",
+   "url": "https://www.reddit.com/r/datascience/comments/1xrix7s/weekly_entering_transitioning_thread_09_nov_2026/",
+   "published": "2026-11-09T05:01:20Z",
+   "summary": "Welcome to this week's entering & transitioning thread! This thread is for any questions about getting started, studying, or transitioning into the data science field. Topics include: Learning resources (e.g. books, tutorials, videos) Traditional education (e.g. schools ...",
+   "source": "r/datascience",
+   "topic": "community"
+  }
+ ],
+ "videos": [
+  {
+   "title": "Stanford CS193T Thinking with AI | Autumn 2026 | Introduction to AI",
+   "url": "https://www.youtube.com/watch?v=I7zvCSGMkoc",
+   "id": "I7zvCSGMkoc",
+   "published": "2026-11-09T18:00:30Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [
+  {
+   "title": "Amazon applied science intern interview next week - EU based [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xrkiaw/amazon_applied_science_intern_interview_next_week/",
+   "published": "2026-11-09T06:31:34Z",
+   "summary": "Hi all! After multiple rejections I finally got an interview for a PhD applied science intern role at Amazon in the EU (Germany or Ams). I have two interviews scheduled after each other next week and need help preparing for those. The thing is, I have never given a technical ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  }
+ ],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
