@@ -1,0 +1,674 @@
+{
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T17:56:06Z",
+ "counts": {
+  "jobs_open": 875,
+  "jobs_new": 14,
+  "papers": 10,
+  "posts": 22,
+  "hn": 9,
+  "reddit": 4,
+  "videos": 1,
+  "interview_intel": 0,
+  "errors": 6
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:1712cac2-b710-4c41-a381-3eb6e3155972",
+   "company": "SharkNinja",
+   "title": "Forward Deployed Engineer - Entry Level - THE FIN",
+   "location": "Needham, MA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4728305006",
+   "apply_url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4728305006",
+   "posted": "2026-11-11",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:d5b231df-b44c-40e0-988d-f6a55a204225",
+   "company": "GlobalFoundries",
+   "title": "AI Processor Hardware/Software Integration Engineer New Grad",
+   "location": "Richardson, TX",
+   "remote": false,
+   "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/AI-Processor-Hardware-Software-Integration-Engineer--2027-New-College-Graduate-_JR-2604093",
+   "apply_url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/AI-Processor-Hardware-Software-Integration-Engineer--2027-New-College-Graduate-_JR-2604093",
+   "posted": "2026-11-11",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:a10d7210-cc5a-4223-850b-55491ec158f7",
+   "company": "Verdantas",
+   "title": "Data Analyst 1",
+   "location": "San Diego, CA",
+   "remote": false,
+   "url": "https://verdantas.wd108.myworkdayjobs.com/Verdantas/job/San-Diego-CA-West/Data-Analyst-I_R-101337",
+   "apply_url": "https://verdantas.wd108.myworkdayjobs.com/Verdantas/job/San-Diego-CA-West/Data-Analyst-I_R-101337",
+   "posted": "2026-11-11",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:b7555ee5-4405-47c9-b5e8-ea4c9e193ea4",
+   "company": "Techstra Solutions",
+   "title": "AI Engineer",
+   "location": "Pittsburgh, PA",
+   "remote": false,
+   "url": "https://techstrasolutions.applytojob.com/apply/h0W1v7gpzI/AI-Engineer",
+   "apply_url": "https://techstrasolutions.applytojob.com/apply/h0W1v7gpzI/AI-Engineer",
+   "posted": "2026-11-10",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:ece1c6bd-de6c-4ad8-9f6a-9d029583435a",
+   "company": "Kimley-Horn",
+   "title": "GIS Analyst",
+   "location": "Fort Worth, TX",
+   "remote": false,
+   "url": "https://careers.kimley-horn.com/jobs/27674?icims=1&lang=en-us",
+   "apply_url": "https://careers.kimley-horn.com/jobs/27674?icims=1&lang=en-us",
+   "posted": "2026-11-10",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:2e6be3d8-f031-4b8c-9007-39d09012e826",
+   "company": "Rheem",
+   "title": "Product Data Analyst 1",
+   "location": "Lewisville, TX; Fort Smith, AR",
+   "remote": false,
+   "url": "https://hdde.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/4581",
+   "apply_url": "https://hdde.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/4581",
+   "posted": "2026-11-10",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:0120e440-b745-4397-ba25-12ed4f87430c",
+   "company": "Salesforce",
+   "title": "AI Labs Rotational Fellow",
+   "location": "Seattle, WA; SF; NYC",
+   "remote": false,
+   "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/AI-Labs-Rotational-Fellowship--Emerging-Talent_JR367643-1",
+   "apply_url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/California---San-Francisco/AI-Labs-Rotational-Fellowship--Emerging-Talent_JR367643-1",
+   "posted": "2026-11-10",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:54d4a844-307b-4185-9bb6-938e3d8bc05f",
+   "company": "Abacus Insights",
+   "title": "Associate Data Engineer",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://boards.greenhouse.io/abacusinsights/jobs/8917380002",
+   "apply_url": "https://boards.greenhouse.io/abacusinsights/jobs/8917380002",
+   "posted": "2026-11-10",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:002a4d82-8d23-4d96-b1a1-ca85294be971",
+   "company": "Citylogix",
+   "title": "Field Data Collection Technician",
+   "location": "Las Vegas, NV; Seattle, WA; Dallas, TX; Gainesville, FL; Hammond, LA; Wakefield, MA; Phoenix, AZ; Bellevue, WA; Denver, CO; Alabaster, AL; Atlanta, GA",
+   "remote": false,
+   "url": "https://ats.rippling.com/citylogix/jobs/9cddf245-08bd-4da4-8a10-d177f4445cf7",
+   "apply_url": "https://ats.rippling.com/citylogix/jobs/9cddf245-08bd-4da4-8a10-d177f4445cf7",
+   "posted": "2026-11-10",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:58592855-2044-4be6-8626-a6671a22102c",
+   "company": "Wise",
+   "title": "Graduate Data Scientist",
+   "location": "Austin, TX",
+   "remote": false,
+   "url": "https://jobs.smartrecruiters.com/Wise/744000160933600",
+   "apply_url": "https://jobs.smartrecruiters.com/Wise/744000160933600",
+   "posted": "2026-11-10",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:3f17b1a4-77d1-4546-a76d-4448dc49d163",
+   "company": "The Home Depot",
+   "title": "Analyst to Fulfillment",
+   "location": "Atlanta, GA",
+   "remote": false,
+   "url": "https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/Analyst--Fulfillment_Req198786-1",
+   "apply_url": "https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/Analyst--Fulfillment_Req198786-1",
+   "posted": "2026-11-10",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:c188f749-5cdc-4a4f-b434-fde546dd23ed",
+   "company": "Salesforce",
+   "title": "AI Labs Rotational Fellow",
+   "location": "Seattle, WA; SF; NYC",
+   "remote": false,
+   "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_NewGradRoles/job/California---San-Francisco/AI-Labs-Rotational-Fellowship--Emerging-Talent_JR367643",
+   "apply_url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_NewGradRoles/job/California---San-Francisco/AI-Labs-Rotational-Fellowship--Emerging-Talent_JR367643",
+   "posted": "2026-11-10",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:48a0be91-2b9f-4979-b445-a40ae86eb9c4",
+   "company": "Shield AI",
+   "title": "Perception Engineer - Multimodal & Embodied AI",
+   "location": "San Diego, CA",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/shield/99726ac8-75b2-4719-b0ea-e470cda3148b/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/shield/99726ac8-75b2-4719-b0ea-e470cda3148b/application?embed=true",
+   "posted": "2026-11-10",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "id": "simplify:9f7c0bf3-6702-4114-abaa-76a18944ee5b",
+   "company": "Allied Universal",
+   "title": "Global Security Mapping Specialist",
+   "location": "Austin, TX",
+   "remote": false,
+   "url": "https://securitycareers-aus.icims.com/jobs/1730709/job?mobile=true&needsRedirect=false",
+   "apply_url": "https://securitycareers-aus.icims.com/jobs/1730709/job?mobile=true&needsRedirect=false",
+   "posted": "2026-10-30",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-11"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+   "url": "https://huggingface.co/papers/2611.14210",
+   "arxiv": "https://arxiv.org/abs/2611.14210",
+   "upvotes": 65,
+   "github": "https://github.com/TheQuantumGOAT/Tree-Ising",
+   "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem over the model's own ...",
+   "published": "2026-11-10T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "World In-Context Learning for Agentic Robot Manipulation",
+   "url": "https://huggingface.co/papers/2611.12885",
+   "arxiv": "https://arxiv.org/abs/2611.12885",
+   "upvotes": 61,
+   "github": "https://github.com/ArcheOne-AI/RoboScript",
+   "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and ...",
+   "published": "2026-11-09T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Few-Step Streaming Video Generation via Condition Shifting",
+   "url": "https://huggingface.co/papers/2611.14033",
+   "arxiv": "https://arxiv.org/abs/2611.14033",
+   "upvotes": 47,
+   "github": "",
+   "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator. The original text ...",
+   "published": "2026-11-10T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+   "url": "https://huggingface.co/papers/2611.14320",
+   "arxiv": "https://arxiv.org/abs/2611.14320",
+   "upvotes": 44,
+   "github": "https://github.com/yukyeongleee/wikitrace",
+   "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from trajectories labeled ...",
+   "published": "2026-11-10T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "dNaViT: Discrete Codes are General-Purpose Visual Representations",
+   "url": "https://huggingface.co/papers/2611.12426",
+   "arxiv": "https://arxiv.org/abs/2611.12426",
+   "upvotes": 32,
+   "github": "",
+   "summary": "Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the richness of the visual ...",
+   "published": "2026-11-09T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "MMDM: Measuring Massive Multitask Decision Making",
+   "url": "https://huggingface.co/papers/2611.14309",
+   "arxiv": "https://arxiv.org/abs/2611.14309",
+   "upvotes": 25,
+   "github": "https://github.com/mmdm-benchmark/mmdm",
+   "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision making often involves ...",
+   "published": "2026-11-10T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
+   "url": "https://huggingface.co/papers/2611.11166",
+   "arxiv": "https://arxiv.org/abs/2611.11166",
+   "upvotes": 24,
+   "github": "",
+   "summary": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During training, DexForesight ...",
+   "published": "2026-11-10T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations",
+   "url": "https://huggingface.co/papers/2611.10649",
+   "arxiv": "https://arxiv.org/abs/2611.10649",
+   "upvotes": 18,
+   "github": "https://github.com/huawei-csl/MACaQ",
+   "summary": "Weight-activation quantization can reduce the memory and compute cost of neural-network inference, but recent methods often require expensive optimization and architecture-specific propagation of basis transforms across layers. We introduce MACaQ, an MXFP4 W4A4 post-training quantization method that treats every linear layer independently. MACaQ applies a per-channel scale and a block-Hadamard transform online to ...",
+   "published": "2026-11-07T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance",
+   "url": "https://huggingface.co/papers/2611.07464",
+   "arxiv": "https://arxiv.org/abs/2611.07464",
+   "upvotes": 18,
+   "github": "",
+   "summary": "Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest. The data must come from the Web, the strategy lives in the user's head, and correctness depends on time, so an agent can fail silently: a strategy the user never asked for, unverified data, or a backtest that uses the future yields a report as convincing as a correct one. Existing benchmarks close the world ...",
+   "published": "2026-11-05T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+   "url": "https://huggingface.co/papers/2611.13348",
+   "arxiv": "https://arxiv.org/abs/2611.13348",
+   "upvotes": 13,
+   "github": "https://github.com/yikunpku/ProTEUS",
+   "summary": "Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space. Thus, a central challenge is to efficiently traverse the large combinatorial space of mutations in silico. We introduce ProTEUS, a mutation-resolved world model for closed-loop protein evolution ...",
+   "published": "2026-11-09T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "Gilbert + Tobin rethinks the business of law with AI",
+   "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "published": "2026-11-12T00:00:00Z",
+   "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Intelligent Delivery: Making Every Unit of Compute Serve Better Ads",
+   "url": "https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/",
+   "published": "2026-11-11T17:00:38Z",
+   "summary": "Ads ranking models are growing toward LLM scale faster than the hardware to run them can keep up. An extra unit of compute has more impact on some ad requests, models, and chips than on others. The challenge is deciding where to allocate it to get the best outcome for the entire ...",
+   "source": "Meta Engineering",
+   "topic": "systems"
+  },
+  {
+   "title": "“Are You Sure?” Flipped Qwen2.5-1.5B’s Right Answer 2 Times in 3",
+   "url": "https://towardsdatascience.com/are-you-sure-flipped-qwen25-15bs-right-answer-2-times-in-3/",
+   "published": "2026-11-11T16:30:00Z",
+   "summary": "Three small open models, 150 MMLU questions each, five pushback styles: “That’s wrong” did more damage, and naming a wrong option was close to fatal. The post “Are You Sure?” Flipped Qwen2.5-1.5B’s Right Answer 2 Times in 3 appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "published": "2026-11-11T15:00:15Z",
+   "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+   "source": "Google DeepMind",
+   "topic": "research"
+  },
+  {
+   "title": "AI Assistant vs. Copilot vs. Agent, and When to Use Each",
+   "url": "https://towardsdatascience.com/ai-assistant-vs-copilot-vs-agent-and-when-to-use-each/",
+   "published": "2026-11-11T15:00:00Z",
+   "summary": "A palace-hotel wedding week shows where assistants, copilots, agents, and orchestration fit, and why Gartner expects 40%+ of agentic AI projects to be cancelled. The post AI Assistant vs. Copilot vs. Agent, and When to Use Each appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Use Apple's fm CLI to Run On-Device LLMs From Python",
+   "url": "https://towardsdatascience.com/how-to-use-apples-fm-cli-to-run-on-device-llms-from-python/",
+   "published": "2026-11-11T13:30:00Z",
+   "summary": "A Sate Padang vision test and a Malaysia capital question show why the free, private model needs grounding and validation before it leaves prototyping. The post How to Use Apple's fm CLI to Run On-Device LLMs From Python appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+   "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+   "published": "2026-11-11T13:04:09Z",
+   "summary": "Watch now (34 mins) | 🎙️ Scott Farrar walks through the Claude Code and Obsidian system he built to track appliances, chase insurance quotes, and keep household projects moving",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "A Jev of All Trades: Build and Train a Jev-style Decision Model From Scratch",
+   "url": "https://towardsdatascience.com/a-jev-of-all-trades-build-and-train-a-jev-style-decision-model-from-scratch/",
+   "published": "2026-11-11T12:00:00Z",
+   "summary": "Trained on six PathMNIST tissues with a small KEEP adapter, it handled added labels without retraining, though a linear classifier hit 88% on familiar ones. The post A Jev of All Trades: Build and Train a Jev-style Decision Model From Scratch appeared first on Towards Data ...",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+   "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+   "published": "2026-11-11T09:34:28Z",
+   "summary": "November 10, 2026 , Google GA's Gemini 4 Carbon.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "ChatGPT Plus for veterans and servicemembers",
+   "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "published": "2026-11-11T08:00:00Z",
+   "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+   "url": "https://huggingface.co/blog/qvac/botpsy",
+   "published": "2026-11-11T05:01:16Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+   "url": "https://latent.space/p/codex-work/",
+   "published": "2026-11-11T04:49:48Z",
+   "summary": "On the first day of AIE Code Summit, OpenAI showed how developers can steer Codex by voice, hand off work to the cloud, and make use of dots.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+   "url": "https://huggingface.co/blog/token-pooling",
+   "published": "2026-11-11T00:00:00Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Designing for Agents , Zeno Rocha, Resend",
+   "url": "https://latent.space/p/resend/",
+   "published": "2026-11-10T20:05:17Z",
+   "summary": "Where does answer engine optimization (AEO) end and agent experience begin? Inside Resend, from the docs that help Claude Code pick an email API to the tools it uses to send.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+   "url": "https://latent.space/p/naiveai/",
+   "published": "2026-11-10T18:56:32Z",
+   "summary": "NaiveAI could potentially top Artificial Analysis’s speed rankings. Our hands-on test suggests its coding quality holds up against DeepSeek.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Skipper, Airbnb’s embedded workflow engine, is now open source",
+   "url": "https://medium.com/airbnb-engineering/skipper-airbnbs-embedded-workflow-engine-is-now-open-source-78dd354f472b?source=rss----53c7c27702d5---4",
+   "published": "2026-11-10T18:01:02Z",
+   "summary": "",
+   "source": "Airbnb Engineering",
+   "topic": "systems"
+  },
+  {
+   "title": "Gemini 4 Carbon is now available",
+   "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+   "published": "2026-11-10T16:03:47Z",
+   "summary": "",
+   "source": "Google DeepMind",
+   "topic": "research"
+  },
+  {
+   "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "published": "2026-11-10T12:02:28Z",
+   "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+   "source": "Google DeepMind",
+   "topic": "research"
+  },
+  {
+   "title": "Introducing Businesses in ChatGPT",
+   "url": "https://openai.com/index/introducing-businesses-chatgpt",
+   "published": "2026-11-10T10:00:00Z",
+   "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+   "url": "https://openai.com/index/singapore-airlines-travel-work",
+   "published": "2026-11-10T08:00:00Z",
+   "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+   "url": "https://openai.com/index/cogent-security",
+   "published": "2026-11-10T00:00:00Z",
+   "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+   "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+   "published": "2026-11-09T19:51:47Z",
+   "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+   "source": "Google DeepMind",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+   "url": "https://pietromiotti.com/latest/maya-site/?maya",
+   "discussion": "https://news.ycombinator.com/item?id=50452455",
+   "points": 751,
+   "comments": 282,
+   "published": "2026-11-11T12:05:22Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Apple has new Mac app coming to make running local AI models easy",
+   "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+   "discussion": "https://news.ycombinator.com/item?id=50446520",
+   "points": 466,
+   "comments": 481,
+   "published": "2026-11-10T21:25:03Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance",
+   "discussion": "https://news.ycombinator.com/item?id=50443812",
+   "points": 419,
+   "comments": 139,
+   "published": "2026-11-10T18:01:15Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Gemini 4 Carbon is now available",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+   "discussion": "https://news.ycombinator.com/item?id=50442303",
+   "points": 290,
+   "comments": 159,
+   "published": "2026-11-10T16:07:15Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+   "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+   "discussion": "https://news.ycombinator.com/item?id=50443716",
+   "points": 273,
+   "comments": 208,
+   "published": "2026-11-10T17:55:07Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Life on Claude Nine",
+   "url": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
+   "discussion": "https://news.ycombinator.com/item?id=50443587",
+   "points": 122,
+   "comments": 82,
+   "published": "2026-11-10T17:44:44Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+   "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+   "discussion": "https://news.ycombinator.com/item?id=50455394",
+   "points": 122,
+   "comments": 55,
+   "published": "2026-11-11T16:38:44Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Atuin Threads: All your agent sessions on every machine",
+   "url": "https://blog.atuin.sh/threads-agent-sessions/",
+   "discussion": "https://news.ycombinator.com/item?id=50453637",
+   "points": 106,
+   "comments": 39,
+   "published": "2026-11-11T14:10:46Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "An Open Field Guide to Inference Engineering",
+   "url": "https://docs.modelplane.ai/guides/inference-guide",
+   "discussion": "https://news.ycombinator.com/item?id=50443714",
+   "points": 91,
+   "comments": 10,
+   "published": "2026-11-10T17:55:07Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "Can we talk about the ML research coming from China? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xteym8/can_we_talk_about_the_ml_research_coming_from/",
+   "published": "2026-11-11T11:02:38Z",
+   "summary": "In this post I am not trying to bash Chinese researchers by any means but I have gotten VERY curious in the past few years as to how research is conducted in China. It is no secret to anyone with a pair of eyes that Chinese researchers in ML (especially Chinese researcher based ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Why are Anthropic's top researchers cited twice as much as OpenAI's? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xt5xld/why_are_anthropics_top_researchers_cited_twice_as/",
+   "published": "2026-11-11T02:22:54Z",
+   "summary": "submitted by /u/NegotiationOk7535 [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "I have trained 15+ models on my own blood sugar & metabonet dataset [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xsussb/i_have_trained_15_models_on_my_own_blood_sugar/",
+   "published": "2026-11-10T18:35:32Z",
+   "summary": "Source code: https://github.com/0xdeadf1sh/T1DMAI submitted by /u/0xdeadf1sh [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Would you pick your strongest model to coordinate other agents? Results from WorkflowArena [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xt9hbe/would_you_pick_your_strongest_model_to_coordinate/",
+   "published": "2026-11-11T05:25:43Z",
+   "summary": "Suppose you’re putting together a team of agents. Picking the strongest model as the coordinator seems reasonable. We wanted to test whether its workflows would actually help other models do the work. In one experiment, we gave Opus 5.5 and GPT-6 Astra the same 32 challenging ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  }
+ ],
+ "videos": [
+  {
+   "title": "Stanford CS193T Thinking with AI | Autumn 2026 | Core Prompting",
+   "url": "https://www.youtube.com/watch?v=Qhf1mp74tbk",
+   "id": "Qhf1mp74tbk",
+   "published": "2026-11-10T18:00:09Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:KDnuggets",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
