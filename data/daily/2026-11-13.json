@@ -1,0 +1,737 @@
+{
+ "date": "2026-11-13",
+ "generated_at": "2026-11-13T17:51:37Z",
+ "counts": {
+  "jobs_open": 860,
+  "jobs_new": 10,
+  "papers": 10,
+  "posts": 15,
+  "hn": 20,
+  "reddit": 12,
+  "videos": 1,
+  "interview_intel": 2,
+  "errors": 6
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:f28de8cd-1902-4fee-969b-6defdce6acd3",
+   "company": "Senseye",
+   "title": "AI Engineer",
+   "location": "Austin, TX",
+   "remote": false,
+   "url": "https://apply.workable.com/senseye/j/56F6BB2046/apply",
+   "apply_url": "https://apply.workable.com/senseye/j/56F6BB2046/apply",
+   "posted": "2026-11-12",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "simplify:5c0bcf75-8935-487e-84af-65b44d75fae9",
+   "company": "ZettaSquared",
+   "title": "Forward Engineer / AI Developer",
+   "location": "Houston, TX",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/zetta2/28a44d44-b138-476f-acda-65384f1623dc/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/zetta2/28a44d44-b138-476f-acda-65384f1623dc/application?embed=true",
+   "posted": "2026-11-12",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "simplify:a9ff76ba-a710-4ce4-bec3-d3462c1ea328",
+   "company": "Veris Insights",
+   "title": "Research Analyst - Product Launchpad Program",
+   "location": "Washington, DC",
+   "remote": false,
+   "url": "https://jobs.lever.co/verisinsights/c6f7e462-a24e-408f-a143-8768c7e3a748/apply",
+   "apply_url": "https://jobs.lever.co/verisinsights/c6f7e462-a24e-408f-a143-8768c7e3a748/apply",
+   "posted": "2026-11-12",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "simplify:2cde737f-e861-46bc-b7ac-daee0debbfa5",
+   "company": "Pragmatike",
+   "title": "Research Engineer - Synthetic Data",
+   "location": "SF; Remote in USA; Remote in Singapore; Singapore",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/pragmatike/e51d910a-a3e6-459d-b3b5-ffa1d300c256/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/pragmatike/e51d910a-a3e6-459d-b3b5-ffa1d300c256/application?embed=true",
+   "posted": "2026-11-12",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "simplify:efaec2f3-aac7-4d48-8c20-2fdc525641a7",
+   "company": "ARCXIS",
+   "title": "AI Rapid Prototype Developer Level 1",
+   "location": "Houston, TX",
+   "remote": false,
+   "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4661286",
+   "apply_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4661286",
+   "posted": "2026-11-12",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "simplify:36c15fa3-cc9d-4914-b48a-a518e6a2ca04",
+   "company": "Systems Planning and Analysis",
+   "title": "Associate Systems Engineer",
+   "location": "San Diego, CA",
+   "remote": false,
+   "url": "https://spa.jibeapply.com/jobs/23906?icims=1&lang=en-us",
+   "apply_url": "https://spa.jibeapply.com/jobs/23906?icims=1&lang=en-us",
+   "posted": "2026-11-12",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "simplify:8c039dc3-d838-4ceb-aaf3-4e5e9e244dd8",
+   "company": "City of New Braunfels",
+   "title": "GIS Technician 1/2/3",
+   "location": "New Braunfels, TX",
+   "remote": false,
+   "url": "https://newbraunfels.wd12.myworkdayjobs.com/CONB/job/New-Braunfels-TX/GIS-Technician-I-II-III_R456",
+   "apply_url": "https://newbraunfels.wd12.myworkdayjobs.com/CONB/job/New-Braunfels-TX/GIS-Technician-I-II-III_R456",
+   "posted": "2026-11-12",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "hn:50479091",
+   "company": "Location: India (currently travelling within India; IST ...",
+   "title": "See post",
+   "location": "",
+   "remote": true,
+   "url": "https://news.ycombinator.com/item?id=50479091",
+   "apply_url": "https://drive.google.com/file/d/1ax25mV1le38zq_dekyVHFl5wMAL3gFUa/view?usp=sharing",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "hn-who-is-hiring",
+   "source": "hn",
+   "excerpt": "Location: India (currently travelling within India; IST, UTC+5:30) Remote: Yes to remote only. Happy to shift my hours for solid overlap with US or EU teams. Willing to relocate: No Technologies: React, TypeScript, Python, Kotlin/Spring Boot, GraphQL, FastAPI, Snowflake, C++; MCP servers and LLM agent tooling Résumé/CV: https://drive.google.com/file/d/1ax25mV1le38zq_dekyVHFl5wMAL... GitHub ...",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "hn:50477398",
+   "company": "Genentech",
+   "title": "2027 Interns | PD Data Sciences & Analytics",
+   "location": "",
+   "remote": false,
+   "url": "https://news.ycombinator.com/item?id=50477398",
+   "apply_url": "https://go.gene.com/PDD-SSF-DigitalAI-Intern",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "hn-who-is-hiring",
+   "source": "hn",
+   "excerpt": "Genentech | 2027 Interns | PD Data Sciences & Analytics | ONSITE (South San Francisco, CA USA) Want to find out how data shapes medicines for patients? Genentech's Product Development Data Sciences & Analytics team is hiring graduate students (Master's or PhD) for 12-week, full-time, on-site summer 2027 internships in South San Francisco. Digital, AI & Clinical Outcome Assessments. Algorithm ...",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "ashby:cohere:dc881634-ca66-46e5-90ff-43ad83080de2",
+   "company": "Cohere",
+   "title": "Adoption Specialist - Infrastructure & Agentic",
+   "location": "Toronto; Europe; Canada; London; United States; New York; United Kingdom; Atlanta",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/cohere/dc881634-ca66-46e5-90ff-43ad83080de2",
+   "apply_url": "https://jobs.ashbyhq.com/cohere/dc881634-ca66-46e5-90ff-43ad83080de2/application",
+   "posted": "2026-11-09",
+   "comp": "CA$200K to CA$300K • Multiple Ranges",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-13"
+  }
+ ],
+ "papers": [
+  {
+   "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+   "url": "https://huggingface.co/papers/2611.15777",
+   "arxiv": "https://arxiv.org/abs/2611.15777",
+   "upvotes": 71,
+   "github": "https://github.com/holdrain/SO-Arena",
+   "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the ...",
+   "published": "2026-11-11T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+   "url": "https://huggingface.co/papers/2611.14815",
+   "arxiv": "https://arxiv.org/abs/2611.14815",
+   "upvotes": 45,
+   "github": "",
+   "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion ...",
+   "published": "2026-11-10T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+   "url": "https://huggingface.co/papers/2611.16748",
+   "arxiv": "https://arxiv.org/abs/2611.16748",
+   "upvotes": 41,
+   "github": "https://github.com/DAGroup-PKU/PhysLoop",
+   "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in ...",
+   "published": "2026-11-12T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+   "url": "https://huggingface.co/papers/2611.13004",
+   "arxiv": "https://arxiv.org/abs/2611.13004",
+   "upvotes": 40,
+   "github": "https://github.com/DAGroup-PKU/G-STAR",
+   "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial ...",
+   "published": "2026-11-08T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+   "url": "https://huggingface.co/papers/2611.15131",
+   "arxiv": "https://arxiv.org/abs/2611.15131",
+   "upvotes": 34,
+   "github": "https://github.com/inclusionAI/Duo",
+   "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls ...",
+   "published": "2026-11-11T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+   "url": "https://huggingface.co/papers/2611.17167",
+   "arxiv": "https://arxiv.org/abs/2611.17167",
+   "upvotes": 29,
+   "github": "https://github.com/ZJU-REAL/decision-agents",
+   "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach ...",
+   "published": "2026-11-12T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
+   "url": "https://huggingface.co/papers/2611.05984",
+   "arxiv": "https://arxiv.org/abs/2611.05984",
+   "upvotes": 26,
+   "github": "https://github.com/aHapBean/SimpleHC",
+   "summary": "Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler, more efficient designs. We find that learned read/write gating without mixing and unconstrained mixing with fixed ...",
+   "published": "2026-11-04T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+   "url": "https://huggingface.co/papers/2611.15844",
+   "arxiv": "https://arxiv.org/abs/2611.15844",
+   "upvotes": 25,
+   "github": "https://github.com/OpenVisionBanana/OpenVisionBanana",
+   "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-task perception ...",
+   "published": "2026-11-11T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+   "url": "https://huggingface.co/papers/2611.17060",
+   "arxiv": "https://arxiv.org/abs/2611.17060",
+   "upvotes": 25,
+   "github": "https://github.com/Ropedia/Ropedia-Xperience-2",
+   "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments in which policies ...",
+   "published": "2026-11-12T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+   "url": "https://huggingface.co/papers/2611.17331",
+   "arxiv": "https://arxiv.org/abs/2611.17331",
+   "upvotes": 19,
+   "github": "https://github.com/NVlabs/DVSM",
+   "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a lightweight MLP ...",
+   "published": "2026-11-12T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "XYBench: Helping with the problem behind the question",
+   "url": "https://huggingface.co/blog/allenai/xybench",
+   "published": "2026-11-13T17:02:35Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon",
+   "url": "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/",
+   "published": "2026-11-13T17:00:39Z",
+   "summary": "How Meta's Reality Labs brought Cuttlefish and its QEMU backend to macOS and Apple silicon. [...] Read More... The post Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon appeared first on Engineering at Meta .",
+   "source": "Meta Engineering",
+   "topic": "systems"
+  },
+  {
+   "title": "Keyword Search Tied an 8B Embedding Model at Picking Agent Tools",
+   "url": "https://towardsdatascience.com/keyword-search-tied-an-8b-embedding-model-at-picking-agent-tools/",
+   "published": "2026-11-13T16:30:00Z",
+   "summary": "On 200 ToolRet questions and up to 3,794 tools, BM25 ran about 40x faster than BGE-large on just a CPU, and full tool docs made it the best setup tested. The post Keyword Search Tied an 8B Embedding Model at Picking Agent Tools appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Introducing ChatGPT Wallet",
+   "url": "https://openai.com/index/introducing-chatgpt-wallet",
+   "published": "2026-11-13T15:00:00Z",
+   "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "How Jev Makes Decisions About Images, With 4 Python Examples",
+   "url": "https://towardsdatascience.com/how-jev-makes-decisions-about-images-with-4-python-examples/",
+   "published": "2026-11-13T15:00:00Z",
+   "summary": "Practical code for classifying fabric against reference photos, scoring product sharpness, cropping shipping labels, and spotting subtle car damage. The post How Jev Makes Decisions About Images, With 4 Python Examples appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Getting Started with DuckLake: Build a Lakehouse on DuckDB in Under an Hour",
+   "url": "https://www.kdnuggets.com/getting-started-with-ducklake-build-a-lakehouse-on-duckdb-in-under-an-hour",
+   "published": "2026-11-13T15:00:00Z",
+   "summary": "DuckLake is an open lakehouse table format from the DuckDB team. It keeps table metadata in a SQL database and the data in Parquet files. DuckLake 1.0 shipped in April 2026 with a stable specification and guaranteed backward compatibility.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "published": "2026-11-13T14:05:22Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "What AI Agents Speed Up in PhD Research, and What They Can't",
+   "url": "https://towardsdatascience.com/what-ai-agents-speed-up-in-phd-research-and-what-they-cant/",
+   "published": "2026-11-13T13:30:00Z",
+   "summary": "A PhD student in ML and ecology on why faster code, experiments, and drafts don't fix data with a backstory, and three predictions for how labs will change. The post What AI Agents Speed Up in PhD Research, and What They Can't appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "5 FREE Open-Source Alternatives to Jev",
+   "url": "https://www.kdnuggets.com/5-free-open-source-alternatives-to-jev",
+   "published": "2026-11-13T13:00:00Z",
+   "summary": "Looking for a free alternative to Jev? Here are 5 open-source decision models you can run locally, from high-accuracy options to lightweight models for AI agents.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Check Local LLM Output with Ollama, Gemma 4, and Nimble",
+   "url": "https://towardsdatascience.com/how-to-check-local-llm-output-with-ollama-gemma-4-and-nimble/",
+   "published": "2026-11-13T12:00:00Z",
+   "summary": "Gemma 4 E2B drafts the replies, Bespoke Labs' Nimble 9B picks accept, revise, or human review, and only flagged questions get a focused retry. The post How to Check Local LLM Output with Ollama, Gemma 4, and Nimble appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+   "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+   "published": "2026-11-13T09:04:13Z",
+   "summary": "November 12, 2026 , Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+   "url": "https://latent.space/p/artcraft/",
+   "published": "2026-11-13T04:17:25Z",
+   "summary": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "How Amplitude ships product improvements in 1 to 2 days with OpenAI",
+   "url": "https://openai.com/business/customer-stories/amplitude",
+   "published": "2026-11-12T20:00:00Z",
+   "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+   "published": "2026-11-12T19:07:35Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Gondola doubles revenue as its team builds more with Codex",
+   "url": "https://openai.com/business/customer-stories/gondola",
+   "published": "2026-11-12T12:00:00Z",
+   "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Gemini 4 Hydrogen",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "discussion": "https://news.ycombinator.com/item?id=50471431",
+   "points": 554,
+   "comments": 345,
+   "published": "2026-11-12T18:01:48Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Gemini 4 Hydrogen and Orchestrator",
+   "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+   "discussion": "https://news.ycombinator.com/item?id=50472260",
+   "points": 482,
+   "comments": 158,
+   "published": "2026-11-12T18:52:01Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+   "url": "https://status.claude.com/incidents/nn11wk485zfn",
+   "discussion": "https://news.ycombinator.com/item?id=50481187",
+   "points": 439,
+   "comments": 356,
+   "published": "2026-11-13T10:18:13Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+   "url": "https://unemploymentlabs.com/checkpoint-forensics",
+   "discussion": "https://news.ycombinator.com/item?id=50474883",
+   "points": 340,
+   "comments": 144,
+   "published": "2026-11-12T21:56:11Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+   "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+   "discussion": "https://news.ycombinator.com/item?id=50475713",
+   "points": 320,
+   "comments": 96,
+   "published": "2026-11-12T23:06:17Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Foundation Models framework",
+   "url": "https://developer.apple.com/foundation-models-framework/",
+   "discussion": "https://news.ycombinator.com/item?id=50474361",
+   "points": 257,
+   "comments": 35,
+   "published": "2026-11-12T21:13:26Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Our software engineering interviews are changing a little",
+   "url": "https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little/",
+   "discussion": "https://news.ycombinator.com/item?id=50467297",
+   "points": 241,
+   "comments": 220,
+   "published": "2026-11-12T14:05:28Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Turning a 22-year-old Postgres type-confusion primitive into RCE",
+   "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+   "discussion": "https://news.ycombinator.com/item?id=50471761",
+   "points": 224,
+   "comments": 40,
+   "published": "2026-11-12T18:22:22Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+   "url": "https://brave.com/blog/search-api-agentic-payments/",
+   "discussion": "https://news.ycombinator.com/item?id=50477649",
+   "points": 220,
+   "comments": 129,
+   "published": "2026-11-13T03:08:08Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI Is Destroying the Trust Between Writers and Readers",
+   "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+   "discussion": "https://news.ycombinator.com/item?id=50481870",
+   "points": 203,
+   "comments": 98,
+   "published": "2026-11-13T11:13:46Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Data centers need power to lower income, rural residents pay the price",
+   "url": "https://news.cornell.edu/stories/2026/11/data-centers-need-power-lower-income-rural-residents-pay-price",
+   "discussion": "https://news.ycombinator.com/item?id=50473231",
+   "points": 196,
+   "comments": 228,
+   "published": "2026-11-12T19:53:54Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+   "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+   "discussion": "https://news.ycombinator.com/item?id=50474311",
+   "points": 192,
+   "comments": 223,
+   "published": "2026-11-12T21:09:49Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Claude Is Down",
+   "url": "https://status.claude.com/history",
+   "discussion": "https://news.ycombinator.com/item?id=50481220",
+   "points": 186,
+   "comments": 160,
+   "published": "2026-11-13T10:20:09Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Libreagi to Save OSS Models",
+   "url": "https://libreagi.com/",
+   "discussion": "https://news.ycombinator.com/item?id=50467439",
+   "points": 151,
+   "comments": 31,
+   "published": "2026-11-12T14:11:58Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Show HN: AgentRun to open-source, Self-improving Managed Agents",
+   "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+   "discussion": "https://news.ycombinator.com/item?id=50471650",
+   "points": 129,
+   "comments": 33,
+   "published": "2026-11-12T18:15:48Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The Dawn of the Data Intelligence Engineer",
+   "url": "https://motherduck.com/blog/the-data-intelligence-engineer/",
+   "discussion": "https://news.ycombinator.com/item?id=50480480",
+   "points": 115,
+   "comments": 77,
+   "published": "2026-11-13T09:08:18Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "PostgreSQL 18.7, 17.12, 16.16, 15.20, 14.25, and 19 RC 2 Released",
+   "url": "https://www.postgresql.org/about/news/postgresql-187-1712-1616-1520-1425-and-19-rc-2-released-3442/",
+   "discussion": "https://news.ycombinator.com/item?id=50467763",
+   "points": 107,
+   "comments": 15,
+   "published": "2026-11-12T14:25:23Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Jonathan Blow to If AI Solved Coding, Why Is My Software Still the Same? [video]",
+   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+   "discussion": "https://news.ycombinator.com/item?id=50484658",
+   "points": 103,
+   "comments": 52,
+   "published": "2026-11-13T15:08:44Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Why You Should Expect an AI Crash",
+   "url": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+   "discussion": "https://news.ycombinator.com/item?id=50475735",
+   "points": 99,
+   "comments": 84,
+   "published": "2026-11-12T23:08:31Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Chicago schools to Google to we'd rather lose Search than be forced to accept AI",
+   "url": "https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html",
+   "discussion": "https://news.ycombinator.com/item?id=50476586",
+   "points": 86,
+   "comments": 28,
+   "published": "2026-11-13T00:38:41Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "Paid surveys for Machine Learning Scientists for SnorkelAI: Absolutely not worth it [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xv4rjy/paid_surveys_for_machine_learning_scientists_for/",
+   "published": "2026-11-13T10:50:10Z",
+   "summary": "I am here writing about my experience with this. I was contacted to fill out a paid survey for SnorkelAI because I have a PhD and have published at A* conferences in the field, so this might be relevant for other researchers in the community. After not finding a lot of ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Creating author burdens to reduce paper submissions is STUPID [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xul9u7/creating_author_burdens_to_reduce_paper/",
+   "published": "2026-11-12T18:55:13Z",
+   "summary": "Over the past two years, conferences have been trying to add different administrative nonsense. Initially, it was author/reviewer sign-up, then reciprocal reviewing, and now CVPR has this author enrollment form that freaks everyone out. I get that we're trying to filter out ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "How to make a Legora-style legal conflict detector tool using only NLI and encoder models [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xuzv6d/how_to_make_a_legorastyle_legal_conflict_detector/",
+   "published": "2026-11-13T05:48:17Z",
+   "summary": "Hey r/learnmachinelearning ! I’m Tabs, a legal engineer at Isaacus. Still getting better at machine learning things but here we go. I built an open-source legal conflict detector that finds deviations and gaps between pairs of legal documents using only encoder models and ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Scaling to 1T MoE on TorchTitan [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xvce5h/scaling_to_1t_moe_on_torchtitan_p/",
+   "published": "2026-11-13T16:28:36Z",
+   "summary": "Hi everyone! Over the last few months we've been in the trenches with the TorchTitan and PyTorch maintainers, trying to find out how far GH200 (the GPUs inside the JUPITER supercomputer) can be pushed. Short answer: far enough to train a ~1T-parameter MoE at ~1,300 tokens/s per ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "I built tamserve to make real-time video tracking 2x cheaper [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xuvxke/i_built_tamserve_to_make_realtime_video_tracking/",
+   "published": "2026-11-13T02:23:51Z",
+   "summary": "SAM 2-style trackers (SAM 2.1, EdgeTAM) are more accurate and flexible than box trackers: point at anything once and get its exact outline on every frame. But on live cameras they're expensive, and Meta's code keeps every frame it sees, so it runs out of GPU memory within ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Open weights: ParaTrace v8 (RAID-tuned), 5th on the RAID leaderboard (TPR at 1% FPR) [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xv4ldx/open_weights_paratrace_v8_raidtuned_5th_on_the/",
+   "published": "2026-11-13T10:39:43Z",
+   "summary": "Open weights: ParaTrace v8 (RAID-tuned), 5th on the RAID leaderboard (TPR at 1% FPR) - Ettin-1B encoder (ModernBERT architecture), 512-token windows - Fine-tuned on RAID's training split, then a hard-example round - RAID hidden test set: TPR 99.20% at 1% FPR, 99.76% at 5% FPR ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Anyone feel like it’s becoming the norm to treat employees like crap?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xurvf3/anyone_feel_like_its_becoming_the_norm_to_treat/",
+   "published": "2026-11-12T23:15:56Z",
+   "summary": "I’ve worked on some bad teams before but seems like now so many people I know myself included are stuck in super toxic environments where managements treat their employees super poorly and don’t even pretend to care. Layoffs, performance tracking, re org are re org and ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Don't Study CS. Don't Study Engineering. Don't Study Anything, Apparently.",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xv7db1/dont_study_cs_dont_study_engineering_dont_study/",
+   "published": "2026-11-13T13:05:14Z",
+   "summary": "According to this sub, there's apparently no point in studying computer science, engineering, or any other knowledge-based discipline because AI is going to replace everyone anyway. That seems to be the prevailing sentiment here lately. Every discussion about pursuing a degree ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Why noone ever posts about Netflix?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xuv8f7/why_noone_ever_posts_about_netflix/",
+   "published": "2026-11-13T01:50:07Z",
+   "summary": "I am genuinely curious, although standing for N in FANG, I rarely see posts about people asking for interview insights on Netflix. It's always about Meta, Amazon, Google, AirBNB, Stripe etc. How in the world Netflix hiring process works? Do those people not hangout on reddit? I ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Is it time to abandon the cs ship?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xuszmk/is_it_time_to_abandon_the_cs_ship/",
+   "published": "2026-11-13T00:05:07Z",
+   "summary": "To get a job in tech, you are competing against AI, interest rates, executive speculation on AI future capabilities, AI frontier model improvements, and labor arb. Even if you are not in the USA, the above applies, because the current environment is a race to the bottom where ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "For people hired after 2+ year gaps, what kinds of places do you work?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xujr96/for_people_hired_after_2_year_gaps_what_kinds_of/",
+   "published": "2026-11-12T17:59:27Z",
+   "summary": "FANG? Fortune 500? Government? Small local businesses? Startups? submitted by /u/Melanie-Valentine-90 [link] [comments]",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "AI limits introduced, maybe beginning of layoffs?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xuypfn/ai_limits_introduced_maybe_beginning_of_layoffs/",
+   "published": "2026-11-13T04:45:08Z",
+   "summary": "My post seems contradictory, but I would like to have your opinion on the situation at our company. For almost one and a half years everyone had unlimited AI tokens, and it was said that everything should be done with \"AI first\". This is what everyone did, and our speed rose by ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  }
+ ],
+ "videos": [
+  {
+   "title": "How AI Agents Use Tools: Function Calling & MCP | Stanford CS329Z Lecture 4 with Diyi Yang",
+   "url": "https://www.youtube.com/watch?v=s0S38lz6O7M",
+   "id": "s0S38lz6O7M",
+   "published": "2026-11-12T21:00:35Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [
+  {
+   "title": "AI limits introduced, maybe beginning of layoffs?",
+   "url": "https://www.reddit.com/r/cscareerquestions/comments/1xuypfn/ai_limits_introduced_maybe_beginning_of_layoffs/",
+   "published": "2026-11-13T04:45:08Z",
+   "summary": "My post seems contradictory, but I would like to have your opinion on the situation at our company. For almost one and a half years everyone had unlimited AI tokens, and it was said that everything should be done with \"AI first\". This is what everyone did, and our speed rose by ...",
+   "source": "r/cscareerquestions",
+   "topic": "community"
+  },
+  {
+   "title": "Our software engineering interviews are changing a little",
+   "url": "https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little/",
+   "discussion": "https://news.ycombinator.com/item?id=50467297",
+   "points": 241,
+   "comments": 220,
+   "published": "2026-11-12T14:05:28Z",
+   "source": "Hacker News"
+  }
+ ],
+ "errors": [
+  {
+   "source": "jobs:ashby:tavily",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Google DeepMind",
+   "error": "not well-formed (invalid token): line 1, column 0"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
