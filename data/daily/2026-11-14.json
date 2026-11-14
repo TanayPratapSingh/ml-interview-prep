@@ -1,0 +1,596 @@
+{
+ "date": "2026-11-14",
+ "generated_at": "2026-11-14T16:38:06Z",
+ "counts": {
+  "jobs_open": 860,
+  "jobs_new": 13,
+  "papers": 10,
+  "posts": 7,
+  "hn": 13,
+  "reddit": 6,
+  "videos": 3,
+  "interview_intel": 0,
+  "errors": 4
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:8f2c309b-3922-4159-a877-86c8566fffee",
+   "company": "Integrated Biosciences",
+   "title": "Software Engineer - Robotics",
+   "location": "Redwood City, CA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/integratedbiosciencesinc/jobs/4507787009",
+   "apply_url": "https://job-boards.greenhouse.io/integratedbiosciencesinc/jobs/4507787009",
+   "posted": "2026-11-14",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "simplify:0c94df2e-6113-49ff-bc46-757be98dc82c",
+   "company": "Figure",
+   "title": "Procedures & Quality Associate - Pilot Support Team",
+   "location": "San Jose, CA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/figureai/jobs/4729424006",
+   "apply_url": "https://job-boards.greenhouse.io/figureai/jobs/4729424006",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "simplify:139a38b3-8fbd-4c7e-933a-03513e7dd3c8",
+   "company": "Figure",
+   "title": "Data Collection Quality Support - Pilot Support Team",
+   "location": "San Jose, CA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/figureai/jobs/4729425006",
+   "apply_url": "https://job-boards.greenhouse.io/figureai/jobs/4729425006",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "simplify:2bfd33ca-a576-43cf-b83d-428a0f935f05",
+   "company": "Emerson Electric",
+   "title": "Software Engineer - Applied AI",
+   "location": "Austin, TX",
+   "remote": false,
+   "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013909",
+   "apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013909",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "simplify:ed076fcc-86be-4d0c-a1e3-ffb183abdf63",
+   "company": "Triumph Labs",
+   "title": "Data Engineer",
+   "location": "SF",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/triumph-arcade/8863c7e0-60a5-4775-b15b-d0e46329a230/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/triumph-arcade/8863c7e0-60a5-4775-b15b-d0e46329a230/application?embed=true",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "simplify:15e23407-a0a7-450d-a80f-24de322a64d2",
+   "company": "General Dynamics Mission Systems",
+   "title": "Operations Analyst",
+   "location": "Pittsburgh, PA",
+   "remote": false,
+   "url": "https://careers-gdms.icims.com/jobs/81473/job?mobile=true&needsRedirect=false",
+   "apply_url": "https://careers-gdms.icims.com/jobs/81473/job?mobile=true&needsRedirect=false",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "simplify:81be5e06-9908-40af-b04a-1ef8702a6b00",
+   "company": "UTHealth Houston",
+   "title": "Clinical Business Intelligence Analyst",
+   "location": "San Antonio, TX",
+   "remote": false,
+   "url": "https://fa-eomf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/8331",
+   "apply_url": "https://fa-eomf-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/8331",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "simplify:17d69283-da63-4dd6-9a25-7b0b38a6a7f5",
+   "company": "Analog Devices",
+   "title": "Design Evaluation Engineer - Power Management ICs",
+   "location": "United States",
+   "remote": false,
+   "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Design-Evaluation-Engineer---Summer-2027_R266633",
+   "apply_url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Design-Evaluation-Engineer---Summer-2027_R266633",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "simplify:3919470c-29fa-4c86-9b38-aa884575cf81",
+   "company": "Empire State Realty Trust",
+   "title": "Applied AI Engineer 1",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://jobs.lever.co/esrtreit/9ec61f1b-1eeb-44c8-8be2-f25167b83267/apply",
+   "apply_url": "https://jobs.lever.co/esrtreit/9ec61f1b-1eeb-44c8-8be2-f25167b83267/apply",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "simplify:5423461d-751c-4d41-b637-371f3eab845f",
+   "company": "CDPHP",
+   "title": "AI Engineer",
+   "location": "Rochester, NY; De Witt, NY; Utica, NY; Albany, NY; Binghamton, NY; Buffalo, NY",
+   "remote": false,
+   "url": "https://lthc.wd1.myworkdayjobs.com/CDPHPCareers/job/Rochester/AI-Engineer-I-II_JR103556",
+   "apply_url": "https://lthc.wd1.myworkdayjobs.com/CDPHPCareers/job/Rochester/AI-Engineer-I-II_JR103556",
+   "posted": "2026-11-11",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "greenhouse:evolutioniq:6261926004",
+   "company": "EvolutionIQ",
+   "title": "Software Engineer (AI Data Engineering)",
+   "location": "New York, NY or Remote",
+   "remote": true,
+   "url": "https://job-boards.greenhouse.io/evolutioniq/jobs/6261926004",
+   "apply_url": "https://job-boards.greenhouse.io/evolutioniq/jobs/6261926004",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "application-log",
+   "source": "greenhouse",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "greenhouse:labelbox:5294769007",
+   "company": "Labelbox",
+   "title": "Forward Deployed Engineer, Enterprise Accounts",
+   "location": "San Francisco Bay Area",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/labelbox/jobs/5294769007",
+   "apply_url": "https://job-boards.greenhouse.io/labelbox/jobs/5294769007",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "greenhouse",
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "greenhouse:snorkelai:6260926004",
+   "company": "Snorkel AI",
+   "title": "Research Scientist, Open Benchmarks Red Team",
+   "location": "New York City, NY (Hybrid); San Francisco, CA (Hybrid); United States (Remote)",
+   "remote": true,
+   "url": "https://job-boards.greenhouse.io/snorkelai/jobs/6260926004",
+   "apply_url": "https://job-boards.greenhouse.io/snorkelai/jobs/6260926004",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "greenhouse",
+   "first_seen": "2026-11-14"
+  }
+ ],
+ "papers": [
+  {
+   "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+   "url": "https://huggingface.co/papers/2611.15777",
+   "arxiv": "https://arxiv.org/abs/2611.15777",
+   "upvotes": 103,
+   "github": "https://github.com/holdrain/SO-Arena",
+   "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the ...",
+   "published": "2026-11-11T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+   "url": "https://huggingface.co/papers/2611.14815",
+   "arxiv": "https://arxiv.org/abs/2611.14815",
+   "upvotes": 49,
+   "github": "",
+   "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion ...",
+   "published": "2026-11-10T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+   "url": "https://huggingface.co/papers/2610.40394",
+   "arxiv": "https://arxiv.org/abs/2610.40394",
+   "upvotes": 47,
+   "github": "",
+   "summary": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured ...",
+   "published": "2026-10-29T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+   "url": "https://huggingface.co/papers/2611.16748",
+   "arxiv": "https://arxiv.org/abs/2611.16748",
+   "upvotes": 45,
+   "github": "https://github.com/DAGroup-PKU/PhysLoop",
+   "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in ...",
+   "published": "2026-11-12T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+   "url": "https://huggingface.co/papers/2611.13004",
+   "arxiv": "https://arxiv.org/abs/2611.13004",
+   "upvotes": 44,
+   "github": "https://github.com/DAGroup-PKU/G-STAR",
+   "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial ...",
+   "published": "2026-11-08T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+   "url": "https://huggingface.co/papers/2611.15131",
+   "arxiv": "https://arxiv.org/abs/2611.15131",
+   "upvotes": 39,
+   "github": "https://github.com/inclusionAI/Duo",
+   "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls ...",
+   "published": "2026-11-11T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+   "url": "https://huggingface.co/papers/2611.13410",
+   "arxiv": "https://arxiv.org/abs/2611.13410",
+   "upvotes": 36,
+   "github": "https://github.com/air-embodied-brain/SteerDistill",
+   "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure contexts, while ...",
+   "published": "2026-11-10T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+   "url": "https://huggingface.co/papers/2611.15844",
+   "arxiv": "https://arxiv.org/abs/2611.15844",
+   "upvotes": 32,
+   "github": "https://github.com/OpenVisionBanana/OpenVisionBanana",
+   "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-task perception ...",
+   "published": "2026-11-11T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+   "url": "https://huggingface.co/papers/2611.17167",
+   "arxiv": "https://arxiv.org/abs/2611.17167",
+   "upvotes": 32,
+   "github": "https://github.com/ZJU-REAL/decision-agents",
+   "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach ...",
+   "published": "2026-11-12T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "On the Design of Hyper-Connections: Simplification, Stability, and Scalability",
+   "url": "https://huggingface.co/papers/2611.05984",
+   "arxiv": "https://arxiv.org/abs/2611.05984",
+   "upvotes": 27,
+   "github": "https://github.com/aHapBean/SimpleHC",
+   "summary": "Hyper-Connections (HC) architectures are increasingly adopted in frontier language models, yet their components remain insufficiently understood and introduce non-negligible training overhead. In this work, we systematically study the HC architecture to understand its components and identify simpler, more efficient designs. We find that learned read/write gating without mixing and unconstrained mixing with fixed ...",
+   "published": "2026-11-04T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "How to Build a Markov Chain in Python With NumPy",
+   "url": "https://towardsdatascience.com/how-to-build-a-markov-chain-in-python-with-numpy/",
+   "published": "2026-11-14T15:00:00Z",
+   "summary": "A step-by-step guide to transition matrices, the Chapman to Kolmogorov equation, and stationary distributions, built around a three-state writing example. The post How to Build a Markov Chain in Python With NumPy appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Data From 100+ AI Agents Shows They Fail by Silent Drift, Not Errors",
+   "url": "https://towardsdatascience.com/data-from-100-ai-agents-shows-they-fail-by-silent-drift-not-errors/",
+   "published": "2026-11-14T13:00:00Z",
+   "summary": "Quality and token alerts were early signals for 38% of agents and errors for about 1%, so monitoring should start with quality, cost, and latency. The post Data From 100+ AI Agents Shows They Fail by Silent Drift, Not Errors appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Open-source AI without Jensen",
+   "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+   "published": "2026-11-14T12:23:15Z",
+   "summary": "A decapitation. It’s time to rebuild.",
+   "source": "Interconnects (Nathan Lambert)",
+   "topic": "post-training"
+  },
+  {
+   "title": "[AINews] The No AI Slop Manifesto",
+   "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+   "published": "2026-11-14T08:31:02Z",
+   "summary": "November 13, 2026 , AIE speakers unite to lay out how to fight slop.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Advancing science & engineering with Antigravity’s /teamwork",
+   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+   "published": "2026-11-13T20:47:18Z",
+   "summary": "Education Innovation",
+   "source": "Google Research",
+   "topic": "research"
+  },
+  {
+   "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+   "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+   "published": "2026-11-13T18:00:39Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+   "url": "https://openai.com/business/customer-stories/shield",
+   "published": "2026-11-13T08:00:00Z",
+   "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "discussion": "https://news.ycombinator.com/item?id=50493251",
+   "points": 907,
+   "comments": 542,
+   "published": "2026-11-14T02:52:59Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Jonathan Blow to If AI solved coding, why is my software still the same? [video]",
+   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+   "discussion": "https://news.ycombinator.com/item?id=50484658",
+   "points": 419,
+   "comments": 584,
+   "published": "2026-11-13T15:08:44Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+   "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+   "discussion": "https://news.ycombinator.com/item?id=50486748",
+   "points": 410,
+   "comments": 104,
+   "published": "2026-11-13T17:30:10Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI is destroying the trust between writers and readers",
+   "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+   "discussion": "https://news.ycombinator.com/item?id=50481870",
+   "points": 356,
+   "comments": 225,
+   "published": "2026-11-13T11:13:46Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "After 600 experiments, here's what I discovered about JEPA world models",
+   "url": "https://haddyalchaer.com/jepa",
+   "discussion": "https://news.ycombinator.com/item?id=50487185",
+   "points": 279,
+   "comments": 46,
+   "published": "2026-11-13T17:55:28Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "No AI Slop: A Manifesto",
+   "url": "https://www.slopmanifesto.com/",
+   "discussion": "https://news.ycombinator.com/item?id=50488769",
+   "points": 210,
+   "comments": 125,
+   "published": "2026-11-13T19:51:56Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+   "url": "https://text.npr.org/nx-s1-6029408",
+   "discussion": "https://news.ycombinator.com/item?id=50484960",
+   "points": 189,
+   "comments": 183,
+   "published": "2026-11-13T15:29:10Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "OpenAI disbands its robotics team as its general models start running robots",
+   "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+   "discussion": "https://news.ycombinator.com/item?id=50487184",
+   "points": 174,
+   "comments": 72,
+   "published": "2026-11-13T17:55:23Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+   "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+   "discussion": "https://news.ycombinator.com/item?id=50488464",
+   "points": 142,
+   "comments": 26,
+   "published": "2026-11-13T19:24:47Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The Claude Delusion",
+   "url": "https://www.netmeister.org/blog/claude-delusion.html",
+   "discussion": "https://news.ycombinator.com/item?id=50496921",
+   "points": 122,
+   "comments": 148,
+   "published": "2026-11-14T13:36:17Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Italy fines Meta $887M over Android users' data access",
+   "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+   "discussion": "https://news.ycombinator.com/item?id=50497009",
+   "points": 109,
+   "comments": 37,
+   "published": "2026-11-14T13:48:06Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Claude Meetings",
+   "url": "https://claude.com/resources/articles/claude-meetings",
+   "discussion": "https://news.ycombinator.com/item?id=50491097",
+   "points": 104,
+   "comments": 82,
+   "published": "2026-11-13T22:39:15Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+   "url": "https://claude.com/resources/articles/projects-redesigned",
+   "discussion": "https://news.ycombinator.com/item?id=50492141",
+   "points": 93,
+   "comments": 89,
+   "published": "2026-11-14T00:28:11Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "ICML 2027 Changes [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xvkxbj/icml_2027_changes_d/",
+   "published": "2026-11-13T21:53:39Z",
+   "summary": "Just read the ICML 2027 CFP and it looks like they’re trying to tackle the submission explosion in a reasonable way. Under the new two-stage process, the area chair decides whether a paper goes to full review, and any proposed first-stage rejection has to be confirmed by a ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "ICLR rebuttal [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xw19o8/iclr_rebuttal_r/",
+   "published": "2026-11-14T12:29:37Z",
+   "summary": "I'm about to submit my iclr rebuttal, and I was wondering if it's okay to highlight the changes I've made to my manuscript using a different text color to make them easier for the reviewers to identify. I checked the author guidelines, but couldn't find any information about ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "I have trained a model to predict my blood sugar [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xvja5n/i_have_trained_a_model_to_predict_my_blood_sugar_p/",
+   "published": "2026-11-13T20:48:25Z",
+   "summary": "I have trained a custom 31,253 parameter encoder-only transformer on a pregenerated synthetic CGM dataset and fitted it to my own personal data using LoRA. It is competitive among other published models. I used 115 days of CGM data, of which 80 was used for training the adapter ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "ICLR 2027 Rebuttal [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xw5uwe/iclr_2027_rebuttal_d/",
+   "published": "2026-11-14T16:00:01Z",
+   "summary": "For anyone who’s updating their manuscript during rebuttals - the guidelines seems to suggest a pdf diff will be applied automatically to the updated pdf. Can anyone see this? I can’t seem to see any changes in colour or any pdf diff anywhere, even under ’Revisions’. submitted ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Is it compulsory to upload neurips poster by 15th Nov? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xw3q5f/is_it_compulsory_to_upload_neurips_poster_by_15th/",
+   "published": "2026-11-14T14:28:42Z",
+   "summary": "I received this mail which said \"Please upload your poster and thumbnail by clicking on the poster upload page link on the paper metadata page.\" The mail contains 15th November as a date, do we really need to upload posters ?? submitted by /u/Jealous_Key_4030 [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Back Propagation [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xvnob6/back_propagation_d/",
+   "published": "2026-11-13T23:52:21Z",
+   "summary": "Hello everyone I am currently studying neural network development in graduate school and I’m having a hard time conceptualizing the stages of training. I understand that forward propagation is how we calculate the output given input but in terms of how we adjust weights during ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  }
+ ],
+ "videos": [
+  {
+   "title": "Stanford CME295 Transformers & LLMs | Autumn 2026 | Lecture 6 - AI Agents",
+   "url": "https://www.youtube.com/watch?v=nU2a2lm6vDE",
+   "id": "nU2a2lm6vDE",
+   "published": "2026-11-13T21:02:37Z",
+   "source": "Stanford Online"
+  },
+  {
+   "title": "DSPy vs. LangGraph: AI Agent Frameworks Explained | Stanford CS329Z Lecture 5 with Michael Ryan",
+   "url": "https://www.youtube.com/watch?v=q0Q-Hy8TTps",
+   "id": "q0Q-Hy8TTps",
+   "published": "2026-11-13T21:00:26Z",
+   "source": "Stanford Online"
+  },
+  {
+   "title": "Why AI Decisions Are Geopolitical Decisions | Francis Fukuyama & Andy Grotto, Stanford",
+   "url": "https://www.youtube.com/watch?v=3vpnwkePGVQ",
+   "id": "3vpnwkePGVQ",
+   "published": "2026-11-13T20:14:16Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "jobs:ashby:tavily",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
