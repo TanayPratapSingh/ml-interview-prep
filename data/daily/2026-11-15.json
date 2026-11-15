@@ -1,0 +1,371 @@
+{
+ "date": "2026-11-15",
+ "generated_at": "2026-11-15T17:15:57Z",
+ "counts": {
+  "jobs_open": 860,
+  "jobs_new": 4,
+  "papers": 10,
+  "posts": 5,
+  "hn": 6,
+  "reddit": 6,
+  "videos": 1,
+  "interview_intel": 0,
+  "errors": 7
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:07af461e-da0d-4062-b7f9-8b0eafd5795f",
+   "company": "NVIDIA",
+   "title": "Deep Learning Framework Communications Engineer New Grad",
+   "location": "United States",
+   "remote": false,
+   "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Deep-Learning-Framework-Communications-Engineer---New-College-Grad-2026_JR2026129-1",
+   "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Deep-Learning-Framework-Communications-Engineer---New-College-Grad-2026_JR2026129-1",
+   "posted": "2026-11-14",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "simplify:0faa0969-9aa2-46f3-9b6d-db9683e2669a",
+   "company": "RBFCU",
+   "title": "Collections Business Analyst",
+   "location": "San Antonio, TX",
+   "remote": false,
+   "url": "https://rbfcu.wd503.myworkdayjobs.com/RegionalJobsSanAntonio/job/ASC---San-Antonio/Collections-Business-Analyst_015548-5",
+   "apply_url": "https://rbfcu.wd503.myworkdayjobs.com/RegionalJobsSanAntonio/job/ASC---San-Antonio/Collections-Business-Analyst_015548-5",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "simplify:0e9dcc61-445c-45de-ab79-e854c16a9da2",
+   "company": "Carnegie Mellon University",
+   "title": "Research Assistant - Kenneth C. Griffin School of Computer Science - S3D",
+   "location": "Pittsburgh, PA",
+   "remote": false,
+   "url": "https://cmu.wd115.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Research-Assistant---Kenneth-C-Griffin-School-of-Computer-Science---S3D_2025318",
+   "apply_url": "https://cmu.wd115.myworkdayjobs.com/cmu/job/Pittsburgh-PA/Research-Assistant---Kenneth-C-Griffin-School-of-Computer-Science---S3D_2025318",
+   "posted": "2026-11-03",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "ashby:openai:73875295-889e-4373-b20f-654e85c66ba4",
+   "company": "OpenAI",
+   "title": "Applied Scientist, Product Policy Research & Measurement",
+   "location": "San Francisco; US - Remote",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/73875295-889e-4373-b20f-654e85c66ba4",
+   "apply_url": "https://jobs.ashbyhq.com/openai/73875295-889e-4373-b20f-654e85c66ba4/application",
+   "posted": "2026-11-14",
+   "comp": "$347K to $385K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-15"
+  }
+ ],
+ "papers": [
+  {
+   "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+   "url": "https://huggingface.co/papers/2611.15777",
+   "arxiv": "https://arxiv.org/abs/2611.15777",
+   "upvotes": 136,
+   "github": "https://github.com/holdrain/SO-Arena",
+   "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark characterizing the ...",
+   "published": "2026-11-11T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+   "url": "https://huggingface.co/papers/2611.14815",
+   "arxiv": "https://arxiv.org/abs/2611.14815",
+   "upvotes": 51,
+   "github": "",
+   "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion ...",
+   "published": "2026-11-10T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+   "url": "https://huggingface.co/papers/2610.40394",
+   "arxiv": "https://arxiv.org/abs/2610.40394",
+   "upvotes": 47,
+   "github": "",
+   "summary": "Mathematical supervision for language models is typically flattened into isolated problem-solution pairs, discarding the curricular organization and evidential structure of the original sources. We introduce TOME-Math (Textbook-Oriented Mathematical Evidence), a large-scale corpus that converts 2,118 textbooks spanning the core areas of university-level mathematics subjects into approximately 380K structured ...",
+   "published": "2026-10-29T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+   "url": "https://huggingface.co/papers/2611.16748",
+   "arxiv": "https://arxiv.org/abs/2611.16748",
+   "upvotes": 46,
+   "github": "https://github.com/DAGroup-PKU/PhysLoop",
+   "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video generation models in ...",
+   "published": "2026-11-12T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
+   "url": "https://huggingface.co/papers/2611.13004",
+   "arxiv": "https://arxiv.org/abs/2611.13004",
+   "upvotes": 45,
+   "github": "https://github.com/DAGroup-PKU/G-STAR",
+   "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with the per-axis spatial ...",
+   "published": "2026-11-08T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+   "url": "https://huggingface.co/papers/2611.15131",
+   "arxiv": "https://arxiv.org/abs/2611.15131",
+   "upvotes": 42,
+   "github": "https://github.com/inclusionAI/Duo",
+   "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as external controls ...",
+   "published": "2026-11-11T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+   "url": "https://huggingface.co/papers/2611.13410",
+   "arxiv": "https://arxiv.org/abs/2611.13410",
+   "upvotes": 37,
+   "github": "https://github.com/air-embodied-brain/SteerDistill",
+   "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure contexts, while ...",
+   "published": "2026-11-10T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+   "url": "https://huggingface.co/papers/2611.15844",
+   "arxiv": "https://arxiv.org/abs/2611.15844",
+   "upvotes": 36,
+   "github": "https://github.com/OpenVisionBanana/OpenVisionBanana",
+   "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-task perception ...",
+   "published": "2026-11-11T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+   "url": "https://huggingface.co/papers/2611.17167",
+   "arxiv": "https://arxiv.org/abs/2611.17167",
+   "upvotes": 34,
+   "github": "https://github.com/ZJU-REAL/decision-agents",
+   "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach ...",
+   "published": "2026-11-12T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
+   "url": "https://huggingface.co/papers/2611.17060",
+   "arxiv": "https://arxiv.org/abs/2611.17060",
+   "upvotes": 30,
+   "github": "https://github.com/Ropedia/Ropedia-Xperience-2",
+   "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments in which policies ...",
+   "published": "2026-11-12T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "A Practitioner's Guide to 6 Agentic GraphRAG Patterns",
+   "url": "https://towardsdatascience.com/a-practitioners-guide-to-6-agentic-graphrag-patterns/",
+   "published": "2026-11-15T15:00:00Z",
+   "summary": "How autonomous agents turn static knowledge graphs into living Context Graphs that remember decisions, user intent, and operational history The post A Practitioner's Guide to 6 Agentic GraphRAG Patterns appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+   "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+   "published": "2026-11-15T13:31:28Z",
+   "summary": "Listen now | Mona Sarantakos on going from a weekend with OpenClaw to shipping the fastest-growing consumer AI product in history",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "Computing Effective Dimension for Quantum ML Models in PyTorch",
+   "url": "https://towardsdatascience.com/computing-effective-dimension-for-quantum-ml-models-in-pytorch/",
+   "published": "2026-11-15T13:00:00Z",
+   "summary": "Local and global variants, Fisher estimation, epsilon-ball sampling, and log-space stability, with PennyLane code and a time-series experiment. The post Computing Effective Dimension for Quantum ML Models in PyTorch appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Understanding Positional Embeddings in Modern LLMs",
+   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "published": "2026-11-15T12:10:37Z",
+   "summary": "The Methods Behind How LLMs Represent Token Positions",
+   "source": "Sebastian Raschka",
+   "topic": "llm"
+  },
+  {
+   "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
+   "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+   "published": "2026-11-14T21:15:46Z",
+   "summary": "Community Wisdom 305",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+   "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+   "discussion": "https://news.ycombinator.com/item?id=50501631",
+   "points": 436,
+   "comments": 227,
+   "published": "2026-11-14T22:26:30Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "All AI-generated code should be Open Source",
+   "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+   "discussion": "https://news.ycombinator.com/item?id=50507303",
+   "points": 401,
+   "comments": 248,
+   "published": "2026-11-15T14:46:58Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Italy fines Meta $887M over Android users' data access",
+   "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+   "discussion": "https://news.ycombinator.com/item?id=50497009",
+   "points": 391,
+   "comments": 299,
+   "published": "2026-11-14T13:48:06Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The Claude Delusion",
+   "url": "https://www.netmeister.org/blog/claude-delusion.html",
+   "discussion": "https://news.ycombinator.com/item?id=50496921",
+   "points": 149,
+   "comments": 197,
+   "published": "2026-11-14T13:36:17Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Understanding Positional Embeddings in Modern LLMs",
+   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "discussion": "https://news.ycombinator.com/item?id=50506376",
+   "points": 108,
+   "comments": 2,
+   "published": "2026-11-15T12:14:06Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Show HN: Agweb to a browser for agents that stays out of your way",
+   "url": "https://github.com/paul-nameless/agweb",
+   "discussion": "https://news.ycombinator.com/item?id=50497147",
+   "points": 107,
+   "comments": 31,
+   "published": "2026-11-14T14:08:12Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "ICLR 2027 Initial Review Scores ranked by University [N]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xwcjuq/iclr_2027_initial_review_scores_ranked_by/",
+   "published": "2026-11-14T20:33:14Z",
+   "summary": "Crawled from OpenReview, titles matched to arXiv, then affiliated with OpenAlex submitted by /u/No-Lab4175 [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "I don't think double-blind review systems work [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xwuwqd/i_dont_think_doubleblind_review_systems_work_d/",
+   "published": "2026-11-15T13:00:15Z",
+   "summary": "Reviewers can see the authors’ names and affiliations in many cases, making this system closer to single-blind review than double-blind review. I have personally witnessed cases where student reviewers rejected other researchers’ papers in an attempt to increase the chances of ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "With 42k submissions to ICLR, do you think the acceptance rate will stay the same? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xwqxwj/with_42k_submissions_to_iclr_do_you_think_the/",
+   "published": "2026-11-15T09:05:22Z",
+   "summary": "Given the massive jump to 42,000 submissions this year, I’m curious how people think the program chairs will handle the acceptance rate. Will they stick to the usual ~26-28% (meaning ~11k+ accepted papers), or will they cap the total number of accepted papers due to ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "ACM Multimedia 2026: TimeCues Studio - a free, open-source tool for annotating music structure [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xwh3mw/acm_multimedia_2026_timecues_studio_a_free/",
+   "published": "2026-11-14T23:59:28Z",
+   "summary": "Hey all, I wanted to share TimeCues Studio with you. It's part of my PhD work (ACM Multimedia 2026), and I thought you might find it useful. It's an open-source web app for annotating music on a beat-locked timeline and comparing algorithms against your annotations. If you need ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Hackathon project for MariaDB's Wikipedia Through Time challenge: matching sentences across seven Wikipedia editions at any past date [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xwttxo/hackathon_project_for_mariadbs_wikipedia_through/",
+   "published": "2026-11-15T12:03:27Z",
+   "summary": "Built at Junction, a hackathon in Espoo, this weekend. Parallax takes an article and lines up its Finnish, Swedish, German, English, Russian, Estonian and Ukrainian editions statement by statement. For any past date it shows where the editions tell something differently. We ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Anonymous GitHub not working [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xw9m5h/anonymous_github_not_working_d/",
+   "published": "2026-11-14T18:31:16Z",
+   "summary": "Mid ICLR rebuttals and I found out the links I made are not working. Anyone else having the same issue? submitted by /u/ZealousidealBee6113 [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  }
+ ],
+ "videos": [
+  {
+   "title": "AI Agent Design Patterns: ReAct, CodeAct & More | Stanford CS329Z Lecture 6 with Michael Ryan",
+   "url": "https://www.youtube.com/watch?v=JC_pLC5EX_w",
+   "id": "JC_pLC5EX_w",
+   "published": "2026-11-14T21:00:05Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "jobs:ashby:tavily",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Google DeepMind",
+   "error": "not well-formed (invalid token): line 1, column 0"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
