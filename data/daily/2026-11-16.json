@@ -1,0 +1,507 @@
+{
+ "date": "2026-11-16",
+ "generated_at": "2026-11-16T20:33:22Z",
+ "counts": {
+  "jobs_open": 847,
+  "jobs_new": 4,
+  "papers": 10,
+  "posts": 22,
+  "hn": 2,
+  "reddit": 12,
+  "videos": 1,
+  "interview_intel": 0,
+  "errors": 4
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:6bbdf60e-d9e3-4db2-ae28-9e16027401bc",
+   "company": "AMS",
+   "title": "Data Science Associate",
+   "location": "Manhattan, NYC",
+   "remote": false,
+   "url": "https://ats.rippling.com/ams/jobs/26e20c0b-d1ba-4a4e-8a04-707855517f49",
+   "apply_url": "https://ats.rippling.com/ams/jobs/26e20c0b-d1ba-4a4e-8a04-707855517f49",
+   "posted": "2026-11-16",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "simplify:2c3c2dfb-3211-41b2-90ef-c2472e6b2742",
+   "company": "Unique",
+   "title": "Data Scientist - Wealth Graph",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://unique.careers.hibob.com/jobs/e59dfdc2-da9d-4715-af0c-ed9512885d8d",
+   "apply_url": "https://unique.careers.hibob.com/jobs/e59dfdc2-da9d-4715-af0c-ed9512885d8d",
+   "posted": "2026-11-16",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "simplify:a694b265-26fe-4fce-bd73-fc51114ffeb2",
+   "company": "Quanta Services",
+   "title": "Business Analyst",
+   "location": "Lone Tree, CO",
+   "remote": false,
+   "url": "https://careers2-quanta.icims.com/jobs/20046/job?mobile=true&needsRedirect=false",
+   "apply_url": "https://careers2-quanta.icims.com/jobs/20046/job?mobile=true&needsRedirect=false",
+   "posted": "2026-11-16",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-16"
+  },
+  {
+   "id": "ashby:openai:9635775d-18fa-47bb-9ede-9a4137618de0",
+   "company": "OpenAI",
+   "title": "Partner Applied AI Engineer, AWS",
+   "location": "San Francisco; New York City",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/openai/9635775d-18fa-47bb-9ede-9a4137618de0",
+   "apply_url": "https://jobs.ashbyhq.com/openai/9635775d-18fa-47bb-9ede-9a4137618de0/application",
+   "posted": "2026-11-16",
+   "comp": "$197K to $278K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-16"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+   "url": "https://huggingface.co/papers/2611.18359",
+   "arxiv": "https://arxiv.org/abs/2611.18359",
+   "upvotes": 107,
+   "github": "",
+   "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop: observing the ...",
+   "published": "2026-11-13T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+   "url": "https://huggingface.co/papers/2611.18397",
+   "arxiv": "https://arxiv.org/abs/2611.18397",
+   "upvotes": 87,
+   "github": "https://github.com/RainBowLuoCS/Gamer",
+   "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens ...",
+   "published": "2026-11-13T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
+   "url": "https://huggingface.co/papers/2611.15789",
+   "arxiv": "https://arxiv.org/abs/2611.15789",
+   "upvotes": 83,
+   "github": "https://github.com/vibeprevisbench/vibeprevisbench",
+   "summary": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D ...",
+   "published": "2026-11-11T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "MIRIX-2.0: Multi-Agent Memory System",
+   "url": "https://huggingface.co/papers/2611.12068",
+   "arxiv": "https://arxiv.org/abs/2611.12068",
+   "upvotes": 43,
+   "github": "https://github.com/Mirix-AI/MIRIX",
+   "summary": "Long-term memory lets LLM agents personalize, stay consistent, and reuse what worked before. Parametric memories need training, consolidation can lose details for good, and keeping every record leaves a growing store to search. We present MIRIX-2.0, a multi-agent memory system designed to be practical, accurate, and efficient at once. It is the most accurate of the compared systems on four of five QA benchmarks. It ...",
+   "published": "2026-11-09T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "MMFlash: Faster Speculative Decoding for Vision-Language Models",
+   "url": "https://huggingface.co/papers/2611.18482",
+   "arxiv": "https://arxiv.org/abs/2611.18482",
+   "upvotes": 35,
+   "github": "https://github.com/fscdc/MMFlash",
+   "summary": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on the KL divergence ...",
+   "published": "2026-11-13T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
+   "url": "https://huggingface.co/papers/2611.12901",
+   "arxiv": "https://arxiv.org/abs/2611.12901",
+   "upvotes": 35,
+   "github": "https://github.com/mdlm-steprefine/mdlm-steprefine",
+   "summary": "Recent advancements in multimodal diffusion language models (MDLMs) have exhibited strong global modeling capabilities through iterative refinement. We observe that mask uncertainty follows an overall downward trend during iterative denoising, while a few denoising steps exhibit localized entropy spikes closely associated with hallucinations. We argue that anomalous steps can be identified by measuring the entropy ...",
+   "published": "2026-10-14T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+   "url": "https://huggingface.co/papers/2611.17831",
+   "arxiv": "https://arxiv.org/abs/2611.17831",
+   "upvotes": 21,
+   "github": "https://github.com/kkt94/Llama-V-JEPA-LM",
+   "summary": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the model learns to retrieve those attributes rather than to read the clip, and the dynamics the encoder carries go unused: on ...",
+   "published": "2026-11-13T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+   "url": "https://huggingface.co/papers/2611.17878",
+   "arxiv": "https://arxiv.org/abs/2611.17878",
+   "upvotes": 20,
+   "github": "https://github.com/kailaisun/DySENSE",
+   "summary": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions. City energy is essential for achieving the 2050 net-zero target and the UN's Sustainable Development Goals 7 and 11. Although existing studies have made progress, they are limited by data and methodological gaps. Existing studies are largely predictive for existing cities rather than generative for future ...",
+   "published": "2026-11-13T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Loopback Transformer: Towards a Unified View of Residual Looped Transformers",
+   "url": "https://huggingface.co/papers/2611.07226",
+   "arxiv": "https://arxiv.org/abs/2611.07226",
+   "upvotes": 18,
+   "github": "https://github.com/yancyou/Loopback",
+   "summary": "Looped Transformers reduce parameter count by repeatedly applying shared blocks, but parameter sharing alone does not determine how the results of repeated computation are reused. We take the depth-memory view of residual connections and analyze which representation is stored after each block application and how later reads weight it. A full block output contains both its input and its new update, so weighting that ...",
+   "published": "2026-11-04T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
+   "url": "https://huggingface.co/papers/2611.17814",
+   "arxiv": "https://arxiv.org/abs/2611.17814",
+   "upvotes": 17,
+   "github": "",
+   "summary": "With the rapid advancement of Large Language Models (LLMs), an increasing number of users are turning to LLM-powered agents for conversational shopping in e-commerce. However, the user needs continue to change as new product categories, procurement scenarios, and feature requests emerge. At the same time, the product's execution harness-including its tools, skills, and operating procedures-continues to evolve to ...",
+   "published": "2026-11-13T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "5 Things That Break When AI Agents Start Acting on Their Own",
+   "url": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+   "published": "2026-11-16T18:00:47Z",
+   "summary": "Five governance problems emerge when AI agents begin taking real-world actions, from unmanaged access and identity sprawl to approval bottlenecks and manual oversight.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Broadening access to AI for scientists",
+   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "published": "2026-11-16T17:00:00Z",
+   "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+   "url": "https://openai.com/index/strengthening-online-child-safety",
+   "published": "2026-11-16T17:00:00Z",
+   "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "After 10 Heads in a Row, Small LLMs Bet Up to 82% on an 11th",
+   "url": "https://towardsdatascience.com/after-10-heads-in-a-row-small-llms-bet-up-to-82-on-an-11th/",
+   "published": "2026-11-16T16:30:00Z",
+   "summary": "Telling eight base and instruction-tuned open models that the coin is fair and the flips are independent trims their streak bias by only a few points. The post After 10 Heads in a Row, Small LLMs Bet Up to 82% on an 11th appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+   "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+   "published": "2026-11-16T16:02:55Z",
+   "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "Rebuilding Guardian: How Pinterest Upgraded Its Real-Time Abuse Platform to Modern Infrastructure…",
+   "url": "https://medium.com/pinterest-engineering/rebuilding-guardian-how-pinterest-upgraded-its-real-time-abuse-platform-to-modern-infrastructure-56e45ee8f471?source=rss----4c5a5f6279b6---4",
+   "published": "2026-11-16T16:01:03Z",
+   "summary": "",
+   "source": "Pinterest Engineering",
+   "topic": "systems"
+  },
+  {
+   "title": "Why Human in the Loop AI Oversight Fails and How to Fix It",
+   "url": "https://towardsdatascience.com/why-human-in-the-loop-ai-oversight-fails-and-how-to-fix-it/",
+   "published": "2026-11-16T15:00:00Z",
+   "summary": "Kahneman's System 1 and System 2, plus the ODPS, ODCS, and Ossie standards, show how to wake reviewers up only when a check fails. The post Why Human in the Loop AI Oversight Fails and How to Fix It appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
+   "url": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+   "published": "2026-11-16T15:00:00Z",
+   "summary": "Stop wasting tokens debugging outdated code. Give Claude Code up-to-date docs with Context7.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Import AI 481: AI sub-contractors; a wet lab for AI; and subterfuge during development",
+   "url": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+   "published": "2026-11-16T14:01:15Z",
+   "summary": "Plus: CucumberVision!",
+   "source": "Import AI",
+   "topic": "research"
+  },
+  {
+   "title": "How to Avoid AI Replacement as an Analytics Professional in 2027",
+   "url": "https://towardsdatascience.com/how-to-avoid-ai-replacement-as-an-analytics-professional-in-2027/",
+   "published": "2026-11-16T13:30:00Z",
+   "summary": "Lessons from manufacturing and logistics projects: follow data from input to output, then turn vague requests into deterministic tools teams trust. The post How to Avoid AI Replacement as an Analytics Professional in 2027 appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How I fight token fraud as a solo founder",
+   "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+   "published": "2026-11-16T13:04:09Z",
+   "summary": "Watch now (40 mins) | 🎙️ After losing tens of thousands of dollars to token fraud, I walk through six attack patterns, the defenses I built, and why I killed free trials",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "Agentic System Design: A Self-Study Roadmap",
+   "url": "https://www.kdnuggets.com/agentic-system-design-a-self-study-roadmap",
+   "published": "2026-11-16T13:00:00Z",
+   "summary": "Learn agentic system design with this 7-step roadmap covering tools, memory, control loops, multi-agent coordination, evaluation, and deployment.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Science at the Frontier: How scientists use ChatGPT",
+   "url": "https://openai.com/index/science-at-the-frontier",
+   "published": "2026-11-16T12:00:00Z",
+   "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Local LLMs Handle Textbook RAG but Fail on New Research Papers",
+   "url": "https://towardsdatascience.com/local-llms-handle-textbook-rag-but-fail-on-new-research-papers/",
+   "published": "2026-11-16T12:00:00Z",
+   "summary": "Five setups, one blind grading pack: textbook scores ran 12 to 20 of 20, but a paper published this year dropped them to 0 to 9 of 15. The post Local LLMs Handle Textbook RAG but Fail on New Research Papers appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+   "url": "https://openai.com/index/lvmh-media-division-partnership",
+   "published": "2026-11-16T09:00:00Z",
+   "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Our first phase of embedded assessments",
+   "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "published": "2026-11-16T08:00:00Z",
+   "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Advancing computer-use agents for healthcare teams",
+   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "published": "2026-11-16T06:00:00Z",
+   "summary": "",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "More ways to move care forward with ChatGPT for Healthcare",
+   "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "published": "2026-11-16T06:00:00Z",
+   "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "url": "https://huggingface.co/blog/openrouter",
+   "published": "2026-11-16T00:00:00Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "The King’s Trust and OpenAI launch £1m partnership",
+   "url": "https://openai.com/index/the-kings-trust-and-openai",
+   "published": "2026-11-16T00:00:00Z",
+   "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "A step toward defining the Standard Model on a lattice",
+   "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "published": "2026-11-15T22:00:01Z",
+   "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Our new blog for science",
+   "url": "https://openai.com/index/our-new-blog-for-science",
+   "published": "2026-11-15T22:00:00Z",
+   "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "All AI-generated code should be Open Source",
+   "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+   "discussion": "https://news.ycombinator.com/item?id=50507303",
+   "points": 1240,
+   "comments": 649,
+   "published": "2026-11-15T14:46:58Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+   "url": "https://www.hntrends.com/2026/november.html",
+   "discussion": "https://news.ycombinator.com/item?id=50512950",
+   "points": 93,
+   "comments": 82,
+   "published": "2026-11-16T01:31:30Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [
+  {
+   "title": "AISTATS 2027 paper discussion [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xxqa3i/aistats_2027_paper_discussion_d/",
+   "published": "2026-11-16T14:09:31Z",
+   "summary": "Creating this post since the reviews are supposed to go live today. What do you guys think? submitted by /u/LongjumpingAd4741 [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Serious spaces? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xxvby6/serious_spaces_d/",
+   "published": "2026-11-16T17:23:56Z",
+   "summary": "As much as I love Reddit, it can really be hit and miss for serious discourse on AI and machine learning. Depending on which sub I guess. But are there any spaces outside of Reddit where there is more conversation, more community and less trolling? To be able to have a decent ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "ICLR did you post reminder of rebuttal response? [D]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xxbo56/iclr_did_you_post_reminder_of_rebuttal_response_d/",
+   "published": "2026-11-16T00:42:45Z",
+   "summary": "Well, I know they are busy due to the CVPR(So am I). But it's only about few days left and none of the reviewers replied my response. Do you think this is a good time to post a reminder to reviewers? submitted by /u/Opening_Progress6820 [link] [comments]",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Anyone working in AML / transaction monitoring / sanctions screening using ML? Looking for advice on where to start [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xx9za4/anyone_working_in_aml_transaction_monitoring/",
+   "published": "2026-11-15T23:25:39Z",
+   "summary": "Hi everyone, I’m a data analyst on a financial crime team, and I’m trying to get a machine learning project started to improve how we handle AML (anti-money laundering) work. I’d love to hear from anyone who works in transaction monitoring, customer screening, or sanctions/PEP ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Layer-hot decoding: an approach to check a guessed token while each layer's weights are already loaded on an Apple M4. It ran slow. [R]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xxw87p/layerhot_decoding_an_approach_to_check_a_guessed/",
+   "published": "2026-11-16T17:57:52Z",
+   "summary": "Language models read all their weights from memory once for every word they write. I tested whether a second, guessed word could ride along in the same read for almost no extra cost. The full model checks the guess, and a wrong guess is thrown away, so the output never changes ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "Steering a pretrained music transformer at sampling time into a real-time jazz partner (no fine-tuning) [P]",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xxkyh3/steering_a_pretrained_music_transformer_at/",
+   "published": "2026-11-16T09:19:43Z",
+   "summary": "I've been working on duetto, a real-time jazz partner for a MIDI keyboard: it plays a standard with you as a small band (solo, comping, walking bass), comps while you play and takes a solo when you stop. Demo (Autumn Leaves, 160 bpm): https://youtu.be/8zIAzVY8O6w Code (free for ...",
+   "source": "r/MachineLearning",
+   "topic": "community"
+  },
+  {
+   "title": "The beginning of the becoming of the beginning begins",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxlich/the_beginning_of_the_becoming_of_the_beginning/",
+   "published": "2026-11-16T09:55:51Z",
+   "summary": "submitted by /u/Subulicious [link] [comments]",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Why download abliterated Flash Next models when LoRA exists?",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxawbh/why_download_abliterated_flash_next_models_when/",
+   "published": "2026-11-16T00:06:16Z",
+   "summary": "TL;DR -- Download LoRA, add --lora HUIHUI-V2-Qwen3.8-Flash-Next-LoRA-F32.gguf to your llama.cpp launch command for ANY FN quant, and boom, you've got an identical huihui v2 abliterated model on demand and you saved 150GB of space. I just wanted to post a kind of PSA for everyone ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "I have created a tool to observe what happens inside an LLM. Also allows for the comparison of two quantizations of the same model to see at what point they diverge, token by token",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx7qbf/i_have_created_a_tool_to_observe_what_happens/",
+   "published": "2026-11-15T21:46:56Z",
+   "summary": "What changes between different quantizations of the same model? And what if you could SEE what actually sets them apart? To help answer that question, I’ve created a small project called inside-llm, an open-source tool that loads one or two GGUF models using llama.cpp and ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Introducing Hy4 flash",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxlgpb/introducing_hy4_flash/",
+   "published": "2026-11-16T09:52:44Z",
+   "summary": "Now this seems to be interesting. From the article: We’re introducing Hy4 flash, our most cost-effective Hy model to date, featuring 224B total parameters (including 64B Engram parameters) with just 12B active parameters per token. Like Hy4, it is natively multimodal with a ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Llama.cpp performance improvement over time (Gemma4 models)",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xx607x/llamacpp_performance_improvement_over_time_gemma4/",
+   "published": "2026-11-15T20:34:44Z",
+   "summary": "Few months ago - after Ninfer came out - I started a little hobby project to vibe-code my own engine for my hardware (RTX 5080 16GB Laptop) and check if it could beat llama.cpp - since at the time llama.cpp was kinda slow in comparison to something like vLLM, but vLLM is using ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  },
+  {
+   "title": "Stop worrying about Qwen 4's AA index",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxqfqr/stop_worrying_about_qwen_4s_aa_index/",
+   "published": "2026-11-16T14:16:10Z",
+   "summary": "Seriously, we have all been extremely happy and confident with Qwen, even since Qwen 3.6 came out. We might not be frontier level, but even though whatever they are giving us is more than enough for our daily local tasks and it even suffices by a big margin, we're all ...",
+   "source": "r/LocalLLaMA",
+   "topic": "community"
+  }
+ ],
+ "videos": [
+  {
+   "title": "How AI Agent Memory Works: MemGPT & Memory Types | Stanford CS329Z Lecture 7 with Michael Ryan",
+   "url": "https://www.youtube.com/watch?v=qh5tP6PBZ6U",
+   "id": "qh5tP6PBZ6U",
+   "published": "2026-11-15T21:00:28Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "jobs:ashby:tavily",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "feed:Google DeepMind",
+   "error": "not well-formed (invalid token): line 1, column 0"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
