@@ -1,0 +1,698 @@
+{
+ "date": "2026-11-17",
+ "generated_at": "2026-11-17T19:13:40Z",
+ "counts": {
+  "jobs_open": 847,
+  "jobs_new": 18,
+  "papers": 10,
+  "posts": 19,
+  "hn": 8,
+  "reddit": 0,
+  "videos": 3,
+  "interview_intel": 0,
+  "errors": 9
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:542753ed-5d89-4aa7-855f-a20530ae5084",
+   "company": "Microsoft",
+   "title": "Software Engineer Agentic Security",
+   "location": "Redmond, WA",
+   "remote": false,
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557074643",
+   "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393557074643",
+   "posted": "2026-11-17",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "simplify:d9f6c287-7df3-4748-9a8a-87c8f7c2cafb",
+   "company": "Context Labs",
+   "title": "Data Scientist - Energy (Oil & Gas)",
+   "location": "Houston, TX",
+   "remote": false,
+   "url": "https://contextlabs.bamboohr.com/careers/187/",
+   "apply_url": "https://contextlabs.bamboohr.com/careers/187/",
+   "posted": "2026-11-17",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "simplify:b3f04cf5-0577-4553-9fe1-4f87f8db62b8",
+   "company": "All Options",
+   "title": "Graduate Quantitative Researcher",
+   "location": "Austin, TX",
+   "remote": false,
+   "url": "https://alloptions.bamboohr.com/careers/86/",
+   "apply_url": "https://alloptions.bamboohr.com/careers/86/",
+   "posted": "2026-11-17",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "simplify:7b824aee-b73d-4d17-a5b0-eba4689344dc",
+   "company": "Welo Global",
+   "title": "Video and Audio Raters - English",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://jobs.lever.co/weloglobal/d78f3ff9-8d1d-452b-9981-2a6302c46b3b/apply",
+   "apply_url": "https://jobs.lever.co/weloglobal/d78f3ff9-8d1d-452b-9981-2a6302c46b3b/apply",
+   "posted": "2026-11-17",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "simplify:720ede4f-6de1-46ec-87eb-bc9beaa1785b",
+   "company": "DLR Group",
+   "title": "Smart Building Analyst 1",
+   "location": "Chicago, IL; Minneapolis, MN",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5464779008",
+   "apply_url": "https://job-boards.greenhouse.io/dlrgroup/jobs/5464779008",
+   "posted": "2026-11-16",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "simplify:187e3866-0138-455d-b76c-53f7fb1e4268",
+   "company": "Arrive Logistics",
+   "title": "Reporting Analyst 1",
+   "location": "Chicago, IL",
+   "remote": false,
+   "url": "https://jobs.lever.co/arrivelogistics/2e210f8b-51e3-4e61-9f43-79daca1cda91/apply",
+   "apply_url": "https://jobs.lever.co/arrivelogistics/2e210f8b-51e3-4e61-9f43-79daca1cda91/apply",
+   "posted": "2026-11-16",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "simplify:b00805b0-7d51-4f9e-ab9a-b30cdafb7294",
+   "company": "SAM",
+   "title": "Lidar Technician 1",
+   "location": "Atlanta, GA",
+   "remote": false,
+   "url": "https://careers.sam.biz/jobs/8253?icims=1&lang=en-us",
+   "apply_url": "https://careers.sam.biz/jobs/8253?icims=1&lang=en-us",
+   "posted": "2026-11-16",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "simplify:cb7f4a74-22dc-4d4d-9e2b-545993a511a8",
+   "company": "Silna Health",
+   "title": "AI Deployment Analyst",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/silnahealth.com/61222b3c-70fd-4e80-8903-468d96070833/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/silnahealth.com/61222b3c-70fd-4e80-8903-468d96070833/application?embed=true",
+   "posted": "2026-11-16",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "simplify:e516341f-94fb-46d4-acbf-424091977db5",
+   "company": "CrossCountry Consulting",
+   "title": "Junior Forward Deployed Software Engineer",
+   "location": "Philadelphia, PA",
+   "remote": false,
+   "url": "https://jobs.lever.co/crosscountry-consulting/5f8a920b-77ed-4200-b37d-1f5d68c1bc21/apply",
+   "apply_url": "https://jobs.lever.co/crosscountry-consulting/5f8a920b-77ed-4200-b37d-1f5d68c1bc21/apply",
+   "posted": "2026-11-16",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "simplify:7ecc58ea-032d-416e-b399-32ebdff54d06",
+   "company": "Roblox",
+   "title": "Data Scientist to PhD Early Career - Safety",
+   "location": "San Mateo, CA",
+   "remote": false,
+   "url": "https://careers.roblox.com/jobs/8384186?gh_jid=8384186",
+   "apply_url": "https://careers.roblox.com/jobs/8384186?gh_jid=8384186",
+   "posted": "2026-11-16",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "ashby:mercor:5b32468f-6f91-40ba-9398-eacb6416a882",
+   "company": "Mercor",
+   "title": "Enterprise AI Associate",
+   "location": "New York City",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/mercor/5b32468f-6f91-40ba-9398-eacb6416a882",
+   "apply_url": "https://jobs.ashbyhq.com/mercor/5b32468f-6f91-40ba-9398-eacb6416a882/application",
+   "posted": "2026-11-16",
+   "comp": "$110K to $150K • Offers Equity • Bi-Annual Performance Bonus",
+   "early_career": true,
+   "sponsorship": "citizens_only",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "ashby:cohere:d5cc437c-2397-4c1a-9d12-3a2bf64d98ea",
+   "company": "Cohere",
+   "title": "Member of Technical Staff, Search",
+   "location": "United States; San Francisco; Europe; Canada; London; New York; United Kingdom; Toronto; Montreal",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/cohere/d5cc437c-2397-4c1a-9d12-3a2bf64d98ea",
+   "apply_url": "https://jobs.ashbyhq.com/cohere/d5cc437c-2397-4c1a-9d12-3a2bf64d98ea/application",
+   "posted": "2026-11-17",
+   "comp": "CA$250K to CA$535K • Offers Equity • Multiple Ranges",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "ashby:physicalintelligence:e81c8b57-4a6c-4d24-a166-e2c881718fdc",
+   "company": "Physical Intelligence",
+   "title": "ML Infra Engineer, Compute",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/physicalintelligence/e81c8b57-4a6c-4d24-a166-e2c881718fdc",
+   "apply_url": "https://jobs.ashbyhq.com/physicalintelligence/e81c8b57-4a6c-4d24-a166-e2c881718fdc/application",
+   "posted": "2026-11-16",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "ashby:ramp:3cfbf693-58e3-423f-87a8-a93dbd0839b0",
+   "company": "Ramp",
+   "title": "Software Engineer, Backend, AI Ventures",
+   "location": "New York, NY (HQ)",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/ramp/3cfbf693-58e3-423f-87a8-a93dbd0839b0",
+   "apply_url": "https://jobs.ashbyhq.com/ramp/3cfbf693-58e3-423f-87a8-a93dbd0839b0/application",
+   "posted": "2026-11-17",
+   "comp": "$204K to $330K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "ashby:openai:ff2490f4-84db-4c2e-b41f-8247e5613601",
+   "company": "OpenAI",
+   "title": "Researcher, Frontier Robustness",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/ff2490f4-84db-4c2e-b41f-8247e5613601",
+   "apply_url": "https://jobs.ashbyhq.com/openai/ff2490f4-84db-4c2e-b41f-8247e5613601/application",
+   "posted": "2026-11-16",
+   "comp": "$295K to $500K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "ashby:mercor:b0f12b3f-91ae-4b9e-ad0b-ed0299f80554",
+   "company": "Mercor",
+   "title": "Software Engineer, Enterprise Applied AI",
+   "location": "New York City",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/mercor/b0f12b3f-91ae-4b9e-ad0b-ed0299f80554",
+   "apply_url": "https://jobs.ashbyhq.com/mercor/b0f12b3f-91ae-4b9e-ad0b-ed0299f80554/application",
+   "posted": "2026-11-16",
+   "comp": "$130K to $500K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "citizens_only",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "ashby:mercor:4d817fa9-8860-4063-9da7-f484569ed1dc",
+   "company": "Mercor",
+   "title": "Member of Technical Staff, Fraud",
+   "location": "San Francisco or NYC",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/mercor/4d817fa9-8860-4063-9da7-f484569ed1dc",
+   "apply_url": "https://jobs.ashbyhq.com/mercor/4d817fa9-8860-4063-9da7-f484569ed1dc/application",
+   "posted": "2026-11-16",
+   "comp": "$130K to $500K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "citizens_only",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "ashby:mercor:d502c09c-b1de-4d3f-97b6-a684525889bc",
+   "company": "Mercor",
+   "title": "Agentic Product Engineer, Studio Platform",
+   "location": "New York City",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/mercor/d502c09c-b1de-4d3f-97b6-a684525889bc",
+   "apply_url": "https://jobs.ashbyhq.com/mercor/d502c09c-b1de-4d3f-97b6-a684525889bc/application",
+   "posted": "2026-11-16",
+   "comp": "$160K to $500K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "citizens_only",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-17"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Sage S2.1 Flash Technical Report",
+   "url": "https://huggingface.co/papers/2611.21072",
+   "arxiv": "https://arxiv.org/abs/2611.21072",
+   "upvotes": 83,
+   "github": "https://github.com/InternLM/Sage-S2.1-Flash",
+   "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared ...",
+   "published": "2026-11-16T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+   "url": "https://huggingface.co/papers/2611.21003",
+   "arxiv": "https://arxiv.org/abs/2611.21003",
+   "upvotes": 66,
+   "github": "",
+   "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen reasoning, we ...",
+   "published": "2026-11-16T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
+   "url": "https://huggingface.co/papers/2611.19937",
+   "arxiv": "https://arxiv.org/abs/2611.19937",
+   "upvotes": 66,
+   "github": "https://github.com/allocflow/AllocFlow",
+   "summary": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with allocation and execution ...",
+   "published": "2026-11-15T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
+   "url": "https://huggingface.co/papers/2611.21218",
+   "arxiv": "https://arxiv.org/abs/2611.21218",
+   "upvotes": 62,
+   "github": "https://github.com/panuvi/inclusionmed",
+   "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four public benchmarks ...",
+   "published": "2026-11-16T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+   "url": "https://huggingface.co/papers/2611.07222",
+   "arxiv": "https://arxiv.org/abs/2611.07222",
+   "upvotes": 47,
+   "github": "https://github.com/saintmachines/spillway",
+   "summary": "Tool-using agents act on email, files, and payments, so an instruction hidden in a web page or a shared document can make an agent send data or money to an attacker. Many runtime defenses put a language model on the decision that lets an action through, so the decision depends on a model that may read the attacker's text and adds model calls to every step. Provenance defenses keep the model off the final check but ...",
+   "published": "2026-11-04T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+   "url": "https://huggingface.co/papers/2611.20218",
+   "arxiv": "https://arxiv.org/abs/2611.20218",
+   "upvotes": 44,
+   "github": "https://github.com/TokenWave-AI/swe-cowork-bench",
+   "summary": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who have distinct ...",
+   "published": "2026-11-15T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+   "url": "https://huggingface.co/papers/2611.21607",
+   "arxiv": "https://arxiv.org/abs/2611.21607",
+   "upvotes": 41,
+   "github": "",
+   "summary": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a stronger foundation for ...",
+   "published": "2026-11-16T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "PaperCritic: Training AI Reviewers to Assess the Soundness of Papers",
+   "url": "https://huggingface.co/papers/2611.17834",
+   "arxiv": "https://arxiv.org/abs/2611.17834",
+   "upvotes": 26,
+   "github": "",
+   "summary": "As AI conference submissions grow rapidly, AI reviewers are being considered as an alternative. However, simply imitating human reviewing is problematic because reviewing serves multiple purposes, including evaluating papers' soundness, interestingness, and clarity, the last two of which are subjective. In this work, we focus solely on evaluating soundness, the most important and objective criterion, and define the ...",
+   "published": "2026-11-13T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "VoxMel TTS Technical Report",
+   "url": "https://huggingface.co/papers/2611.20254",
+   "arxiv": "https://arxiv.org/abs/2611.20254",
+   "upvotes": 22,
+   "github": "https://github.com/VoxDance-Lab/VoxMel",
+   "summary": "Continuous autoregressive TTS relies on an acoustic target that enables stable next-latent modeling while preserving fine-grained acoustic details. While existing approaches employ learned compressed representations (e.g., continuous VAE latents) to render prediction tractable, they rely on complex neural encoders that often cap generation fidelity. Conversely, training-free targets like mel-spectrograms eliminate ...",
+   "published": "2026-11-15T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Accelerate Bench: Evaluating Agents for Application-Level Program Optimization",
+   "url": "https://huggingface.co/papers/2611.20882",
+   "arxiv": "https://arxiv.org/abs/2611.20882",
+   "upvotes": 16,
+   "github": "https://github.com/AdAstraAbyssoque/accelerate-bench",
+   "summary": "Application optimization requires coding agents to discover useful changes and coordinate them across a complete program while preserving the required computation. We introduce Accelerate Bench, a benchmark of 32 CPU optimization tasks adapted from scientific applications and supercomputing competitions. Each task provides a working program and specifies the workload, correctness requirements, timing boundaries, and ...",
+   "published": "2026-11-16T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "35 premium tools free for a year, now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+   "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+   "published": "2026-11-17T18:02:02Z",
+   "summary": "Over $40,000 in value, exclusively for Lenny’s Newsletter subscribers",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "De-identifying text at scale: How Airbnb protects personal data in AI training",
+   "url": "https://medium.com/airbnb-engineering/de-identifying-text-at-scale-how-airbnb-protects-personal-data-in-ai-training-32f3ff8ff7d0?source=rss----53c7c27702d5---4",
+   "published": "2026-11-17T18:01:03Z",
+   "summary": "",
+   "source": "Airbnb Engineering",
+   "topic": "systems"
+  },
+  {
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "published": "2026-11-17T17:45:00Z",
+   "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Engineering AI Discover",
+   "url": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4",
+   "published": "2026-11-17T17:01:02Z",
+   "summary": "",
+   "source": "Netflix TechBlog",
+   "topic": "systems"
+  },
+  {
+   "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+   "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+   "published": "2026-11-17T16:48:33Z",
+   "summary": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You ...",
+   "source": "Simon Willison",
+   "topic": "llm"
+  },
+  {
+   "title": "How to Improve Coding Agent Efficiency by 30% with an Orchestrator",
+   "url": "https://towardsdatascience.com/how-to-improve-coding-agent-efficiency-by-30-with-an-orchestrator/",
+   "published": "2026-11-17T16:30:00Z",
+   "summary": "Stop hunting through sessions for pending questions: a herder agent surfaces them by priority, kept current by webhooks or cheap Haiku polling. The post How to Improve Coding Agent Efficiency by 30% with an Orchestrator appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
+   "url": "https://latent.space/p/cloudflare/",
+   "published": "2026-11-17T15:00:00Z",
+   "summary": "Cloudflare made its name speeding up the web. Now it's building System One models to make decisions and pull data in milliseconds.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "How to Govern Coding Agent Skills Across Repos With Plugins",
+   "url": "https://towardsdatascience.com/how-to-govern-coding-agent-skills-across-repos-with-plugins/",
+   "published": "2026-11-17T15:00:00Z",
+   "summary": "Package skills, rules, hooks, and MCP tool configs as versioned plugins, then distribute them through a marketplace, shown with Claude Code and AWS. The post How to Govern Coding Agent Skills Across Repos With Plugins appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Calibrate Your Classifier’s Probabilities in Scikit-learn",
+   "url": "https://www.kdnuggets.com/how-to-calibrate-your-classifiers-probabilities-in-scikit-learn",
+   "published": "2026-11-17T15:00:00Z",
+   "summary": "In this tutorial, you will train two scikit-learn classifiers on a real dataset, expose their miscalibration with a reliability diagram and a Brier score, and fix it with Platt scaling and isotonic regression",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Google ADK Agents That Pause, Resume, and Wait Hours for a Human",
+   "url": "https://towardsdatascience.com/google-adk-agents-that-pause-resume-and-wait-hours-for-a-human/",
+   "published": "2026-11-17T13:30:00Z",
+   "summary": "A synchronous call kept an RSS agent's connection open for 83 seconds; webhooks and 202 receipts free the client while the agent works. The post Google ADK Agents That Pause, Resume, and Wait Hours for a Human appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "7 Best AI Coding Plans for $10 or Less in 2026",
+   "url": "https://www.kdnuggets.com/7-best-ai-coding-plans-for-10-or-less-in-2026",
+   "published": "2026-11-17T13:00:00Z",
+   "summary": "Compare affordable AI coding agents, AI-powered IDEs, open-source tools, and multi-model subscriptions from OpenCode, Cursor, GitHub Copilot, Cline, Zed, and Xiaomi MiMo.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Design MCP Servers That Leave Orchestration to the Host",
+   "url": "https://towardsdatascience.com/how-to-design-mcp-servers-that-leave-orchestration-to-the-host/",
+   "published": "2026-11-17T12:00:00Z",
+   "summary": "A Python SDK v2 catalogue server with two narrow tools, one resource, and one prompt shows how to keep planning, workflow state, and authorisation host-side. The post How to Design MCP Servers That Leave Orchestration to the Host appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+   "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+   "published": "2026-11-17T09:24:56Z",
+   "summary": "November 16, 2026 , Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Strengthening NATO and allied cyber defenses with AI",
+   "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "published": "2026-11-17T00:00:00Z",
+   "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Introducing OpenAI for Chile",
+   "url": "https://openai.com/index/introducing-openai-for-chile",
+   "published": "2026-11-17T00:00:00Z",
+   "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Astra for Law leads in legal intelligence",
+   "url": "https://openai.com/index/astra-law-6-2",
+   "published": "2026-11-17T00:00:00Z",
+   "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Building Visual Intelligence , Andreas Blattmann & Dustin Podell, Black Forest Labs",
+   "url": "https://latent.space/p/bfl/",
+   "published": "2026-11-16T21:38:03Z",
+   "summary": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "How Revolut raises ambition without lowering the bar",
+   "url": "https://openai.com/business/customer-stories/revolut",
+   "published": "2026-11-16T09:30:00Z",
+   "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30 to 60%, scale financial crime investigations, and innovate without compromising security.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "At Holiday Extras, dots get to work before anyone asks",
+   "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+   "published": "2026-11-16T00:00:00Z",
+   "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "discussion": "https://news.ycombinator.com/item?id=50524736",
+   "points": 696,
+   "comments": 572,
+   "published": "2026-11-16T22:58:20Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "GPT‑6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+   "discussion": "https://news.ycombinator.com/item?id=50535230",
+   "points": 527,
+   "comments": 290,
+   "published": "2026-11-17T17:46:43Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "What is the best harness for each model?",
+   "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+   "discussion": "https://news.ycombinator.com/item?id=50532191",
+   "points": 241,
+   "comments": 91,
+   "published": "2026-11-17T14:53:43Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "How the Claude Code team thinks about verification",
+   "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+   "discussion": "https://news.ycombinator.com/item?id=50529612",
+   "points": 194,
+   "comments": 158,
+   "published": "2026-11-17T10:20:40Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+   "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+   "discussion": "https://news.ycombinator.com/item?id=50531751",
+   "points": 172,
+   "comments": 212,
+   "published": "2026-11-17T14:19:59Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Running coding agents without handing them my credentials",
+   "url": "https://blog.antonio.cx/running-agents-with-lend",
+   "discussion": "https://news.ycombinator.com/item?id=50526152",
+   "points": 126,
+   "comments": 108,
+   "published": "2026-11-17T01:18:56Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Just 400 US Data Centers Use More Electricity Than Michigan",
+   "url": "https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/",
+   "discussion": "https://news.ycombinator.com/item?id=50520697",
+   "points": 95,
+   "comments": 100,
+   "published": "2026-11-16T18:04:55Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?",
+   "url": "https://news.ycombinator.com/item?id=50520076",
+   "discussion": "https://news.ycombinator.com/item?id=50520076",
+   "points": 83,
+   "comments": 103,
+   "published": "2026-11-16T17:20:28Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [],
+ "videos": [
+  {
+   "title": "Vibe Coding, AI Risk & AI Evaluation | Stanford CS193T Lecture 6 with Cynthia Bailey",
+   "url": "https://www.youtube.com/watch?v=0Uk4uLjuEeY",
+   "id": "0Uk4uLjuEeY",
+   "published": "2026-11-17T17:00:03Z",
+   "source": "Stanford Online"
+  },
+  {
+   "title": "How AI Agents Work: Connectors, MCP & Agent Safety | Stanford CS193T Lecture 5 with Cynthia Bailey",
+   "url": "https://www.youtube.com/watch?v=ho00IesajkY",
+   "id": "ho00IesajkY",
+   "published": "2026-11-17T00:00:36Z",
+   "source": "Stanford Online"
+  },
+  {
+   "title": "Multi-Agent Systems: When More Agents Help or Hurt | Stanford CS329Z Lecture 8 with Michael Ryan",
+   "url": "https://www.youtube.com/watch?v=TlX_ft_PQIM",
+   "id": "TlX_ft_PQIM",
+   "published": "2026-11-16T21:00:05Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "jobs:ashby:browserbase",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "jobs:ashby:tavily",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Google DeepMind",
+   "error": "not well-formed (invalid token): line 1, column 0"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:MachineLearning",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
