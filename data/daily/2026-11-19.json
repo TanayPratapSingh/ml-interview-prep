@@ -1,0 +1,623 @@
+{
+ "date": "2026-11-19",
+ "generated_at": "2026-11-19T19:02:08Z",
+ "counts": {
+  "jobs_open": 850,
+  "jobs_new": 12,
+  "papers": 10,
+  "posts": 14,
+  "hn": 16,
+  "reddit": 0,
+  "videos": 2,
+  "interview_intel": 0,
+  "errors": 8
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:5f157b72-b656-478b-b0b1-7df9204accbe",
+   "company": "GM Financial",
+   "title": "Pricing Analytics Analyst",
+   "location": "Fort Worth, TX",
+   "remote": false,
+   "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261306",
+   "apply_url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261306",
+   "posted": "2026-11-19",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "simplify:3784cbeb-dad8-41ce-84ae-f3a2f77d09e2",
+   "company": "Journal Technologies",
+   "title": "Junior Data Integration Developer",
+   "location": "LA; Victoria, BC, Canada; Remote in USA; Logan, UT",
+   "remote": true,
+   "url": "https://ats.rippling.com/journaltech/jobs/c16c782e-f2e0-490a-b3fc-061a5df2fa8d",
+   "apply_url": "https://ats.rippling.com/journaltech/jobs/c16c782e-f2e0-490a-b3fc-061a5df2fa8d",
+   "posted": "2026-11-19",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "simplify:b7ec9df6-51ee-4637-b702-7ae0ef77c256",
+   "company": "Lawrence Livermore National Laboratory (LLNL)",
+   "title": "Numerical Program Analysis for Scientific Computing Postdoctoral Researcher",
+   "location": "Livermore, CA",
+   "remote": false,
+   "url": "https://jobs.smartrecruiters.com/LLNL/3743990016939826",
+   "apply_url": "https://jobs.smartrecruiters.com/LLNL/3743990016939826",
+   "posted": "2026-11-18",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "simplify:30dfa4e8-f30b-42d3-b8c1-3e46cd7c0099",
+   "company": "EBQ",
+   "title": "Data Management Specialist",
+   "location": "Austin, TX",
+   "remote": false,
+   "url": "https://ebq.bamboohr.com/careers/164/",
+   "apply_url": "https://ebq.bamboohr.com/careers/164/",
+   "posted": "2026-11-18",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "simplify:cae2bac1-48ca-4ed4-81e5-98fa2587e13f",
+   "company": "Keysight Technologies",
+   "title": "AI Productivity Specialist - Corporate Communications",
+   "location": "Santa Rosa, CA; Remote in USA",
+   "remote": true,
+   "url": "https://jobs.keysight.com/jobs/58059?icims=1&lang=en-us",
+   "apply_url": "https://jobs.keysight.com/jobs/58059?icims=1&lang=en-us",
+   "posted": "2026-11-18",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "simplify:26fa4e32-b501-44ab-87b3-253fe6adc3a1",
+   "company": "Zoox",
+   "title": "Data Scientist",
+   "location": "Foster City, CA",
+   "remote": false,
+   "url": "https://jobs.lever.co/zoox/c6d372ce-1203-4d34-bd3e-f637e7d23483/apply",
+   "apply_url": "https://jobs.lever.co/zoox/c6d372ce-1203-4d34-bd3e-f637e7d23483/apply",
+   "posted": "2026-11-18",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "simplify:87235934-6062-4c59-ae25-377ea9397e49",
+   "company": "Boston Scientific",
+   "title": "Health AI Engineer 1 - Data Science & Business Intelligence",
+   "location": "Marlborough, MA",
+   "remote": false,
+   "url": "https://bostonscientific.eightfold.ai/careers/job/563602813942507",
+   "apply_url": "https://bostonscientific.eightfold.ai/careers/job/563602813942507",
+   "posted": "2026-11-18",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "simplify:61de138e-6fce-43d0-9e91-1044af2182f4",
+   "company": "Altamira Technologies",
+   "title": "Entry Level Intelligence Analyst",
+   "location": "Aurora, CO",
+   "remote": false,
+   "url": "https://jobs.jobvite.com/altamiracorps/job/o0p7AfwQ?nl=1&nl=1&fr=false",
+   "apply_url": "https://jobs.jobvite.com/altamiracorps/job/o0p7AfwQ?nl=1&nl=1&fr=false",
+   "posted": "2026-11-18",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "ashby:baseten:9120b805-9b3a-45eb-ba05-9b6890877472",
+   "company": "Baseten",
+   "title": "Revenue Strategy & Operations (AI Natives, AI Strategics, Labs)",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/baseten/9120b805-9b3a-45eb-ba05-9b6890877472",
+   "apply_url": "https://jobs.ashbyhq.com/baseten/9120b805-9b3a-45eb-ba05-9b6890877472/application",
+   "posted": "2026-11-19",
+   "comp": "$185K to $235K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "ashby:baseten:fddec35f-9dbc-4344-b1df-b8ff6e05472a",
+   "company": "Baseten",
+   "title": "Software Engineer - Inference Product",
+   "location": "San Francisco; New York",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/baseten/fddec35f-9dbc-4344-b1df-b8ff6e05472a",
+   "apply_url": "https://jobs.ashbyhq.com/baseten/fddec35f-9dbc-4344-b1df-b8ff6e05472a/application",
+   "posted": "2026-11-19",
+   "comp": "$200K to $400K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "ashby:ramp:f90d32c1-7c10-4161-8913-075e1b423697",
+   "company": "Ramp",
+   "title": "Research Engineer, Agentic Systems",
+   "location": "Remote (US)",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/ramp/f90d32c1-7c10-4161-8913-075e1b423697",
+   "apply_url": "https://jobs.ashbyhq.com/ramp/f90d32c1-7c10-4161-8913-075e1b423697/application",
+   "posted": "2026-11-18",
+   "comp": "$204.4K to $352K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "ashby:mercor:c684bdad-93b0-4811-82e5-926457db2daa",
+   "company": "Mercor",
+   "title": "Member of Technical Staff, Annotation UI",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/mercor/c684bdad-93b0-4811-82e5-926457db2daa",
+   "apply_url": "https://jobs.ashbyhq.com/mercor/c684bdad-93b0-4811-82e5-926457db2daa/application",
+   "posted": "2026-11-18",
+   "comp": "$250K to $400K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "citizens_only",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-19"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Jeveration: System One Models Now Generate",
+   "url": "https://huggingface.co/papers/2611.24738",
+   "arxiv": "https://arxiv.org/abs/2611.24738",
+   "upvotes": 100,
+   "github": "https://github.com/Carol-lyh/Jeveration",
+   "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global consistency. A single ...",
+   "published": "2026-11-18T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+   "url": "https://huggingface.co/papers/2611.23068",
+   "arxiv": "https://arxiv.org/abs/2611.23068",
+   "upvotes": 33,
+   "github": "",
+   "summary": "Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain tasks. We trace this puzzle to the Resolution Hypothesis: agent evolution stalls not because methods fail to propose ...",
+   "published": "2026-11-17T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "ALIVE: Making Streaming Video Models Interactive",
+   "url": "https://huggingface.co/papers/2611.21366",
+   "arxiv": "https://arxiv.org/abs/2611.21366",
+   "upvotes": 30,
+   "github": "https://github.com/lijinzhao30/ALIVE",
+   "summary": "Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction. We construct ALIVE-SFT-288K and ALIVE-RL-3K for two-stage training. Contrastive supervised fine-tuning teaches when and how to respond, while reinforcement learning ...",
+   "published": "2026-11-16T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "PROLA: Principal-Orthogonal Low-rank Adaptation for Predictive Spatiotemporal Weather Downscaling",
+   "url": "https://huggingface.co/papers/2611.11318",
+   "arxiv": "https://arxiv.org/abs/2611.11318",
+   "upvotes": 27,
+   "github": "https://github.com/yms020615/PROLA",
+   "summary": "High-resolution weather prediction is important for resolving local atmospheric patterns missed by coarse global forecasts. Large pretrained weather backbones have improved global forecasting, but adapting them to produce future high-resolution fields from recent coarse states remains challenging and costly. We formulate this setting as Predictive Spatiotemporal Weather Downscaling (PSWD), a task that jointly ...",
+   "published": "2026-11-08T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
+   "url": "https://huggingface.co/papers/2611.24154",
+   "arxiv": "https://arxiv.org/abs/2611.24154",
+   "upvotes": 24,
+   "github": "https://github.com/game2player/Game2Player",
+   "summary": "Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions. Existing datasets also cover a limited range of games, often without explicit tasks or verifiable outcomes. To address these gaps, we introduce Game2Player, a framework that co-develops game ...",
+   "published": "2026-11-18T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
+   "url": "https://huggingface.co/papers/2611.24654",
+   "arxiv": "https://arxiv.org/abs/2611.24654",
+   "upvotes": 22,
+   "github": "",
+   "summary": "A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its target while degrading general capabilities. We introduce CurvDelta, a scalable framework that incorporates the preservation constraint into the parameterization of the model update. By analyzing the local geometry of the preservation constraint around the pre-adaptation model, CurvDelta constructs ...",
+   "published": "2026-11-18T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+   "url": "https://huggingface.co/papers/2611.24789",
+   "arxiv": "https://arxiv.org/abs/2611.24789",
+   "upvotes": 22,
+   "github": "https://github.com/tuandattt/hintwam_code",
+   "summary": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervised fine-tuning provides dense supervision on expert trajectories, but its flow-matching action ...",
+   "published": "2026-11-18T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "LightTAR: Light and Fast Target-Aware Representations for Multimodal Tabular Learning",
+   "url": "https://huggingface.co/papers/2611.17600",
+   "arxiv": "https://arxiv.org/abs/2611.17600",
+   "upvotes": 20,
+   "github": "https://github.com/eilamshapira/LightTAR",
+   "summary": "Multimodal tabular learning involves classification and regression on tables combining structured numerical and categorical features with unstructured text and images. These unstructured fields are commonly represented by pretrained encoder embeddings reduced with principal component analysis (PCA). This reduction prioritizes input variance but may overlook information relevant to predicting the target. We introduce ...",
+   "published": "2026-11-12T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+   "url": "https://huggingface.co/papers/2611.24869",
+   "arxiv": "https://arxiv.org/abs/2611.24869",
+   "upvotes": 18,
+   "github": "https://github.com/AlayaLab/WorldRuler",
+   "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former requires preserving rule ...",
+   "published": "2026-11-18T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Code World Model 2.0: Towards Infinite Controllable Video Generation",
+   "url": "https://huggingface.co/papers/2611.22925",
+   "arxiv": "https://arxiv.org/abs/2611.22925",
+   "upvotes": 13,
+   "github": "https://github.com/inclusionAI/CodeWorldModel",
+   "summary": "Visual proxies decouple explicit world-state simulation from photorealistic video synthesis, offering a controllable interface for both offline clip creation and real-time interactive streaming. Yet a practical renderer must address two challenges. Upstream proxies vary from coarse layouts to fine articulated geometry depending on the interaction, and streaming inference must operate in a few causal steps without ...",
+   "published": "2026-11-17T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "The 0.95 Expectile Is Not the 95th Percentile",
+   "url": "https://towardsdatascience.com/the-095-expectile-is-not-the-95th-percentile/",
+   "published": "2026-11-19T16:30:00Z",
+   "summary": "Exact uniform math and 100 synthetic Python runs show when to target 95% coverage and when asymmetric squared-error costs call for the expectile. The post The 0.95 Expectile Is Not the 95th Percentile appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Run Claude Code and Other Coding Agents in the Cloud 24/7",
+   "url": "https://towardsdatascience.com/how-to-run-claude-code-and-other-coding-agents-in-the-cloud-247/",
+   "published": "2026-11-19T15:00:00Z",
+   "summary": "Two setups: flip Claude Code's cloud environment on for the quick path, or rent a server for full control. The post How to Run Claude Code and Other Coding Agents in the Cloud 24/7 appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "What I Learned From Kaggle + Google’s Free Agentic AI Course",
+   "url": "https://www.kdnuggets.com/what-i-learned-from-kaggle-googles-free-agentic-ai-course",
+   "published": "2026-11-19T15:00:00Z",
+   "summary": "Learn to build AI agents with Gemini and Google’s ADK through this free course, covering tools, memory, evaluation, and deployment.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "When Can You Ship on Offline Evals Alone?",
+   "url": "https://engineering.atspotify.com/2026/11/when-can-you-ship-on-offline-evals-alone/",
+   "published": "2026-11-19T13:34:19Z",
+   "summary": "TL;DR Teams building AI features want to skip slow A/B tests and decide from offline evals alone. This post... The post When Can You Ship on Offline Evals Alone? appeared first on Spotify Engineering .",
+   "source": "Spotify Engineering",
+   "topic": "systems"
+  },
+  {
+   "title": "How to Oversee AI Agents at Scale With a Three-Tier Architecture",
+   "url": "https://towardsdatascience.com/how-to-oversee-ai-agents-at-scale-with-a-three-tier-architecture/",
+   "published": "2026-11-19T13:30:00Z",
+   "summary": "Separate runtime oversight from human review: an autonomous supervisor handles reversible fixes, while humans approve high-impact changes. The post How to Oversee AI Agents at Scale With a Three-Tier Architecture appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "One Table, Many Engines: Running BigQuery, Spark, and Trino on a Single Iceberg Copy",
+   "url": "https://www.kdnuggets.com/one-table-many-engines-running-bigquery-spark-and-trino-on-a-single-iceberg-copy",
+   "published": "2026-11-19T13:00:00Z",
+   "summary": "Run BigQuery, Apache Spark, and Trino on one Apache Iceberg table in Google Cloud's Lakehouse runtime catalog, with no copies or sync jobs, and see how Iceberg handles concurrent commits between engines.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Analytics Engineering's Missing Layer Is Business Communication",
+   "url": "https://towardsdatascience.com/analytics-engineerings-missing-layer-is-business-communication/",
+   "published": "2026-11-19T12:00:00Z",
+   "summary": "Why grains, joins, filters, and tests need business translations, and how a four-step framework keeps stakeholders from misreading metric changes. The post Analytics Engineering's Missing Layer Is Business Communication appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "published": "2026-11-19T08:00:00Z",
+   "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+   "published": "2026-11-19T07:07:43Z",
+   "summary": "November 18, 2026 , Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Introducing Gemini 4 Neon",
+   "url": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+   "published": "2026-11-18T21:35:43Z",
+   "summary": "",
+   "source": "Google DeepMind",
+   "topic": "research"
+  },
+  {
+   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+   "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+   "published": "2026-11-18T19:54:56Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+   "url": "https://openai.com/business/customer-stories/sumitomo-life",
+   "published": "2026-11-18T08:00:00Z",
+   "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Research acceleration: The jagged frontier",
+   "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "published": "2026-11-18T08:00:00Z",
+   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Managing frontier AI risk: From training to deployment",
+   "url": "https://openai.com/index/managing-frontier-ai-risk",
+   "published": "2026-11-18T06:00:00Z",
+   "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Gemini 4 Neon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "discussion": "https://news.ycombinator.com/item?id=50552424",
+   "points": 985,
+   "comments": 746,
+   "published": "2026-11-18T21:34:07Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Seven new models at scalable price-performance",
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "discussion": "https://news.ycombinator.com/item?id=50548021",
+   "points": 590,
+   "comments": 372,
+   "published": "2026-11-18T16:08:24Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI agents ask better questions than KPMG accountants in audit trial",
+   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+   "discussion": "https://news.ycombinator.com/item?id=50547777",
+   "points": 478,
+   "comments": 243,
+   "published": "2026-11-18T15:49:34Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "LLM assisted reverse engineering",
+   "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+   "discussion": "https://news.ycombinator.com/item?id=50553225",
+   "points": 292,
+   "comments": 74,
+   "published": "2026-11-18T22:29:13Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+   "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+   "discussion": "https://news.ycombinator.com/item?id=50554374",
+   "points": 247,
+   "comments": 76,
+   "published": "2026-11-19T00:29:45Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Advancing chip design with OpenAI models",
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+   "discussion": "https://news.ycombinator.com/item?id=50549493",
+   "points": 219,
+   "comments": 165,
+   "published": "2026-11-18T17:45:47Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "F-22 Next-Generation micro to Data Transfer Cartridge (mDTC)",
+   "url": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
+   "discussion": "https://news.ycombinator.com/item?id=50547583",
+   "points": 193,
+   "comments": 127,
+   "published": "2026-11-18T15:35:44Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Fuck Your AI Safeguards",
+   "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+   "discussion": "https://news.ycombinator.com/item?id=50562262",
+   "points": 165,
+   "comments": 58,
+   "published": "2026-11-19T16:30:18Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+   "url": "https://thedataexchange.media/pete-warden-moonshine/",
+   "discussion": "https://news.ycombinator.com/item?id=50561508",
+   "points": 150,
+   "comments": 134,
+   "published": "2026-11-19T15:38:12Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "\"Anthropic Is Not a Safe AI Company\" to Coalition Challenges Anthropic Safety",
+   "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+   "discussion": "https://news.ycombinator.com/item?id=50548485",
+   "points": 136,
+   "comments": 78,
+   "published": "2026-11-18T16:41:22Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Claude solves two open problems in the physics of black holes",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "discussion": "https://news.ycombinator.com/item?id=50563148",
+   "points": 128,
+   "comments": 29,
+   "published": "2026-11-19T17:30:44Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The Magic of Partial Evaluation",
+   "url": "https://jimmyhmiller.com/magic-of-partial-evaluation",
+   "discussion": "https://news.ycombinator.com/item?id=50550096",
+   "points": 114,
+   "comments": 37,
+   "published": "2026-11-18T18:29:03Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Black high school students sue after AI mistakes Doritos bag for gun",
+   "url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
+   "discussion": "https://news.ycombinator.com/item?id=50554641",
+   "points": 108,
+   "comments": 80,
+   "published": "2026-11-19T00:57:20Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI will not make you rich (2025)",
+   "url": "https://colossus.com/article/ai-will-not-make-you-rich/",
+   "discussion": "https://news.ycombinator.com/item?id=50555093",
+   "points": 105,
+   "comments": 67,
+   "published": "2026-11-19T01:51:28Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The AI Superintelligence Debate Has Serious Flaws",
+   "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+   "discussion": "https://news.ycombinator.com/item?id=50559140",
+   "points": 98,
+   "comments": 155,
+   "published": "2026-11-19T12:17:10Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Two stealth models just appeared on the leaderboard, both ahead of Fable 5.2",
+   "url": "https://contralabs.com/frontierdesign",
+   "discussion": "https://news.ycombinator.com/item?id=50558559",
+   "points": 94,
+   "comments": 40,
+   "published": "2026-11-19T11:03:20Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [],
+ "videos": [
+  {
+   "title": "AI Costs: Tokens, Energy, Model Choice & API Keys | Stanford CS193T Lecture 7 with Cynthia Bailey",
+   "url": "https://www.youtube.com/watch?v=l07K2cdLofM",
+   "id": "l07K2cdLofM",
+   "published": "2026-11-19T00:00:19Z",
+   "source": "Stanford Online"
+  },
+  {
+   "title": "Terminal-Bench: Evaluating AI Agents | Stanford CS329Z Guest Lecture with Alex Shaw & Ryan Marten",
+   "url": "https://www.youtube.com/watch?v=7GW-9ug2nvw",
+   "id": "7GW-9ug2nvw",
+   "published": "2026-11-18T21:00:35Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "jobs:ashby:browserbase",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "jobs:ashby:tavily",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:MachineLearning",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
