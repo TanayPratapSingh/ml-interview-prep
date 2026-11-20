@@ -1,0 +1,641 @@
+{
+ "date": "2026-11-20",
+ "generated_at": "2026-11-20T18:38:55Z",
+ "counts": {
+  "jobs_open": 853,
+  "jobs_new": 14,
+  "papers": 10,
+  "posts": 14,
+  "hn": 15,
+  "reddit": 0,
+  "videos": 0,
+  "interview_intel": 1,
+  "errors": 8
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:b84e71f0-da1d-40e1-809e-312f13a0dd2c",
+   "company": "Sante",
+   "title": "AI Engineer",
+   "location": "Austin, TX",
+   "remote": false,
+   "url": "https://workforcenow.adp.com/job?cid=6045a3c5-9cfb-4d71-9c06-80a911514305&jobId=274361596777_1",
+   "apply_url": "https://workforcenow.adp.com/job?cid=6045a3c5-9cfb-4d71-9c06-80a911514305&jobId=274361596777_1",
+   "posted": "2026-11-20",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "simplify:170ea5f1-bc19-47e4-9ad8-3a638921c9aa",
+   "company": "Veregy",
+   "title": "Energy Engineer",
+   "location": "Hoffman Estates, IL",
+   "remote": false,
+   "url": "https://workforcenow.adp.com/job?cid=c5bf927d-75b0-4e6e-8d59-de5517866227&jobId=9201302533317_48",
+   "apply_url": "https://workforcenow.adp.com/job?cid=c5bf927d-75b0-4e6e-8d59-de5517866227&jobId=9201302533317_48",
+   "posted": "2026-11-20",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "simplify:76a9cb30-d7ec-4cf8-b5e0-1db37dce88c5",
+   "company": "Honeywell Aerospace",
+   "title": "Information Systems & Data Science New Grad",
+   "location": "United States",
+   "remote": false,
+   "url": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/120249",
+   "apply_url": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/120249",
+   "posted": "2026-11-20",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "simplify:ca927922-9673-414a-8960-8831fbc52367",
+   "company": "Autura",
+   "title": "Data Operations Associate",
+   "location": "Houston, TX; Cleveland, OH; Dallas, TX; Kansas City, MO; Chattanooga, TN",
+   "remote": false,
+   "url": "https://autura.com/careers?gh_jid=5470341008",
+   "apply_url": "https://autura.com/careers?gh_jid=5470341008",
+   "posted": "2026-11-20",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "simplify:503772a8-8c8b-473a-b256-7c19df4fd35f",
+   "company": "Koch Industries",
+   "title": "Software Engineer - AI Agents",
+   "location": "Fremont, CA",
+   "remote": false,
+   "url": "https://koch.avature.net/en_US/careers/JobDetail/197657",
+   "apply_url": "https://koch.avature.net/en_US/careers/JobDetail/197657",
+   "posted": "2026-11-19",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "simplify:af19d8f3-e4eb-443f-9668-3e0c5ba8d5f1",
+   "company": "neurohire.ai",
+   "title": "Forward Deployed Engineer",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://apply.workable.com/neurohire-dot-a-i/j/59974A3466/apply",
+   "apply_url": "https://apply.workable.com/neurohire-dot-a-i/j/59974A3466/apply",
+   "posted": "2026-11-19",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "simplify:b29d1a1f-b5aa-42c5-8cf8-5cab6d3fee8b",
+   "company": "Centurum",
+   "title": "Data Scientist 1 - Satellite Communications",
+   "location": "San Diego, CA",
+   "remote": false,
+   "url": "https://centurum.applytojob.com/apply/NGHTfEGLMN/Data-Scientist-I-SATCOM",
+   "apply_url": "https://centurum.applytojob.com/apply/NGHTfEGLMN/Data-Scientist-I-SATCOM",
+   "posted": "2026-11-19",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "simplify:7144d3f5-2136-4096-8ad3-54c3376e858e",
+   "company": "Litmus",
+   "title": "Founding Member of Technical Staff",
+   "location": "SF",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/litmushiring/7693e9a2-bc0f-4b43-a5dc-cb2bb27683b3/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/litmushiring/7693e9a2-bc0f-4b43-a5dc-cb2bb27683b3/application?embed=true",
+   "posted": "2026-11-17",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "simplify:c21bd349-b504-43f2-9a51-97475ad313a4",
+   "company": "Plante Moran",
+   "title": "Financial Data and Analytics Consultant",
+   "location": "Chicago, IL; Southfield, MI; Denver, CO",
+   "remote": false,
+   "url": "https://plantemoran.wd1.myworkdayjobs.com/pmexternalcareers/job/Southfield/Financial-Data-and-Analytics-Consultant_JR-03521",
+   "apply_url": "https://plantemoran.wd1.myworkdayjobs.com/pmexternalcareers/job/Southfield/Financial-Data-and-Analytics-Consultant_JR-03521",
+   "posted": "2026-11-13",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "ashby:snowflake:185d165c-09c7-4b57-9281-ff7c2c541907",
+   "company": "Snowflake",
+   "title": "Software Engineer Intern (AI / ML) - Summer 2027",
+   "location": "US-CA-Menlo Park; US-WA-Bellevue",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/snowflake/185d165c-09c7-4b57-9281-ff7c2c541907",
+   "apply_url": "https://jobs.ashbyhq.com/snowflake/185d165c-09c7-4b57-9281-ff7c2c541907/application",
+   "posted": "2026-11-19",
+   "comp": "$42 to $60 per hour",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "ashby:netic:bb664b2a-d4a2-4c58-99c8-107cddcafde2",
+   "company": "Netic",
+   "title": "Applied AI Engineer",
+   "location": "San Francisco; New York",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/netic/bb664b2a-d4a2-4c58-99c8-107cddcafde2",
+   "apply_url": "https://jobs.ashbyhq.com/netic/bb664b2a-d4a2-4c58-99c8-107cddcafde2/application",
+   "posted": "2026-11-19",
+   "comp": "$145K to $330K",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "application-log",
+   "source": "ashby",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "ashby:decagon:da7b2a8d-e090-4ee3-b4fb-359827c6a3ec",
+   "company": "Decagon",
+   "title": "Data Scientist, Analytics",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/decagon/da7b2a8d-e090-4ee3-b4fb-359827c6a3ec",
+   "apply_url": "https://jobs.ashbyhq.com/decagon/da7b2a8d-e090-4ee3-b4fb-359827c6a3ec/application",
+   "posted": "2026-11-19",
+   "comp": "$180K to $225K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "greenhouse:anthropic:5485188008",
+   "company": "Anthropic",
+   "title": "Research Engineer, Beneficial Deployments",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5485188008",
+   "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5485188008",
+   "posted": "2026-11-20",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "sponsors",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "ashby:openai:f6cada21-0f54-4d8a-884e-e3c64edd4789",
+   "company": "OpenAI",
+   "title": "Data Scientist, Integrity",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/f6cada21-0f54-4d8a-884e-e3c64edd4789",
+   "apply_url": "https://jobs.ashbyhq.com/openai/f6cada21-0f54-4d8a-884e-e3c64edd4789/application",
+   "posted": "2026-11-20",
+   "comp": "$265K to $380K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-20"
+  }
+ ],
+ "papers": [
+  {
+   "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+   "url": "https://huggingface.co/papers/2611.21373",
+   "arxiv": "https://arxiv.org/abs/2611.21373",
+   "upvotes": 46,
+   "github": "https://github.com/Tencent/WeVisForensics",
+   "summary": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the investigation policy alone does ...",
+   "published": "2026-11-16T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+   "url": "https://huggingface.co/papers/2611.26444",
+   "arxiv": "https://arxiv.org/abs/2611.26444",
+   "upvotes": 45,
+   "github": "https://github.com/Mind2Act/Mind2Act_World",
+   "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same tasks or assess ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+   "url": "https://huggingface.co/papers/2611.26409",
+   "arxiv": "https://arxiv.org/abs/2611.26409",
+   "upvotes": 39,
+   "github": "https://github.com/Tencent/WeMM-Video",
+   "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a hybrid-thinking paradigm ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+   "url": "https://huggingface.co/papers/2611.26590",
+   "arxiv": "https://arxiv.org/abs/2611.26590",
+   "upvotes": 33,
+   "github": "",
+   "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+   "url": "https://huggingface.co/papers/2611.26595",
+   "arxiv": "https://arxiv.org/abs/2611.26595",
+   "upvotes": 31,
+   "github": "https://github.com/FrankYang-17/Coda",
+   "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
+   "url": "https://huggingface.co/papers/2611.21383",
+   "arxiv": "https://arxiv.org/abs/2611.21383",
+   "upvotes": 30,
+   "github": "https://github.com/jhxcho/voda",
+   "summary": "3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views. This mismatch can produce accurate rendered masks from incomplete 3D selections since alpha-blended feature supervision concentrates learning on dominant contributors while leaving occluded or low-contribution Gaussians weakly supervised. We propose ...",
+   "published": "2026-11-16T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+   "url": "https://huggingface.co/papers/2611.26603",
+   "arxiv": "https://arxiv.org/abs/2611.26603",
+   "upvotes": 26,
+   "github": "https://github.com/apple-aiml-research/ml-depth-pro-2",
+   "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that processes both images ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Posterior Matching Distillation",
+   "url": "https://huggingface.co/papers/2611.26629",
+   "arxiv": "https://arxiv.org/abs/2611.26629",
+   "upvotes": 24,
+   "github": "https://github.com/yesiltepe-hidir/PMD",
+   "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
+   "url": "https://huggingface.co/papers/2611.26380",
+   "arxiv": "https://arxiv.org/abs/2611.26380",
+   "upvotes": 24,
+   "github": "https://github.com/cactusqq/EgoCaptioner",
+   "summary": "Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Existing caption formats also offer limited support for combining detailed narration with precise timing. We present EgoCaptioner, which pairs a video-level overview of the setting, participants, and the ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
+   "url": "https://huggingface.co/papers/2611.26107",
+   "arxiv": "https://arxiv.org/abs/2611.26107",
+   "upvotes": 23,
+   "github": "https://github.com/ernie-research/HiUni",
+   "summary": "Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computation to accommodate the different requirements of these two tasks, which limits the degree of unification. In this paper, we present HiUni, which revisits this design choice and explores whether a pretrained vision ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "LightGBM vs. a Four-Week Average for Forecasting Bike-Share Rentals",
+   "url": "https://towardsdatascience.com/lightgbm-vs-a-four-week-average-for-forecasting-bike-share-rentals/",
+   "published": "2026-11-20T16:30:00Z",
+   "summary": "A 48-hour Capital Bikeshare experiment pits XGBoost, Ridge, SARIMA, and Prophet against simple baselines, with care for missing hours and leakage. The post LightGBM vs. a Four-Week Average for Forecasting Bike-Share Rentals appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Clairic Hit 98% Accuracy on 72.8% of Questions via Confidence Scores",
+   "url": "https://towardsdatascience.com/clairic-hit-98-accuracy-on-728-of-questions-via-confidence-scores/",
+   "published": "2026-11-20T15:00:00Z",
+   "summary": "With a 0.9 confidence cutoff, Cloudflare's System One model handles the easy cases and routes the rest to a bigger, slower LLM like Luna. The post Clairic Hit 98% Accuracy on 72.8% of Questions via Confidence Scores appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Open Source vs. Proprietary LLMs: A Decision Framework for 2026",
+   "url": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
+   "published": "2026-11-20T15:00:00Z",
+   "summary": "A practical guide to choosing between open-weight and commercial models, built around the four questions that actually determine the right answer for your use case.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Prepare for a Credit Risk Internship Interview in Nine Steps",
+   "url": "https://towardsdatascience.com/how-to-prepare-for-a-credit-risk-internship-interview-in-nine-steps/",
+   "published": "2026-11-20T13:30:00Z",
+   "summary": "Two years of interviewing master's students distilled into one logistic regression scoring model, from missing values and VIF to AUC and Gini. The post How to Prepare for a Credit Risk Internship Interview in Nine Steps appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Decision AI Explained in 5 Minutes",
+   "url": "https://www.kdnuggets.com/decision-ai-explained-in-5-minutes",
+   "published": "2026-11-20T13:00:00Z",
+   "summary": "Learn how decision models work, how they turn LLMs into faster decision-making systems, and how to run open-source alternatives locally.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Five Guardrails That Limit the Damage an AI Agent Can Do",
+   "url": "https://towardsdatascience.com/five-guardrails-that-limit-the-damage-an-ai-agent-can-do/",
+   "published": "2026-11-20T12:00:00Z",
+   "summary": "AI Agents for Beginners, Part three: strict Pydantic arguments, a tool allowlist, read-only SQLite, a step cap, and confirmed writes, all verified by five pytest tests in 0.68s. The post Five Guardrails That Limit the Damage an AI Agent Can Do appeared first on Towards Data ...",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+   "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+   "published": "2026-11-20T07:12:24Z",
+   "summary": "November 19, 2026 , ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "url": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "published": "2026-11-20T00:00:00Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Scaling Linear’s GTM to $100M ARR , Cristina Cordova, COO",
+   "url": "https://latent.space/p/linear-scaling/",
+   "published": "2026-11-19T23:58:21Z",
+   "summary": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "A game you cannot win unless you have a quantum computer",
+   "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+   "published": "2026-11-19T20:03:00Z",
+   "summary": "Quantum",
+   "source": "Google Research",
+   "topic": "research"
+  },
+  {
+   "title": "Deploying Daybreak Red",
+   "url": "https://openai.com/business/learn/deploying-daybreak-red",
+   "published": "2026-11-19T00:00:00Z",
+   "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "See PR scans in action",
+   "url": "https://openai.com/business/learn/pr-scans-demo",
+   "published": "2026-11-19T00:00:00Z",
+   "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Explore the Codex Security Plugin",
+   "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+   "published": "2026-11-19T00:00:00Z",
+   "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Get started with Daybreak Blue",
+   "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+   "published": "2026-11-19T00:00:00Z",
+   "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Fuck Your AI Safeguards",
+   "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+   "discussion": "https://news.ycombinator.com/item?id=50562262",
+   "points": 584,
+   "comments": 240,
+   "published": "2026-11-19T16:30:18Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Claude solves two open problems in the physics of black holes",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "discussion": "https://news.ycombinator.com/item?id=50563148",
+   "points": 543,
+   "comments": 260,
+   "published": "2026-11-19T17:30:44Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+   "url": "https://architectlabs.com/blog/frostbite",
+   "discussion": "https://news.ycombinator.com/item?id=50572503",
+   "points": 499,
+   "comments": 276,
+   "published": "2026-11-20T10:01:41Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+   "url": "https://git-aarvin.github.io/mei/",
+   "discussion": "https://news.ycombinator.com/item?id=50568130",
+   "points": 360,
+   "comments": 238,
+   "published": "2026-11-19T23:35:35Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "PostgreSQL 19",
+   "url": "https://www.postgresql.org/docs/release/19.0/",
+   "discussion": "https://news.ycombinator.com/item?id=50569890",
+   "points": 356,
+   "comments": 22,
+   "published": "2026-11-20T03:45:45Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
+   "url": "https://thedataexchange.media/pete-warden-moonshine/",
+   "discussion": "https://news.ycombinator.com/item?id=50561508",
+   "points": 265,
+   "comments": 243,
+   "published": "2026-11-19T15:38:12Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+   "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+   "discussion": "https://news.ycombinator.com/item?id=50568082",
+   "points": 188,
+   "comments": 48,
+   "published": "2026-11-19T23:32:11Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Language Models Can Rewrite Their Own Weights",
+   "url": "https://arxiv.org/abs/2611.21885",
+   "discussion": "https://news.ycombinator.com/item?id=50577265",
+   "points": 180,
+   "comments": 79,
+   "published": "2026-11-20T16:29:06Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
+   "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+   "discussion": "https://news.ycombinator.com/item?id=50569516",
+   "points": 170,
+   "comments": 29,
+   "published": "2026-11-20T02:43:49Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "discussion": "https://news.ycombinator.com/item?id=50574383",
+   "points": 161,
+   "comments": 176,
+   "published": "2026-11-20T13:29:59Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
+   "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
+   "discussion": "https://news.ycombinator.com/item?id=50562500",
+   "points": 142,
+   "comments": 79,
+   "published": "2026-11-19T16:45:50Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "PostgreSQL 19 Released",
+   "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449/",
+   "discussion": "https://news.ycombinator.com/item?id=50560357",
+   "points": 139,
+   "comments": 9,
+   "published": "2026-11-19T14:11:37Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Chrome AI features wasting much bandwidth",
+   "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
+   "discussion": "https://news.ycombinator.com/item?id=50562636",
+   "points": 131,
+   "comments": 51,
+   "published": "2026-11-19T16:54:25Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+   "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+   "discussion": "https://news.ycombinator.com/item?id=50564366",
+   "points": 111,
+   "comments": 234,
+   "published": "2026-11-19T18:47:16Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+   "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
+   "discussion": "https://news.ycombinator.com/item?id=50561199",
+   "points": 103,
+   "comments": 30,
+   "published": "2026-11-19T15:16:02Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [],
+ "videos": [],
+ "interview_intel": [
+  {
+   "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+   "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+   "discussion": "https://news.ycombinator.com/item?id=50568082",
+   "points": 188,
+   "comments": 48,
+   "published": "2026-11-19T23:32:11Z",
+   "source": "Hacker News"
+  }
+ ],
+ "errors": [
+  {
+   "source": "jobs:ashby:browserbase",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "jobs:ashby:tavily",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:MachineLearning",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
