@@ -1,0 +1,440 @@
+{
+ "date": "2026-11-23",
+ "generated_at": "2026-11-23T22:05:27Z",
+ "counts": {
+  "jobs_open": 849,
+  "jobs_new": 7,
+  "papers": 10,
+  "posts": 13,
+  "hn": 5,
+  "reddit": 0,
+  "videos": 2,
+  "interview_intel": 0,
+  "errors": 9
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:773f9ad4-5385-43a7-9d8a-0d7589beeeab",
+   "company": "Aon",
+   "title": "Early Careers Health Analytics Specialist",
+   "location": "Chicago, IL; Atlanta, GA",
+   "remote": false,
+   "url": "https://jobs.aon.com/jobs/113794?icims=1&lang=en-us",
+   "apply_url": "https://jobs.aon.com/jobs/113794?icims=1&lang=en-us",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "id": "simplify:1e751383-c51c-4938-87f7-a5af778fe339",
+   "company": "ID Plans",
+   "title": "Field Data Specialist",
+   "location": "Boston, MA",
+   "remote": false,
+   "url": "https://idplans1.bamboohr.com/careers/312/",
+   "apply_url": "https://idplans1.bamboohr.com/careers/312/",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "id": "simplify:f40e5373-6ea4-4692-b638-358366d3f29a",
+   "company": "Vanasse Hangen Brustlin",
+   "title": "Entry Level Transportation Safety Analyst",
+   "location": "Washington, DC; Raleigh, NC; Charlotte, NC",
+   "remote": false,
+   "url": "https://careers2-vhb.icims.com/jobs/6362/job?mobile=true&needsRedirect=false",
+   "apply_url": "https://careers2-vhb.icims.com/jobs/6362/job?mobile=true&needsRedirect=false",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "id": "simplify:021f015b-b917-463c-b8e2-3be7537190e8",
+   "company": "DraftKings",
+   "title": "Associate Data Engineer",
+   "location": "Boston, MA",
+   "remote": false,
+   "url": "https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Associate-Data-Engineer_JR15400",
+   "apply_url": "https://draftkings.wd1.myworkdayjobs.com/Campus_Career_Portal/job/Boston-MA/Associate-Data-Engineer_JR15400",
+   "posted": "2026-11-17",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "id": "ashby:e2b:8c026f4b-e17c-4454-b8c2-bea7511bc740",
+   "company": "E2B",
+   "title": "Data Scientist, Growth",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/e2b/8c026f4b-e17c-4454-b8c2-bea7511bc740",
+   "apply_url": "https://jobs.ashbyhq.com/e2b/8c026f4b-e17c-4454-b8c2-bea7511bc740/application",
+   "posted": "2026-11-23",
+   "comp": "$180K to $260K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "id": "greenhouse:togetherai:5302781007",
+   "company": "Together AI",
+   "title": "Forward Deployed Engineer (Applied AI)",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/togetherai/jobs/5302781007",
+   "apply_url": "https://job-boards.greenhouse.io/togetherai/jobs/5302781007",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "greenhouse",
+   "first_seen": "2026-11-23"
+  },
+  {
+   "id": "greenhouse:stripe:8411927",
+   "company": "Stripe",
+   "title": "Software Engineer, Data Warehouse Analytics",
+   "location": "Seattle, WA",
+   "remote": false,
+   "url": "https://stripe.com/jobs/search?gh_jid=8411927",
+   "apply_url": "https://stripe.com/jobs/search?gh_jid=8411927",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-23"
+  }
+ ],
+ "papers": [
+  {
+   "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+   "url": "https://huggingface.co/papers/2611.27193",
+   "arxiv": "https://arxiv.org/abs/2611.27193",
+   "upvotes": 86,
+   "github": "https://github.com/Newiz430/cmHC",
+   "summary": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices. In this work, we investigate how to effectively mix residual streams within the Birkhoff polytope. We reveal a mixing trade-off: when under-mixed residual matrices stay close ...",
+   "published": "2026-11-20T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Non-penetrating World Models",
+   "url": "https://huggingface.co/papers/2611.27963",
+   "arxiv": "https://arxiv.org/abs/2611.27963",
+   "upvotes": 54,
+   "github": "https://github.com/yuhangdai427/NoPeWorld",
+   "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures. Surprisingly, however, these models already encode the information needed to predict ...",
+   "published": "2026-11-20T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Clover-35B-A3B-Preview Technical Report",
+   "url": "https://huggingface.co/papers/2611.24636",
+   "arxiv": "https://arxiv.org/abs/2611.24636",
+   "upvotes": 36,
+   "github": "https://github.com/DiffuSpace/Clover-35B-A3B-Preview",
+   "summary": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside the current block. Historical memory readout competes with ...",
+   "published": "2026-11-18T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
+   "url": "https://huggingface.co/papers/2611.15449",
+   "arxiv": "https://arxiv.org/abs/2611.15449",
+   "upvotes": 21,
+   "github": "https://github.com/jasonleex1995/TAISR_needs_Reasoning",
+   "summary": "Text-aware image super-resolution (TAISR) aims to recover high-resolution images from low-resolution inputs while preserving textual content. Existing methods treat this as a visual restoration problem, yet severely degraded text often cannot be read from local visual evidence alone. Humans instead read it by reasoning over image context, logical patterns, and prior knowledge. This raises a fundamental question ...",
+   "published": "2026-11-11T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
+   "url": "https://huggingface.co/papers/2611.26954",
+   "arxiv": "https://arxiv.org/abs/2611.26954",
+   "upvotes": 19,
+   "github": "https://github.com/Jingchensun/future-opsd",
+   "summary": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external large models for supervision, limiting scalability. We address this with an on-policy self-distillation framework that turns past-future video ...",
+   "published": "2026-11-20T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+   "url": "https://huggingface.co/papers/2611.27973",
+   "arxiv": "https://arxiv.org/abs/2611.27973",
+   "upvotes": 17,
+   "github": "https://github.com/Clare-Nie/MemOnce",
+   "summary": "Deploying large language models (LLMs) in long-horizon and continual interactions requires maintaining reusable memory states for future inference, posing challenges for existing architectures. Standard Transformers accumulate layer-wise, token-level KV caches, incurring linear GPU memory growth and quadratic computational complexity as the context expands. In contrast, linear-time architectures compress history ...",
+   "published": "2026-11-20T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Duopra: From Full-Duplex Conversation to Full-Duplex Agency",
+   "url": "https://huggingface.co/papers/2611.25773",
+   "arxiv": "https://arxiv.org/abs/2611.25773",
+   "upvotes": 11,
+   "github": "https://github.com/cyChen2003/duopra",
+   "summary": "Full-duplex interaction models exhibit strong conversational agency, enabling natural, low-latency turn-taking, backchannels, and interruptions. However, completing tasks further requires task agency: timely tool invocation and argument revision following user corrections. Frontend-backend agents separate initiation from execution: the frontend decides whether and what to request, while the backend determines how ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits",
+   "url": "https://huggingface.co/papers/2611.21485",
+   "arxiv": "https://arxiv.org/abs/2611.21485",
+   "upvotes": 10,
+   "github": "",
+   "summary": "Persistent spatial understanding is essential for embodied agents to operate reliably in environments they repeatedly encounter. It requires recognizing revisited places despite viewpoint changes, distinguishing them from similar-looking rooms, and updating memories as environments change. Yet existing evaluations often leave physical place identity across separated visits implicit. We introduce ReSpaceBench, a ...",
+   "published": "2026-11-16T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+   "url": "https://huggingface.co/papers/2611.27915",
+   "arxiv": "https://arxiv.org/abs/2611.27915",
+   "upvotes": 7,
+   "github": "",
+   "summary": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints. This makes metric 3D inference inherently ambiguous and leaves it unclear whether their spatial predictions are ...",
+   "published": "2026-11-20T17:52:02Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+   "url": "https://huggingface.co/papers/2611.26613",
+   "arxiv": "https://arxiv.org/abs/2611.26613",
+   "upvotes": 7,
+   "github": "https://github.com/cxcscmu/AgentRoboCritic",
+   "summary": "Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succeed nor where they fail. In this paper, we present a systematic action-level analysis of frontier agents on direct robot ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "Ladybird's first alpha release",
+   "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+   "published": "2026-11-23T21:46:35Z",
+   "summary": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping ...",
+   "source": "Simon Willison",
+   "topic": "llm"
+  },
+  {
+   "title": "Supercharging transformer residual connections",
+   "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "published": "2026-11-23T17:21:12Z",
+   "summary": "Algorithms & Theory",
+   "source": "Google Research",
+   "topic": "research"
+  },
+  {
+   "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+   "url": "https://huggingface.co/blog/allenai/robotrack",
+   "published": "2026-11-23T17:20:37Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
+   "url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+   "published": "2026-11-23T16:01:48Z",
+   "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "AI Math Proofs Aren't Knowledge Until Someone Explains Them",
+   "url": "https://towardsdatascience.com/ai-math-proofs-arent-knowledge-until-someone-explains-them/",
+   "published": "2026-11-23T15:00:00Z",
+   "summary": "From the Four Color Theorem to OpenAI's October 2026 claims, why computer-checked proofs still need people to explain, test, and extend them. The post AI Math Proofs Aren't Knowledge Until Someone Explains Them appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Use AI Tools to Learn Data Science Faster in 2026",
+   "url": "https://www.kdnuggets.com/how-to-use-ai-tools-to-learn-data-science-faster-in-2026",
+   "published": "2026-11-23T15:00:00Z",
+   "summary": "Discover how to combine AI assistants, coding tools, and adaptive platforms to cut your learning curve and build practical skills more efficiently.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "The Birthday Paradox Shows Small LLMs Pick From About 6 of 40 Words",
+   "url": "https://towardsdatascience.com/the-birthday-paradox-shows-small-llms-pick-from-about-6-of-40-words/",
+   "published": "2026-11-23T13:30:00Z",
+   "summary": "Ask the same question 300 times, count the repeats, and solve for N: a few lines of Python that work on any chatbot you can type into. The post The Birthday Paradox Shows Small LLMs Pick From About 6 of 40 Words appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
+   "url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+   "published": "2026-11-23T13:04:43Z",
+   "summary": "Watch now (31 mins) | 🎙️ Ankit Maheshwari (CTO, Innovaccer) walks me through the OpenClaw Jarvis he runs on a Mac Mini to clear every 1% annoyance in his life",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "5 Lightweight Alternatives to MCP for Giving AI Agents Tools",
+   "url": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
+   "published": "2026-11-23T13:00:00Z",
+   "summary": "Compare five lightweight ways to give AI agents tools without an MCP server, from a Python dispatcher to framework tools, REST adapters, subprocesses, and webhooks, and learn when MCP becomes worth adding.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "What a 90% Prompt Cache Hit Rate Hides About Attention Work",
+   "url": "https://towardsdatascience.com/what-a-90-prompt-cache-hit-rate-hides-about-attention-work/",
+   "published": "2026-11-23T12:00:00Z",
+   "summary": "Request hit rate, token reuse, and latency tell different stories; a 2026 preprint found lower 99th-percentile but higher median time to first token. The post What a 90% Prompt Cache Hit Rate Hides About Attention Work appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Connected intelligence for in-house legal",
+   "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+   "published": "2026-11-23T08:00:00Z",
+   "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Richpanel helps companies automate 50% of support in 30 days",
+   "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+   "published": "2026-11-23T08:00:00Z",
+   "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "How to build and maintain an agentic evaluation",
+   "url": "https://huggingface.co/blog/agentic-evals",
+   "published": "2026-11-23T00:00:00Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  }
+ ],
+ "hn": [
+  {
+   "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+   "url": "https://z.ai/blog/glm-5.4",
+   "discussion": "https://news.ycombinator.com/item?id=50609685",
+   "points": 976,
+   "comments": 322,
+   "published": "2026-11-23T10:06:43Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "discussion": "https://news.ycombinator.com/item?id=50603845",
+   "points": 732,
+   "comments": 291,
+   "published": "2026-11-22T21:01:16Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Dario is hyping the dangers so OSS models are illegal and he stays in control",
+   "url": "https://twitter.com/ylecun/status/2124550037912920090",
+   "discussion": "https://news.ycombinator.com/item?id=50615308",
+   "points": 730,
+   "comments": 422,
+   "published": "2026-11-23T17:07:26Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Agent swarm trying to solve P vs. NP",
+   "url": "https://pequalnp.com/",
+   "discussion": "https://news.ycombinator.com/item?id=50604314",
+   "points": 179,
+   "comments": 159,
+   "published": "2026-11-22T21:53:45Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "A Partial Evaluator for C",
+   "url": "https://phoenix.labri.fr/software/tempo/",
+   "discussion": "https://news.ycombinator.com/item?id=50607627",
+   "points": 100,
+   "comments": 27,
+   "published": "2026-11-23T04:51:48Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [],
+ "videos": [
+  {
+   "title": "Is Every AI an LLM? AI vs. LLM Explained by Afshine & Shervine Amidi",
+   "url": "https://www.youtube.com/watch?v=JNnUGln7C58",
+   "id": "JNnUGln7C58",
+   "published": "2026-11-23T20:00:07Z",
+   "source": "Stanford Online"
+  },
+  {
+   "title": "Stanford CS547 HCI Seminar | Autumn 2026 | What can CSCW Teach us About How to Work with Agents?",
+   "url": "https://www.youtube.com/watch?v=e1VYwgm9-_s",
+   "id": "e1VYwgm9-_s",
+   "published": "2026-11-23T17:00:31Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "jobs:ashby:browserbase",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "jobs:ashby:tavily",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Google DeepMind",
+   "error": "not well-formed (invalid token): line 1, column 0"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:MachineLearning",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  }
+ ]
+}
