@@ -1,0 +1,534 @@
+{
+ "date": "2026-11-24",
+ "generated_at": "2026-11-24T20:41:59Z",
+ "counts": {
+  "jobs_open": 856,
+  "jobs_new": 13,
+  "papers": 10,
+  "posts": 13,
+  "hn": 6,
+  "reddit": 0,
+  "videos": 1,
+  "interview_intel": 0,
+  "errors": 8
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:0b03f09e-f8ed-4344-8984-f9e750cc2440",
+   "company": "Microsoft",
+   "title": "Software Engineer-Securing AI",
+   "location": "Redmond, WA",
+   "remote": false,
+   "url": "https://apply.careers.microsoft.com/careers/job/1970393557073425",
+   "apply_url": "https://apply.careers.microsoft.com/careers/job/1970393557073425",
+   "posted": "2026-11-24",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "simplify:96d5032c-7603-4116-af57-e676879a678e",
+   "company": "X Development",
+   "title": "AI/ML Engineer & Applied Researcher - Early Stage Projects",
+   "location": "Mountain View, CA",
+   "remote": false,
+   "url": "https://x.company/careers/8959513002?gh_jid=8959513002",
+   "apply_url": "https://x.company/careers/8959513002?gh_jid=8959513002",
+   "posted": "2026-11-24",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "simplify:abf26402-60f0-4129-a75c-24adec9f205b",
+   "company": "Howmet Aerospace",
+   "title": "AI Engineer",
+   "location": "Pittsburgh, PA",
+   "remote": false,
+   "url": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/120703",
+   "apply_url": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/120703",
+   "posted": "2026-11-24",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "simplify:4080c80c-d1ea-43e0-a258-493945bb1294",
+   "company": "JP Morgan Chase",
+   "title": "Consumer Banking Financial Product Analyst New Grad - Consumer & Community Banking - Financial Product Focused",
+   "location": "Columbus, OH; NYC",
+   "remote": false,
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210810495",
+   "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210810495",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "simplify:91e76f54-acbb-48eb-a85d-21784efd168e",
+   "company": "AbbVie",
+   "title": "AI Engineer",
+   "location": "North Chicago, IL",
+   "remote": false,
+   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990017034256",
+   "apply_url": "https://jobs.smartrecruiters.com/AbbVie/3743990017034256",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "simplify:f5246429-ccf1-4e9e-bbd3-3be489d6a76f",
+   "company": "Koddi",
+   "title": "Associate Program Analyst",
+   "location": "Fort Worth, TX",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/koddi/jobs/8944837002",
+   "apply_url": "https://job-boards.greenhouse.io/koddi/jobs/8944837002",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "simplify:f0975f79-724f-486e-b08a-a7b84015e52c",
+   "company": "Koddi",
+   "title": "Associate Technical Program Analyst",
+   "location": "Fort Worth, TX",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/koddi/jobs/8944835002",
+   "apply_url": "https://job-boards.greenhouse.io/koddi/jobs/8944835002",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "simplify:3aab0172-a5cf-4ba1-a8bf-10cfdc6defe1",
+   "company": "Keysight Technologies",
+   "title": "Machine Learning Engineer - Reinforcement Learning & Optimization",
+   "location": "Loveland, CO; Santa Rosa, CA",
+   "remote": false,
+   "url": "https://jobs.keysight.com/jobs/56742?icims=1&lang=en-us",
+   "apply_url": "https://jobs.keysight.com/jobs/56742?icims=1&lang=en-us",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "simplify:b9b54b37-eb52-4c0f-aff7-b19db6f663be",
+   "company": "Urban Science",
+   "title": "Analyst",
+   "location": "Long Beach, CA",
+   "remote": false,
+   "url": "https://careers-urbanscience.icims.com/jobs/5237/job?mobile=true&needsRedirect=false",
+   "apply_url": "https://careers-urbanscience.icims.com/jobs/5237/job?mobile=true&needsRedirect=false",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "simplify:02661dfe-13a7-41ed-958b-7de441c1307e",
+   "company": "ID Plans",
+   "title": "Field Data Specialist",
+   "location": "Atlanta, GA",
+   "remote": false,
+   "url": "https://idplans1.bamboohr.com/careers/314/",
+   "apply_url": "https://idplans1.bamboohr.com/careers/314/",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "greenhouse:anthropic:5490502008",
+   "company": "Anthropic",
+   "title": "Life Sciences Operator, External Research",
+   "location": "San Francisco, CA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5490502008",
+   "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5490502008",
+   "posted": "2026-11-24",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "sponsors",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "ashby:openai:1af2996f-046c-466f-bf35-4b13da116af4",
+   "company": "OpenAI",
+   "title": "Applied AI Engineer, Mid-Market Enterprise",
+   "location": "San Francisco; New York City; US - Remote",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/1af2996f-046c-466f-bf35-4b13da116af4",
+   "apply_url": "https://jobs.ashbyhq.com/openai/1af2996f-046c-466f-bf35-4b13da116af4/application",
+   "posted": "2026-11-24",
+   "comp": "$211K to $278K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "ashby:openai:f568de05-d557-4e70-aa12-256c637c7ef5",
+   "company": "OpenAI",
+   "title": "Applied AI Engineer, Mid-Market Enterprise",
+   "location": "San Francisco; New York City; US - Remote",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/f568de05-d557-4e70-aa12-256c637c7ef5",
+   "apply_url": "https://jobs.ashbyhq.com/openai/f568de05-d557-4e70-aa12-256c637c7ef5/application",
+   "posted": "2026-11-24",
+   "comp": "$211K to $278K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-24"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+   "url": "https://huggingface.co/papers/2611.29897",
+   "arxiv": "https://arxiv.org/abs/2611.29897",
+   "upvotes": 171,
+   "github": "https://github.com/AIGeeksGroup/MotionMamba2.0",
+   "summary": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference overhead. We present ...",
+   "published": "2026-11-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+   "url": "https://huggingface.co/papers/2611.31201",
+   "arxiv": "https://arxiv.org/abs/2611.31201",
+   "upvotes": 90,
+   "github": "https://github.com/DravenALG/Embo-Harness",
+   "summary": "Frontier multimodal models exhibit extraordinary generalization in generating robot actions from observations and instructions, enabling a new paradigm in which they serve directly as policies within closed-loop robotic harnesses. However, the design principles of such harnesses, and the capabilities underlying their strong performance, remain unclear. We present Embo-Harness, a framework for systematically studying ...",
+   "published": "2026-11-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "WorldLeague: Benchmarking Physical Agency",
+   "url": "https://huggingface.co/papers/2611.30989",
+   "arxiv": "https://arxiv.org/abs/2611.30989",
+   "upvotes": 72,
+   "github": "https://github.com/xyangzhou/WorldLeague",
+   "summary": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception, memory, planning, and action. We introduce WorldLeague, a benchmark that compares AI systems on a common set of 60 ...",
+   "published": "2026-11-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+   "url": "https://huggingface.co/papers/2611.30013",
+   "arxiv": "https://arxiv.org/abs/2611.30013",
+   "upvotes": 57,
+   "github": "https://github.com/OpenDCAI/GameFactory-3A",
+   "summary": "Animating arbitrary 3D assets from instructions requires both structural inference and motion control, yet existing motion benchmarks mostly cover conventional human or animal skeletons with simple instructions. We introduce DivDynBench, which evaluates rigging and motion generation across six morphology categories, with instructions requiring multi-phase part coordination and explicit timing, angle, repetition, and ...",
+   "published": "2026-11-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+   "url": "https://huggingface.co/papers/2611.30662",
+   "arxiv": "https://arxiv.org/abs/2611.30662",
+   "upvotes": 52,
+   "github": "https://github.com/Tencent/WeMM-Ecom",
+   "summary": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our training pipeline begins with two-stage continued pre-training that progressively raises the ...",
+   "published": "2026-11-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
+   "url": "https://huggingface.co/papers/2611.12164",
+   "arxiv": "https://arxiv.org/abs/2611.12164",
+   "upvotes": 51,
+   "github": "https://github.com/misraj-ai/locfix",
+   "summary": "Code localizers are usually trained to predict the files a reference patch edits, but the code a fixer needs to read is not the same as the code it changes. We propose Fixer-Guided Localization (FGL): the localizer proposes several localizations, a frozen fixer scores each by how likely it makes a verified patch, and the localizer is trained on these scores with weighted supervised fine-tuning, without running tests ...",
+   "published": "2026-11-09T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "A Glimpse of Training VLMs as Foundation Models for Robotic Manipulation",
+   "url": "https://huggingface.co/papers/2611.29338",
+   "arxiv": "https://arxiv.org/abs/2611.29338",
+   "upvotes": 47,
+   "github": "",
+   "summary": "Recently, GPT-6 Astra demonstrates strong generalization in robot control, yet limited disclosure of its training leaves open how such capabilities can be reproduced. We introduce nanoAstra, an approach to training vision-language models (VLMs) for generalizable manipulation that combines semantic action modeling with capability-preserving supervised fine-tuning (CP-SFT). nanoAstra represents robot behavior as ...",
+   "published": "2026-11-22T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "ViDecide: Teaching Video Diffusion Models to Reason and Plan Step by Step",
+   "url": "https://huggingface.co/papers/2611.26389",
+   "arxiv": "https://arxiv.org/abs/2611.26389",
+   "upvotes": 36,
+   "github": "https://github.com/Kevin-thu/ViDecide",
+   "summary": "Current leading video generation models can synthesize highly realistic videos, while still frequently violating physical and logical constraints in multi-step reasoning and planning, even after training with large-scale reasoning data or existing diffusion RL methods. We attribute these failures to the conventional video training paradigm, which treats a solution as a fixed-length clip rather than a chain of ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+   "url": "https://huggingface.co/papers/2611.28202",
+   "arxiv": "https://arxiv.org/abs/2611.28202",
+   "upvotes": 32,
+   "github": "",
+   "summary": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time. Existing harnesses such as VISTA improve the first two, yet turn each model call into at most one action, so the agent acts only as often as its ...",
+   "published": "2026-11-20T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Plan4D: Generative Plannable 4D Worlds",
+   "url": "https://huggingface.co/papers/2611.26516",
+   "arxiv": "https://arxiv.org/abs/2611.26516",
+   "upvotes": 28,
+   "github": "https://github.com/AMAP-ML/plan4d",
+   "summary": "Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling. In this paper, we introduce plan4d, a possible next milestone towards building a generative plannable 4D world model that predicts future RGB videos together with dense 4D geometry, including depth ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "How to Run Inkling 2 Mini Locally on an RTX 3090 Using Unsloth Studio",
+   "url": "https://www.kdnuggets.com/how-to-run-inkling-2-mini-locally-on-an-rtx-3090-using-unsloth-studio",
+   "published": "2026-11-24T17:00:00Z",
+   "summary": "American open-source AI is making a comeback, and this powerful local LLM is proving that fast inference, AI coding agents, and impressive results don't require expensive APIs.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+   "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+   "published": "2026-11-24T16:34:13Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "I Built a Bayesian Neural Network From One Neuron and Football Shots",
+   "url": "https://towardsdatascience.com/i-built-a-bayesian-neural-network-from-one-neuron-and-football-shots/",
+   "published": "2026-11-24T15:00:00Z",
+   "summary": "Gaussian weights, the reparameterisation trick, and Monte Carlo sampling turn a single sigmoid neuron into a Bayesian expected-goals model on StatsBomb data. The post I Built a Bayesian Neural Network From One Neuron and Football Shots appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "From Messy to Clean: Taming Real-World CSV Files with pandas read_csv()",
+   "url": "https://www.kdnuggets.com/from-messy-to-clean-taming-real-world-csv-files-with-pandas-read_csv",
+   "published": "2026-11-24T15:00:00Z",
+   "summary": "The process of building a bulletproof Python loader based on Pandas' read_csv() function to turn messy data into pristine data.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Plan Retries for Multi-Agent Workflows Before You Write Code",
+   "url": "https://towardsdatascience.com/how-to-plan-retries-for-multi-agent-workflows-before-you-write-code/",
+   "published": "2026-11-24T13:30:00Z",
+   "summary": "A Mermaid blueprint, Python dataclasses, and a retryable flag decide when a failed agent tries again and when the task goes to a person. The post How to Plan Retries for Multi-Agent Workflows Before You Write Code appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "7 Most Downloaded AI Models on Hugging Face",
+   "url": "https://www.kdnuggets.com/7-most-downloaded-ai-models-on-hugging-face",
+   "published": "2026-11-24T13:00:00Z",
+   "summary": "The most downloaded AI models on Hugging Face aren't the ones you'd expect. Discover why smaller, older, and specialized models dominate the rankings.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Calculate and Operationalize Customer Lifetime Value",
+   "url": "https://towardsdatascience.com/how-to-calculate-and-operationalize-customer-lifetime-value/",
+   "published": "2026-11-24T12:00:00Z",
+   "summary": "For analysts and commercial leaders: how cohort churn, BTYD models, and behavioral segments turn CLV from a board-deck KPI into daily decisions. The post How to Calculate and Operationalize Customer Lifetime Value appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Searching for distant planets with Astra",
+   "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "published": "2026-11-24T11:00:00Z",
+   "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+   "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+   "published": "2026-11-24T04:14:16Z",
+   "summary": "November 23, 2026 , Nvidia reinstates its founder, and OpenAI publishes its internal loss curve and proposes a shared training limit.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "How Intentful uses dots to make more time for growth",
+   "url": "https://openai.com/business/customer-stories/intentful-dots",
+   "published": "2026-11-24T00:00:00Z",
+   "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "How iFood scales coding agents across 15,000 repositories",
+   "url": "https://openai.com/business/customer-stories/ifood",
+   "published": "2026-11-24T00:00:00Z",
+   "summary": "",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "OpenAI and Cisco introduce Shirudo",
+   "url": "https://openai.com/index/introducing-shirudo",
+   "published": "2026-11-23T21:20:00Z",
+   "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Finding faster quantum algorithms with agents and formal verification",
+   "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+   "published": "2026-11-23T16:59:40Z",
+   "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+   "source": "Google DeepMind",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+   "url": "https://twitter.com/ylecun/status/2124550037912920090",
+   "discussion": "https://news.ycombinator.com/item?id=50615308",
+   "points": 1972,
+   "comments": 1153,
+   "published": "2026-11-23T17:07:26Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "LLM agents work for their parent companies, not for you",
+   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+   "discussion": "https://news.ycombinator.com/item?id=50627340",
+   "points": 776,
+   "comments": 333,
+   "published": "2026-11-24T12:40:15Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Tidal bans AI-generated music",
+   "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+   "discussion": "https://news.ycombinator.com/item?id=50630309",
+   "points": 303,
+   "comments": 274,
+   "published": "2026-11-24T16:12:38Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "A training engine for your local model, using your idle compute",
+   "url": "https://github.com/sous-labs/songe",
+   "discussion": "https://news.ycombinator.com/item?id=50629231",
+   "points": 115,
+   "comments": 33,
+   "published": "2026-11-24T15:03:40Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Declare is a UI language for you and your AI",
+   "url": "https://davidtemkin.github.io/declarelang/",
+   "discussion": "https://news.ycombinator.com/item?id=50622854",
+   "points": 101,
+   "comments": 84,
+   "published": "2026-11-24T02:36:56Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Claude Ship",
+   "url": "https://claude.com/resources/articles/introducing-claude-ship",
+   "discussion": "https://news.ycombinator.com/item?id=50618513",
+   "points": 86,
+   "comments": 31,
+   "published": "2026-11-23T20:14:18Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [],
+ "videos": [
+  {
+   "title": "What Data Do AI Agents Need? | Stanford CS329Z Lecture 10 with John Yang",
+   "url": "https://www.youtube.com/watch?v=HbgZFwWj4vY",
+   "id": "HbgZFwWj4vY",
+   "published": "2026-11-24T19:13:46Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "jobs:ashby:browserbase",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "jobs:ashby:tavily",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:MachineLearning",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
