@@ -1,0 +1,636 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "2026-11-25T19:58:24Z",
+ "counts": {
+  "jobs_open": 857,
+  "jobs_new": 15,
+  "papers": 10,
+  "posts": 15,
+  "hn": 12,
+  "reddit": 0,
+  "videos": 1,
+  "interview_intel": 0,
+  "errors": 8
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:2565567e-75a7-4ed1-9ff8-0a0d63006997",
+   "company": "Dell Technologies",
+   "title": "Forward Deployed AI Engineer - Technical Program Management - AI Delivery and Enablement",
+   "location": "Hopkinton, MA",
+   "remote": false,
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299999",
+   "apply_url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299999",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "simplify:be7d94f5-0ffa-4eba-b80c-68e443b4235b",
+   "company": "DeciBio Consulting",
+   "title": "Life Science Data Analyst",
+   "location": "London, UK; LA; Oakland, CA; NYC",
+   "remote": false,
+   "url": "https://www.decibio.com/careers/open-positions?gh_jid=8961111002",
+   "apply_url": "https://www.decibio.com/careers/open-positions?gh_jid=8961111002",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "simplify:640d60ae-93db-4f49-b271-4fcade3a7d7a",
+   "company": "Weekday AI",
+   "title": "AI Data Contributor",
+   "location": "Remote in USA; Remote in Canada",
+   "remote": true,
+   "url": "https://apply.workable.com/weekday-1/j/FE232C4F67/apply",
+   "apply_url": "https://apply.workable.com/weekday-1/j/FE232C4F67/apply",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "simplify:061af54f-dfd8-4cd1-a5a0-ebc1f12eb635",
+   "company": "Lila Sciences",
+   "title": "ML Scientist - Retrieval & RAG for Scientific Literature",
+   "location": "Cambridge, MA; SF",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4477299009",
+   "apply_url": "https://job-boards.greenhouse.io/lilasciences/jobs/4477299009",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "simplify:08ed91de-26c8-449f-a4b1-c48f2f815636",
+   "company": "Eide Bailly",
+   "title": "AI Engineer",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://eidebailly.jibeapply.com/jobs/10092?icims=1&lang=en-us",
+   "apply_url": "https://eidebailly.jibeapply.com/jobs/10092?icims=1&lang=en-us",
+   "posted": "2026-11-24",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "simplify:9bf6d1ba-adef-4f74-9343-9e9d9dfba88e",
+   "company": "American Council on Education",
+   "title": "Associate to Data Insights and Policy Analysis",
+   "location": "Washington, DC",
+   "remote": false,
+   "url": "https://recruiting.ultipro.com/AME1073/JobBoard/3ab22f45-0d00-7f95-def8-c8ca6a23d48f/OpportunityDetail?opportunityId=f1e43996-efa6-4910-8b46-cef7d4443d1d",
+   "apply_url": "https://recruiting.ultipro.com/AME1073/JobBoard/3ab22f45-0d00-7f95-def8-c8ca6a23d48f/OpportunityDetail?opportunityId=f1e43996-efa6-4910-8b46-cef7d4443d1d",
+   "posted": "2026-11-24",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "simplify:5c47b2c0-c332-4e95-8bfe-c85a279da736",
+   "company": "Consolidated Edison",
+   "title": "Associate to Research & Development",
+   "location": "NYC",
+   "remote": false,
+   "url": "https://ejcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1033/job/1000518",
+   "apply_url": "https://ejcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1033/job/1000518",
+   "posted": "2026-11-24",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "simplify:35bf28b6-d8d8-4227-9409-f3fbd75ac867",
+   "company": "Eide Bailly",
+   "title": "AI Engineer",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://careers.eidebailly.com/jobs/10092?icims=1&lang=en-us",
+   "apply_url": "https://careers.eidebailly.com/jobs/10092?icims=1&lang=en-us",
+   "posted": "2026-11-24",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "ashby:cognition:3e6e7519-b71a-45e9-a913-4a17d8741688",
+   "company": "Cognition",
+   "title": "Forward Deployed Engineer - Dubai",
+   "location": "Dubai",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/cognition/3e6e7519-b71a-45e9-a913-4a17d8741688",
+   "apply_url": "https://jobs.ashbyhq.com/cognition/3e6e7519-b71a-45e9-a913-4a17d8741688/application",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "ashby:cognition:0ad5c578-71c4-47aa-b0b3-6c79a6343c96",
+   "company": "Cognition",
+   "title": "Forward Deployed Engineer - MENA",
+   "location": "Riyadh",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/cognition/0ad5c578-71c4-47aa-b0b3-6c79a6343c96",
+   "apply_url": "https://jobs.ashbyhq.com/cognition/0ad5c578-71c4-47aa-b0b3-6c79a6343c96/application",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "ashby:baseten:a3f47901-a5e9-40f8-ae6b-8695f3e3528c",
+   "company": "Baseten",
+   "title": "Software Engineer, Core Platform (Agent Infra)",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/baseten/a3f47901-a5e9-40f8-ae6b-8695f3e3528c",
+   "apply_url": "https://jobs.ashbyhq.com/baseten/a3f47901-a5e9-40f8-ae6b-8695f3e3528c/application",
+   "posted": "2026-11-24",
+   "comp": "$200K to $400K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "ashby:baseten:cfc186d9-261a-46c6-87a9-fb001edf57e1",
+   "company": "Baseten",
+   "title": "Site Reliability / Cloud Platform Engineer (Agent Infra)",
+   "location": "San Francisco",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/baseten/cfc186d9-261a-46c6-87a9-fb001edf57e1",
+   "apply_url": "https://jobs.ashbyhq.com/baseten/cfc186d9-261a-46c6-87a9-fb001edf57e1/application",
+   "posted": "2026-11-24",
+   "comp": "$200K to $400K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "ashby:braintrust:2fd567c7-e7b6-411e-a9e5-0dbbb70c7bb0",
+   "company": "Braintrust",
+   "title": "Forward Deployed Engineer",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/Braintrust/2fd567c7-e7b6-411e-a9e5-0dbbb70c7bb0",
+   "apply_url": "https://jobs.ashbyhq.com/Braintrust/2fd567c7-e7b6-411e-a9e5-0dbbb70c7bb0/application",
+   "posted": "2026-11-24",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "ashby:openai:f3f3ba4c-cc37-44fe-a8b1-5aa4553c3092",
+   "company": "OpenAI",
+   "title": "Software Engineer, Space Foundations , Search & Databases",
+   "location": "Seattle",
+   "remote": true,
+   "url": "https://jobs.ashbyhq.com/openai/f3f3ba4c-cc37-44fe-a8b1-5aa4553c3092",
+   "apply_url": "https://jobs.ashbyhq.com/openai/f3f3ba4c-cc37-44fe-a8b1-5aa4553c3092/application",
+   "posted": "2026-11-24",
+   "comp": "$347K to $445K • Offers Equity",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "ashby",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "greenhouse:stripe:8415333",
+   "company": "Stripe",
+   "title": "Analytics Engineer",
+   "location": "New York",
+   "remote": false,
+   "url": "https://stripe.com/jobs/search?gh_jid=8415333",
+   "apply_url": "https://stripe.com/jobs/search?gh_jid=8415333",
+   "posted": "2026-11-24",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-25"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Antom 3-in-1 Transformer: A Payment Foundation Model",
+   "url": "https://huggingface.co/papers/2611.25403",
+   "arxiv": "https://arxiv.org/abs/2611.25403",
+   "upvotes": 98,
+   "github": "",
+   "summary": "We report the development of Antom 3-in-1 Transformer, a payment foundation model that integrates sequence, tabular, and graph representations for payment risk detection. The model contains approximately 7B parameters, with approximately 1.7B activated per task route. Antom 3-in-1 Transformer is pretrained to learn reusable behavioral and relational representations, primarily on Ant International's internal payment ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+   "url": "https://huggingface.co/papers/2611.32884",
+   "arxiv": "https://arxiv.org/abs/2611.32884",
+   "upvotes": 87,
+   "github": "https://github.com/declare-lab/RLVB",
+   "summary": "AI agents working on long tasks often commit to an answer before they have enough evidence, a behavior called laziness. In our evaluations, they frequently commit even while their stated belief still names several possible answers. An outcome reward at the end of the episode scores only the final answer, so it cannot teach the agent when to commit, because a lucky guess receives the same reward as an answer backed ...",
+   "published": "2026-11-24T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents",
+   "url": "https://huggingface.co/papers/2611.28947",
+   "arxiv": "https://arxiv.org/abs/2611.28947",
+   "upvotes": 84,
+   "github": "https://github.com/SuJQ0722/NightWatch",
+   "summary": "Computer-use agents (CUAs) built on vision-language models are increasingly entrusted with long-horizon tasks in live desktop, web, and mobile environments, where the screen keeps changing on its own. However, current CUAs lack real-time situational awareness: they perceive the environment through discrete snapshots, and the substantial inference latency of VLMs, compounded by highly dynamic interfaces, opens a ...",
+   "published": "2026-11-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Rewirable Circuits in Transformers with Loom Attention",
+   "url": "https://huggingface.co/papers/2611.30634",
+   "arxiv": "https://arxiv.org/abs/2611.30634",
+   "upvotes": 84,
+   "github": "https://github.com/Caiyun-AI/LoomFormer",
+   "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the compressed head ...",
+   "published": "2026-11-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "ACAP: Asynchronous Coding Agents for Efficient Robot Control",
+   "url": "https://huggingface.co/papers/2611.31205",
+   "arxiv": "https://arxiv.org/abs/2611.31205",
+   "upvotes": 61,
+   "github": "",
+   "summary": "Coding agents can construct and revise robot behavior during execution, but using one agent for the whole robot can delay otherwise independent work. We introduce Asynchronous Coding Agents as Policy (ACAP), an asynchronous framework that organizes one robot as a team of persistent agents. Each member reasons and acts for a configurable control group, such as an arm with its gripper or the torso and chassis ...",
+   "published": "2026-11-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
+   "url": "https://huggingface.co/papers/2611.30962",
+   "arxiv": "https://arxiv.org/abs/2611.30962",
+   "upvotes": 45,
+   "github": "",
+   "summary": "Computer-use agents (CUAs) are rapidly improving, yet their evaluation remains largely static. Existing benchmarks provide a strong foundation, but fixed difficulty ceilings, limited feature coverage, and coarse aggregate scores progressively weaken their discriminative and diagnostic value. We introduce CUA-SEE, a closed-loop evaluation environment that co-evolves tasks and executable verifiers from rollout ...",
+   "published": "2026-11-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence",
+   "url": "https://huggingface.co/papers/2611.28649",
+   "arxiv": "https://arxiv.org/abs/2611.28649",
+   "upvotes": 41,
+   "github": "https://github.com/KANABOON1/S-Mind",
+   "summary": "Spatial intelligence, the ability to reason about 3D space from visual observations, becomes essential as multimodal large language models (MLLMs) move into the physical world. Beyond perceiving each view, it rests on two cornerstones of human cognition: fusing multiple views into one coherent 3D scene and mentally transforming that scene to new viewpoints as reasoning unfolds. Yet our spatial probes reveal that ...",
+   "published": "2026-11-21T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "PartAgent: Agentic 3D Part Segmentation via Expert Integration and Closed-Loop Refinement",
+   "url": "https://huggingface.co/papers/2611.32554",
+   "arxiv": "https://arxiv.org/abs/2611.32554",
+   "upvotes": 33,
+   "github": "https://github.com/yangcaoai/PartAgent_Agent_for_3D_Part_Seg",
+   "summary": "Segmenting a 3D object into semantically meaningful parts requires joint reasoning about geometric structure and semantic context. Pretrained 3D experts provide spatially grounded region proposals, while 2D experts provide semantic cues for identifying object parts. The challenge is to integrate these complementary capabilities into a framework that can both produce meaningful part segmentations and progressively ...",
+   "published": "2026-11-24T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "LingSante MedGuard Technical Report",
+   "url": "https://huggingface.co/papers/2611.25509",
+   "arxiv": "https://arxiv.org/abs/2611.25509",
+   "upvotes": 30,
+   "github": "https://github.com/inclusionAI/LingSante-MedGuard",
+   "summary": "As medical AI is increasingly used for patient consultation and clinical decision support, identifying harmful, non-compliant, or ethically problematic responses is essential for responsible deployment. Assessing these risks requires checking clinical claims against relevant evidence, verifying calculations, and applying medical requirements under their intended conditions. We introduce LingSante MedGuard, a ...",
+   "published": "2026-11-19T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+   "url": "https://huggingface.co/papers/2611.33010",
+   "arxiv": "https://arxiv.org/abs/2611.33010",
+   "upvotes": 27,
+   "github": "https://github.com/iPPLab/robodojo-mirror",
+   "summary": "Can a simple mirror expose the limitations of today's robotic manipulation policies? Inspired by the mirror self-recognition test in animal cognition, we investigate whether robot policies can reliably manipulate physical objects in scenes containing their reflections. We introduce RoboDojo-Mirror, a benchmark built on RoboDojo that preserves task objectives, success criteria, and policy checkpoints while comparing ...",
+   "published": "2026-11-24T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "Where scientists draw the line on AI agents",
+   "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+   "published": "2026-11-25T18:52:55Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents",
+   "url": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
+   "published": "2026-11-25T18:00:33Z",
+   "summary": "Discover how Alaio Vibecode, an AI app builder for Bitrix24, helps teams create custom CRM analytics dashboards, reporting tools, lead scoring apps, and AI agents.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Verifiable Social Reasoning for LLM Assistants",
+   "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+   "published": "2026-11-25T17:10:27Z",
+   "summary": "Generative AI",
+   "source": "Google Research",
+   "topic": "research"
+  },
+  {
+   "title": "Why Data Job Candidates Freeze on Questions They Already Know",
+   "url": "https://www.kdnuggets.com/why-data-job-candidates-freeze-on-questions-they-already-know",
+   "published": "2026-11-25T15:00:00Z",
+   "summary": "Pressure disrupts recall in interviews. Timed mock interviews let you rehearse it.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "DuckDB 2.0 vs Polars 2.0 in Five Real-World Tests and One 14x Gap",
+   "url": "https://towardsdatascience.com/duckdb-20-vs-polars-20-in-five-real-world-tests-and-one-14x-gap/",
+   "published": "2026-11-25T13:30:00Z",
+   "summary": "Three years after a tie between Polars 0.18 and DuckDB 0.9, both 2.0 releases go head to head on datasets of up to 335 million records. The post DuckDB 2.0 vs Polars 2.0 in Five Real-World Tests and One 14x Gap appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+   "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+   "published": "2026-11-25T13:04:21Z",
+   "summary": "Watch now (32 mins) | 🎙️ My late-2026 How I AI bench: GPT-6.2 disappointed me, Opus 5.5 is my least annoying daily driver, and Gemini 4 Neon is now my top pick",
+   "source": "Lenny's Newsletter",
+   "topic": "product"
+  },
+  {
+   "title": "The Roadmap to Becoming an AI Security Engineer in 2027",
+   "url": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026",
+   "published": "2026-11-25T13:00:00Z",
+   "summary": "From cybersecurity foundations to defending machine learning systems, agentic pipelines, and large language model applications.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "A Second LLM Judge Hit 87.5% Precision but Left 21 of 33 for Humans",
+   "url": "https://towardsdatascience.com/a-second-llm-judge-hit-875-precision-but-left-21-of-33-for-humans/",
+   "published": "2026-11-25T12:00:00Z",
+   "summary": "Using Han and Kim's Chatbot Arena data, GPT-6 Luna and Claude Haiku 4.5 were tested as a panel, and Haiku alone matched users on 22 of 23 clear matchups. The post A Second LLM Judge Hit 87.5% Precision but Left 21 of 33 for Humans appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "An Indic Voice Agent with CUGA",
+   "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+   "published": "2026-11-25T10:22:09Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+   "published": "2026-11-25T04:29:07Z",
+   "summary": "November 24, 2026 , Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+   "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+   "published": "2026-11-25T00:00:00Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Three LLM inflection points in twelve months",
+   "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+   "published": "2026-11-24T23:02:07Z",
+   "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going ...",
+   "source": "Simon Willison",
+   "topic": "llm"
+  },
+  {
+   "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+   "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+   "published": "2026-11-24T13:07:53Z",
+   "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+   "source": "Google DeepMind",
+   "topic": "research"
+  },
+  {
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+   "published": "2026-11-24T13:00:00Z",
+   "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+   "source": "OpenAI",
+   "topic": "research"
+  },
+  {
+   "title": "Clay helps sales teams win with Codex and ChatGPT",
+   "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+   "published": "2026-11-24T00:00:00Z",
+   "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+   "source": "OpenAI",
+   "topic": "research"
+  }
+ ],
+ "hn": [
+  {
+   "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+   "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+   "discussion": "https://news.ycombinator.com/item?id=50637686",
+   "points": 412,
+   "comments": 179,
+   "published": "2026-11-25T02:34:21Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+   "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+   "discussion": "https://news.ycombinator.com/item?id=50637056",
+   "points": 377,
+   "comments": 73,
+   "published": "2026-11-25T00:54:49Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "discussion": "https://news.ycombinator.com/item?id=50634658",
+   "points": 343,
+   "comments": 94,
+   "published": "2026-11-24T21:02:22Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Tidal bans AI-generated music",
+   "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+   "discussion": "https://news.ycombinator.com/item?id=50630309",
+   "points": 334,
+   "comments": 326,
+   "published": "2026-11-24T16:12:38Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "A training engine for your local model, using your idle compute",
+   "url": "https://github.com/sous-labs/songe",
+   "discussion": "https://news.ycombinator.com/item?id=50629231",
+   "points": 229,
+   "comments": 72,
+   "published": "2026-11-24T15:03:40Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+   "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+   "discussion": "https://news.ycombinator.com/item?id=50638320",
+   "points": 211,
+   "comments": 162,
+   "published": "2026-11-25T04:03:33Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+   "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+   "discussion": "https://news.ycombinator.com/item?id=50638220",
+   "points": 209,
+   "comments": 81,
+   "published": "2026-11-25T03:47:42Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Show HN: Mason to A lightweight Postgres read-replica, built on columnar storage",
+   "url": "https://masondata.ai/",
+   "discussion": "https://news.ycombinator.com/item?id=50630294",
+   "points": 99,
+   "comments": 21,
+   "published": "2026-11-24T16:11:52Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+   "url": "https://www.proofatlas.ai/open-problems/",
+   "discussion": "https://news.ycombinator.com/item?id=50637871",
+   "points": 97,
+   "comments": 48,
+   "published": "2026-11-25T03:01:36Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Lua for data representation (2025)",
+   "url": "https://citrons.xyz/journal/2025-07-23",
+   "discussion": "https://news.ycombinator.com/item?id=50637888",
+   "points": 96,
+   "comments": 50,
+   "published": "2026-11-25T03:04:12Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "The KL Divergence Is Never Negative, Except in PyTorch",
+   "url": "https://arxiv.org/abs/2611.30835",
+   "discussion": "https://news.ycombinator.com/item?id=50629962",
+   "points": 95,
+   "comments": 40,
+   "published": "2026-11-24T15:50:22Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Working with AI",
+   "url": "https://www.anthropic.com/research/working-with-ai",
+   "discussion": "https://news.ycombinator.com/item?id=50634734",
+   "points": 83,
+   "comments": 74,
+   "published": "2026-11-24T21:07:38Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [],
+ "videos": [
+  {
+   "title": "Better Data for AI Agents: Data Selection & Quality | Stanford CS329Z Lecture 11 with John Yang",
+   "url": "https://www.youtube.com/watch?v=y2cwbmOy12U",
+   "id": "y2cwbmOy12U",
+   "published": "2026-11-25T16:00:13Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "jobs:ashby:browserbase",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "jobs:ashby:tavily",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:MachineLearning",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  }
+ ]
+}
