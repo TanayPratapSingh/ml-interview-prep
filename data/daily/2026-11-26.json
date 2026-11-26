@@ -1,0 +1,489 @@
+{
+ "date": "2026-11-26",
+ "generated_at": "2026-11-26T19:41:58Z",
+ "counts": {
+  "jobs_open": 857,
+  "jobs_new": 12,
+  "papers": 10,
+  "posts": 10,
+  "hn": 5,
+  "reddit": 0,
+  "videos": 1,
+  "interview_intel": 0,
+  "errors": 9
+ },
+ "jobs_new": [
+  {
+   "id": "simplify:aa031ee1-e663-49f6-9e69-d617595a1032",
+   "company": "Dell Technologies",
+   "title": "Forward Deployed AI Engineer - Technical Program Management - AI Delivery and Enablement",
+   "location": "Hopkinton, MA",
+   "remote": false,
+   "url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300003",
+   "apply_url": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/300003",
+   "posted": "2026-11-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "simplify:ce4b0306-3a42-44c1-8789-44f4d7ba9f45",
+   "company": "Scout AI",
+   "title": "AI Engineer New Grad - AI/ML and Agent Harnessing",
+   "location": "Sunnyvale, CA",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/scout-ai/ad3dd69f-f568-4a7c-abbf-280424bc63ed/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/scout-ai/ad3dd69f-f568-4a7c-abbf-280424bc63ed/application?embed=true",
+   "posted": "2026-11-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "simplify:a20fbd72-eae4-4051-ae1c-a1b21340ed3f",
+   "company": "Welo Global",
+   "title": "Data Collection Operator",
+   "location": "Santa Clara, CA",
+   "remote": false,
+   "url": "https://jobs.lever.co/weloglobal/275c499e-b870-4465-91ed-1c852eae564c/apply",
+   "apply_url": "https://jobs.lever.co/weloglobal/275c499e-b870-4465-91ed-1c852eae564c/apply",
+   "posted": "2026-11-26",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "simplify:3b02378c-9648-415b-b534-23055904c610",
+   "company": "Bluesight",
+   "title": "Data Engineer",
+   "location": "Remote in USA",
+   "remote": true,
+   "url": "https://jobs.lever.co/bluesight/8a3408a8-6909-4b66-92c1-98a5c80ba0a9/apply",
+   "apply_url": "https://jobs.lever.co/bluesight/8a3408a8-6909-4b66-92c1-98a5c80ba0a9/apply",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "simplify:a0de80ad-4719-4c2a-90bf-e6fd089a57e9",
+   "company": "United Airlines",
+   "title": "Associate Analyst - Operations Performance & Analytics",
+   "location": "Chicago, IL",
+   "remote": false,
+   "url": "https://careers.united.com/us/en/job/WHQ00027108",
+   "apply_url": "https://careers.united.com/us/en/job/WHQ00027108",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "simplify:5d0adbaf-c34b-4c5b-bcb0-cab03a0c3297",
+   "company": "XPENG Motors",
+   "title": "Software Engineer New Grad - Computing Platform",
+   "location": "Santa Clara, CA",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/xpengmotors/jobs/8962912002",
+   "apply_url": "https://job-boards.greenhouse.io/xpengmotors/jobs/8962912002",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "simplify:390edef6-73d0-4d70-a3d0-5d39d9f3ccb7",
+   "company": "Ayo Semiconductor",
+   "title": "Machine Learning Researcher",
+   "location": "Boston, MA",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/ayosemi/25ce1f36-356a-4a0e-95e0-24c3babb34ff/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/ayosemi/25ce1f36-356a-4a0e-95e0-24c3babb34ff/application?embed=true",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "simplify:013f8721-91a6-47be-9dcb-e03f3ed37b9c",
+   "company": "Ayo Semiconductor",
+   "title": "Machine Learning Engineer",
+   "location": "Boston, MA",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/ayosemi/cc1d3968-2b15-4442-828c-7950077c3a8a/application?embed=true",
+   "apply_url": "https://jobs.ashbyhq.com/ayosemi/cc1d3968-2b15-4442-828c-7950077c3a8a/application?embed=true",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "simplify:eb6c7eef-df83-46b0-a229-541b0fc0f578",
+   "company": "Visa",
+   "title": "Software Engineer - Agentic Developer",
+   "location": "Denver, CO",
+   "remote": false,
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Engineer--Agentic-Developer_REF090196W",
+   "apply_url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Denver-CO/Software-Engineer--Agentic-Developer_REF090196W",
+   "posted": "2026-11-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "new-grad-list",
+   "source": "simplify",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "ashby:braintrust:103dc439-307b-4fa7-9c40-efd19d457653",
+   "company": "Braintrust",
+   "title": "Analytics Engineer",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/Braintrust/103dc439-307b-4fa7-9c40-efd19d457653",
+   "apply_url": "https://jobs.ashbyhq.com/Braintrust/103dc439-307b-4fa7-9c40-efd19d457653/application",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "ashby:e2b:825c8398-7d2f-4614-85c9-1fdc6e86b06b",
+   "company": "E2B",
+   "title": "Business Analytics Engineer",
+   "location": "San Francisco",
+   "remote": false,
+   "url": "https://jobs.ashbyhq.com/e2b/825c8398-7d2f-4614-85c9-1fdc6e86b06b",
+   "apply_url": "https://jobs.ashbyhq.com/e2b/825c8398-7d2f-4614-85c9-1fdc6e86b06b/application",
+   "posted": "2026-11-25",
+   "comp": "$200K to $250K",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "ai-startup",
+   "source": "ashby",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "greenhouse:discord:8942144002",
+   "company": "Discord",
+   "title": "Data Engineer",
+   "location": "San Francisco Bay Area",
+   "remote": false,
+   "url": "https://job-boards.greenhouse.io/discord/jobs/8942144002",
+   "apply_url": "https://job-boards.greenhouse.io/discord/jobs/8942144002",
+   "posted": "2026-11-25",
+   "comp": "",
+   "early_career": false,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-11-26"
+  }
+ ],
+ "papers": [
+  {
+   "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+   "url": "https://huggingface.co/papers/2611.34849",
+   "arxiv": "https://arxiv.org/abs/2611.34849",
+   "upvotes": 101,
+   "github": "https://github.com/Real2SimHub/Real2SimLab",
+   "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to N times M ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+   "url": "https://huggingface.co/papers/2611.34575",
+   "arxiv": "https://arxiv.org/abs/2611.34575",
+   "upvotes": 84,
+   "github": "https://github.com/Sage-Med/Sage-Med-Preview",
+   "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Mixture-of-Loops Transformer",
+   "url": "https://huggingface.co/papers/2611.34923",
+   "arxiv": "https://arxiv.org/abs/2611.34923",
+   "upvotes": 57,
+   "github": "https://github.com/hustvl/MoLT",
+   "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+   "url": "https://huggingface.co/papers/2611.34237",
+   "arxiv": "https://arxiv.org/abs/2611.34237",
+   "upvotes": 54,
+   "github": "https://github.com/Kling-Keye/VibeVideoAgent",
+   "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sync, and none of ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+   "url": "https://huggingface.co/papers/2611.30844",
+   "arxiv": "https://arxiv.org/abs/2611.30844",
+   "upvotes": 54,
+   "github": "https://github.com/OneBoxCream/DyLoMo-DiT",
+   "summary": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation roughly fixed, but still require substantial parameter storage. In this paper, we propose Dynamic Looped MoE DiT (DyLoMo-DiT), which reuses parameters rather than adding them: a weight-shared loop repeatedly applies the ...",
+   "published": "2026-11-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+   "url": "https://huggingface.co/papers/2611.33144",
+   "arxiv": "https://arxiv.org/abs/2611.33144",
+   "upvotes": 43,
+   "github": "",
+   "summary": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations. The ...",
+   "published": "2026-11-24T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+   "url": "https://huggingface.co/papers/2611.34941",
+   "arxiv": "https://arxiv.org/abs/2611.34941",
+   "upvotes": 42,
+   "github": "https://github.com/HorizonWind2004/i2v-transfer",
+   "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to new editing tasks ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+   "url": "https://huggingface.co/papers/2611.34420",
+   "arxiv": "https://arxiv.org/abs/2611.34420",
+   "upvotes": 26,
+   "github": "https://github.com/mossbee/DocSEAM",
+   "summary": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language model must reason over these page representations formed in isolation. We introduce DocSEAM (Document Selective Enrichment via Anchored Masking), a lightweight module inserted between a pretrained ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
+   "url": "https://huggingface.co/papers/2611.34811",
+   "arxiv": "https://arxiv.org/abs/2611.34811",
+   "upvotes": 22,
+   "github": "https://github.com/iPPLab/HOG-WAM",
+   "summary": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG diffusion transformer (DiT) module reads RGB features through asymmetric attention, allowing its objective to shape the visual ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+   "url": "https://huggingface.co/papers/2611.34466",
+   "arxiv": "https://arxiv.org/abs/2611.34466",
+   "upvotes": 19,
+   "github": "https://github.com/YurunChen/EgoUseBench",
+   "summary": "AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, agents can identify objects and activities relevant to user requests and ground digital tasks in the surrounding ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "ChatGPT Boosted Consultants' Scores, Not Their Knowledge",
+   "url": "https://towardsdatascience.com/chatgpt-boosted-consultants-scores-not-their-knowledge/",
+   "published": "2026-11-26T16:00:00Z",
+   "summary": "Consultants gained 49 points on coding with AI, while apprentices also gained comprehension , which is why assisted work and expertise need separate names. The post ChatGPT Boosted Consultants' Scores, Not Their Knowledge appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Future-Proof Your Data Career as Coding Agents Take Over Routine Work",
+   "url": "https://www.kdnuggets.com/how-to-future-proof-your-data-career-as-coding-agents-take-over-routine-work",
+   "published": "2026-11-26T15:00:00Z",
+   "summary": "The skills that keep you irreplaceable when AI handles the boilerplate.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "Shuffle the Questions to Catch an LLM That Memorized Its Benchmark",
+   "url": "https://towardsdatascience.com/shuffle-the-questions-to-catch-an-llm-that-memorized-its-benchmark/",
+   "published": "2026-11-26T14:00:00Z",
+   "summary": "Two short Python functions and a free Colab GPU score a model in about half an hour; a z above 3 merits a look, while a near-zero score is more of a shrug. The post Shuffle the Questions to Catch an LLM That Memorized Its Benchmark appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Top 5 Open-Source Alternatives to OpenAI Dots",
+   "url": "https://www.kdnuggets.com/top-5-open-source-alternatives-to-openai-dots",
+   "published": "2026-11-26T13:00:00Z",
+   "summary": "Explore top open-source alternatives to OpenAI Dots for building always-on AI agents with persistent memory, task automation, custom skills, and local deployment.",
+   "source": "KDnuggets",
+   "topic": "data-science"
+  },
+  {
+   "title": "How to Map USGS Earthquake Data from 2015 to 2025 in Python",
+   "url": "https://towardsdatascience.com/how-to-map-usgs-earthquake-data-from-2015-to-2025-in-python/",
+   "published": "2026-11-26T12:00:00Z",
+   "summary": "A project that pulls M2.5+ events from the USGS API, cleans them in Pandas, and maps, clusters, and flags anomalies with Cartopy, Folium, and DBSCAN. The post How to Map USGS Earthquake Data from 2015 to 2025 in Python appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+   "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+   "published": "2026-11-26T11:37:17Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+   "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+   "published": "2026-11-26T05:05:36Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+   "url": "https://huggingface.co/blog/training-swarms",
+   "published": "2026-11-26T00:00:00Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "The Revolution vs The Renaissance , Thariq Shihipar, OpenAI",
+   "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
+   "published": "2026-11-25T22:28:01Z",
+   "summary": "AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game, he edits the size of a rock in t...",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  },
+  {
+   "title": "[AINews] Math Proofs Are Landing Faster Than We Can Read Them",
+   "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
+   "published": "2026-11-25T22:23:41Z",
+   "summary": "November 25, 2026 , From Erdős problems to new bounds for matrix multiplication and Fourier transforms.",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  }
+ ],
+ "hn": [
+  {
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+   "discussion": "https://news.ycombinator.com/item?id=50647673",
+   "points": 607,
+   "comments": 488,
+   "published": "2026-11-25T21:18:02Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+   "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+   "discussion": "https://news.ycombinator.com/item?id=50651117",
+   "points": 436,
+   "comments": 248,
+   "published": "2026-11-26T03:36:58Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Tracking Diseases Cured by AI",
+   "url": "https://diseasescuredbyai.com/",
+   "discussion": "https://news.ycombinator.com/item?id=50657307",
+   "points": 278,
+   "comments": 157,
+   "published": "2026-11-26T17:16:41Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Minipg: PostgreSQL as a Single Executable",
+   "url": "https://progrium.github.io/minipg/",
+   "discussion": "https://news.ycombinator.com/item?id=50650892",
+   "points": 268,
+   "comments": 42,
+   "published": "2026-11-26T03:00:48Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+   "discussion": "https://news.ycombinator.com/item?id=50653477",
+   "points": 108,
+   "comments": 122,
+   "published": "2026-11-26T09:44:23Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [],
+ "videos": [
+  {
+   "title": "How to Evaluate AI Agents: Benchmark Design | Stanford CS329Z Lecture 12 with John Yang",
+   "url": "https://www.youtube.com/watch?v=_iVIugwpiUI",
+   "id": "_iVIugwpiUI",
+   "published": "2026-11-26T16:00:09Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "jobs:ashby:browserbase",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "jobs:ashby:tavily",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Google DeepMind",
+   "error": "not well-formed (invalid token): line 1, column 0"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:MachineLearning",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  }
+ ]
+}
