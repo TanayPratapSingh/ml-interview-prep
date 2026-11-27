@@ -1,0 +1,296 @@
+{
+ "date": "2026-11-27",
+ "generated_at": "2026-11-27T19:31:15Z",
+ "counts": {
+  "jobs_open": 853,
+  "jobs_new": 0,
+  "papers": 10,
+  "posts": 5,
+  "hn": 9,
+  "reddit": 0,
+  "videos": 1,
+  "interview_intel": 0,
+  "errors": 10
+ },
+ "jobs_new": [],
+ "papers": [
+  {
+   "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+   "url": "https://huggingface.co/papers/2611.34051",
+   "arxiv": "https://arxiv.org/abs/2611.34051",
+   "upvotes": 126,
+   "github": "",
+   "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry between reading and ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+   "url": "https://huggingface.co/papers/2611.34232",
+   "arxiv": "https://arxiv.org/abs/2611.34232",
+   "upvotes": 101,
+   "github": "https://github.com/OS-Copilot/OS-Omni",
+   "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live cross-platform benchmark and ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+   "url": "https://huggingface.co/papers/2611.31619",
+   "arxiv": "https://arxiv.org/abs/2611.31619",
+   "upvotes": 57,
+   "github": "https://github.com/therealram18/vernier",
+   "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We call that quantity the resolution of a board and introduce Vernier, a tool that computes it from ...",
+   "published": "2026-11-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+   "url": "https://huggingface.co/papers/2611.34813",
+   "arxiv": "https://arxiv.org/abs/2611.34813",
+   "upvotes": 48,
+   "github": "",
+   "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in fact the more reliable ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+   "url": "https://huggingface.co/papers/2611.34457",
+   "arxiv": "https://arxiv.org/abs/2611.34457",
+   "upvotes": 36,
+   "github": "https://github.com/2kxx/ProxyGenBench",
+   "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifacts that should not be reproduced. Successful proxy-guided generation must therefore Preserve ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+   "url": "https://huggingface.co/papers/2611.34290",
+   "arxiv": "https://arxiv.org/abs/2611.34290",
+   "upvotes": 26,
+   "github": "https://github.com/ghost233lism/StateWeaver",
+   "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical Collaboration to connect ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+   "url": "https://huggingface.co/papers/2611.34693",
+   "arxiv": "https://arxiv.org/abs/2611.34693",
+   "upvotes": 19,
+   "github": "https://github.com/showlab/ShowNow",
+   "summary": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generation after input adds work to the response path. We introduce ShowNow, a fine-grained speculative streaming framework that uses computation available during playback to prepare action-conditioned ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+   "url": "https://huggingface.co/papers/2611.34852",
+   "arxiv": "https://arxiv.org/abs/2611.34852",
+   "upvotes": 17,
+   "github": "https://github.com/ZJU-REAL/DRBenchPro",
+   "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them. We introduce DRBench Pro, a benchmark that makes structured knowledge coverage the primary ...",
+   "published": "2026-11-25T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+   "url": "https://huggingface.co/papers/2611.32238",
+   "arxiv": "https://arxiv.org/abs/2611.32238",
+   "upvotes": 7,
+   "github": "",
+   "summary": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the moment of handoff: a policy is reliable only from a limited set of start states, while the agent may invoke it outside this region. We call this region the policy's handoff boundary. Existing whole-task policies typically ...",
+   "published": "2026-11-24T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  },
+  {
+   "title": "Revisiting LLMs as Context Engineers",
+   "url": "https://huggingface.co/papers/2611.30494",
+   "arxiv": "https://arxiv.org/abs/2611.30494",
+   "upvotes": 4,
+   "github": "https://github.com/costa-nus/LCEBench",
+   "summary": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training. A growing number of LLM context engineering (LCE) approaches automate the task by casting the LLM itself as the engineer that draws generalizable instructions or experiences from offline trials as ...",
+   "published": "2026-11-23T00:00:00Z",
+   "source": "Hugging Face Daily Papers"
+  }
+ ],
+ "posts": [
+  {
+   "title": "September 29 Outage Incident Report: What we learnt",
+   "url": "https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt/",
+   "published": "2026-11-27T14:00:11Z",
+   "summary": "On September 29, Spotify experienced an outage that disrupted users’ access to the platform. This outage was... The post September 29 Outage Incident Report: What we learnt appeared first on Spotify Engineering .",
+   "source": "Spotify Engineering",
+   "topic": "systems"
+  },
+  {
+   "title": "Speculative Decoding Makes Tool Calls Faster. Agents Need a Cache.",
+   "url": "https://towardsdatascience.com/speculative-decoding-makes-tool-calls-faster-agents-need-a-cache/",
+   "published": "2026-11-27T14:00:00Z",
+   "summary": "Benchmarks with Qwen3 and Llama on llama.cpp show a draft model sped up code, JSON, and tool calls up to 1.7x, while uncached agent loops ran 6% slower. The post Speculative Decoding Makes Tool Calls Faster. Agents Need a Cache. appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Code Mode vs. Tool Calling Benchmarks Find a 16-Tool Crossover",
+   "url": "https://towardsdatascience.com/code-mode-vs-tool-calling-benchmarks-find-a-16-tool-crossover/",
+   "published": "2026-11-27T12:00:00Z",
+   "summary": "For agent builders with many MCP integrations, Code Mode was 120x cheaper and 18x faster on 100-item fan-outs but less reliable on single lookups. The post Code Mode vs. Tool Calling Benchmarks Find a 16-Tool Crossover appeared first on Towards Data Science .",
+   "source": "Towards Data Science",
+   "topic": "data-science"
+  },
+  {
+   "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+   "url": "https://huggingface.co/blog/video-trainium3",
+   "published": "2026-11-27T00:00:00Z",
+   "summary": "",
+   "source": "Hugging Face blog",
+   "topic": "llm"
+  },
+  {
+   "title": "How Clay Builds GTM Agents , Jeff Barg, Head of AI",
+   "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+   "published": "2026-11-26T23:02:48Z",
+   "summary": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+   "source": "Latent Space",
+   "topic": "ai-eng"
+  }
+ ],
+ "hn": [
+  {
+   "title": "AI made self-hosting fun again",
+   "url": "https://janlukas.blog/posts/ai-self-hosting",
+   "discussion": "https://news.ycombinator.com/item?id=50660180",
+   "points": 1021,
+   "comments": 486,
+   "published": "2026-11-26T21:47:45Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Group chat where your AI talks behind your back",
+   "url": "https://construct22.com/",
+   "discussion": "https://news.ycombinator.com/item?id=50663595",
+   "points": 611,
+   "comments": 260,
+   "published": "2026-11-27T06:44:34Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Claude sabotaging ML research tasks?",
+   "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+   "discussion": "https://news.ycombinator.com/item?id=50664325",
+   "points": 412,
+   "comments": 210,
+   "published": "2026-11-27T08:28:08Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "Tracking Diseases Cured by AI",
+   "url": "https://diseasescuredbyai.com/",
+   "discussion": "https://news.ycombinator.com/item?id=50657307",
+   "points": 317,
+   "comments": 192,
+   "published": "2026-11-26T17:16:41Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "I'm Scared of AI",
+   "url": "https://thesoapbox.email/archive/3",
+   "discussion": "https://news.ycombinator.com/item?id=50669561",
+   "points": 171,
+   "comments": 166,
+   "published": "2026-11-27T17:45:31Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
+   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+   "discussion": "https://news.ycombinator.com/item?id=50667744",
+   "points": 150,
+   "comments": 63,
+   "published": "2026-11-27T15:03:17Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "\"What's Claude's fursona?\" and other questions",
+   "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
+   "discussion": "https://news.ycombinator.com/item?id=50662933",
+   "points": 144,
+   "comments": 106,
+   "published": "2026-11-27T04:56:18Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "An introduction to uncertainty in machine learning",
+   "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+   "discussion": "https://news.ycombinator.com/item?id=50658498",
+   "points": 138,
+   "comments": 13,
+   "published": "2026-11-26T19:04:50Z",
+   "source": "Hacker News"
+  },
+  {
+   "title": "AI on brink of making online security useless, mathematicians fear",
+   "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+   "discussion": "https://news.ycombinator.com/item?id=50665488",
+   "points": 107,
+   "comments": 138,
+   "published": "2026-11-27T11:09:04Z",
+   "source": "Hacker News"
+  }
+ ],
+ "reddit": [],
+ "videos": [
+  {
+   "title": "Andrew Ng on Building AI Agents | Stanford CS329Z Fireside Chat with Andrew Ng & Diyi Yang",
+   "url": "https://www.youtube.com/watch?v=aDHf1r6ZZRA",
+   "id": "aDHf1r6ZZRA",
+   "published": "2026-11-27T16:00:26Z",
+   "source": "Stanford Online"
+  }
+ ],
+ "interview_intel": [],
+ "errors": [
+  {
+   "source": "jobs:ashby:browserbase",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "jobs:ashby:tavily",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "feed:Import AI",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:Google DeepMind",
+   "error": "not well-formed (invalid token): line 1, column 0"
+  },
+  {
+   "source": "feed:Benn Stancil",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "feed:KDnuggets",
+   "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+   "source": "reddit:MachineLearning",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "source": "reddit:datascience",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:cscareerquestions",
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "source": "reddit:LocalLLaMA",
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  }
+ ]
+}

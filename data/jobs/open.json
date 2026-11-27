@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-26T19:41:58Z",
- "count": 857,
+ "generated_at": "2026-11-27T19:31:15Z",
+ "count": 853,
  "jobs": [
   {
    "id": "greenhouse:scaleai:4735665005",
@@ -449,22 +449,6 @@
    "group": "new-grad-list",
    "source": "simplify",
    "first_seen": "2026-11-23"
-  },
-  {
-   "id": "simplify:91e76f54-acbb-48eb-a85d-21784efd168e",
-   "company": "AbbVie",
-   "title": "AI Engineer",
-   "location": "North Chicago, IL",
-   "remote": false,
-   "url": "https://jobs.smartrecruiters.com/AbbVie/3743990017034256",
-   "apply_url": "https://jobs.smartrecruiters.com/AbbVie/3743990017034256",
-   "posted": "2026-11-23",
-   "comp": "",
-   "early_career": true,
-   "sponsorship": "not_stated",
-   "group": "new-grad-list",
-   "source": "simplify",
-   "first_seen": "2026-11-24"
   },
   {
    "id": "simplify:f5246429-ccf1-4e9e-bbd3-3be489d6a76f",
@@ -1409,22 +1393,6 @@
    "group": "new-grad-list",
    "source": "simplify",
    "first_seen": "2026-11-20"
-  },
-  {
-   "id": "simplify:8ec06333-5fb9-4e54-bd9b-f6524d48c54f",
-   "company": "Neko Health",
-   "title": "AI Acceleration Specialist",
-   "location": "NYC",
-   "remote": false,
-   "url": "https://jobs.ashbyhq.com/neko-health/555d3020-e769-4d2d-bb64-d94107b1b79f/application?embed=true",
-   "apply_url": "https://jobs.ashbyhq.com/neko-health/555d3020-e769-4d2d-bb64-d94107b1b79f/application?embed=true",
-   "posted": "2026-11-12",
-   "comp": "",
-   "early_career": true,
-   "sponsorship": "not_stated",
-   "group": "new-grad-list",
-   "source": "simplify",
-   "first_seen": "2026-11-12"
   },
   {
    "id": "simplify:a8dc959c-a131-4ab3-8ebf-3a97642af63b",
@@ -2675,38 +2643,6 @@
    "first_seen": "2026-10-31"
   },
   {
-   "id": "simplify:11e8fcd8-8f17-4000-a3a7-de4ed5928b00",
-   "company": "Humble Robotics",
-   "title": "Autonomy Engineer - Data",
-   "location": "SF",
-   "remote": false,
-   "url": "https://jobs.lever.co/humble-robotics/93ca2ae3-c549-402f-b6a6-ff0b84f554f9/apply",
-   "apply_url": "https://jobs.lever.co/humble-robotics/93ca2ae3-c549-402f-b6a6-ff0b84f554f9/apply",
-   "posted": "2026-10-28",
-   "comp": "",
-   "early_career": true,
-   "sponsorship": "not_stated",
-   "group": "new-grad-list",
-   "source": "simplify",
-   "first_seen": "2026-10-28"
-  },
-  {
-   "id": "simplify:90e4443e-dd1d-448c-bb21-43af38d9ee82",
-   "company": "Nio",
-   "title": "AI Robotics Researcher",
-   "location": "San Jose, CA",
-   "remote": false,
-   "url": "https://jobs.lever.co/nio-usa/aeb18492-fd65-481d-88a3-00dcceb55840/apply",
-   "apply_url": "https://jobs.lever.co/nio-usa/aeb18492-fd65-481d-88a3-00dcceb55840/apply",
-   "posted": "2026-10-28",
-   "comp": "",
-   "early_career": true,
-   "sponsorship": "not_stated",
-   "group": "new-grad-list",
-   "source": "simplify",
-   "first_seen": "2026-10-28"
-  },
-  {
    "id": "simplify:87799173-7076-48ee-9f17-760013907e8f",
    "company": "CharterUP",
    "title": "Data Analyst",
@@ -2721,22 +2657,6 @@
    "group": "new-grad-list",
    "source": "simplify",
    "first_seen": "2026-10-29"
-  },
-  {
-   "id": "simplify:f4c97e7a-d9d4-4fc4-9626-f111cd4bf0fc",
-   "company": "UCSF",
-   "title": "Research Data Analyst 1",
-   "location": "SF",
-   "remote": false,
-   "url": "https://iazuqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10802",
-   "apply_url": "https://iazuqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/10802",
-   "posted": "2026-10-27",
-   "comp": "",
-   "early_career": true,
-   "sponsorship": "not_stated",
-   "group": "new-grad-list",
-   "source": "simplify",
-   "first_seen": "2026-10-28"
   },
   {
    "id": "ashby:abridge:aab11857-7ed3-4fc5-aab3-35256601117e",
@@ -3378,6 +3298,22 @@
    "group": "larger",
    "source": "greenhouse",
    "first_seen": "2026-10-28"
+  },
+  {
+   "id": "greenhouse:databricks:8910846002",
+   "company": "Databricks",
+   "title": "Associate Forward Deployed Engineer",
+   "location": "Mountain View, California",
+   "remote": false,
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
+   "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8910846002",
+   "posted": "2026-10-23",
+   "comp": "",
+   "early_career": true,
+   "sponsorship": "not_stated",
+   "group": "larger",
+   "source": "greenhouse",
+   "first_seen": "2026-10-24"
   },
   {
    "id": "greenhouse:databricks:8907988002",
